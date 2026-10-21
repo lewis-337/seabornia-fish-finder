@@ -1,0 +1,64 @@
+name: Build and update Seabornia fishing PWA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/latest.json'
+      - 'data/photo_manifest.json'
+      - 'images/fish/**'
+  schedule:
+    - cron: '17 */6 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: seabornia-pages
+  cancel-in-progress: false
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install parser dependencies
+        run: pip install -r requirements.txt
+      - name: Check catch parsing
+        run: python -m unittest discover -s tests -v
+      - name: Check offline cache behavior
+        run: node --test tests/test_service_worker.cjs
+      - name: Collect published catch records (best effort)
+        # If no sources are available, deploy the last known data with an honest stale-data status.
+        continue-on-error: true
+        run: python scripts/update_catches.py
+      - name: Verify and cache licensed fish photographs
+        continue-on-error: true
+        timeout-minutes: 8
+        run: python scripts/cache_fish_photos.py
+      - name: Save refreshed JSON into repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/photo_manifest.json images/fish
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh catch data"
+            git push
+          fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Package website
+        run: python scripts/build_site.py
+      - name: Upload browser assets
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Publish HTTPS site
+        id: deployment
+        uses: actions/deploy-pages@v4

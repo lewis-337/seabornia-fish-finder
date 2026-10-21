@@ -1,0 +1,355 @@
+{
+  "generated_at": "2026-10-21T20:04:40+00:00",
+  "counts": {
+    "verified": 8,
+    "all": 47
+  },
+  "images": {
+    "0": {
+      "name": "アオリイカ",
+      "local": "images/fish/0.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bigfin_Reef_Squid_(Sepioteuthis_lessoniana)_-_GRB.JPG",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Bruinfan12\" title=\"User:Bruinfan12\">George Berninger Jr.</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:01:45+00:00"
+    },
+    "1": {
+      "name": "コウイカ",
+      "local": "images/fish/1.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sepia_esculenta_Osaka.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kuribo\" title=\"User:Kuribo\">Kuribo</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        385
+      ],
+      "checked": "2026-10-21T20:01:49+00:00"
+    },
+    "2": {
+      "name": "ヤリイカ",
+      "ok": false,
+      "checked": "2026-10-21T20:01:53+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "3": {
+      "name": "スルメイカ",
+      "ok": false,
+      "checked": "2026-10-21T20:01:56+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "4": {
+      "name": "マダイ",
+      "local": "images/fish/4.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pagrus_major_Red_seabream_ja01.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Miya\" title=\"User:Miya\">Miya</a>　",
+      "credit_html": "<a href=\"//commons.wikimedia.org/wiki/User:Miya\" title=\"User:Miya\">Miya</a>'s file",
+      "pixel_size": [
+        580,
+        290
+      ],
+      "checked": "2026-10-21T20:02:01+00:00"
+    },
+    "5": {
+      "name": "カワハギ",
+      "local": "images/fish/5.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kawahagi.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:E-190\" title=\"User:E-190\">E-190</a>　",
+      "credit_html": "<a href=\"//commons.wikimedia.org/wiki/User:E-190\" title=\"User:E-190\">E-190</a>'s file",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:02:05+00:00"
+    },
+    "6": {
+      "name": "アマダイ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:09+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "7": {
+      "name": "シロアマダイ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:12+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "8": {
+      "name": "ワラサ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:16+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "9": {
+      "name": "イナダ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:20+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "10": {
+      "name": "カンパチ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:23+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "11": {
+      "name": "ショゴ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:27+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "12": {
+      "name": "アジ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:30+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "13": {
+      "name": "イサキ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:34+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "14": {
+      "name": "アカハタ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:37+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "15": {
+      "name": "オオモンハタ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:40+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "16": {
+      "name": "カサゴ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:44+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "17": {
+      "name": "ホウボウ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:47+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "18": {
+      "name": "イトヨリダイ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:51+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "19": {
+      "name": "クロムツ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:54+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "20": {
+      "name": "オニカサゴ",
+      "ok": false,
+      "checked": "2026-10-21T20:02:58+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "21": {
+      "name": "カイワリ",
+      "local": "images/fish/21.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Carangidae_Carangoides_equula_1.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:NasserHalaweh\" title=\"User:NasserHalaweh\">NasserHalaweh</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:03:03+00:00"
+    },
+    "22": {
+      "name": "チカメキントキ",
+      "local": "images/fish/22.jpg",
+      "ok": true,
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cookeolus_japonicus_(Cuvier).jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Togabi\" title=\"User:Togabi\">Togabi</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:03:09+00:00"
+    },
+    "23": {
+      "name": "シイラ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:13+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "24": {
+      "name": "マサバ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:16+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "25": {
+      "name": "ゴマサバ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:20+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "26": {
+      "name": "サワラ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:23+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "27": {
+      "name": "ソウダガツオ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:27+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "28": {
+      "name": "カツオ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:31+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "29": {
+      "name": "キハダマグロ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:34+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "30": {
+      "name": "ツムブリ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:38+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "31": {
+      "name": "ヒラマサ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:41+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "32": {
+      "name": "ブリ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:45+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "33": {
+      "name": "ヒラメ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:49+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "34": {
+      "name": "マゴチ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:52+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "35": {
+      "name": "タチウオ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:56+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "36": {
+      "name": "アオハタ",
+      "ok": false,
+      "checked": "2026-10-21T20:03:59+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "37": {
+      "name": "アカムツ",
+      "local": "images/fish/37.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Doederleinia_berycoides_in_the_market_2.png",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        293
+      ],
+      "checked": "2026-10-21T20:04:05+00:00"
+    },
+    "38": {
+      "name": "ハナダイ",
+      "local": "images/fish/38.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Evynnis_japonica_Marinepia.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        577,
+        400
+      ],
+      "checked": "2026-10-21T20:04:11+00:00"
+    },
+    "39": {
+      "name": "ウマヅラハギ",
+      "ok": false,
+      "checked": "2026-10-21T20:04:14+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "40": {
+      "name": "メジナ",
+      "ok": false,
+      "checked": "2026-10-21T20:04:18+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "41": {
+      "name": "イラ",
+      "ok": false,
+      "checked": "2026-10-21T20:04:21+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "42": {
+      "name": "スズキ",
+      "ok": false,
+      "checked": "2026-10-21T20:04:25+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "43": {
+      "name": "クロダイ",
+      "ok": false,
+      "checked": "2026-10-21T20:04:29+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "44": {
+      "name": "メバル",
+      "ok": false,
+      "checked": "2026-10-21T20:04:32+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "45": {
+      "name": "カマス",
+      "ok": false,
+      "checked": "2026-10-21T20:04:36+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    },
+    "46": {
+      "name": "ケンサキイカ",
+      "ok": false,
+      "checked": "2026-10-21T20:04:39+00:00",
+      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+    }
+  }
+}
