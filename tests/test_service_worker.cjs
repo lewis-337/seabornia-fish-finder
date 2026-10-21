@@ -9,7 +9,7 @@ function worker({ offline = false } = {}) {
   const context = {
     URL, Response,
     self: { location: { origin: 'https://example.com' }, registration: { scope: 'https://example.com/fishing/' }, skipWaiting: async () => {}, clients: { claim: async () => {} }, addEventListener: (name, fn) => handlers[name] = fn },
-    caches: { open: async () => cache, match: async key => saved.get(key), keys: async () => ['unrelated-app', 'seabornia-v4', 'seabornia-v4.1'], delete: async key => deleted.push(key) },
+    caches: { open: async () => cache, match: async key => saved.get(key), keys: async () => ['unrelated-app', 'seabornia-v4', 'seabornia-v4.1', 'seabornia-v4.2'], delete: async key => deleted.push(key) },
     fetch: async () => { if (offline) throw Error('offline'); return new Response('fresh'); },
   };
   vm.runInNewContext(fs.readFileSync('sw.js', 'utf8'), context);
@@ -32,7 +32,7 @@ test('offline refresh finds JSON cached under a different timestamp', async () =
 test('activation preserves other apps caches on the same origin', async () => {
   const app = worker(); let done;
   app.handlers.activate({ waitUntil: value => done = value }); await done;
-  assert.deepEqual(app.deleted, ['seabornia-v4']);
+  assert.deepEqual(app.deleted, ['seabornia-v4', 'seabornia-v4.1']);
 });
 
 test('online navigation updates a previously cached app shell', async () => {

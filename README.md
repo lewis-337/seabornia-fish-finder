@@ -28,3 +28,5 @@ Photo caching (GitHub Actions): `scripts/cache_fish_photos.py` downloads Commons
 - GitHub PagesはActions方式。釣果収集は6時間ごと（日本時間03:17・09:17・15:17・21:17）の予定実行と、mainへのアプリ変更時に実行します。実際の開始はGitHub側の状況で遅れることがあります。
 - データ更新の実績は画面の最終成功日時とActionsの実行結果で確認してください。写真の欠損は取得状況に応じて表示されます。
 - 開発・引継ぎ: `PROGRESS.md`。依存関係は`requirements.txt`、公開ファイルの生成は`python scripts/build_site.py`です。
+
+写真の補足: Commonsの代表画像が料理写真または別種の画像になる項目は、確認済みiNaturalistのCC BY写真を`data/photo_overrides.json`に指定しています。出典・撮影者・ライセンスと縮小/JPEG変換を魚種の詳細画面に表示します。

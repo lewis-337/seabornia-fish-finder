@@ -1,4 +1,4 @@
-const VERSION = 'seabornia-v4.1';
+const VERSION = 'seabornia-v4.2';
 const PREFIX = 'seabornia-';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', event => {

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21T20:06:43+00:00",
+  "generated_at": "2026-10-21T20:15:48+00:00",
   "counts": {
-    "verified": 9,
+    "verified": 47,
     "all": 47
   },
   "images": {
@@ -35,9 +35,17 @@
     },
     "2": {
       "name": "ヤリイカ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:18+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/2.jpg",
+      "ok": true,
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Heterololigo_bleekeri_in_Sendai_Umino-Mori_Aquarium.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kinori\" title=\"User:Kinori\">Kinori</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        218
+      ],
+      "checked": "2026-10-21T20:14:15+00:00"
     },
     "3": {
       "name": "スルメイカ",
@@ -83,93 +91,213 @@
     },
     "6": {
       "name": "アマダイ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:19+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/6.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Akaamadai0905.jpg",
+      "artist_html": "ふうけ",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        290
+      ],
+      "checked": "2026-10-21T20:08:09+00:00"
     },
     "7": {
       "name": "シロアマダイ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:20+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/7.jpg",
+      "ok": true,
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Branchiostegus_albus_Uotto1.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:%E3%82%BF%E3%82%A6%E3%83%8A%E3%82%AE&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:タウナギ (page does not exist)\">タウナギ</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-21T20:08:12+00:00"
     },
     "8": {
       "name": "ワラサ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:21+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/8.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata_(200810).jpg",
+      "artist_html": "E-190's",
+      "credit_html": "E-190's file",
+      "pixel_size": [
+        580,
+        386
+      ],
+      "checked": "2026-10-21T20:08:14+00:00"
     },
     "9": {
       "name": "イナダ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:21+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/9.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata_(200810).jpg",
+      "artist_html": "E-190's",
+      "credit_html": "E-190's file",
+      "pixel_size": [
+        580,
+        386
+      ],
+      "checked": "2026-10-21T20:08:17+00:00"
     },
     "10": {
       "name": "カンパチ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:22+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/10.jpg",
+      "ok": true,
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fish4446_-_Flickr_-_NOAA_Photo_Library.jpg",
+      "artist_html": "SEFSC Pascagoula Laboratory; Collection of Brandi Noble, NOAA/NMFS/SEFSC.",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        317
+      ],
+      "checked": "2026-10-21T20:08:21+00:00"
     },
     "11": {
       "name": "ショゴ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:23+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/11.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pez_lim%C3%B3n_%28Seriola_dumerili%29%2C_Madeira%2C_Portugal%2C_2019-05-31%2C_DD_31.jpg",
+      "artist_html": "Diego Delso (1974–) Alternative names Poco a poco Description Spanish free-license photographer and Wikimedian Date of birth 19 May 1974 Location of birth Alicante Authority file : Q28147777 VIAF : 3616170939435815660001 creator QS:P170,Q28147777",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        380
+      ],
+      "checked": "2026-10-21T20:08:31+00:00"
     },
     "12": {
       "name": "アジ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:23+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/12.jpg",
+      "ok": true,
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:MaAji.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:08:36+00:00"
     },
     "13": {
       "name": "イサキ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:24+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/13.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Isaki0912.jpg",
+      "artist_html": "ふうけ",
+      "credit_html": "",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:08:40+00:00"
     },
     "14": {
       "name": "アカハタ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:25+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/14.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Epinephelus_fasciatus_Umitamago.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        305
+      ],
+      "checked": "2026-10-21T20:11:19+00:00"
     },
     "15": {
       "name": "オオモンハタ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:25+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/15.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Epinephelus_areolatus_Hakkeijima.jpg",
+      "artist_html": "Totti",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        312
+      ],
+      "checked": "2026-10-21T20:08:51+00:00"
     },
     "16": {
       "name": "カサゴ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:26+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/16.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Sebastiscus_marmoratus_by_OpenCage.jpg",
+      "artist_html": "See source file",
+      "credit_html": "",
+      "pixel_size": [
+        400,
+        400
+      ],
+      "checked": "2026-10-21T20:08:56+00:00"
     },
     "17": {
       "name": "ホウボウ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:27+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/17.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Helidonichthys_spinosus,_crop.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Daiju_Azuma\" title=\"User:Daiju Azuma\">Daiju Azuma</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        548,
+        400
+      ],
+      "checked": "2026-10-21T20:08:59+00:00"
     },
     "18": {
       "name": "イトヨリダイ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:27+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/18.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nemipterus_virgatus_on_the_market.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        434,
+        400
+      ],
+      "checked": "2026-10-21T20:09:02+00:00"
     },
     "19": {
       "name": "クロムツ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:28+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/19.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/photos/350240523",
+      "artist_html": "りなべる",
+      "credit_html": "iNaturalist taxon Scombrops gilberti (620421), photo 350240523",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-21T20:14:17+00:00"
     },
     "20": {
       "name": "オニカサゴ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:28+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/20.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:OniKGad.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-21T20:11:27+00:00"
     },
     "21": {
       "name": "カイワリ",
@@ -201,87 +329,199 @@
     },
     "23": {
       "name": "シイラ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:29+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/23.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Coryphaenahippurus.JPG",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Citron\" title=\"User:Citron\">Citron</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:09:09+00:00"
     },
     "24": {
       "name": "マサバ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:30+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/24.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/409588763",
+      "artist_html": "(c) Cricket Raspet, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist taxon Scomber japonicus, photo 753132035",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-21T20:15:44+00:00"
     },
     "25": {
       "name": "ゴマサバ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:30+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/25.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:GomaSB.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-21T20:11:34+00:00"
     },
     "26": {
       "name": "サワラ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:31+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/26.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/photos/112103401",
+      "artist_html": "りなべる",
+      "credit_html": "iNaturalist taxon Scomberomorus niphonius, photo 112103401",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-21T20:15:45+00:00"
     },
     "27": {
       "name": "ソウダガツオ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:32+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/27.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/344666773",
+      "artist_html": "(c) Ashwin A, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist taxon Auxis rochei, photo 628032434",
+      "pixel_size": [
+        180,
+        400
+      ],
+      "checked": "2026-10-21T20:15:47+00:00"
     },
     "28": {
       "name": "カツオ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:32+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/28.jpg",
+      "ok": true,
+      "license": "CC0",
+      "source": "https://www.inaturalist.org/observations/399631614",
+      "artist_html": "no rights reserved",
+      "credit_html": "iNaturalist taxon Katsuwonus pelamis, photo 733217861",
+      "pixel_size": [
+        225,
+        400
+      ],
+      "checked": "2026-10-21T20:15:48+00:00"
     },
     "29": {
       "name": "キハダマグロ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:33+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/29.jpg",
+      "ok": true,
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fish4499_-_Flickr_-_NOAA_Photo_Library.jpg",
+      "artist_html": "SEFSC Pascagoula Laboratory; Collection of Brandi Noble, NOAA/NMFS/SEFSC.",
+      "credit_html": "",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:09:52+00:00"
     },
     "30": {
       "name": "ツムブリ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:34+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/30.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rainbow_runner_%28Elagatis_bipinnulata%29_%2848813101612%29.jpg",
+      "artist_html": "Rickard Zerpe",
+      "credit_html": "",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:09:58+00:00"
     },
     "31": {
       "name": "ヒラマサ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:34+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/31.jpg",
+      "ok": true,
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellowtail_amberjack.jpg",
+      "artist_html": "brian gratwicke",
+      "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/briangratwicke/5625034070/sizes/o/in/photostream/\">https://www.flickr.com/photos/briangratwicke/5625034070/sizes/o/in/photostream/</a>",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-21T20:10:00+00:00"
     },
     "32": {
       "name": "ブリ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:35+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/32.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata_(200810).jpg",
+      "artist_html": "E-190's",
+      "credit_html": "E-190's file",
+      "pixel_size": [
+        580,
+        386
+      ],
+      "checked": "2026-10-21T20:10:02+00:00"
     },
     "33": {
       "name": "ヒラメ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:35+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/33.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Paralichthys_olivaceus.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Daiju_Azuma\" title=\"User:Daiju Azuma\">Daiju Azuma</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        400,
+        400
+      ],
+      "checked": "2026-10-21T20:10:05+00:00"
     },
     "34": {
       "name": "マゴチ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:36+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/34.jpg",
+      "ok": true,
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:MaKC.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Izuzuki\" title=\"User:Izuzuki\">Izuzuki</a>",
+      "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.izuzuki.com/\">http://www.izuzuki.com/</a>",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:10:08+00:00"
     },
     "35": {
       "name": "タチウオ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:37+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/35.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Trichiurus_lepturus_by_OpenCage.jpg",
+      "artist_html": "",
+      "credit_html": "",
+      "pixel_size": [
+        400,
+        400
+      ],
+      "checked": "2026-10-21T20:10:13+00:00"
     },
     "36": {
       "name": "アオハタ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:37+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/36.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Epinephelus_awoara_Hakone.jpg",
+      "artist_html": "Totti",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        285
+      ],
+      "checked": "2026-10-21T20:10:17+00:00"
     },
     "37": {
       "name": "アカムツ",
@@ -313,51 +553,115 @@
     },
     "39": {
       "name": "ウマヅラハギ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:38+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/39.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Thamnaconus_modestus_by_OpenCage.jpg",
+      "artist_html": "See source file",
+      "credit_html": "",
+      "pixel_size": [
+        400,
+        400
+      ],
+      "checked": "2026-10-21T20:10:23+00:00"
     },
     "40": {
       "name": "メジナ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:38+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/40.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E3%83%A1%E3%82%B8%E3%83%8A_%2815257760119%29.jpg",
+      "artist_html": "harum.koh from Kobe city, Japan",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-21T20:10:29+00:00"
     },
     "41": {
       "name": "イラ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:39+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/41.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Choerodon_azurio.jpg",
+      "artist_html": "Kimon Berlin",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-21T20:10:34+00:00"
     },
     "42": {
       "name": "スズキ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:40+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/42.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Suzuki201302.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:10:43+00:00"
     },
     "43": {
       "name": "クロダイ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:40+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/43.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E3%82%AF%E3%83%AD%E3%83%80%E3%82%A4.jpg",
+      "artist_html": "Rakurakuda",
+      "credit_html": "",
+      "pixel_size": [
+        400,
+        400
+      ],
+      "checked": "2026-10-21T20:10:48+00:00"
     },
     "44": {
       "name": "メバル",
-      "ok": false,
-      "checked": "2026-10-21T20:06:41+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/44.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sebastes_Inermis.jpg",
+      "artist_html": "Daiju Azuma",
+      "credit_html": "",
+      "pixel_size": [
+        400,
+        400
+      ],
+      "checked": "2026-10-21T20:10:53+00:00"
     },
     "45": {
       "name": "カマス",
-      "ok": false,
-      "checked": "2026-10-21T20:06:42+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/45.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Great_Barracuda_off_the_Netherland_Antilles.jpg",
+      "artist_html": "The original uploader was Aquaimages at English Wikipedia .",
+      "credit_html": "",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-21T20:10:57+00:00"
     },
     "46": {
       "name": "ケンサキイカ",
-      "ok": false,
-      "checked": "2026-10-21T20:06:42+00:00",
-      "reason": "Verified freely reusable Commons thumbnail not found or could not decode"
+      "local": "images/fish/46.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/69139625",
+      "artist_html": "りなべる",
+      "credit_html": "iNaturalist Uroteuthis edulis observation 69139625, photo 112123093",
+      "pixel_size": [
+        300,
+        400
+      ],
+      "checked": "2026-10-21T20:14:18+00:00"
     }
   }
 }

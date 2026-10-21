@@ -28,6 +28,12 @@ class CatchParsingTests(unittest.TestCase):
         rows = parse_mitsuji(html, SHIP)
         self.assertEqual([r['fish'] for r in rows], ['マサバ', 'シロアマダイ'])
 
+    def test_shared_summary_line_keeps_each_fish_measurements_separate(self):
+        now = datetime.now(timezone(timedelta(hours=9)))
+        html = f'<h2>{now.month}月{now.day}日の釣果</h2><p>マサバ 25～30cm 3匹、シロアマダイ 40cm 1匹</p>'
+        rows = parse_mitsuji(html, SHIP)
+        self.assertEqual([(r['size'], r['amount']) for r in rows], [('25~30cm', '3匹'), ('40cm', '1匹')])
+
 
 if __name__ == '__main__':
     unittest.main()

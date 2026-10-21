@@ -91,16 +91,20 @@ def parse_mitsuji(content,ship):
   stop=hit[i+1].start() if i+1<len(hit) else min(len(raw),m.end()+2500)
   block=raw[m.end():min(stop,m.end()+1800)]
   for line in [x.strip() for x in block.splitlines()[:38]]:
-   for match in re.finditer('|'.join(map(re.escape,sorted(set(SPECIES),key=len,reverse=True))),line):
+   matches=list(re.finditer('|'.join(map(re.escape,sorted(set(SPECIES),key=len,reverse=True))),line))
+   for number,match in enumerate(matches):
     fish=match.group()
     if len(line)>165:continue
-    metric=(RANGES.search(line) or ONE.search(line)); measure=metric.group().replace(' ','') if metric else ''
+    section=line[match.end():matches[number+1].start() if number+1<len(matches) else len(line)]
+    measures=[m.group().replace(' ','') for m in re.finditer(r'\d+(?:[.,]\d+)?(?:\s*[〜～~-]\s*\d+(?:[.,]\d+)?)?\s*(?:cm|kg|匹|杯)',section)]
+    size=next((v for v in measures if v.endswith(('cm','kg'))),'')
+    amount=next((v for v in measures if v.endswith(('匹','杯'))),'')
     key=(dt,fish)
     if key in seen:continue
     seen.add(key)
     out.append({'id':'auto_mitsu_'+hashlib.sha1((dt+fish).encode()).hexdigest()[:14],
-       'date':dt,'date_label':dt,'fish':fish,'size':measure if ('cm' in measure or 'kg' in measure) else '',
-       'amount':measure if ('匹' in measure or '杯' in measure) else '',
+       'date':dt,'date_label':dt,'fish':fish,'size':size,
+       'amount':amount,
        'depth':'非公開','method':'原文参照','detail':'諸磯港発の公開釣果。実際に釣れたGPS地点は非公開です。原文の釣果と照合してください。',
        'source':ship['url'],'source_name':'光二丸（諸磯港）公式','area_id':None,'location_note':'航行場所は非公開', 'kind':'current','auto':True})
  return out
