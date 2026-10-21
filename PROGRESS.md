@@ -23,7 +23,7 @@ Personal records stay in the device browser. Public-source catch data is stored 
 - Production checks passed for the mobile layout, month filter, service worker activation, offline app reload and offline catch JSON under a new timestamp. Local waypoint and catch-log persistence passed after reload; synthetic QA records were removed.
 - All 47 catalogue entries have decoded, attributed local reference images. Commons HTML and canonical asset URLs handle API rate limits. Visual review replaced a squid food photo and a related-species fish photo using reviewed CC BY iNaturalist references, selected a live-animal spear-squid image, and replaced the remaining four fish illustrations with licensed whole-fish photographs.
 - Ten focused regression tests cover parsing, source license metadata, and offline caching. GEBCO returned a valid 1050×950 JPEG.
-- Final image/source corrections are prepared for the follow-up deployment. Physical iPhone Home Screen installation and on-device GPS permission remain user actions.
+- Final deployment `39668842547` succeeded for source commit `58cd2ec`; published manifest and browser audit both confirm 47/47 images, with no missing images or browser errors. Workflow state is active. Physical iPhone Home Screen installation and on-device GPS permission remain user actions.
 
 ## Local development
 
