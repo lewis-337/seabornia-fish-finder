@@ -43,3 +43,28 @@ Published source `296bdef` through [Actions run 39699440275](https://github.com/
 - The actual production browser reports worker cache `seabornia-v5.0`, all 47 cached fish images, and cached `app.js`, `styles.css` and `map-gestures.js`, with no uncaught browser errors.
 - The workflow verified 47/47 licensed images. Source data updated successfully; user records stayed inside isolated browser contexts and were never published.
 - Physical iPhone checks listed above remain pending.
+
+
+## Travel, tide and conditions release (v6), 2026-10-22
+
+| Changed feature | Expected behavior | Actual local result |
+|---|---|---|
+| Cruising speed and ETA | Unset action; reject invalid values; NM/speed ×60 rounded up5; midnight arrival |10 pure trip tests and both engines; saved speed persists, ETA changes, next-day JST arrival correct |
+| 海況 navigation | Five tabs retained; trip date/hour independent of catalogue; seabed guide retained | Both engines; drafts and filters preserved; compact map button avoids controls |
+| Forecasts |11 public locations; wind m/s, direction from, gusts, rain, significant waves/period, daylight; timestamp/source/warnings | Actual provider collection succeeded for all11; UI checks and source links pass |
+| Tide | Oil pc14/hc16; daily name/curve, rise/fall, next high/low across midnight |63 normalized dates including24:00 endpoints; curve slider/keyboard and JST event tests pass |
+| Public catch context | No invented catch time or tide phase; day-level reference only | Date-only regression and both browser dialogs/comparisons pass; reported quantities unchanged |
+| Personal conditions | Optional time; available predictions/forecasts saved with source, timestamp and nearby area; unknown history stays unknown | Snapshot/save/reload/v5 export checks pass; no private coordinates sent to providers |
+| 条件別 | Public/private sections; fish/date filters, sample counts, underlying source/record links | Both engines; no success percentages, quantity totals or tide ranking |
+| Return reminder | Countdown and foreground reminder within15 minutes; no background promise | Controlled-clock checks in both engines; overdue/resume math covered |
+| Backup/storage | Existing keys; v5 round-trip and v4 import; preserve data on quota/partial failure | Both engines, including failed third settings write with complete rollback |
+| Native date/time layout | Full-width mobile rows, wrapping labels, bounded native controls | Individual field rectangles and screenshots at320/375/390/430px,844×390 and200% text in both engines; inspected WebKit320px field images |
+| Missing/stale/failure | Keep last success; distinguish missing, delayed, expired and cached | Python fault fixture and browser update-abort/delayed/expiry scenarios pass |
+| Upgrade/offline | Installed v4 and v5 update to v6; new modules/data available offline; records/favourites survive | Both actual workers tested; versioned filenames and cache isolation fix reproduced v5 mixing defect; Chromium offline and WebKit unreachable-origin checks pass |
+| Existing features | Pinch/pan/photo zoom, sheets,47 photos, filters, GPS mocks, JSON/CSV | All27 core scenarios pass after integration; all47 photos decode |
+| Accessibility | Names/labels, focus, contrast,200% text and reduced motion | Existing focus/gesture alternatives and five-screen automated WCAG A/AA scan pass; native VoiceOver remains a device check |
+| Public packaging | No private records/tests/repository files; no stale generated releases | Clean allowlisted dist build includes v6 assets and normalized JSON only |
+
+Totals:10 Python tests,26 Node tests,77 grouped browser scenarios. Detailed receipts and reviewed screenshots are held privately in Lewis's vault. Repeatable commands: README.md; conditions checks use scripts/check_conditions.cjs.
+
+Physical iPhone Safari/Home Screen, native date/time pickers, real keyboard/safe areas/GPS, and VoiceOver remain pending. Simulated browser checks above are reported separately. Hourly Actions scheduling is best effort; the UI shows the actual successful retrieval time rather than promising exact refresh delivery. Future fair catch comparisons would benefit from duration and zero-catch outings.

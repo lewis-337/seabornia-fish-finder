@@ -2,7 +2,7 @@
 
 This repository contains Lewis's iPhone-friendly fishing PWA recovered from the v4 app archive. Keep the existing Japanese UI and the distinction between sourced catches, historical records, and exploration candidates.
 
-- Browser markup/public seed data are in `index.html`, behavior in `app.js`, styles in `styles.css`, and shared map/photo camera math in `map-gestures.js`. Published data is in `data/`; collection and packaging are in `scripts/`.
+- Browser markup/public seed data are in `index.html`, behavior in `app-v6.js`, styles in `styles-v6.css`, and shared map/photo camera math in `map-gestures.js`. Published data is in `data/`; collection and packaging are in `scripts/`.
 - Preserve existing localStorage keys and the user's saved waypoints/catches. Changes to storage require a migration.
 - Never infer catch GPS coordinates from a departure port. Area markers are approximate representative locations, not navigation points.
 - Keep each catch's source and date. Failed collection must retain the last successful data and accurate freshness state.

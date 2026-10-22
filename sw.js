@@ -1,11 +1,15 @@
-const VERSION = "seabornia-v5.0";
+const VERSION = "seabornia-v6.0";
 const PREFIX = "seabornia-";
 const SHELL = [
   "./",
   "./index.html",
-  "./styles.css",
-  "./app.js",
+  "./styles-v6.css",
+  "./app-v6.js",
   "./map-gestures.js",
+  "./trip-conditions.js",
+  "./trip-ui.js",
+  "./data/conditions.json",
+  "./data/tides.json",
   "./manifest.webmanifest",
   "./data/latest.json",
   "./data/photo_manifest.json",
@@ -67,7 +71,7 @@ self.addEventListener("fetch", (event) => {
     await cache.put(key, response.clone());
     return response;
   };
-  const fromCache = () => caches.match(key);
+  const fromCache = async () => (await caches.open(VERSION)).match(key);
   if (live) {
     event.respondWith(
       fromNetwork().catch(async () => {
@@ -82,9 +86,9 @@ self.addEventListener("fetch", (event) => {
           return offline;
         }
         if (event.request.mode === "navigate") {
-          const shell = await caches.match(
-            new URL("./index.html", self.registration.scope).href,
-          );
+          const shell = await (
+            await caches.open(VERSION)
+          ).match(new URL("./index.html", self.registration.scope).href);
           if (shell) return shell;
         }
         return Response.error();

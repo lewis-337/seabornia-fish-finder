@@ -4,6 +4,7 @@
     S = JSON.parse($("seed").textContent),
     COAST = JSON.parse($("coast").textContent);
   let db = S;
+  let tripUI = null;
   const esc = (s) =>
     String(s ?? "").replace(
       /[&<>"']/g,
@@ -100,6 +101,8 @@
     ].includes(tab);
     $("app").dataset.screen = tab;
     if (tab === "map") requestAnimationFrame(() => resizeMap());
+    if (tab === "plan") tripUI?.render();
+    if (tab === "latest") tripUI?.renderExplorer();
   }
 
   function initControls() {
@@ -350,8 +353,13 @@
   function fitMap() {
     if (!mapCamera) return;
     resizeMap();
+    const controls = document
+      .querySelector(".mapToolbar")
+      .getBoundingClientRect();
+    const top =
+      controls.bottom - $("oceanSVG").getBoundingClientRect().top + 28;
     mapCamera.fit([...db.areas, db.marina].map(proj), {
-      top: 105,
+      top: Math.min(mapCamera.height * 0.45, Math.max(105, top)),
       right: 80,
       bottom: 100,
       left: 45,
@@ -514,7 +522,7 @@
     drawSpots();
     const records = reports().filter((r) => r.area_id === id);
     $("selectedSheet").innerHTML =
-      `<button class="sheetHandle" aria-expanded="false" aria-label="詳細を広げる"><span></span></button><button class="sheetClose" aria-label="海域の詳細を閉じる">×</button><h3>${esc(a.name)}</h3><div class="sheetTags"><span class="tag">直線 ${km(a).toFixed(1)}km / ${(km(a) / 1.852).toFixed(1)}海里</span><span class="tag sand">参考：${esc(a.seabed)}</span></div><div class="sheetButtons"><button class="primaryButton" id="areaFish">魚種を見る</button><button class="ghostButton" id="areaReports">釣果 ${records.length}件</button><button class="ghostButton" id="areaFav" aria-label="海域をお気に入りに保存" aria-pressed="${favs.has(id)}">${favs.has(id) ? "★" : "☆"}</button></div><div class="sheetBody"><p><b>地形：</b>${esc(a.slope)}</p><p><b>候補の魚：</b>${a.target_fish.map(esc).join("・")}</p><p><b>情報区分：</b>${esc(a.seabed_confidence)}。精密な水深・底質位置は未測量です。</p><p>海域の概略代表位置です。直線距離は航行距離ではありません。</p><button id="userAddArea" class="ghostButton">この海域をポイントに保存</button></div>`;
+      `<button class="sheetHandle" aria-expanded="false" aria-label="詳細を広げる"><span></span></button><button class="sheetClose" aria-label="海域の詳細を閉じる">×</button><h3>${esc(a.name)}</h3><div class="sheetTags"><span class="tag">直線 ${km(a).toFixed(1)}km / ${(km(a) / 1.852).toFixed(1)}海里</span><span class="tag sand">参考：${esc(a.seabed)}</span></div><div data-travel-id="${esc(a.id)}">${tripUI?.travel(a) || ""}</div><div class="sheetButtons"><button class="primaryButton" id="areaFish">魚種を見る</button><button class="ghostButton" id="areaReports">釣果 ${records.length}件</button><button class="ghostButton" id="areaFav" aria-label="海域をお気に入りに保存" aria-pressed="${favs.has(id)}">${favs.has(id) ? "★" : "☆"}</button></div><div class="sheetBody"><button class="ghostButton" data-open-conditions="${esc(a.id)}">この海域の海況を見る</button><p><b>地形：</b>${esc(a.slope)}</p><p><b>候補の魚：</b>${a.target_fish.map(esc).join("・")}</p><p><b>情報区分：</b>${esc(a.seabed_confidence)}。精密な水深・底質位置は未測量です。</p><p>海域の概略代表位置です。直線距離は航行距離ではありません。</p><button id="userAddArea" class="ghostButton">この海域をポイントに保存</button></div>`;
     presentSheet(a);
     $("areaFish").onclick = () => {
       state.q = "";
@@ -598,7 +606,7 @@
   function makeReport(r) {
     const a = db.areas.find((x) => x.id === r.area_id),
       txt = a?.name || "釣果位置は非公開";
-    return `<article class="reportCard"><div class="reportTop"><span>${esc(r.date_label || r.date)}</span><span class="tag">${esc(r.kind === "candidate" ? "探索候補" : "公開釣果")}</span></div><h3>${esc(r.fish)} ${esc(r.amount || "")}</h3><p>${esc(txt)} ｜ ${esc(r.source_name || "公開情報")}</p><div class="sheetTags">${r.size ? '<span class="tag">' + esc(r.size) + "</span>" : ""}${r.depth ? '<span class="tag sand">' + esc(r.depth) + "</span>" : ""}</div><p>${esc(r.detail || "")}</p><div class="reportBottom"><a href="${/^https:\/\//.test(r.source || "") ? esc(r.source) : "#"}" rel="noopener" target="_blank">元の釣果 ↗</a>${a ? `<button data-maparea="${esc(a.id)}">地図へ →</button>` : ""}</div></article>`;
+    return `<article class="reportCard"><div class="reportTop"><span>${esc(r.date_label || r.date)}</span><span class="tag">${esc(r.kind === "candidate" ? "探索候補" : "公開釣果")}</span></div><h3>${esc(r.fish)} ${esc(r.amount || "")}</h3><p>${esc(txt)} ｜ ${esc(r.source_name || "公開情報")}</p><div class="sheetTags">${r.size ? '<span class="tag">' + esc(r.size) + "</span>" : ""}${r.depth ? '<span class="tag sand">' + esc(r.depth) + "</span>" : ""}</div><p>${esc(r.detail || "")}</p>${tripUI?.publicContext(r) || ""}<div class="reportBottom"><a href="${/^https:\/\//.test(r.source || "") ? esc(r.source) : "#"}" rel="noopener" target="_blank">元の釣果 ↗</a>${a ? `<button data-maparea="${esc(a.id)}">地図へ →</button>` : ""}</div></article>`;
   }
   function localTime(value) {
     if (!value) return "未確認";
@@ -634,11 +642,20 @@
           state.year + "-" + String(state.month).padStart(2, "0"),
         ),
       );
-    const monthlyMode = state.reportMode === "month";
-    $("recentMode").setAttribute("aria-pressed", String(!monthlyMode));
+    const monthlyMode = state.reportMode === "month",
+      conditionsMode = state.reportMode === "conditions";
+    $("conditionsMode").setAttribute("aria-pressed", String(conditionsMode));
+    $("conditionsExplorer").hidden = !conditionsMode;
+    $("latestSummary").hidden = conditionsMode;
+    tripUI?.renderExplorer();
+    $("recentMode").setAttribute(
+      "aria-pressed",
+      String(!monthlyMode && !conditionsMode),
+    );
     $("monthlyMode").setAttribute("aria-pressed", String(monthlyMode));
-    $("reportList").hidden = monthlyMode;
-    document.querySelector(".latestControls").hidden = monthlyMode;
+    $("reportList").hidden = monthlyMode || conditionsMode;
+    document.querySelector(".latestControls").hidden =
+      monthlyMode || conditionsMode;
     $("monthReports").hidden = !monthlyMode;
     $("monthHint").parentElement.hidden = !monthlyMode;
     $("latestSummary").innerHTML =
@@ -770,6 +787,19 @@
         navigator.serviceWorker.register("./sw.js").catch(() => {});
     } else $("syncLabel").textContent = "オフライン見本";
     setupUserLogs();
+    tripUI = SeaborniaTripUI({
+      db: () => db,
+      catches: () => myCatches,
+      selectedArea: () => state.area,
+      reportArea: () => state.reportArea,
+      esc,
+      localTime,
+      nav,
+      notify,
+      action,
+      changed: refreshTripLinks,
+    });
+    refreshTripLinks();
     $("auditAllPhotos").onclick = auditAllPhotos;
     photoStatusText();
     drawSpots();
@@ -953,21 +983,32 @@
   }
   function openPoint(p) {
     $("selectedSheet").innerHTML =
-      `<button class="sheetHandle" aria-expanded="false" aria-label="詳細を広げる"><span></span></button><button class="sheetClose" aria-label="ポイントの詳細を閉じる">×</button><h3>${esc(p.name)}</h3><div class="sheetTags"><span class="tag">直線 ${km(p).toFixed(1)}km</span></div><div class="sheetButtons"><button class="primaryButton" id="toLog">記録を見る</button></div><div class="sheetBody"><p>${position(p.lat, p.lng)}</p><p>${esc(p.precision)}</p></div>`;
+      `<button class="sheetHandle" aria-expanded="false" aria-label="詳細を広げる"><span></span></button><button class="sheetClose" aria-label="ポイントの詳細を閉じる">×</button><h3>${esc(p.name)}</h3><div class="sheetTags"><span class="tag">直線 ${km(p).toFixed(1)}km / ${(km(p) / 1.852).toFixed(1)}海里</span></div><div data-travel-id="${esc(p.id)}">${tripUI?.travel(p) || ""}</div><div class="sheetButtons"><button class="primaryButton" id="toLog">記録を見る</button></div><div class="sheetBody"><p>${position(p.lat, p.lng)}</p><p>${esc(p.precision)}</p>${tripUI?.pointConditions(p) || ""}</div>`;
     presentSheet(p);
     $("toLog").onclick = () => nav("log");
   }
+  function refreshTripLinks() {
+    refreshAreaMenu();
+    renderReports();
+    renderUserLogs();
+    document.querySelectorAll("[data-travel-id]").forEach((node) => {
+      const p = [...db.areas, ...myPoints].find(
+        (p) => p.id === node.dataset.travelId,
+      );
+      if (p) node.innerHTML = tripUI?.travel(p) || "";
+    });
+  }
   function refreshAreaMenu() {
     $("areaList").innerHTML =
-      "<h2>海域を選ぶ</h2><p>距離はマリーナからの直線参考値です</p>" +
+      '<h2>海域を選ぶ</h2><p>距離・時間はシーボニアからの直線移動の目安。港内減速・迂回・風波で変わります。</p><button type="button" class="ghostButton" data-speed-settings>船速を設定</button>' +
       db.areas
         .map(
           (a, i) =>
-            `<button data-area-open="${esc(a.id)}"><span class="listNumber">${i + 1}</span><span>${esc(a.name)}<small>${km(a).toFixed(1)}km / ${esc(a.seabed)}</small></span><span>›</span></button>`,
+            `<button data-area-open="${esc(a.id)}"><span class="listNumber">${i + 1}</span><span>${esc(a.name)}<small>${km(a).toFixed(1)}km · ${tripUI?.travel(a, true) || "船速未設定"} / ${esc(a.seabed)}</small></span><span>›</span></button>`,
         )
         .join("");
     $("areaList")
-      .querySelectorAll("button")
+      .querySelectorAll("[data-area-open]")
       .forEach(
         (b) =>
           (b.onclick = () => {
@@ -985,7 +1026,7 @@
       myPoints
         .map(
           (p) =>
-            `<article class="savedItem"><button data-remove-point="${esc(p.id)}" aria-label="${esc(p.name)}を削除">削除</button><strong>★ ${esc(p.name)}</strong><small>${position(p.lat, p.lng)}<br>${esc(p.precision)}<br>マリーナから直線 ${km(p).toFixed(1)}km</small><button class="ghostButton" data-open-point="${esc(p.id)}">地図で見る</button></article>`,
+            `<article class="savedItem"><button data-remove-point="${esc(p.id)}" aria-label="${esc(p.name)}を削除">削除</button><strong>★ ${esc(p.name)}</strong><small>${position(p.lat, p.lng)}<br>${esc(p.precision)}<br>マリーナから直線 ${km(p).toFixed(1)}km / ${(km(p) / 1.852).toFixed(1)}海里</small>${tripUI?.travel(p) || ""}<button class="ghostButton" data-open-point="${esc(p.id)}">地図で見る</button></article>`,
         )
         .join("") ||
       '<div class="empty">保存したポイントはここに表示されます。地図の「ポイントを追加」から登録できます。</div>';
@@ -1035,7 +1076,7 @@
       myCatches
         .map(
           (c) =>
-            `<article class="savedItem"><button data-remove-catch="${esc(c.id)}" aria-label="${esc(c.fish)}の記録を削除">削除</button><strong>${esc(c.date)} ${esc(c.fish)} × ${esc(c.count)}</strong><small>${c.size ? esc(c.size) + "cm / " : ""}${c.depth ? esc(c.depth) + "m / " : ""}${esc(c.pointName || "地点未指定")}</small>${safePhoto(c.photo) ? `<button class="catchPhotoButton" data-catch-photo="${esc(c.id)}" aria-label="${esc(c.fish)}の写真を拡大"><img src="${esc(c.photo)}" alt="${esc(c.fish)}の釣果写真"></button>` : ""}<p>${esc(c.memo || "")}</p></article>`,
+            `<article class="savedItem" tabindex="-1" data-record-id="${esc(c.id)}"><button data-remove-catch="${esc(c.id)}" aria-label="${esc(c.fish)}の記録を削除">削除</button><strong>${esc(c.date)} ${esc(c.fish)} × ${esc(c.count)}</strong><small>${c.size ? esc(c.size) + "cm / " : ""}${c.depth ? esc(c.depth) + "m / " : ""}${esc(c.pointName || "地点未指定")}</small>${safePhoto(c.photo) ? `<button class="catchPhotoButton" data-catch-photo="${esc(c.id)}" aria-label="${esc(c.fish)}の写真を拡大"><img src="${esc(c.photo)}" alt="${esc(c.fish)}の釣果写真"></button>` : ""}<p>${esc(c.memo || "")}</p>${tripUI?.privateContext(c) || ""}</article>`,
         )
         .join("") ||
       '<div class="empty">保存した釣果はここに表示されます。</div>';
@@ -1136,24 +1177,49 @@
           typeof c.fish !== "string" ||
           !Number.isFinite(+c.count) ||
           +c.count < 0 ||
+          (c.time && !SeaborniaTrip.validTime(c.time)) ||
+          (c.conditions && !validSnapshot(c.conditions)) ||
           (c.photo && !safePhoto(c.photo)),
       )
     )
       throw Error("釣果記録の形式を確認してください");
+    if (obj.tripSettings && (!tripUI || !tripUI.validPrefs(obj.tripSettings)))
+      throw Error("釣行設定の形式を確認してください");
     return obj;
+  }
+  function validSnapshot(s) {
+    return (
+      s &&
+      s.version === 1 &&
+      Number.isFinite(Date.parse(s.capturedAt)) &&
+      (!s.tide ||
+        (typeof s.tide.name === "string" &&
+          typeof s.tide.source === "string" &&
+          (!s.tide.phase || typeof s.tide.phase === "string"))) &&
+      (!s.forecast ||
+        (typeof s.forecast.area === "string" &&
+          Number.isFinite(Date.parse(s.forecast.validAt))))
+    );
   }
   function replaceBackup(obj) {
     const oldPoints = localStorage.getItem(MEMKEY),
-      oldCatches = localStorage.getItem(CATCHKEY);
+      oldCatches = localStorage.getItem(CATCHKEY),
+      oldSettings = tripUI ? localStorage.getItem(tripUI.key) : null;
     try {
       localStorage.setItem(MEMKEY, JSON.stringify(obj.waypoints));
       localStorage.setItem(CATCHKEY, JSON.stringify(obj.catches));
+      if (obj.tripSettings && tripUI)
+        localStorage.setItem(tripUI.key, JSON.stringify(obj.tripSettings));
     } catch (error) {
       try {
         if (oldPoints === null) localStorage.removeItem(MEMKEY);
         else localStorage.setItem(MEMKEY, oldPoints);
         if (oldCatches === null) localStorage.removeItem(CATCHKEY);
         else localStorage.setItem(CATCHKEY, oldCatches);
+        if (obj.tripSettings && tripUI) {
+          if (oldSettings === null) localStorage.removeItem(tripUI.key);
+          else localStorage.setItem(tripUI.key, oldSettings);
+        }
       } catch {}
       throw Error(
         "保存容量が不足しています。現在の記録のJSONバックアップを保存してください。",
@@ -1161,7 +1227,8 @@
     }
     myPoints = obj.waypoints;
     myCatches = obj.catches;
-    renderUserLogs();
+    if (obj.tripSettings) tripUI?.importPreferences(obj.tripSettings);
+    refreshTripLinks();
     drawSpots();
   }
   function setupUserLogs() {
@@ -1215,6 +1282,10 @@
         const rec = {
           id: "cr" + Date.now() + Math.random().toString(36).slice(2, 5),
           date: $("catchDate").value,
+          time: $("catchTime").value || undefined,
+          conditions:
+            tripUI?.snapshot(p, $("catchDate").value, $("catchTime").value) ||
+            undefined,
           fish: $("catchFish").value,
           count: $("catchCount").value,
           size: $("catchSize").value,
@@ -1245,7 +1316,8 @@
         "seabornia-fishing-backup-" + dateJst() + ".json",
         JSON.stringify(
           {
-            version: 4,
+            version: 5,
+            tripSettings: tripUI?.preferences(),
             exportedAt: new Date().toISOString(),
             waypoints: myPoints,
             catches: myCatches,
@@ -1258,6 +1330,7 @@
     $("csvBtn").onclick = () => {
       const cols = [
         "date",
+        "time",
         "fish",
         "count",
         "size",
@@ -1789,6 +1862,10 @@
     $("squidOnly").setAttribute("aria-pressed", "false");
     $("clearReportArea").onclick = () => {
       state.reportArea = null;
+      renderReports();
+    };
+    $("conditionsMode").onclick = () => {
+      state.reportMode = "conditions";
       renderReports();
     };
     $("recentMode").onclick = () => {

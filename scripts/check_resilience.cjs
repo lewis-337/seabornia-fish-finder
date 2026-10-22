@@ -139,21 +139,19 @@ async function faults(engine) {
             return window.qaSet.call(this, k, v);
           };
         });
-        await p
-          .locator("#importJson")
-          .setInputFiles({
-            name: "replace.json",
-            mimeType: "application/json",
-            buffer: Buffer.from(
-              JSON.stringify({
-                version: 4,
-                waypoints: [
-                  { id: "replace", name: "Replacement", lat: 35.2, lng: 139.6 },
-                ],
-                catches: [],
-              }),
-            ),
-          });
+        await p.locator("#importJson").setInputFiles({
+          name: "replace.json",
+          mimeType: "application/json",
+          buffer: Buffer.from(
+            JSON.stringify({
+              version: 4,
+              waypoints: [
+                { id: "replace", name: "Replacement", lat: 35.2, lng: 139.6 },
+              ],
+              catches: [],
+            }),
+          ),
+        });
         await p.locator("#actionSubmit").click();
         await p.waitForFunction(() =>
           document
@@ -168,6 +166,65 @@ async function faults(engine) {
           before,
         );
         assert.equal(await p.locator("#waypointCount").innerText(), "1件");
+        await p.evaluate(() => (Storage.prototype.setItem = window.qaSet));
+        await p.locator("#notice button").click();
+      },
+    );
+    await test(
+      engine +
+        ": v5 settings import rollback restores records and settings on third-write failure",
+      async () => {
+        const keys = [
+          "seabornia-v4-points",
+          "seabornia-v4-catches",
+          "seabornia-trip-v1",
+        ];
+        const before = await p.evaluate(
+          (keys) => keys.map((k) => localStorage.getItem(k)),
+          keys,
+        );
+        await p.evaluate(() => {
+          let thrown = false;
+          Storage.prototype.setItem = function (k, v) {
+            if (k === "seabornia-trip-v1" && !thrown) {
+              thrown = true;
+              throw new DOMException("full", "QuotaExceededError");
+            }
+            return window.qaSet.call(this, k, v);
+          };
+        });
+        await p
+          .locator("#importJson")
+          .setInputFiles({
+            name: "v5.json",
+            mimeType: "application/json",
+            buffer: Buffer.from(
+              JSON.stringify({
+                version: 5,
+                waypoints: [],
+                catches: [],
+                tripSettings: {
+                  speed: 12,
+                  date: "2026-10-22",
+                  hour: "09:00",
+                  area: "marina",
+                },
+              }),
+            ),
+          });
+        await p.locator("#actionSubmit").click();
+        await p.waitForFunction(() =>
+          document
+            .querySelector("#notice span")
+            .textContent.includes("読み込みできません"),
+        );
+        assert.deepEqual(
+          await p.evaluate(
+            (keys) => keys.map((k) => localStorage.getItem(k)),
+            keys,
+          ),
+          before,
+        );
         await p.evaluate(() => (Storage.prototype.setItem = window.qaSet));
         await p.locator("#notice button").click();
       },
@@ -249,11 +306,11 @@ async function faults(engine) {
     await browser.close();
   }
 }
-async function upgrade(engine) {
+async function upgrade(engine, legacyRef = "58cd2ec") {
   let current = false,
     unavailable = false;
-  const oldHTML = execFileSync("git", ["show", "58cd2ec:index.html"]),
-    oldSW = execFileSync("git", ["show", "58cd2ec:sw.js"]);
+  const oldHTML = execFileSync("git", ["show", legacyRef + ":index.html"]),
+    oldSW = execFileSync("git", ["show", legacyRef + ":sw.js"]);
   const types = {
     ".html": "text/html",
     ".js": "text/javascript",
@@ -282,6 +339,12 @@ async function upgrade(engine) {
       let data;
       if (!current && rel === "/index.html") data = oldHTML;
       else if (!current && rel === "/sw.js") data = oldSW;
+      else if (
+        !current &&
+        ["/app.js", "/styles.css", "/map-gestures.js"].includes(rel) &&
+        legacyRef !== "58cd2ec"
+      )
+        data = execFileSync("git", ["show", legacyRef + ":" + rel.slice(1)]);
       else data = await fs.readFile(filename);
       res.writeHead(200, {
         "Content-Type":
@@ -309,7 +372,10 @@ async function upgrade(engine) {
   p.setDefaultTimeout(12000);
   try {
     await test(
-      engine + ": existing v4 worker upgrades to v5 without losing saved data",
+      engine +
+        ": existing " +
+        (legacyRef === "58cd2ec" ? "v4" : "v5") +
+        " worker upgrades to v6 without losing saved data",
       async () => {
         await p.goto(origin);
         await p.evaluate(() => navigator.serviceWorker.register("./sw.js"));
@@ -347,12 +413,20 @@ async function upgrade(engine) {
         current = true;
         await p.evaluate(async () => {
           const registration = await navigator.serviceWorker.getRegistration();
+          const claimed = new Promise((resolve) =>
+            navigator.serviceWorker.addEventListener(
+              "controllerchange",
+              resolve,
+              { once: true },
+            ),
+          );
           await registration.update();
+          await claimed;
         });
         await p.waitForFunction(async () => {
           const keys = await caches.keys();
           return (
-            keys.includes("seabornia-v5.0") && !keys.includes("seabornia-v4.2")
+            keys.includes("seabornia-v6.0") && !keys.includes("seabornia-v4.2")
           );
         });
         await p.reload();
@@ -386,12 +460,23 @@ async function upgrade(engine) {
             document.querySelector("#syncLabel").textContent ===
             "履歴を確認済み",
         );
+        await p.waitForFunction(() =>
+          document
+            .querySelector("#conditionsDataStatus")
+            .textContent.includes("収集確認"),
+        );
+        await p.locator("#reportList [data-tide-date]").first().waitFor();
         const before = await p.locator("#reportList").innerText();
         if (engine === "chromium") await ctx.setOffline(true);
         else unavailable = true;
         await p.reload({ waitUntil: "domcontentloaded" });
         await p.locator("#layersBtn").waitFor();
         await p.locator(".mobileNav [data-tab=latest]").click();
+        await p.waitForFunction(() =>
+          document
+            .querySelector("#conditionsDataStatus")
+            .textContent.includes("保存済み"),
+        );
         assert.equal(await p.locator("#reportList").innerText(), before);
         const response = await p.evaluate(async () => {
           const r = await fetch(
@@ -400,6 +485,30 @@ async function upgrade(engine) {
           return { ok: r.ok, count: (await r.json()).reports.length };
         });
         assert.ok(response.ok && response.count > 10);
+        await p.locator(".mobileNav [data-tab=plan]").click();
+        await p.waitForFunction(() =>
+          document
+            .querySelector("#conditionsDataStatus")
+            .textContent.includes("保存済み"),
+        );
+        assert.match(
+          await p.locator("#forecastContent").innerText(),
+          /有義波高/,
+        );
+        assert.equal(await p.locator("#tripTideSlider").count(), 1);
+        for (const file of ["conditions", "tides"])
+          assert.equal(
+            await p.evaluate(
+              async (file) =>
+                (
+                  await (
+                    await fetch("./data/" + file + ".json?offline-check=1")
+                  ).json()
+                ).schema_version,
+              file,
+            ),
+            1,
+          );
         await p.locator(".mobileNav [data-tab=log]").click();
         assert.equal(await p.locator("#personalCatchCount").innerText(), "1件");
       },
@@ -417,8 +526,11 @@ async function upgrade(engine) {
     for (const engine of (
       process.env.SEABORNIA_BROWSERS || "chromium,webkit"
     ).split(",")) {
-      await faults(engine);
-      await upgrade(engine);
+      if (!process.env.SEABORNIA_UPGRADE_ONLY) {
+        await faults(engine);
+        await upgrade(engine);
+      }
+      await upgrade(engine, "296bdef");
     }
   } catch (error) {
     console.error(error);

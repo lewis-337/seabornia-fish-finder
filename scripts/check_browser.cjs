@@ -205,7 +205,7 @@ async function run(engine) {
     await check(
       "all 47 local photographs decode and source detail is retained",
       async () => {
-        await page.locator("summary").click();
+        await page.locator(".photoDiagnostics summary").click();
         await page.locator("#auditAllPhotos").click();
         await page.locator("#auditAllPhotos").waitFor({ state: "visible" });
         await page.waitForFunction(
@@ -288,7 +288,7 @@ async function run(engine) {
       async () => {
         await nav("◉ 記録");
         await page.locator("#catchMemo").fill("QA draft");
-        await nav("≋ 地形");
+        await nav("≋ 海況");
         await nav("◉ 記録");
         assert.equal(await page.locator("#catchMemo").inputValue(), "QA draft");
         await page.locator("#pointTitle").fill("invalid");
@@ -328,7 +328,7 @@ async function run(engine) {
         const data = JSON.parse(
           await fs.readFile(path.join(out, engine + "-backup.json"), "utf8"),
         );
-        assert.equal(data.version, 4);
+        assert.equal(data.version, 5);
         assert.equal(data.waypoints[0].name, "QA point");
         assert.ok(data.catches[0].photo.startsWith("data:image/jpeg"));
         const csv = page.waitForEvent("download");

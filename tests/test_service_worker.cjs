@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
 const vm = require("node:vm");
 const fs = require("node:fs");
 
-function worker({ offline = false } = {}) {
+function worker({ offline = false, foreign = new Map() } = {}) {
   const handlers = {},
     saved = new Map(),
     deleted = [],
@@ -47,13 +47,14 @@ function worker({ offline = false } = {}) {
     },
     caches: {
       open: async () => cache,
-      match: async (key) => saved.get(key)?.clone(),
+      match: async (key) => (saved.get(key) || foreign.get(key))?.clone(),
       keys: async () => [
         "unrelated-app",
         "seabornia-v4",
         "seabornia-v4.1",
         "seabornia-v4.2",
         "seabornia-v5.0",
+        "seabornia-v6.0",
       ],
       delete: async (key) => deleted.push(key),
     },
@@ -101,6 +102,7 @@ test("activation preserves other apps caches on the same origin", async () => {
     "seabornia-v4",
     "seabornia-v4.1",
     "seabornia-v4.2",
+    "seabornia-v5.0",
   ]);
 });
 
@@ -119,9 +121,13 @@ test("install caches the new modules, data and licensed catalogue images", async
   app.handlers.install({ waitUntil: (value) => (done = value) });
   await done;
   for (const asset of [
-    "./app.js",
-    "./styles.css",
+    "./app-v6.js",
+    "./styles-v6.css",
     "./map-gestures.js",
+    "./trip-conditions.js",
+    "./trip-ui.js",
+    "./data/conditions.json",
+    "./data/tides.json",
     "./data/latest.json",
     "./data/photo_manifest.json",
     "./images/fish/0.jpg",
@@ -152,4 +158,16 @@ test("cached JSON is explicitly labelled so checking a cache cannot imply a fres
     ),
     "offline",
   );
+});
+
+// A retired worker can finish a request after activation and recreate its old cache.
+test("current worker never reads a retired worker cache", async () => {
+  const foreign = new Map([
+    [
+      "https://example.com/fishing/app-v6.js",
+      new Response("stale retired asset"),
+    ],
+  ]);
+  const app = worker({ foreign });
+  assert.equal(await (await app.request("app-v6.js")).text(), "fresh");
 });

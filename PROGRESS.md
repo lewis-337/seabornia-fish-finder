@@ -51,3 +51,14 @@ Production URL: https://lewis-337.github.io/seabornia-fish-finder/
 - Detailed checklist and repeatable commands: QA.md. Deployment verification is recorded there after publication.
 
 - Production release complete: source296bdef, successful Pages run39699440275 and collector data commit9da7e0d. All27 core scenarios also passed on the actual HTTPS app in Chromium/WebKit. Production cache is seabornia-v5.0 with all47 photos and the three new modules/styles. Only physical iPhone acceptance remains; see QA.md.
+
+
+## 2026-10-22 travel time, tides and conditions (v6)
+
+- Implemented the approved plan: initially unset cruising speed, five-minute straight-line ETA and optional JST arrival across midnight; area/list/private-point estimates; independent trip date/hour; sea conditions tab with weather, marine waves, daylight, Oil/Aburatsubo tide predictions, interactive curve, official warnings and foreground-only return countdown/reminder.
+- Public reports retain unknown catch time and use day-level Oil reference only. Conditions comparison separates public/private samples, fish/date filters and source/record links, without summing inconsistent quantities or claiming success rates. Optional personal time can capture available predicted tide and recent regional forecasts with provenance; missing history stays unknown.
+- Preserved all three existing data keys; optional fields and backup v5 retain v4 import. Third-write settings import failure rolls back both records and preferences. Private coordinates are only compared locally against public locations.
+- Added standard-library collector, normalized public conditions/tides JSON, hourly conditions Actions workflow, and six-hour catch workflow integration. Verified11 public locations and63 tide dates; failed updates retain last successful values/timestamps, with delayed/expired/missing UI states.
+- Date/time controls own mobile rows with bounded native inputs, wrapping labels and16px minimum text. WebKit and Chromium screenshots inspected at320–430px, landscape,200% text. No actual iPhone keyboard/native picker/VoiceOver certification is implied.
+- Found an installed-v5 upgrade race: its worker could pair new HTML with cached old JS and recreate a retired cache during activation. Release files are now app-v6.js/styles-v6.css, and the v6 worker reads only its own cache. Actual v4 and v5 worker upgrades and offline/unreachable-origin reopening pass with records/favourites intact.
+- Local verification:10 Python +26 Node tests;27 core +26 conditions +24 failure/upgrade browser scenarios passed across Chromium/WebKit. Automated WCAG A/AA scan: no violations on five screens. Source remains in this repository; private receipts/screenshots are filed in the vault. Live verification is added below after publishing.
