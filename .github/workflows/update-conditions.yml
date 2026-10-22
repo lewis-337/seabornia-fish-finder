@@ -19,6 +19,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # A queued refresh must start from the latest data committed by the preceding job.
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
