@@ -66,3 +66,12 @@ node scripts/check_conditions.cjs
 Tap a fish for sourced fishing-area rows, then 地図で見る. 魚種 also offers a location dropdown and 地図で選ぶ with explicit confirmation. Ten public areas show GEBCO2026 reference model depth near their approximate markers. Sources, sample coordinates and limitations are disclosed separately from report fishing depths. Unknown fish areas remain unassigned. The app uses a new boat/compass icon with iOS and maskable assets.
 
 See [QA-v7.md](QA-v7.md) for the expected/actual checklist and separate iPhone-device verification, and [FISH-AREA-AUDIT.md](FISH-AREA-AUDIT.md) for all47 entries. Manual main-workflow dispatch refreshes static GEBCO reference cells; hourly collection remains weather/marine/tides only.
+
+
+## iPhone/iOS compatibility target
+
+The browser API baseline is **iOS/iPadOS15.5 or later**, in Safari and Home Screen mode. Layouts use available screen space rather than model or user-agent names; no iPhone13-specific code. Current Chromium/WebKit checks cover320/375/390/430px portrait,844×390 landscape,tablet/desktop and200% text. These are viewport/modern-engine checks, not proof that every physical model or older Safari release has been tested.
+
+Required features were reviewed against primary WebKit documentation: native dialog, dynamic viewport units,Array.at and focus-visible shipped in [Safari15.4](https://webkit.org/blog/12445/new-webkit-features-in-safari-15-4/); background-modal accessibility uses inert, available in [Safari15.5](https://webkit.org/blog/12669/new-webkit-features-in-safari-15-5/). Other required APIs predate that baseline. Optional GPS, service workers, image observation and visualViewport have availability checks; CSS overscroll/scrollbar refinements may degrade to ordinary scrolling in older versions. iOS15.4 and earlier are not claimed as fully compatible.
+
+Physical acceptance is tracked separately: Lewis's reported test device is iPhone13Pro with iOS26.6.1. Post-v7 Safari/Home Screen picker,keyboard and pinch results remain pending. Additional older-iOS and different-model physical testing has not been performed. When validating another device, record model/iOS,screen orientation/text size,mode,field/gesture result and any failure screenshot; preserve local records and a verified JSON backup before reinstalling.

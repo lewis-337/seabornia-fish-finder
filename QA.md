@@ -90,3 +90,9 @@ Current expected/actual checklist, repeatable checks and separate physical-devic
 - [Pages39766332886](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39766332886) succeeded for sourcec20b09c.45 unit tests and104 local scenarios passed;76 core/conditions/discovery/touch scenarios also passed on production.8 automated accessibility states report zero WCAG A/AA violations.
 - Live Chromium/WebKit workers verify SW7.0,47 cached photos,10 reference depths,fish-areas module/JSON and new icons. Chromium installed-shell offline reload includes fish-area/reference depth and sea conditions. v4/v5/v6 actual worker upgrades pass locally; WebKit unreachable-origin check remains separate from physical offline acceptance.
 - Baseline physical v6 checks were reported by Lewis as passing for date/time,memo keyboard and map/photo pinch in both modes. Post-v7 results/model/iOS remain pending; do not count simulated native-control bounds or keyboard-sized viewports as physical-device proof.
+
+### Compatibility and device target update
+
+- Lewis supplied iPhone13Pro/iOS26.6.1 as his current physical test device and requested other-model/iOS compatibility. Results are still pending, not inferred from the device version.
+- API audit sets an iOS15.5+ compatibility target (native dialog/dynamic viewport/Array.at/focus-visible at15.4;inert at15.5), with primary WebKit release notes linked in README.md. No runtime change or newer-iOS-only feature is required for this target. The implementation has no model/user-agent branch.
+- Tested viewport matrix already spans320–430px,landscape,tablet/desktop and200% text in modern Chromium/WebKit. Real older-iOS engines and other physical iPhones remain unverified; do not call the API audit or viewport emulation a device pass. Documentation deployment [39766748876](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39766748876) also succeeded; final data bed85c9.
