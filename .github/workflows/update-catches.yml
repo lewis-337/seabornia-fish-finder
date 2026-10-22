@@ -58,6 +58,7 @@ jobs:
           git add data/conditions.json data/tides.json data/latest.json data/photo_manifest.json images/fish
           if ! git diff --cached --quiet; then
             git commit -m "Refresh catch data"
+            git pull --rebase origin main
             git push
           fi
       - name: Configure GitHub Pages

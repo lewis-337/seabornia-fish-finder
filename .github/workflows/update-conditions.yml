@@ -31,6 +31,7 @@ jobs:
           git add data/conditions.json data/tides.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh regional sea conditions"
+            git pull --rebase origin main
             git push
           fi
       - uses: actions/configure-pages@v5
