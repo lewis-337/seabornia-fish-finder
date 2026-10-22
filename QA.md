@@ -79,3 +79,8 @@ Physical iPhone Safari/Home Screen, native date/time pickers, real keyboard/safe
 - Physical iPhone checks above remain pending.
 
 - Final workflow verification: [main refresh39713502322](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39713502322) and [standalone hourly39713599922](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39713599922) both succeeded after the queued-checkout fix8d318db. The hourly job reported11 locations, zero forecast failures,63 tide dates and zero tide failures; public data commit bea8a59. Post-deployment smoke verified all22 provider/location parts healthy and no script errors. Last successful retrieval11:51 JST on2026-10-22.
+
+
+## v7 depth/discovery/icon acceptance
+
+Current expected/actual checklist, repeatable checks and separate physical-device baseline/pending results: [QA-v7.md](QA-v7.md). This supersedes v6 layout screenshots for the changed screens; historical v4–v6 release receipts above are retained.

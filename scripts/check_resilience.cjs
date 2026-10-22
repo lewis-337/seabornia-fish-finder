@@ -193,25 +193,23 @@ async function faults(engine) {
             return window.qaSet.call(this, k, v);
           };
         });
-        await p
-          .locator("#importJson")
-          .setInputFiles({
-            name: "v5.json",
-            mimeType: "application/json",
-            buffer: Buffer.from(
-              JSON.stringify({
-                version: 5,
-                waypoints: [],
-                catches: [],
-                tripSettings: {
-                  speed: 12,
-                  date: "2026-10-22",
-                  hour: "09:00",
-                  area: "marina",
-                },
-              }),
-            ),
-          });
+        await p.locator("#importJson").setInputFiles({
+          name: "v5.json",
+          mimeType: "application/json",
+          buffer: Buffer.from(
+            JSON.stringify({
+              version: 5,
+              waypoints: [],
+              catches: [],
+              tripSettings: {
+                speed: 12,
+                date: "2026-10-22",
+                hour: "09:00",
+                area: "marina",
+              },
+            }),
+          ),
+        });
         await p.locator("#actionSubmit").click();
         await p.waitForFunction(() =>
           document
@@ -341,7 +339,15 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
       else if (!current && rel === "/sw.js") data = oldSW;
       else if (
         !current &&
-        ["/app.js", "/styles.css", "/map-gestures.js"].includes(rel) &&
+        [
+          "/app.js",
+          "/styles.css",
+          "/app-v6.js",
+          "/styles-v6.css",
+          "/map-gestures.js",
+          "/trip-conditions.js",
+          "/trip-ui.js",
+        ].includes(rel) &&
         legacyRef !== "58cd2ec"
       )
         data = execFileSync("git", ["show", legacyRef + ":" + rel.slice(1)]);
@@ -374,8 +380,12 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
     await test(
       engine +
         ": existing " +
-        (legacyRef === "58cd2ec" ? "v4" : "v5") +
-        " worker upgrades to v6 without losing saved data",
+        (legacyRef === "58cd2ec"
+          ? "v4"
+          : legacyRef === "296bdef"
+            ? "v5"
+            : "v6") +
+        " worker upgrades to v7 without losing saved data",
       async () => {
         await p.goto(origin);
         await p.evaluate(() => navigator.serviceWorker.register("./sw.js"));
@@ -426,7 +436,9 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
         await p.waitForFunction(async () => {
           const keys = await caches.keys();
           return (
-            keys.includes("seabornia-v6.0") && !keys.includes("seabornia-v4.2")
+            keys.includes("seabornia-v7.0") &&
+            !keys.includes("seabornia-v4.2") &&
+            !keys.includes("seabornia-v6.0")
           );
         });
         await p.reload();
@@ -496,7 +508,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
           /有義波高/,
         );
         assert.equal(await p.locator("#tripTideSlider").count(), 1);
-        for (const file of ["conditions", "tides"])
+        for (const file of ["conditions", "tides", "area_depths", "fish_areas"])
           assert.equal(
             await p.evaluate(
               async (file) =>
@@ -531,6 +543,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
         await upgrade(engine);
       }
       await upgrade(engine, "296bdef");
+      await upgrade(engine, "961124b");
     }
   } catch (error) {
     console.error(error);

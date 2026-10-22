@@ -59,3 +59,10 @@ node scripts/check_conditions.cjs
 チェックは一時ブラウザの合成データだけを使用します。`/tmp/seabornia-browser-qa`に検証結果・スクリーンショットを出力します。実機iPhoneでのSafari、ホーム画面、GPS権限、VoiceOverの操作確認は別途必要です。
 
 設計・確認状況は`QA.md`、開発の続きは`PROGRESS.md`を参照してください。
+
+
+## v7 area discovery and reference depth
+
+Tap a fish for sourced fishing-area rows, then 地図で見る. 魚種 also offers a location dropdown and 地図で選ぶ with explicit confirmation. Ten public areas show GEBCO2026 reference model depth near their approximate markers. Sources, sample coordinates and limitations are disclosed separately from report fishing depths. Unknown fish areas remain unassigned. The app uses a new boat/compass icon with iOS and maskable assets.
+
+See [QA-v7.md](QA-v7.md) for the expected/actual checklist and separate iPhone-device verification, and [FISH-AREA-AUDIT.md](FISH-AREA-AUDIT.md) for all47 entries. Manual main-workflow dispatch refreshes static GEBCO reference cells; hourly collection remains weather/marine/tides only.

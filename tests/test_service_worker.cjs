@@ -103,6 +103,7 @@ test("activation preserves other apps caches on the same origin", async () => {
     "seabornia-v4.1",
     "seabornia-v4.2",
     "seabornia-v5.0",
+    "seabornia-v6.0",
   ]);
 });
 
@@ -121,11 +122,15 @@ test("install caches the new modules, data and licensed catalogue images", async
   app.handlers.install({ waitUntil: (value) => (done = value) });
   await done;
   for (const asset of [
-    "./app-v6.js",
-    "./styles-v6.css",
+    "./app-v7.js",
+    "./styles-v7.css",
     "./map-gestures.js",
     "./trip-conditions.js",
     "./trip-ui.js",
+    "./fish-areas.js",
+    "./data/area_depths.json",
+    "./data/fish_areas.json",
+    "./icons/compass-v7-maskable-512.png",
     "./data/conditions.json",
     "./data/tides.json",
     "./data/latest.json",

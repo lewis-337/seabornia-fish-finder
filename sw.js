@@ -1,11 +1,14 @@
-const VERSION = "seabornia-v6.0";
+const VERSION = "seabornia-v7.0";
 const PREFIX = "seabornia-";
 const SHELL = [
   "./",
   "./index.html",
-  "./styles-v6.css",
-  "./app-v6.js",
+  "./styles-v7.css",
+  "./app-v7.js",
   "./map-gestures.js",
+  "./fish-areas.js",
+  "./data/area_depths.json",
+  "./data/fish_areas.json",
   "./trip-conditions.js",
   "./trip-ui.js",
   "./data/conditions.json",
@@ -13,9 +16,12 @@ const SHELL = [
   "./manifest.webmanifest",
   "./data/latest.json",
   "./data/photo_manifest.json",
-  "./icons/icon-180.png",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png",
+  "./icons/compass-v7.svg",
+  "./icons/compass-v7-32.png",
+  "./icons/compass-v7-180.png",
+  "./icons/compass-v7-192.png",
+  "./icons/compass-v7-512.png",
+  "./icons/compass-v7-maskable-512.png",
 ];
 self.addEventListener("install", (event) => {
   event.waitUntil(

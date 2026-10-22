@@ -7,7 +7,7 @@ OUT = ROOT / 'dist'
 if OUT.exists():
     shutil.rmtree(OUT)  # Generated, ignored output only; prevent publishing stale releases.
 OUT.mkdir()
-for name in ['index.html', 'styles-v6.css', 'app-v6.js', 'map-gestures.js', 'trip-conditions.js', 'trip-ui.js', 'sw.js', 'manifest.webmanifest', '.nojekyll']:
+for name in ['index.html', 'styles-v7.css', 'app-v7.js', 'fish-areas.js', 'map-gestures.js', 'trip-conditions.js', 'trip-ui.js', 'sw.js', 'manifest.webmanifest', '.nojekyll']:
     shutil.copy2(ROOT / name, OUT / name)
 for name in ['data', 'icons', 'images']:
     shutil.copytree(ROOT / name, OUT / name, dirs_exist_ok=True)

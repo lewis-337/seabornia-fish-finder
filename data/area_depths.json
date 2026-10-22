@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "release": "GEBCO2026",
+  "grid_arcseconds": 15,
+  "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+  "endpoint": "https://wms.gebco.net/2026/mapserv",
+  "licence": "Public domain",
+  "areas": {
+    "koajiro": {
+      "elevation_m": -20.0,
+      "sample_lat": 35.160417,
+      "sample_lng": 139.60208,
+      "requested_lat": 35.161,
+      "requested_lng": 139.6,
+      "fetched_at": "2026-10-22T10:37:38.585983+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "seaborniaoff": {
+      "elevation_m": -24.0,
+      "sample_lat": 35.172917,
+      "sample_lng": 139.60625,
+      "requested_lat": 35.171,
+      "requested_lng": 139.605,
+      "fetched_at": "2026-10-22T10:37:38.585983+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "moroiso": {
+      "elevation_m": -74.0,
+      "sample_lat": 35.14375,
+      "sample_lng": 139.58542,
+      "requested_lat": 35.1455,
+      "requested_lng": 139.5865,
+      "fetched_at": "2026-10-22T10:37:38.585983+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "mito": {
+      "elevation_m": -95.0,
+      "sample_lat": 35.172917,
+      "sample_lng": 139.57292,
+      "requested_lat": 35.1735,
+      "requested_lng": 139.573,
+      "fetched_at": "2026-10-22T10:37:38.585983+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "jogashima": {
+      "elevation_m": -88.0,
+      "sample_lat": 35.127083,
+      "sample_lng": 139.58542,
+      "requested_lat": 35.125,
+      "requested_lng": 139.584,
+      "fetched_at": "2026-10-22T10:37:38.585983+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "kamegi": {
+      "elevation_m": -72.0,
+      "sample_lat": 35.197917,
+      "sample_lng": 139.56875,
+      "requested_lat": 35.1982,
+      "requested_lng": 139.5695,
+      "fetched_at": "2026-10-22T10:37:38.585983+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "nagai": {
+      "elevation_m": -178.0,
+      "sample_lat": 35.197917,
+      "sample_lng": 139.54792,
+      "requested_lat": 35.198,
+      "requested_lng": 139.548,
+      "fetched_at": "2026-10-22T10:37:38.585983+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "sajima": {
+      "elevation_m": -69.0,
+      "sample_lat": 35.222917,
+      "sample_lng": 139.56458,
+      "requested_lat": 35.2225,
+      "requested_lng": 139.566,
+      "fetched_at": "2026-10-22T10:37:38.585983+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "ashina": {
+      "elevation_m": -53.0,
+      "sample_lat": 35.227083,
+      "sample_lng": 139.58542,
+      "requested_lat": 35.228,
+      "requested_lng": 139.585,
+      "fetched_at": "2026-10-22T10:37:38.585983+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "akiya": {
+      "elevation_m": -59.0,
+      "sample_lat": 35.24375,
+      "sample_lng": 139.56875,
+      "requested_lat": 35.243,
+      "requested_lng": 139.567,
+      "fetched_at": "2026-10-22T10:37:38.585983+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    }
+  },
+  "status": [
+    {
+      "area_id": "koajiro",
+      "ok": true,
+      "checked_at": "2026-10-22T10:37:38.585983+00:00"
+    },
+    {
+      "area_id": "seaborniaoff",
+      "ok": true,
+      "checked_at": "2026-10-22T10:37:38.585983+00:00"
+    },
+    {
+      "area_id": "moroiso",
+      "ok": true,
+      "checked_at": "2026-10-22T10:37:38.585983+00:00"
+    },
+    {
+      "area_id": "mito",
+      "ok": true,
+      "checked_at": "2026-10-22T10:37:38.585983+00:00"
+    },
+    {
+      "area_id": "jogashima",
+      "ok": true,
+      "checked_at": "2026-10-22T10:37:38.585983+00:00"
+    },
+    {
+      "area_id": "kamegi",
+      "ok": true,
+      "checked_at": "2026-10-22T10:37:38.585983+00:00"
+    },
+    {
+      "area_id": "nagai",
+      "ok": true,
+      "checked_at": "2026-10-22T10:37:38.585983+00:00"
+    },
+    {
+      "area_id": "sajima",
+      "ok": true,
+      "checked_at": "2026-10-22T10:37:38.585983+00:00"
+    },
+    {
+      "area_id": "ashina",
+      "ok": true,
+      "checked_at": "2026-10-22T10:37:38.585983+00:00"
+    },
+    {
+      "area_id": "akiya",
+      "ok": true,
+      "checked_at": "2026-10-22T10:37:38.585983+00:00"
+    }
+  ]
+}

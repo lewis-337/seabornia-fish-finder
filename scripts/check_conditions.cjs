@@ -87,6 +87,7 @@ async function run(engine) {
         await p.locator("#tripForm [type=submit]").click();
         assert.match(await p.locator("#tripSaveStatus").innerText(), /保存/);
         await nav("map");
+        await p.locator("#zoomHome").click();
         await p.locator("#oceanSVG [data-area]").last().click();
         assert.match(
           await p.locator("#selectedSheet").innerText(),
@@ -421,13 +422,17 @@ async function run(engine) {
                 d = document.querySelector("#zoomIn").getBoundingClientRect();
               return {
                 top: a.top,
+                left: a.left,
+                buttonRight: Math.max(b.right, c.right),
                 bottom: Math.max(b.bottom, c.bottom),
                 right: a.right,
                 zoomLeft: d.left,
               };
             });
             assert.ok(
-              toolbar.top >= toolbar.bottom && toolbar.right < toolbar.zoomLeft,
+              (toolbar.top >= toolbar.bottom ||
+                toolbar.left >= toolbar.buttonRight) &&
+                toolbar.right < toolbar.zoomLeft,
               JSON.stringify(toolbar),
             );
             await shot(`map-${width}-${scale}x`);
