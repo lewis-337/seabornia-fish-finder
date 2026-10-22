@@ -10,6 +10,7 @@ on:
       - 'README.md'
       - 'PROGRESS.md'
       - 'AGENTS.md'
+      - 'QA.md'
   schedule:
     - cron: '17 */6 * * *'
 permissions:
@@ -36,7 +37,7 @@ jobs:
       - name: Check catch parsing
         run: python -m unittest discover -s tests -v
       - name: Check offline cache behavior
-        run: node --test tests/test_service_worker.cjs
+        run: node --test tests/*.cjs
       - name: Collect published catch records (best effort)
         # If no sources are available, deploy the last known data with an honest stale-data status.
         continue-on-error: true

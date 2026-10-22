@@ -1,32 +1,50 @@
-# Seabornia Fish Finder v4 | iPhone / Mac
+# Seabornia Fish Finder | iPhone / Mac
 
-## 使い方
-`index.html` を開くと、魚種検索、写真付き図鑑、月別釣果、海域マップ、マイ航海・記録を使えます。GPS・最新釣果の取得・公開GEBCO海底地形にはHTTPSと通信が必要です。端末の位置情報を許可してください。
+[アプリを開く](https://lewis-337.github.io/seabornia-fish-finder/)
 
-- 地図は釣果地点ではなく海域の**概略代表位置**です。GPS点とは異なります。各番号をタップすると名称と詳細を表示。固定ラベルの重なりを避けています。
-- 「✚」モードでは概略地図をタップして自分のポイントを保存可能。厳密な実測点ではありません。GPSマークでは端末の現在地と推定精度を確認してから保存してください。
-- マイ航海でポイントと釣果（写真は縮小）を**端末localStorage**に保存。JSONバックアップ、JSONインポート、釣果CSVエクスポートに対応。共有、クラウド同期は未搭載。ブラウザデータ消去で消えるためバックアップが必要です。
-- 魚種写真はWikimedia/Wikipediaの画像URLを複数手段で取得し、実際の画像ロード成功で表示を検証します。「全画像をチェック」で全件を診断できます。ネットがない場合は写真未取得と表示。**全画像が出ることを現時点で保証するものではありません。** Wikipedia/Wikimediaの著作権表記は元ファイル参照。
-- 「GEBCO海底図」はGEBCO 2026 の WMS 海底陰影データを表示。**砂地・岩礁の調査結果ではなく、航海に使えません。** 2026 grid 15秒角なので小さなかけ上がりは捉えられない場合があります。 https://www.gebco.net/data-products/gebco-web-services/web-map-service
-- 一部に過去の釣果や公開ソースの再編集があります。2026年10月18日頃の実績は個別ページで確認していますが、将来の釣果を予言しません。
-- HTTPS公開後 `data/latest.json` を収集スクリプトが更新する設計。GitHub PagesとActionsの設定が必要であり、**稼働成功はまだ確認していません。** SNS自動収集は対象外です。
+シーボニア発の釣行向けPWAです。日本語の魚種図鑑、公開釣果、海底ガイド、端末内のポイント・釣果記録をまとめています。iPhoneではSafariで開き、共有メニューから「ホーム画面に追加」を選べます。
 
-## 公開
-GitHubでリポジトリを作成しこのフォルダの内容をmainブランチのルートにコミット、Settings > Pages > Build and deployment をGitHub Actionsに設定。Workflow permissionsで Contents write を許可してください。6時間おきのworkflowの初回成功を確認してください。
+## 地図と操作
 
-## 出典
-- 諸磯光二丸の実釣一覧 https://www.mitsuzimaru.com/catch/
-- 長井海力丸の公開実績 https://reserve.castingnet.jp/ship01470c.html
-- シイラの釣割エリア実績 https://www.chowari.jp/catcharea/?area=57&fish=191
-- GEBCO 2026 https://www.gebco.net/data-products/gridded-bathymetry-data
+- 1本指で移動、2本指のピンチで拡大・縮小。ダブルタップ、＋／−、全体表示にも対応しています。
+- 「海域を探す」から10海域を選べます。番号のタップでも詳細が開きます。詳細上端のハンドルで展開・縮小、×で閉じます。
+- 「レイヤー」から釣り場、底質ガイド、GEBCO海底陰影を切り替えます。凡例もこのパネルにあります。
+- 「ポイントを追加」で地図をタップすると仮のピンが表示されます。名前を入力して確定するまで保存されません。ピンチやドラッグでは保存しません。
+- GPSでは推定精度も表示します。位置情報の許可がない場合は緯度・経度で手動登録できます。
+- 地図・公開釣果の位置は海域の**概略代表位置**です。実測の釣果GPS地点や航路ではありません。距離は直線参考値です。
 
-Photo caching (GitHub Actions): `scripts/cache_fish_photos.py` downloads Commons previews that include a reuse license and decodes each file with Pillow. Files are hosted inside the PWA and credited in `data/photo_manifest.json`. On failure the fish remains in the catalogue with a failure state; there is no fabricated substitute photo.
+## 魚種・釣果・写真
 
-## このリポジトリのセットアップ
-- 公開URL: https://lewis-337.github.io/seabornia-fish-finder/
-- iPhone: SafariでURLを開き、共有メニューから「ホーム画面に追加」を選びます。
-- GitHub PagesはActions方式。釣果収集は6時間ごと（日本時間03:17・09:17・15:17・21:17）の予定実行と、mainへのアプリ変更時に実行します。実際の開始はGitHub側の状況で遅れることがあります。
-- データ更新の実績は画面の最終成功日時とActionsの実行結果で確認してください。写真の欠損は取得状況に応じて表示されます。
-- 開発・引継ぎ: `PROGRESS.md`。依存関係は`requirements.txt`、公開ファイルの生成は`python scripts/build_site.py`です。
+47項目を名前、地形、釣り方で検索できます。魚種グループ、イカ、選択月で絞り込めます。年・月は端末に記憶し、初回は現在の月になります。「最近の釣果」「月別の釣果」で表示を切り替え、海域から開いた一覧はその海域だけに絞り込みます。
 
-写真の補足: Commonsの代表画像が料理写真または別種の画像になる項目は、確認済みiNaturalistのCC BY写真を`data/photo_overrides.json`に指定しています。出典・撮影者・ライセンスと縮小/JPEG変換を魚種の詳細画面に表示します。
+写真は出典・再利用ライセンスを確認し、デコードした実在の参考写真です。各詳細に撮影者、ライセンス、縮小／JPEG変換を表示しています。参考写真と現地釣果写真は区別しています。写真をタップすると拡大画面が開き、ピンチ、移動、拡大／縮小ボタン、全体表示を使えます。写真の一括診断は図鑑の末尾「写真・出典について」にあります。
+
+GEBCO画像は広域の海底地形モデルです。**砂地・岩礁の実測結果や航海図ではありません。** 通信に失敗しても概略地図を使え、再読み込みできます。
+
+## 自分の記録とオフライン
+
+ポイント、釣果、圧縮写真、お気に入りは端末内に保存します。クラウド同期はありません。JSONバックアップ／読み込み、釣果CSVに対応します。読み込みは現在の記録を置き換えるため、確認画面を表示します。ブラウザデータを消す前にバックアップしてください。
+
+初回のオンライン読み込みとキャッシュ準備が完了すると、アプリ、公開釣果履歴、47枚の魚種写真をオフラインでも使えます。GPSの利用可否は端末の状況に依存し、GEBCOの未取得画像や外部出典には通信が必要です。保存済み履歴の表示と、収集の最終成功日時を区別しています。
+
+## 更新・開発
+
+GitHub PagesとActionsで公開しています。公開釣果の収集予定は6時間ごと、日本時間03:17・09:17・15:17・21:17です。GitHubの待ち行列で開始が遅れる場合があります。失敗時は過去の成功データを保持します。
+
+```sh
+.venv/bin/python -m unittest discover -s tests -v
+node --test tests/*.cjs
+python3 scripts/build_site.py
+python3 -m http.server 8765 --bind 127.0.0.1
+```
+
+ブラウザの自動チェックにはPlaywrightとChromium／WebKitを使用します。必要なら`SEABORNIA_PLAYWRIGHT`にインストール先を設定し、サーバー起動後に実行します。
+
+```sh
+node scripts/check_browser.cjs
+node scripts/check_resilience.cjs
+```
+
+チェックは一時ブラウザの合成データだけを使用します。`/tmp/seabornia-browser-qa`に検証結果・スクリーンショットを出力します。実機iPhoneでのSafari、ホーム画面、GPS権限、VoiceOverの操作確認は別途必要です。
+
+設計・確認状況は`QA.md`、開発の続きは`PROGRESS.md`を参照してください。

@@ -36,3 +36,16 @@ python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
 Production URL: https://lewis-337.github.io/seabornia-fish-finder/
+
+## 2026-10-22 iPhone UI/UX redesign
+
+- Lewis approved the researched calm outdoor design with map/control priority and explicitly requested implementation and publication.
+- Replaced the crowded map toolbar with area/layer panels, larger fixed-screen-size numbered markers, GPS/zoom controls, responsive camera fitting and collapsible area sheets that keep selected points visible.
+- Added shared/testable camera and pointer handling: anchored two-finger zoom/pan, single-finger pan, double-tap, wheel and button controls, cancellation/finger transitions, and no accidental activation after gestures. Photographs use the same controller in a full-screen viewer.
+- Added temporary point confirmation and accessible in-app save/delete/import flows. Improved GPS errors and save-after-acquisition; preserve unsaved forms, searches and scroll across tabs. Storage failures retain drafts and records; partial import rollback is tested.
+- Fixed area catch links, dynamic seasonal filtering, mobile group filtering and remembered period. Recent/monthly report modes are explicit; collection timestamps display in Japanese local time.
+- Separated behavior/styles into app.js/styles.css/map-gestures.js, retaining public data formats and all three existing personal-data keys. The v5.0 worker precaches the new modules, data and all 47 licensed reference images and marks offline JSON responses explicitly. Packaging excludes scripts/tests/private material.
+- Found and repaired two visual defects during testing: expanded sheets could obscure selected markers after tab changes, and GEBCO's SVG hidden attribute could prevent successfully loaded imagery from appearing. GEBCO now retries and falls back gracefully.
+- Local verification: 7 Python +15 Node tests,27 Chromium/WebKit browser scenarios,18 failure/worker-upgrade scenarios passed. Automated WCAG A/AA scans found no violations on five main screens. Verified320–430px,landscape,tablet/desktop,200% text,photo credits/decoding,JSON/CSV,persistence,quota errors and GPS emulation. Chromium native two-touch tests cover map and photo zoom.
+- Existing v4 worker/data upgrade passed in both engines. Chromium browser-offline reload passed. WebKit's network-offline navigation hit an engine internal error; an unreachable-origin reload passed instead. Physical iPhone Safari/Home Screen/GPS/VoiceOver/safe-area/keyboard checks are still required.
+- Detailed checklist and repeatable commands: QA.md. Deployment verification is recorded there after publication.

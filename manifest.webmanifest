@@ -1,11 +1,11 @@
 {
-  "name": "Seabornia Fish Finder v4",
-  "short_name": "Seabornia v4",
+  "name": "Seabornia Fish Finder",
+  "short_name": "Seabornia",
   "description": "シーボニア発・魚と地形を探す",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f5f8f9",
-  "theme_color": "#062b37",
+  "background_color": "#f2f6f5",
+  "theme_color": "#073e46",
   "icons": [
     {
       "src": "icons/icon-192.png",
