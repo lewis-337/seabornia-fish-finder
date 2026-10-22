@@ -28,7 +28,7 @@ def fetch(url, params):
     request = urllib.request.Request(url + '?' + urllib.parse.urlencode(params), headers={'User-Agent': 'Seabornia-personal-fishing/1.0'})
     for attempt in range(2):
         try:
-            with urllib.request.urlopen(request, timeout=22) as response:
+            with urllib.request.urlopen(request, timeout=12) as response:
                 return json.load(response)
         except Exception:
             if attempt: raise
@@ -73,9 +73,14 @@ def normalize_tide(raw, date, stamp):
     events = sorted([dict(row(p), kind=kind) for key,kind in [('flood','high'),('edd','low')] for p in source.get(key,[])], key=lambda p:p['at'])
     return {'name': source['moon']['title'], 'curve': curve, 'events': events, 'sunrise': source['sun']['rise'], 'sunset': source['sun']['set'], 'fetchedAt': stamp}
 
-def collect(root=ROOT, getter=fetch, now=None):
+def collect(root=ROOT, getter=fetch, now=None, budget_seconds=180):
     now = now or datetime.now(JST)
     stamp = now.isoformat(timespec='seconds')
+    deadline = time.monotonic() + budget_seconds
+    def get(url, params):
+        if time.monotonic() >= deadline:
+            raise TimeoutError('Collection time budget reached')
+        return getter(url, params)
     db = read(root/'data/latest.json', {})
     areas = [dict(a) for a in db['areas']] + [dict(db['marina'], id='marina')]
     conditions = read(root/'data/conditions.json', {'schema_version':1,'areas':{}})
@@ -90,7 +95,7 @@ def collect(root=ROOT, getter=fetch, now=None):
                 params.update(hourly='temperature_2m,precipitation,precipitation_probability,wind_speed_10m,wind_gusts_10m,wind_direction_10m',daily='sunrise,sunset',wind_speed_unit='ms')
             else: params['hourly'] = 'wave_height,wave_direction,wave_period'
             try:
-                item[kind] = normalize_forecast(getter(url,params), kind, stamp)
+                item[kind] = normalize_forecast(get(url,params), kind, stamp)
             except Exception as error:
                 errors += 1
                 old = item.setdefault(kind, {})
@@ -107,7 +112,7 @@ def collect(root=ROOT, getter=fetch, now=None):
         if date in tides['days']: continue  # deterministic predictions, keep verified cached days
         y,m,d = map(int,date.split('-'))
         try:
-            tides['days'][date] = normalize_tide(getter(TIDE, dict(pc=14,hc=16,yr=y,mn=m,dy=d,rg='day')), date, stamp)
+            tides['days'][date] = normalize_tide(get(TIDE, dict(pc=14,hc=16,yr=y,mn=m,dy=d,rg='day')), date, stamp)
         except Exception as error:
             failures.append({'date':date,'error':type(error).__name__})
     tides['failures'] = failures

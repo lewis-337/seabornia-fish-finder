@@ -12,8 +12,8 @@ class ConditionsTests(unittest.TestCase):
             (root/'data/latest.json').write_text(json.dumps({'areas':[], 'marina':{'name':'M','lat':35.16,'lng':139.62},'reports':[]}))
             old={'schema_version':1,'areas':{'marina':{'weather':{'fetchedAt':'2026-10-20T00:00:00+09:00','hours':[{'time':'2026-10-20T01:00','wind_speed_10m':3}]}}}}
             (root/'data/conditions.json').write_text(json.dumps(old))
-            def failed(url,params): raise TimeoutError('fixture')
-            c,t=collect(root,failed,datetime(2026,10,22,tzinfo=JST))
+            def failed(url,params): self.fail('Expired budget must skip network requests')
+            c,t=collect(root,failed,datetime(2026,10,22,tzinfo=JST),budget_seconds=0)
             self.assertEqual(c['areas']['marina']['weather']['hours'],old['areas']['marina']['weather']['hours'])
             self.assertEqual(c['areas']['marina']['weather']['fetchedAt'],old['areas']['marina']['weather']['fetchedAt'])
             self.assertEqual(c['areas']['marina']['weather']['status'],'failed')
