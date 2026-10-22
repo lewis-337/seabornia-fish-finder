@@ -37,4 +37,9 @@ WebKit's simulated network-offline navigation produced an engine-level internal 
 
 ## Production verification
 
-Pending deployment of this revision. Record the source commit, Actions run and production smoke-test result here after publishing.
+Published source `296bdef` through [Actions run 39699440275](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39699440275), which completed successfully. The collector's published data refresh is `9da7e0d`.
+
+- All 27 core browser scenarios also passed against the live HTTPS URL in isolated Chromium/WebKit contexts, including map/photo touch zoom, filters, forms and data round-trips.
+- The actual production browser reports worker cache `seabornia-v5.0`, all 47 cached fish images, and cached `app.js`, `styles.css` and `map-gestures.js`, with no uncaught browser errors.
+- The workflow verified 47/47 licensed images. Source data updated successfully; user records stayed inside isolated browser contexts and were never published.
+- Physical iPhone checks listed above remain pending.
