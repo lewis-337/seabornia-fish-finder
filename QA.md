@@ -68,3 +68,14 @@ Published source `296bdef` through [Actions run 39699440275](https://github.com/
 Totals:10 Python tests,26 Node tests,77 grouped browser scenarios. Detailed receipts and reviewed screenshots are held privately in Lewis's vault. Repeatable commands: README.md; conditions checks use scripts/check_conditions.cjs.
 
 Physical iPhone Safari/Home Screen, native date/time pickers, real keyboard/safe areas/GPS, and VoiceOver remain pending. Simulated browser checks above are reported separately. Hourly Actions scheduling is best effort; the UI shows the actual successful retrieval time rather than promising exact refresh delivery. Future fair catch comparisons would benefit from duration and zero-catch outings.
+
+
+### Production v6 verification
+
+- Source d89a338 published through successful [run39713073895](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39713073895). Collector time bounds/rebase hardening c72f6de passed [run39713251683](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39713251683). Both production collections succeeded for all11 locations and63 tide dates.
+- All53 core/conditions browser scenarios passed again on the actual HTTPS app in Chromium/WebKit, including field/control bounds, ETA/snapshots/backups and unchanged map/photo gestures.
+- An isolated production worker context confirms seabornia-v6.0,47 cached photos, release scripts/CSS, tide/forecast JSON, offline sea conditions and legacy records without runtime errors. Synthetic QA records were confined to temporary browser contexts.
+- Updated release filenames and own-cache lookups fix the reproduced installed-v5 mixing problem. Queued hourly-job verification found another issue: the default event-SHA checkout could lag behind the preceding bot data commit. Both workflows now check out current main after the concurrency lock; provider collection also has an overall time budget and preserves successful datasets.
+- Physical iPhone checks above remain pending.
+
+- Final workflow verification: [main refresh39713502322](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39713502322) and [standalone hourly39713599922](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39713599922) both succeeded after the queued-checkout fix8d318db. The hourly job reported11 locations, zero forecast failures,63 tide dates and zero tide failures; public data commit bea8a59. Post-deployment smoke verified all22 provider/location parts healthy and no script errors. Last successful retrieval11:51 JST on2026-10-22.

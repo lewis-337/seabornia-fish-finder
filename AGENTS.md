@@ -12,3 +12,5 @@ This repository contains Lewis's iPhone-friendly fishing PWA recovered from the 
 - `python scripts/build_site.py` creates `dist/` with only public browser assets. GitHub Actions publishes this directory.
 
 See `PROGRESS.md` for setup status and continuing work.
+
+- Installed workers normalize asset query strings. Give changed cache-first assets distinct release filenames, update the HTML/SHELL/build allowlist together, and test upgrades from the installed release. Queued data jobs check out current main after acquiring the shared deployment lock.

@@ -2,7 +2,7 @@
 
 ## Intended app
 
-An iPhone PWA for fishing trips from Seabornia Marina, with a November planning focus:
+An iPhone PWA for fishing trips from Seabornia Marina, with month-selectable planning:
 
 - Month/year filters, 47 fish and squid entries, searchable catalogue and reference photos.
 - Ten approximate area markers, marina distances, squid information and clearly identified source reports.
@@ -62,3 +62,7 @@ Production URL: https://lewis-337.github.io/seabornia-fish-finder/
 - Date/time controls own mobile rows with bounded native inputs, wrapping labels and16px minimum text. WebKit and Chromium screenshots inspected at320–430px, landscape,200% text. No actual iPhone keyboard/native picker/VoiceOver certification is implied.
 - Found an installed-v5 upgrade race: its worker could pair new HTML with cached old JS and recreate a retired cache during activation. Release files are now app-v6.js/styles-v6.css, and the v6 worker reads only its own cache. Actual v4 and v5 worker upgrades and offline/unreachable-origin reopening pass with records/favourites intact.
 - Local verification:10 Python +26 Node tests;27 core +26 conditions +24 failure/upgrade browser scenarios passed across Chromium/WebKit. Automated WCAG A/AA scan: no violations on five screens. Source remains in this repository; private receipts/screenshots are filed in the vault. Live verification is added below after publishing.
+
+- Production UI source d89a338 passed Pages run39713073895; collector hardening69fff7a/c72f6de passed run39713251683. All53 core/conditions scenarios passed on the live URL in Chromium/WebKit. Live worker is seabornia-v6.0 with47 cached photos, new modules/JSON, offline conditions and a legacy personal record verified. A queued hourly refresh initially conflicted on generated JSON because checkout used the event SHA;8d318db makes both workflows check out current main after the shared lock. Standalone hourly verification follows.
+
+- Final queue fix8d318db passed full Pages run39713502322. Standalone hourly collection/deployment39713599922 also succeeded after starting from current main; its data commit is bea8a59. Final live smoke confirms11 locations,22 successful forecast parts,63 tide dates, Oil station14/16 and no runtime errors (retrieval11:51 JST). Release is complete; only physical iPhone acceptance remains.
