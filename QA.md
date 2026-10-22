@@ -84,3 +84,9 @@ Physical iPhone Safari/Home Screen, native date/time pickers, real keyboard/safe
 ## v7 depth/discovery/icon acceptance
 
 Current expected/actual checklist, repeatable checks and separate physical-device baseline/pending results: [QA-v7.md](QA-v7.md). This supersedes v6 layout screenshots for the changed screens; historical v4–v6 release receipts above are retained.
+
+### Production v7 verification
+
+- [Pages39766332886](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39766332886) succeeded for sourcec20b09c.45 unit tests and104 local scenarios passed;76 core/conditions/discovery/touch scenarios also passed on production.8 automated accessibility states report zero WCAG A/AA violations.
+- Live Chromium/WebKit workers verify SW7.0,47 cached photos,10 reference depths,fish-areas module/JSON and new icons. Chromium installed-shell offline reload includes fish-area/reference depth and sea conditions. v4/v5/v6 actual worker upgrades pass locally; WebKit unreachable-origin check remains separate from physical offline acceptance.
+- Baseline physical v6 checks were reported by Lewis as passing for date/time,memo keyboard and map/photo pinch in both modes. Post-v7 results/model/iOS remain pending; do not count simulated native-control bounds or keyboard-sized viewports as physical-device proof.
