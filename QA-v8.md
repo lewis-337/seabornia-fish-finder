@@ -37,3 +37,26 @@ Choosing a fish explicitly now clears conflicting saved fish-group, squid, seaso
 Live WebKit inspection found native closed selects were 23px high despite author min-height; `appearance:none` restores the intended48px box. Semantics and the native option picker are retained, with an original chevron and responsive field columns. A new stylesheet filename and worker v8.2 prevent cached-style mixing. Destination selects now have explicit browser target-size assertions. Fixed-clock conditions tests stub the unrelated background-pack manifest; real offline assets are verified separately in the marina suite.
 
 Regional map clustering now measures CSS pixels after SVG layout:48px hit targets stay separate at every tested width. Cluster taps zoom into their actual bases and a44px 全体 control resets the regional extent; synchronized list selection remains available. The revised discovery module has a distinct v8.2 asset filename.
+
+## Physical-device acceptance (pending)
+
+Primary device reported by Lewis: iPhone13Pro/iOS26.6.1. Record Safari and Home Screen separately; the earlier v6 device baseline does not verify v8.2.
+
+| Device check | Expected | Safari actual | Home Screen actual |
+|---|---|---|---|
+| Native date/time picker | Open/close picker, change day/time; value and label fit in portrait/landscape | Pending | Pending |
+| Japanese keyboard | Focus memo/coordinates, scroll to Save; keyboard and browser bars do not cover actions | Pending | Pending |
+| Map two-finger gesture | Spread/contract while moving midpoint; lift/re-add finger; no marker activation or saves | Pending | Pending |
+| Photo gesture | Pinch/pan, double-tap reset and Close | Pending | Pending |
+| Marina isolation | Record a clearly labelled test entry, switch bases and return; draft and record stay with their marina | Pending | Pending |
+| Offline | Finish all-base download, disconnect, reopen and choose another base; expired forecasts remain labelled | Pending | Pending |
+| VoiceOver and large text | Meaningful names/focus, reachable close/save controls, no intersections at enlarged text | Pending | Pending |
+| Safe areas and rotation | Respect notch/home indicator, Safari bars and landscape | Pending | Pending |
+
+Other models and older iOS devices remain separately unverified. API target iOS15.5+ is based on required browser APIs, not physical-device coverage.
+
+## v8.3 final comparison review
+
+Destination cards now show provenance, newest evidence date, ground count and vessel cautions. Verified rental reports sort ahead of official guidance, followed by nearby references and unconfirmed candidates. Previewing a marina shows matching named grounds, reference GEBCO depths and distance/ETA before committing a workspace switch. Catch collection requires explicit rental-vessel wording before classifying a report as rental evidence, retains curated references, and compares Japanese catch dates in JST.
+
+Actual local results: 19 Python tests and 46 JavaScript/service-worker tests pass; 22 marina scenarios pass in Chromium/WebKit, including preview grounds and independent records; 10 automated accessibility states report zero violations. Native iPhone checks remain pending. Installed-version upgrade and final live receipts follow.

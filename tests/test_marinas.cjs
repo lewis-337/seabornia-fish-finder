@@ -1,6 +1,6 @@
 const { test } = require("node:test"),
   assert = require("node:assert/strict"),
-  M = require("../marina-core-v8.js"),
+  M = require("../marina-core-v8.3.js"),
   T = require("../trip-conditions-v8.js");
 test("untagged legacy records stay Seabornia; editing another base preserves them", () => {
   const old = [{ id: "legacy" }, { id: "b", marinaId: "J47-0010" }];
@@ -225,4 +225,25 @@ test("imported workspace state cannot contain an invalid month or non-text searc
   assert.ok(!M.validWorkspace({ state: { month: 13 } }));
   assert.ok(!M.validWorkspace({ state: { q: {} } }));
   assert.ok(!M.validWorkspace({ scroll: { logView: -1 } }));
+});
+test("official rental guides rank ahead of newer nearby reference catches", () => {
+  const row = (id, kind, date) => ({
+    id,
+    name: id,
+    status: "verified",
+    region: "kanto",
+    evidence: [{ fish: "アジ", kind, date, method: "all", months: [] }],
+  });
+  const sorted = M.destinations(
+    [
+      row("nearby", "reference", "2026-10-23"),
+      row("guide", "guide"),
+      row("rental", "report", "2026-01-01"),
+    ],
+    { fish: "アジ", method: "all" },
+  );
+  assert.deepEqual(
+    sorted.map((r) => r.id),
+    ["rental", "guide", "nearby"],
+  );
 });

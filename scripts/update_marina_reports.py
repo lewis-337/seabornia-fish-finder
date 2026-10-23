@@ -3,7 +3,7 @@
 Only explicit catch articles become reports. Guides stay in their own evidence class.
 """
 from pathlib import Path
-from datetime import datetime,timezone
+from datetime import datetime,timezone,timedelta
 import json,re,hashlib,concurrent.futures
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
@@ -22,13 +22,14 @@ def parse_article(html,url,m,species):
  d='-'.join([date[1],date[2].zfill(2),date[3].zfill(2)])
  try:datetime.fromisoformat(d)
  except ValueError:return []
+ rental=bool(re.search(r'(レンタル艇|シースタイル艇|クラブ艇)(で|を|の|に)',text[max(0,date.start()-200):date.end()+300]))
  result=[]
  remaining=text
  for f in sorted(species,key=lambda x:len(x['name']),reverse=True):
   if f['name'] not in remaining:continue
   remaining=remaining.replace(f['name'],' ')
-  if d>datetime.now(timezone.utc).astimezone().date().isoformat():continue
-  result.append(dict(id='marina-'+hashlib.sha256((url+d+f['id']).encode()).hexdigest()[:18],marinaId=m['id'],date=d,fish=f['name'],source=url,source_name=m['name']+'・公式便り',evidence_kind='marina-report',area_id=None,amount='原文を確認',note='釣行日の明記あり。個別釣果GPSは未確認。'))
+  if d>datetime.now(timezone(timedelta(hours=9))).date().isoformat():continue
+  result.append(dict(id='marina-'+hashlib.sha256((url+d+f['id']).encode()).hexdigest()[:18],marinaId=m['id'],date=d,fish=f['name'],source=url,source_name=m['name']+'・公式便り',evidence_kind='rental-report' if rental else 'nearby-report',area_id=None,amount='原文を確認',note='釣行日の明記あり。個別釣果GPSは未確認。'))
  return result
 
 def collect(root=ROOT,fetcher=fetch):
@@ -50,7 +51,7 @@ def collect(root=ROOT,fetcher=fetch):
   if any(s.get('ok') for s in statuses):pack['last_success']=stamp
   path.write_text(json.dumps(pack,ensure_ascii=False,separators=(',',':'))+'\n')
   # Preserve guide evidence, refresh report evidence without duplicating source records.
-  m['evidence']=[e for e in m.get('evidence',[]) if e['kind']!='report']+[dict(marinaId=m['id'],fish=r['fish'],kind='report',date=r['date'],months=[int(r['date'][5:7])],method='unknown',source=r['source'],note='公式便りの釣行日付き記録。数量は原文を確認。') for r in reports.values()]
+  m['evidence']=[e for e in m.get('evidence',[]) if not e.get('collected_record_id')]+[dict(marinaId=m['id'],fish=r['fish'],kind='report' if r.get('evidence_kind')=='rental-report' else 'reference',date=r['date'],months=[int(r['date'][5:7])],method='unknown',collected_record_id=r['id'],source=r['source'],note='公式便りの釣行日付き記録。数量は原文を確認。') for r in reports.values()]
   return len(reports),sum(not s.get('ok') for s in statuses)
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:results=list(ex.map(one,[m for m in registry['marinas'] if m['status']!='excluded']))
  (root/'data/marinas.json').write_text(json.dumps(registry,ensure_ascii=False,separators=(',',':'))+'\n')

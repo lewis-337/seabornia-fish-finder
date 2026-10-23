@@ -1,4 +1,4 @@
-const VERSION = "seabornia-v8.2";
+const VERSION = "seabornia-v8.3";
 const PREFIX = "seabornia-";
 const SHELL = [
   "./",
@@ -6,8 +6,8 @@ const SHELL = [
   "./styles-v8.2.css",
   "./app-v8.1.js",
   "./map-gestures.js",
-  "./marina-core-v8.js",
-  "./marina-discovery-v8.2.js",
+  "./marina-core-v8.3.js",
+  "./marina-discovery-v8.3.js",
   "./data/marinas.json",
   "./data/marina-evidence.json",
   "./data/coast-regions.json",

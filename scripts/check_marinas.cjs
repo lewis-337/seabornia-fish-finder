@@ -165,6 +165,12 @@ async function run(engine) {
     });
     await check("preview cancellation keeps current marina", async () => {
       await p.locator(".destinationCard button").click();
+      await p.waitForFunction(() =>
+        document
+          .querySelector("#previewGrounds")
+          .textContent.includes("北谷周辺海域"),
+      );
+      assert.match(await p.locator("#previewGrounds").innerText(), /参考水深/);
       await p.locator("#destinationClose").click();
       assert.match(
         await p.locator("#activeMarinaName").innerText(),
