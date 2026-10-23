@@ -1,0 +1,15 @@
+/* Missing-evidence fixture for an existing catalogue fish; never clears the chosen filter. */
+const {chromium,webkit}=require(process.env.SEABORNIA_PLAYWRIGHT||'playwright'),assert=require('node:assert/strict'),fs=require('node:fs/promises'),path=require('node:path');
+const url=process.env.SEABORNIA_URL||'http://127.0.0.1:8765/',out=process.env.SEABORNIA_QA_DIR||'/tmp/seastyle-v10-empty',results=[];
+(async()=>{await fs.mkdir(out,{recursive:true});for(const engine of (process.env.SEABORNIA_BROWSERS||'chromium,webkit').split(',')){
+ const b=await {chromium,webkit}[engine].launch({headless:true,...(engine==='chromium'?{channel:'chrome'}:{})}),p=await b.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true,locale:'ja-JP',serviceWorkers:'block'}),errors=[];p.on('pageerror',e=>errors.push(e.message));
+ await p.route('**/data/marinas.json*',async route=>{const response=await route.fetch(),data=await response.json();for(const m of data.marinas)m.evidence=m.evidence.filter(e=>e.fish!=='イラ');await route.fulfill({response,json:data})});
+ await p.route('**/data/latest.json*',async route=>{const response=await route.fetch(),data=await response.json();data.reports=data.reports.filter(r=>!/(^|[^ァ-ヶー])イラ($|[^ァ-ヶー])/.test(r.fish));await route.fulfill({response,json:data})});
+ try{await p.goto(url);await p.waitForFunction(()=>[...document.querySelectorAll('#destinationFish option')].some(o=>o.value==='グルクン'));
+  for(const name of ['イラ']){
+   await p.locator('.nav[data-tab=species]:visible').click();await p.locator('#speciesSearch').fill(name);await p.getByRole('button',{name:name+'の詳細',exact:true}).click();await p.locator('#fishReportLink').click();assert.equal(await p.locator('#reportFish').inputValue(),name);assert.match(await p.locator('#reportList').innerText(),/記録はありません/);
+   await p.screenshot({path:path.join(out,engine+'-'+name+'-reports.png')});await p.locator('#clearReportFilters').click();assert.equal(await p.locator('#reportFish').inputValue(),'');assert.ok(await p.locator('#reportList .reportCard').count());results.push({engine,name,check:'missing reports retain chosen fish and clear action restores reports',status:'pass'});console.log('PASS',engine,name,'report filter');
+   await p.locator('.nav[data-tab=species]:visible').click();await p.getByRole('button',{name:name+'の詳細',exact:true}).click();await p.locator('#otherMarinasForFish').click();assert.equal(await p.locator('#destinationFish').inputValue(),name);assert.equal(await p.locator('.destinationCard').count(),0);assert.match(await p.locator('#destinationCount').innerText(),new RegExp(name));await p.screenshot({path:path.join(out,engine+'-'+name+'-destinations.png')});await p.locator('#destinationClose').click();results.push({engine,name,check:'missing destination evidence shows no recommendations while retaining fish',status:'pass'});console.log('PASS',engine,name,'destination filter');
+  }assert.deepEqual(errors,[]);
+ }finally{await b.close();await fs.writeFile(path.join(out,'empty-species.json'),JSON.stringify(results,null,2))}
+}})().catch(e=>{console.error(e);process.exitCode=1});

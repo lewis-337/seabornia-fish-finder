@@ -1,16 +1,16 @@
-const VERSION = "seabornia-v10";
+const VERSION = "seabornia-v10.1";
 const PREFIX = "seabornia-";
 const SHELL = [
   "./",
   "./index.html",
   "./styles-v10.css",
-  "./app-v10.js",
+  "./app-v10.1.js",
   "./map-gestures.js",
   "./basemap-v10.js",
   "./vendor/leaflet-1.9.4/leaflet.js",
   "./vendor/leaflet-1.9.4/leaflet.css",
   "./marina-core-v10.js",
-  "./marina-discovery-v10.js",
+  "./marina-discovery-v10.1.js",
   "./data/marinas.json",
   "./data/marina-evidence.json",
   "./data/coast-regions.json",

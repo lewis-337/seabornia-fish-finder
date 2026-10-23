@@ -395,7 +395,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
     await test(
       engine +
         ": existing " +
-        (legacyRef === "51fafb6" ? "v9" : legacyRef === "58cd2ec"
+        (legacyRef === "71b6039" ? "v10" : legacyRef === "51fafb6" ? "v9" : legacyRef === "58cd2ec"
           ? "v4"
           : legacyRef === "296bdef"
             ? "v5"
@@ -410,7 +410,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
                     : legacyRef === "c20b09c8"
                       ? "v7"
                       : "v6") +
-        " worker upgrades to v10 without losing saved data",
+        " worker upgrades to v10.1 without losing saved data",
       async () => {
         await p.goto(origin);
         await p.evaluate(() => navigator.serviceWorker.register("./sw.js"));
@@ -461,7 +461,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
         await p.waitForFunction(async () => {
           const keys = await caches.keys();
           return (
-            keys.includes("seabornia-v10") && !keys.includes("seabornia-v9") &&
+            keys.includes("seabornia-v10.1") && !keys.includes("seabornia-v10") && !keys.includes("seabornia-v9") &&
             !keys.includes("seabornia-v8.3") &&
             !keys.includes("seabornia-v8.2") &&
             !keys.includes("seabornia-v8.0") &&

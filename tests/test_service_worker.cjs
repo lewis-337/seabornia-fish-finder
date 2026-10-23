@@ -132,7 +132,7 @@ test("install caches the new modules, data and licensed catalogue images", async
     "shared representative photos must not break cache.addAll with duplicate keys",
   );
   for (const asset of [
-    "./app-v10.js",
+    "./app-v10.1.js",
     "./styles-v10.css",
     "./map-gestures.js",
     "./basemap-v10.js",
@@ -141,7 +141,7 @@ test("install caches the new modules, data and licensed catalogue images", async
     "./trip-ui-v8.js",
     "./fish-areas-v10.js",
     "./marina-core-v10.js",
-    "./marina-discovery-v10.js",
+    "./marina-discovery-v10.1.js",
     "./data/marinas.json",
     "./data/area_depths.json",
     "./data/fish_areas.json",
