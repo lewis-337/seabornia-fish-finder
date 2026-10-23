@@ -17,6 +17,7 @@ class PhotoMetadataTests(unittest.TestCase):
 
     def test_unknown_license_or_non_wikimedia_image_is_rejected(self):
         self.assertIsNone(self.parse(['All rights reserved']))
+        self.assertIsNone(self.parse(['CC BY-NC 4.0']))
         self.assertIsNone(self.parse(['CC BY 4.0'], 'https://example.com/photo.jpg'))
 
 

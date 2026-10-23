@@ -25,6 +25,10 @@ def apply(root=ROOT):
         marina['evidence'] = [e for e in marina.get('evidence', []) if not e.get('curated_id', '').startswith('v9-')]
         marina['evidence'] += [dict(e, sourceStatus=source.get('sourceChecks', {}).get(e['source'])) for e in source['evidence'] if e['marinaId'] == mid]
     path.write_text(json.dumps(registry, ensure_ascii=False, separators=(',', ':')) + '\n')
+    if (root / 'data/fishing-research.json').exists():
+        from apply_fishing_research import apply as apply_research
+        apply_research(root)
+        registry = json.loads(path.read_text())
     return registry
 
 

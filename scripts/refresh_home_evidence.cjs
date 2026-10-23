@@ -1,12 +1,12 @@
 /* Reuse the shared fish-area resolver: nearby reports are never rental catches. */
 const fs = require("node:fs"),
-  D = require("../fish-areas.js");
+  D = require("../fish-areas-v10.js");
 const read = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
 const registry = read("data/marinas.json"),
   seed = read("data/seed.json"),
   latest = read("data/latest.json"),
   links = read("data/fish_areas.json");
-const db = { ...seed, ...latest, species: seed.species },
+const db = { ...seed, ...latest, species: seed.species.concat(read("data/marina-evidence.json").species) },
   home = registry.marinas.find((m) => m.id === "J14-0170");
 home.evidence = D.associations(db, links).flatMap((row) =>
   row.evidence.map((e) => ({

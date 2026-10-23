@@ -56,4 +56,6 @@ def collect(root=ROOT,fetcher=fetch):
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:results=list(ex.map(one,[m for m in registry['marinas'] if m['status']!='excluded']))
  (root/'data/marinas.json').write_text(json.dumps(registry,ensure_ascii=False,separators=(',',':'))+'\n')
  print('Marina reports:',sum(x[0] for x in results),'dated records;',sum(x[1] for x in results),'source failures (last successes retained)')
-if __name__=='__main__':collect()
+if __name__=='__main__':
+ from collect_fishing_sources import refresh
+ refresh()

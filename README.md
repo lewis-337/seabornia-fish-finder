@@ -17,7 +17,7 @@
 
 ## 魚種・釣果・写真
 
-57項目を名前、地形、釣り方で検索できます。魚種グループ、イカ、選択月で絞り込めます。年・月は端末に記憶し、初回は現在の月になります。「最近の釣果」「月別の釣果」で表示を切り替え、海域から開いた一覧はその海域だけに絞り込みます。総称の写真には代表例、成長段階には同種の成魚写真であることを表示します。
+141項目を名前、地形、釣り方で検索できます。魚種グループ、イカ、選択月で絞り込めます。年・月は端末に記憶し、初回は現在の月になります。「最近の釣果」「月別の釣果」で表示を切り替え、海域から開いた一覧はその海域だけに絞り込みます。総称の写真には代表例、成長段階には同種の成魚写真であることを表示します。
 
 写真は出典・再利用ライセンスを確認し、デコードした実在の参考写真です。各詳細に撮影者、ライセンス、縮小／JPEG変換を表示しています。参考写真と現地釣果写真は区別しています。写真をタップすると拡大画面が開き、ピンチ、移動、拡大／縮小ボタン、全体表示を使えます。写真の一括診断は図鑑の末尾「写真・出典について」にあります。
 
@@ -37,7 +37,7 @@ GEBCO画像は広域の海底地形モデルです。**砂地・岩礁の実測�
 
 ポイント、釣果、圧縮写真、お気に入りは端末内に保存します。クラウド同期はありません。全マリーナを含むJSONバックアップv6、v4／v5互換読み込み、時刻を含む釣果CSVに対応します。v4／v5の読み込みはシーボニアのみを置き換え、他のマリーナを保持します。確認画面を表示し、保存に失敗すると元のデータを復元します。ブラウザデータを消す前にバックアップしてください。
 
-初回のオンライン読み込みとキャッシュ準備が完了すると、アプリ、公開釣果履歴、57項目の魚種写真、取得済みの海況・潮汐をオフラインでも使えます。全出港地の公開パックを自動保存し、進捗・失敗・再試行を表示します。共通の代表写真は重複保存しません。GPSの利用可否は端末の状況に依存し、外部出典には通信が必要です。保存済み履歴の表示と、収集の最終成功日時を区別しています。
+初回のオンライン読み込みとキャッシュ準備が完了すると、アプリ、公開釣果履歴、141項目の魚種写真、取得済みの海況・潮汐をオフラインでも使えます。全出港地の公開パックを自動保存し、進捗・失敗・再試行を表示します。共通の代表写真は重複保存しません。GPSの利用可否は端末の状況に依存し、外部出典には通信が必要です。保存済み履歴の表示と、収集の最終成功日時を区別しています。
 
 ## 更新・開発
 
@@ -77,3 +77,12 @@ The browser API baseline is **iOS/iPadOS15.5 or later**, in Safari and Home Scre
 Required features were reviewed against primary WebKit documentation: native dialog, dynamic viewport units,Array.at and focus-visible shipped in [Safari15.4](https://webkit.org/blog/12445/new-webkit-features-in-safari-15-4/); background-modal accessibility uses inert, available in [Safari15.5](https://webkit.org/blog/12669/new-webkit-features-in-safari-15-5/). Other required APIs predate that baseline. Optional GPS, service workers, image observation and visualViewport have availability checks; CSS overscroll/scrollbar refinements may degrade to ordinary scrolling in older versions. iOS15.4 and earlier are not claimed as fully compatible.
 
 Physical acceptance is tracked separately: Lewis's reported test device is iPhone13Pro with iOS26.6.1. Post-v7 Safari/Home Screen picker,keyboard and pinch results remain pending. Additional older-iOS and different-model physical testing has not been performed. When validating another device, record model/iOS,screen orientation/text size,mode,field/gesture result and any failure screenshot; preserve local records and a verified JSON backup before reinstalling.
+
+
+## v10 地図と地域の釣り情報
+
+地図の「レイヤー」で標準地図・淡色地図・航空写真・オフライン簡易図を切り替えます。国土地理院タイルには料金・APIキー不要。通信できない範囲は簡易図に戻り、釣り場や保存ポイント、GPS・ズーム操作を保持します。詳細タイルは一括保存しません。釣り場・保存ポイント・底質ガイド・GEBCO海底図は別々に重ねられ、海底図の濃さも保存されます。Leaflet1.9.4を同梱し、既存の一指・二指操作を維持。出港地ごとに地図の表示位置・設定を記憶します。
+
+関東・沖縄の24表示拠点について、2024-10-24〜2026-10-24の公式・地域事業者・公開SNSを調査し、取得できた本文と未確認の範囲を記録しました。全SNS履歴を閲覧できたわけではありません。レンタル艇・オーナー艇・スタッフ調査・近隣遊漁船・利用区分未確定の釣果は区別します。釣行日不明の記事・古い取材資料は年付き参考情報です。魚の詳細から地域の水深・仕掛け・釣果へ、釣果から魚と海域へ移動できます。多い釣果は40項目ずつ表示し、魚種・情報区分で絞れます。
+
+[全マリーナの調査・差分](FISHING-RESEARCH-v10.md)、[写真とライセンス](PHOTO-AUDIT-v10.md)、[検証結果](QA-v10.md)。本アプリは個人・非商用向けです。3点の写真は非商用限定のCC BY-NC4.0を明示して利用しています。商用転用には差し替え等が必要です。実機iPhone13ProのSafari/Home Screen、他モデル・旧iOSの確認はブラウザ模擬検証と別に扱います。

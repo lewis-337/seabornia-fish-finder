@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "central",
+      "url": "https://central-boat.co.jp/archives/category/tyouka",
+      "name": "セントラル公式・木更津",
+      "marinaIds": [
+        "J12-0060"
+      ],
+      "adapter": "central-list",
+      "pages": 2
+    },
+    {
+      "id": "newport",
+      "url": "https://www.newportmarine.co.jp/marineclub/fishing/",
+      "name": "ニューポート公式釣果（利用区分未確定）",
+      "marinaIds": [
+        "J13-0010"
+      ],
+      "kind": "marina-report",
+      "adapter": "newport-table",
+      "pages": 2
+    },
+    {
+      "id": "dmarina",
+      "url": "https://darumamarine.naturum.ne.jp/",
+      "name": "D-marina公式レンタル会員ブログ",
+      "marinaIds": [
+        "J14-0020",
+        "J14-0010",
+        "J14-0040"
+      ],
+      "adapter": "naturum",
+      "pages": 2,
+      "sharedKind": "other-rental-report"
+    },
+    {
+      "id": "iwataya",
+      "url": "https://iwataya-funayado.jp/tsuribune_blog/",
+      "name": "浦安・岩田屋公式遊漁船",
+      "marinaIds": [
+        "J12-0045",
+        "J13-0010",
+        "J13-0020",
+        "J13-0030"
+      ],
+      "kind": "nearby-report",
+      "adapter": "iwataya-list",
+      "pages": 2
+    },
+    {
+      "id": "uraga",
+      "name": "浦賀・公式釣果",
+      "url": "https://www.ssm-uraga.jp/fishing",
+      "marinaIds": [
+        "J14-0130"
+      ],
+      "adapter": "fishing-index",
+      "paging": "pagecount",
+      "pages": 2
+    },
+    {
+      "id": "sunnyside",
+      "name": "芦名サニーサイド・公式釣果",
+      "url": "https://www.sunnyside.co.jp/fishing/",
+      "marinaIds": [
+        "J14-0140"
+      ],
+      "adapter": "fishing-index",
+      "paging": "pagecount",
+      "pages": 2
+    },
+    {
+      "id": "katakura",
+      "name": "片倉ボート・Sea-Style釣果",
+      "url": "https://katakuraboat.net/index1.htm",
+      "marinaIds": [
+        "J14-0060",
+        "J14-0050",
+        "J14-0045"
+      ],
+      "adapter": "katakura-table",
+      "sharedKind": "other-rental-report"
+    },
+    {
+      "id": "hidekichi",
+      "name": "葉山鐙摺・秀吉丸公式",
+      "url": "https://www.hidekichimaru.com/category/Choka/",
+      "marinaIds": [
+        "J14-0110",
+        "J14-0120"
+      ],
+      "adapter": "yado-feed",
+      "kind": "nearby-report"
+    },
+    {
+      "id": "taromaru",
+      "name": "小坪・太郎丸公式",
+      "url": "https://www.kotsubo-taromaru.net/category/Choka/",
+      "marinaIds": [
+        "J14-0100"
+      ],
+      "adapter": "yado-feed",
+      "kind": "nearby-report"
+    },
+    {
+      "id": "koutarou",
+      "name": "腰越・孝太郎丸公式",
+      "url": "https://www.koutaroumaru.com/category/Choka/",
+      "marinaIds": [
+        "J14-0080"
+      ],
+      "adapter": "yado-feed",
+      "kind": "nearby-report"
+    },
+    {
+      "id": "minosuke",
+      "name": "久里浜・みのすけ丸公式",
+      "url": "https://www.minosukemaru.com/",
+      "marinaIds": [
+        "J14-0130"
+      ],
+      "adapter": "yado-feed",
+      "kind": "nearby-report"
+    }
+  ]
+}

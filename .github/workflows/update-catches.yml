@@ -9,6 +9,8 @@ on:
       - 'data/area_depths.json'
       - 'data/latest.json'
       - 'data/photo_manifest.json'
+      - 'data/fish-name-review.json'
+      - 'data/fishing-coverage-v10.json'
       - 'images/fish/**'
       - 'images/maps/**'
       - 'data/marinas.json'
@@ -86,7 +88,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/marinas.json data/marinas data/tide-stations data/marina-forecast-grid.json data/offline-packs.json data/marina-map-sources.json images/maps data/area_depths.json data/conditions.json data/tides.json data/latest.json data/photo_manifest.json images/fish
+          git add data/marinas.json data/marinas data/fish-name-review.json data/tide-stations data/marina-forecast-grid.json data/offline-packs.json data/marina-map-sources.json images/maps data/area_depths.json data/conditions.json data/tides.json data/latest.json data/photo_manifest.json images/fish
           if ! git diff --cached --quiet; then
             git commit -m "Refresh catch data"
             git pull --rebase origin main

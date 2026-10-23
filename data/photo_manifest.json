@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T11:42:11+00:00",
+  "generated_at": "2026-10-23T21:02:50+00:00",
   "counts": {
-    "verified": 57,
-    "all": 57
+    "verified": 141,
+    "all": 141
   },
   "images": {
     "0": {
@@ -805,6 +805,1189 @@
       ],
       "checked": "2026-10-21T20:15:44+00:00",
       "representative_label": "代表例：マサバ"
+    },
+    "species-33a43ef89e": {
+      "name": "マハタ",
+      "local": "images/fish/species-33a43ef89e.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Epinephelus_septemfasciatus_Enosui1.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        262
+      ],
+      "checked": "2026-10-23T20:38:13+00:00"
+    },
+    "species-7493bac338": {
+      "name": "ソコイトヨリ",
+      "local": "images/fish/species-7493bac338.jpg",
+      "ok": true,
+      "license": "CC BY-NC 4.0",
+      "source": "https://fishbase.se/photos/UploadedBy.php?autoctr=48481&win=uploaded",
+      "artist_html": "D.G.R. Wiadnya",
+      "credit_html": "FishBase, Nemipterus bathybius, user-uploaded identification; photographed 2022-04-28. 個人・非商用アプリ限定。",
+      "noncommercial_only": true,
+      "pixel_size": [
+        580,
+        292
+      ],
+      "checked": "2026-10-23T21:01:06+00:00"
+    },
+    "species-e0e78d64f8": {
+      "name": "キジハタ",
+      "local": "images/fish/species-e0e78d64f8.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Epinephelus_akaara_Toba.jpg",
+      "artist_html": "Totti",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        242
+      ],
+      "checked": "2026-10-23T20:38:33+00:00"
+    },
+    "species-54e26d546a": {
+      "name": "ウッカリカサゴ",
+      "local": "images/fish/species-54e26d546a.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:UkkariKG.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-23T20:38:38+00:00"
+    },
+    "species-cfba75be0d": {
+      "name": "サゴシ",
+      "local": "images/fish/26.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/photos/112103401",
+      "artist_html": "りなべる",
+      "credit_html": "iNaturalist taxon Scomberomorus niphonius, photo 112103401",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-21T20:15:45+00:00",
+      "representative_label": "同種のサワラ（成魚の参考写真）"
+    },
+    "species-9a3ae21028": {
+      "name": "アラ",
+      "local": "images/fish/species-9a3ae21028.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Niphon_spinosus_Oga_Aquarium_2.jpg",
+      "artist_html": "Totti",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        230
+      ],
+      "checked": "2026-10-23T20:56:20+00:00"
+    },
+    "species-c32c007b94": {
+      "name": "イネゴチ",
+      "local": "images/fish/species-c32c007b94.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/69139575",
+      "artist_html": "(c) りなべる, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist Cociella crocodilus, taxon 51472, photo 112122976; grade needs_id",
+      "pixel_size": [
+        300,
+        400
+      ],
+      "checked": "2026-10-23T20:56:22+00:00"
+    },
+    "species-37dac69741": {
+      "name": "アヤメカサゴ",
+      "local": "images/fish/species-37dac69741.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:AyameKG.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-23T20:56:23+00:00"
+    },
+    "species-60c33c4e6b": {
+      "name": "ムシガレイ",
+      "local": "images/fish/species-60c33c4e6b.jpg",
+      "ok": true,
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Eopsetta_grigorjewi_Bycatch_fish_species_(10.3897-zookeys.843.32410)_Figure_5.jpg",
+      "artist_html": "Miyazaki Y, Teramura A, Senou H (2019) Preliminary report on bycatch fish species collected from the Tokyo Submarine Canyon, Japan. ZooKeys 843: 129-147. <a rel=\"nofollow\" class=\"external free\" href=\"https://doi.org/10.3897/zookeys.843.32410\">https://doi.org/10.3897/zookeys.843.32410</a>",
+      "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"https://zookeys.pensoft.net/article/32410/list/2/\">https://zookeys.pensoft.net/article/32410/list/2/</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://zookeys.pensoft.net/article/32410/list/8/\">(license)</a>",
+      "pixel_size": [
+        565,
+        318
+      ],
+      "checked": "2026-10-23T20:39:01+00:00"
+    },
+    "species-ed7d27230f": {
+      "name": "シロムツ",
+      "local": "images/fish/species-ed7d27230f.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/198683631",
+      "artist_html": "(c) りなべる, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Malakichthys griseus, taxon 451887, photo 350240505",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:58:35+00:00"
+    },
+    "species-c7ea313b25": {
+      "name": "ユメカサゴ",
+      "local": "images/fish/species-c7ea313b25.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/198683650",
+      "artist_html": "(c) りなべる, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Helicolenus hilgendorfii, taxon 461135, photo 350240544",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:56:25+00:00"
+    },
+    "species-a921a6101f": {
+      "name": "クラカケトラギス",
+      "local": "images/fish/species-a921a6101f.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:KurakakeTGose.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-23T20:39:17+00:00"
+    },
+    "species-3738a316d0": {
+      "name": "キンメダイ",
+      "local": "images/fish/species-3738a316d0.jpg",
+      "ok": true,
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Splendid_alfonsino_%28_Beryx_splendens_%29.jpg",
+      "artist_html": "NOAA's Fisheries Collection , SEFSC Pascagoula Laboratory; Collection of Brandi Noble, NOAA/NMFS/SEFSC",
+      "credit_html": "",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-23T20:39:22+00:00"
+    },
+    "species-33f2b19705": {
+      "name": "メダイ",
+      "local": "images/fish/species-33f2b19705.jpg",
+      "ok": true,
+      "license": "CC BY-SA",
+      "source": "https://www.inaturalist.org/photos/222983206",
+      "artist_html": "(c) anonymous, 일부 권리 보유 (CC BY-SA)",
+      "credit_html": "iNaturalist taxon Hyperoglyphe japonica (609961), photo 222983206",
+      "pixel_size": [
+        400,
+        400
+      ],
+      "checked": "2026-10-23T20:56:26+00:00"
+    },
+    "species-4fef83314d": {
+      "name": "タマガシラ",
+      "local": "images/fish/species-4fef83314d.jpg",
+      "ok": true,
+      "license": "CC BY-SA",
+      "source": "https://www.inaturalist.org/photos/64629669",
+      "artist_html": "(c) Izuzuki, some rights reserved (CC BY-SA)",
+      "credit_html": "iNaturalist taxon Parascolopsis inermis (530469), photo 64629669",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:56:28+00:00"
+    },
+    "species-133137adfd": {
+      "name": "カナガシラ",
+      "local": "images/fish/species-133137adfd.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lepidotrigla_microptera2.jpg",
+      "artist_html": "Totti",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        315
+      ],
+      "checked": "2026-10-23T20:39:40+00:00"
+    },
+    "species-b98df808ec": {
+      "name": "ギンメダイ",
+      "local": "images/fish/species-b98df808ec.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/photos/350240672",
+      "artist_html": "(c) りなべる, some rights reserved (CC BY), uploaded by りなべる",
+      "credit_html": "iNaturalist taxon Polymixia japonica (619571), photo 350240672",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:56:29+00:00"
+    },
+    "species-9c083045b8": {
+      "name": "イトヒキアジ",
+      "local": "images/fish/species-9c083045b8.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/140021416",
+      "artist_html": "(c) Antonio Vukusich y Alejandra Cabellos, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Alectis ciliaris, taxon 93641, photo 239610884",
+      "pixel_size": [
+        500,
+        333
+      ],
+      "checked": "2026-10-23T20:58:36+00:00"
+    },
+    "species-149bd0b60b": {
+      "name": "アカヤガラ",
+      "local": "images/fish/species-149bd0b60b.jpg",
+      "ok": true,
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fistularia_petimba_Brazil.png",
+      "artist_html": "Carla Isobel Elliff",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        222
+      ],
+      "checked": "2026-10-23T20:39:58+00:00"
+    },
+    "species-0711ce801b": {
+      "name": "ワニゴチ",
+      "local": "images/fish/species-0711ce801b.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:WaniKC.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-23T20:40:08+00:00"
+    },
+    "species-a0b2f130a0": {
+      "name": "クエ",
+      "local": "images/fish/species-a0b2f130a0.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Epinephelus_bruneus_tokai.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        287
+      ],
+      "checked": "2026-10-23T20:40:11+00:00"
+    },
+    "species-e08f8e1cb2": {
+      "name": "ホウキハタ",
+      "local": "images/fish/species-e08f8e1cb2.jpg",
+      "ok": true,
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:M%C3%A9rou_com%C3%A8te_%28Epinephelus_morrhua%29_%28Ifremer_00764-87557%29.jpg",
+      "artist_html": "Jerome Huet (IFREMER, Délégation océan Indien (DOI), Département Ressources Biologiques et Environnement (RBE), F-97420 Le Port, France)",
+      "credit_html": "",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-23T20:56:32+00:00"
+    },
+    "species-fc047e50ac": {
+      "name": "シマアジ",
+      "local": "images/fish/species-fc047e50ac.jpg",
+      "ok": true,
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pseudocaranx_dentex_121376536.jpg",
+      "artist_html": "Julien Renoult",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-23T20:40:27+00:00"
+    },
+    "species-529b1aa53d": {
+      "name": "ウツボ",
+      "local": "images/fish/species-529b1aa53d.jpg",
+      "ok": true,
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gymnothorax_kidako_Minamichita.jpg",
+      "artist_html": "タウナギ",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-23T20:40:32+00:00"
+    },
+    "species-03fa62be33": {
+      "name": "オキナヒメジ",
+      "local": "images/fish/species-03fa62be33.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Parupeneus_spilurus.jpg",
+      "artist_html": "Richard Ling",
+      "credit_html": "",
+      "pixel_size": [
+        557,
+        400
+      ],
+      "checked": "2026-10-23T20:40:37+00:00"
+    },
+    "species-ce2d5e226a": {
+      "name": "サクラダイ",
+      "local": "images/fish/species-ce2d5e226a.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Sacura_margaritacea.jpg",
+      "artist_html": "See source file",
+      "credit_html": "",
+      "pixel_size": [
+        400,
+        400
+      ],
+      "checked": "2026-10-23T20:40:42+00:00"
+    },
+    "species-997ab06bc7": {
+      "name": "シロサバフグ",
+      "local": "images/fish/species-997ab06bc7.jpg",
+      "ok": true,
+      "license": "CC0",
+      "source": "https://www.inaturalist.org/observations/11068443",
+      "artist_html": "no rights reserved",
+      "credit_html": "iNaturalist research-grade Lagocephalus spadiceus, taxon 446147, photo 15619077",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:56:34+00:00"
+    },
+    "species-aba43d6bbf": {
+      "name": "カガミダイ",
+      "local": "images/fish/species-aba43d6bbf.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/198683655",
+      "artist_html": "(c) りなべる, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Zenopsis nebulosa, taxon 416158, photo 350240558",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:58:38+00:00"
+    },
+    "species-a04ce6d775": {
+      "name": "シリヤケイカ",
+      "local": "images/fish/species-a04ce6d775.jpg",
+      "ok": true,
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_RMNH.MOL.113926_-_Sepiella_japonica_Sasaki,_1929_-_Sepiidae_-_Mollusc_shell.jpeg",
+      "artist_html": "Sasaki, 1929",
+      "credit_html": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Naturalis_Biodiversity_Center\" class=\"extiw\" title=\"w:en:Naturalis Biodiversity Center\"><span title=\"natural history museum and research center in the Leiden, The Netherlands\">Naturalis Biodiversity Center</span></a>\n</bdi>",
+      "pixel_size": [
+        580,
+        385
+      ],
+      "checked": "2026-10-23T20:41:02+00:00"
+    },
+    "species-031f8c4016": {
+      "name": "アコウダイ",
+      "local": "images/fish/species-031f8c4016.jpg",
+      "ok": true,
+      "license": "CC BY-NC 4.0",
+      "source": "https://www.inaturalist.org/observations/194100813",
+      "artist_html": "(c) hakkahamushi, some rights reserved (CC BY-NC)",
+      "credit_html": "iNaturalist Sebastes matsubarae, taxon 1315874, photo 341091528; grade research. 個人・非商用アプリ限定。",
+      "noncommercial_only": true,
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T21:01:08+00:00"
+    },
+    "species-0bda82758d": {
+      "name": "メイチダイ",
+      "local": "images/fish/species-0bda82758d.jpg",
+      "ok": true,
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Empereur_gris_(Gymnocranius_griseus)_(Ifremer_00536-64762).jpg",
+      "artist_html": "Marc Taquet",
+      "credit_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://image.ifremer.fr/data/00536/64762\">Empereur gris (Gymnocranius griseus)</a>",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-23T20:41:10+00:00"
+    },
+    "species-1e66a26d6a": {
+      "name": "ウメイロ",
+      "local": "images/fish/species-1e66a26d6a.jpg",
+      "ok": true,
+      "license": "CC0",
+      "source": "https://www.inaturalist.org/observations/124528364",
+      "artist_html": "no rights reserved",
+      "credit_html": "iNaturalist research-grade Paracaesio xanthurus, taxon 208070, photo 211082627",
+      "pixel_size": [
+        485,
+        400
+      ],
+      "checked": "2026-10-23T20:56:35+00:00"
+    },
+    "species-90ddf0f387": {
+      "name": "レンコダイ",
+      "local": "images/fish/species-90ddf0f387.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dentex_tumifrons_Kyoto_aquarium_1.jpg",
+      "artist_html": "Totti",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        330
+      ],
+      "checked": "2026-10-23T20:41:23+00:00"
+    },
+    "species-2016ee4598": {
+      "name": "イシガキダイ",
+      "local": "images/fish/species-2016ee4598.jpg",
+      "ok": true,
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Oplegnathus_punctatus.jpg",
+      "artist_html": "Dr. Dwayne Meadows, NOAA/NMFS/OPR",
+      "credit_html": "",
+      "pixel_size": [
+        520,
+        400
+      ],
+      "checked": "2026-10-23T20:41:29+00:00"
+    },
+    "species-421f7f5aec": {
+      "name": "アイブリ",
+      "local": "images/fish/species-421f7f5aec.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Black_banded_kingfish_2.jpg",
+      "artist_html": "Kare Kare",
+      "credit_html": "",
+      "pixel_size": [
+        501,
+        203
+      ],
+      "checked": "2026-10-23T20:41:34+00:00"
+    },
+    "species-759dcc8df2": {
+      "name": "スマ",
+      "local": "images/fish/species-759dcc8df2.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Euthyn_affin_101018-8111_tdp.jpg",
+      "artist_html": "Wibowo Djatmiko ( Wie146 )",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-23T20:41:39+00:00"
+    },
+    "species-fe569ce9fb": {
+      "name": "ヒレコダイ",
+      "local": "images/fish/species-fe569ce9fb.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Specimen_of_Evynnis_cardinalis.JPG",
+      "artist_html": "SSR2000",
+      "credit_html": "",
+      "pixel_size": [
+        266,
+        400
+      ],
+      "checked": "2026-10-23T20:56:37+00:00"
+    },
+    "species-7581cd89e4": {
+      "name": "ホシザメ",
+      "local": "images/fish/species-7581cd89e4.jpg",
+      "ok": true,
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Manazo.png",
+      "artist_html": "Dieno",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        165
+      ],
+      "checked": "2026-10-23T20:41:52+00:00"
+    },
+    "species-b3b1d212dc": {
+      "name": "キビレ",
+      "local": "images/fish/species-b3b1d212dc.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Acanthopagrus_latus_Umitamago.jpg",
+      "artist_html": "Totti",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        303
+      ],
+      "checked": "2026-10-23T20:41:58+00:00"
+    },
+    "species-30ee1d1c2d": {
+      "name": "ダツ",
+      "local": "images/fish/species-30ee1d1c2d.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/132139166",
+      "artist_html": "(c) Dmitry Ivanov, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Strongylura anastomella, taxon 609283, photo 224981883",
+      "pixel_size": [
+        500,
+        374
+      ],
+      "checked": "2026-10-23T20:58:40+00:00"
+    },
+    "species-07c9cdad7b": {
+      "name": "タカベ",
+      "local": "images/fish/species-07c9cdad7b.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E3%82%BF%E3%82%AB%E3%83%99.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Temochiz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Temochiz (page does not exist)\">Temochiz</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        326
+      ],
+      "checked": "2026-10-23T20:42:04+00:00"
+    },
+    "species-c975006019": {
+      "name": "トゴットメバル",
+      "local": "images/fish/species-c975006019.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:TogottoMR_%28Sebastes_joyneri%29.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-23T20:42:09+00:00"
+    },
+    "species-a742296d61": {
+      "name": "ニベ",
+      "local": "images/fish/species-a742296d61.jpg",
+      "ok": true,
+      "license": "CC BY-NC 4.0",
+      "source": "https://www.inaturalist.org/observations/109447646",
+      "artist_html": "(c) yah_japan, some rights reserved (CC BY-NC)",
+      "credit_html": "iNaturalist Nibea mitsukurii, taxon 620353, photo 184466962; grade research. 個人・非商用アプリ限定。",
+      "noncommercial_only": true,
+      "pixel_size": [
+        500,
+        333
+      ],
+      "checked": "2026-10-23T21:01:09+00:00"
+    },
+    "species-60fb6b2e3f": {
+      "name": "クロマグロ",
+      "local": "images/fish/species-60fb6b2e3f.jpg",
+      "ok": true,
+      "license": "CC BY 2.1 jp",
+      "source": "https://commons.wikimedia.org/wiki/File:Pacific_bluefin_tuna.jpg",
+      "artist_html": "aes256",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-23T20:42:29+00:00"
+    },
+    "species-ba18249cdb": {
+      "name": "マトウダイ",
+      "local": "images/fish/species-ba18249cdb.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Zeus.faber_2.jpg",
+      "artist_html": "de:Benutzer:Kleines.Opossum",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        277
+      ],
+      "checked": "2026-10-23T20:42:35+00:00"
+    },
+    "species-0a6fe69233": {
+      "name": "イシダイ",
+      "local": "images/fish/species-0a6fe69233.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E9%AF%9B_Oplegnathus.jpg",
+      "artist_html": "Ishuty",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        224
+      ],
+      "checked": "2026-10-23T20:42:41+00:00"
+    },
+    "species-cbf00744c3": {
+      "name": "ミシマオコゼ",
+      "local": "images/fish/species-cbf00744c3.jpg",
+      "ok": true,
+      "license": "CC0",
+      "source": "https://www.inaturalist.org/observations/344832722",
+      "artist_html": "no rights reserved",
+      "credit_html": "iNaturalist Uranoscopus japonicus, taxon 114779, photo 628334604; grade needs_id",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:56:38+00:00"
+    },
+    "species-ef218f0e53": {
+      "name": "ヒラソウダ",
+      "local": "images/fish/species-ef218f0e53.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/208736088",
+      "artist_html": "(c) Navaneeth Sini George, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Auxis thazard, taxon 177104, photo 369345752",
+      "pixel_size": [
+        300,
+        400
+      ],
+      "checked": "2026-10-23T20:58:42+00:00"
+    },
+    "species-a37b408891": {
+      "name": "ダイナンウミヘビ",
+      "local": "images/fish/species-a37b408891.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dainan-umihebi.jpg",
+      "artist_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/40507965@N03\">RYO SATO</a>",
+      "credit_html": "<a href=\"//commons.wikimedia.org/wiki/Flickr\" class=\"mw-redirect\" title=\"Flickr\">Flickr</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/40507965@N03/6993140111\">ダイナンウミヘビ</a>",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-23T20:43:04+00:00"
+    },
+    "species-2e280943bc": {
+      "name": "クロシビカマス",
+      "local": "images/fish/species-2e280943bc.jpg",
+      "ok": true,
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Roudi_escolar_(_Promethichthys_prometheus_).jpg",
+      "artist_html": "NOAA's Fisheries Collection , SEFSC Pascagoula Laboratory; Collection of Brandi Noble, NOAA/NMFS/SEFSC /  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/51647007@N08\">NOAA Photo Library</a>",
+      "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.photolib.noaa.gov/htmls/fish4414.htm\">http://www.photolib.noaa.gov/htmls/fish4414.htm</a> or <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/noaaphotolib/5188105336/\">fish4414</a> at Flickr",
+      "pixel_size": [
+        580,
+        301
+      ],
+      "checked": "2026-10-23T20:43:07+00:00"
+    },
+    "species-ea418d43e6": {
+      "name": "アカエソ",
+      "local": "images/fish/species-ea418d43e6.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/7742555",
+      "artist_html": "(c) Chris Teague, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Synodus ulae, taxon 123123, photo 10162425",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:58:43+00:00"
+    },
+    "species-d8a5cce9b3": {
+      "name": "マルアジ",
+      "local": "images/fish/species-d8a5cce9b3.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/69139646",
+      "artist_html": "(c) りなべる, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Decapterus maruadsi, taxon 473385, photo 112123144",
+      "pixel_size": [
+        300,
+        400
+      ],
+      "checked": "2026-10-23T20:56:40+00:00"
+    },
+    "species-e3e9a2b7ac": {
+      "name": "コショウダイ",
+      "local": "images/fish/species-e3e9a2b7ac.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:KoshoDI.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-23T20:43:29+00:00"
+    },
+    "species-0ee81b8cff": {
+      "name": "コブダイ",
+      "local": "images/fish/species-0ee81b8cff.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Semicossyphus_reticulatus_Marinepia1.jpg",
+      "artist_html": "Totti",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        312
+      ],
+      "checked": "2026-10-23T20:43:34+00:00"
+    },
+    "species-482da9a41e": {
+      "name": "ヒメジ",
+      "local": "images/fish/species-482da9a41e.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Himeji201101.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-23T20:43:38+00:00"
+    },
+    "species-516374a89c": {
+      "name": "シマガツオ",
+      "local": "images/fish/species-516374a89c.jpg",
+      "ok": true,
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Brama_japonica_%28Pacific_pomfret%29%2C_by_Andrew_Grygus%2C_2019.png",
+      "artist_html": "Image taken by Andrew Grygus at the Philippines Fish Market, Los Angeles, CA on 7-15-2019. A. Grygus uploaded to fishbase and made the image to be freely shared and altered, with the assumption that he was acknowledged.",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        137
+      ],
+      "checked": "2026-10-23T20:43:43+00:00"
+    },
+    "species-3f46f17ef0": {
+      "name": "クログチ",
+      "local": "images/fish/species-3f46f17ef0.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/photos/430753342",
+      "artist_html": "(c) https://doi.org/10.3897/zookeys.843.32410, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist taxon Atrobucca nibe (530763), photo 430753342",
+      "pixel_size": [
+        500,
+        205
+      ],
+      "checked": "2026-10-23T20:56:41+00:00"
+    },
+    "species-6e90ab73be": {
+      "name": "カタクチイワシ",
+      "local": "images/fish/species-6e90ab73be.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Engraulis_japonicus_01.JPG",
+      "artist_html": "Kingfisher",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-23T20:43:55+00:00"
+    },
+    "species-a9f38f620f": {
+      "name": "クルマダイ",
+      "local": "images/fish/species-a9f38f620f.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Glotzaugenbarsch_(Pristigenys_serrula).jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:WiThoFiege\" title=\"User:WiThoFiege\">Wilhelm Thomas Fiege</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        533,
+        400
+      ],
+      "checked": "2026-10-23T20:44:03+00:00"
+    },
+    "species-1110dd49e7": {
+      "name": "テンス",
+      "local": "images/fish/species-1110dd49e7.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:TensuAd.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-23T20:44:08+00:00"
+    },
+    "species-a6ddc45ed5": {
+      "name": "ワカシ",
+      "local": "images/fish/32.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Seriola_quinqueradiata_(200810).jpg",
+      "artist_html": "E-190's",
+      "credit_html": "E-190's file",
+      "pixel_size": [
+        580,
+        386
+      ],
+      "checked": "2026-10-21T20:10:02+00:00",
+      "representative_label": "同種のブリ（成魚の参考写真）"
+    },
+    "species-c0e99f138a": {
+      "name": "ハガツオ",
+      "local": "images/fish/species-c0e99f138a.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/146290428",
+      "artist_html": "(c) Leroy Parker, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Sarda orientalis, taxon 177154, photo 251475451",
+      "pixel_size": [
+        300,
+        400
+      ],
+      "checked": "2026-10-23T20:58:45+00:00"
+    },
+    "species-610301974f": {
+      "name": "オナガメジナ",
+      "local": "images/fish/species-610301974f.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/317007707",
+      "artist_html": "(c) Nicola Crockford, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Girella leonina, taxon 615590, photo 572789995",
+      "pixel_size": [
+        500,
+        282
+      ],
+      "checked": "2026-10-23T20:56:43+00:00"
+    },
+    "species-692b573850": {
+      "name": "コロダイ",
+      "local": "images/fish/species-692b573850.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/317705950",
+      "artist_html": "(c) Jay Paroline, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Diagramma pictum, taxon 132396, photo 574119115",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:56:45+00:00"
+    },
+    "species-4b3ad73b89": {
+      "name": "セミホウボウ",
+      "local": "images/fish/species-4b3ad73b89.jpg",
+      "ok": true,
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:SemiHB.jpg",
+      "artist_html": "Izuzuki",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        247
+      ],
+      "checked": "2026-10-23T20:44:35+00:00"
+    },
+    "species-4d6be4e555": {
+      "name": "イトフエフキ",
+      "local": "images/fish/species-4d6be4e555.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/331059073",
+      "artist_html": "(c) Graham Cleaver, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Lethrinus genivittatus, taxon 104515, photo 600478470",
+      "pixel_size": [
+        436,
+        400
+      ],
+      "checked": "2026-10-23T20:56:46+00:00"
+    },
+    "species-3f9a275340": {
+      "name": "ハマダイ",
+      "local": "images/fish/species-3f9a275340.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/266536458",
+      "artist_html": "(c) Dominik Maximilián Ramík, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Etelis coruscans, taxon 410999, photo 478910945",
+      "pixel_size": [
+        141,
+        400
+      ],
+      "checked": "2026-10-23T20:56:48+00:00"
+    },
+    "species-932590449b": {
+      "name": "ツボダイ",
+      "local": "images/fish/species-932590449b.jpg",
+      "ok": true,
+      "license": "CC BY-SA",
+      "source": "https://www.inaturalist.org/photos/191386025",
+      "artist_html": "(c) Totti, some rights reserved (CC BY-SA)",
+      "credit_html": "iNaturalist taxon Pentaceros japonicus (109033), photo 191386025",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:56:49+00:00"
+    },
+    "species-69afd310ea": {
+      "name": "キアンコウ",
+      "local": "images/fish/species-69afd310ea.jpg",
+      "ok": true,
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lophius_litulon_0.jpg",
+      "artist_html": "Geekgecko",
+      "credit_html": "",
+      "noncommercial_only": false,
+      "pixel_size": [
+        433,
+        400
+      ],
+      "checked": "2026-10-23T21:01:11+00:00"
+    },
+    "species-3e22241197": {
+      "name": "マダコ",
+      "local": "images/fish/species-3e22241197.jpg",
+      "ok": true,
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Octopus_sinensis.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Daiju_Azuma\" title=\"User:Daiju Azuma\">Daiju Azuma</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        400,
+        400
+      ],
+      "checked": "2026-10-23T20:45:06+00:00"
+    },
+    "species-cc896fcdc2": {
+      "name": "カスミアジ",
+      "local": "images/fish/species-cc896fcdc2.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Trevally_Nick_Hobgood.jpg",
+      "artist_html": "Nhobgood",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        259
+      ],
+      "checked": "2026-10-23T20:45:11+00:00"
+    },
+    "species-e24578dd75": {
+      "name": "オニヒラアジ",
+      "local": "images/fish/species-e24578dd75.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/96805470",
+      "artist_html": "(c) Paul Asman and Jill Lenoble, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Caranx papuensis, taxon 338255, photo 160876754",
+      "pixel_size": [
+        500,
+        333
+      ],
+      "checked": "2026-10-23T20:58:47+00:00"
+    },
+    "species-3ac0427c63": {
+      "name": "イソマグロ",
+      "local": "images/fish/species-3ac0427c63.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Casarte_oj%C3%B3n_%28Gymnosarda_unicolor%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-17%2C_DD_85.jpg",
+      "artist_html": "Diego Delso (1974–) Alternative names Poco a poco Description Spanish free-license photographer and Wikimedian Date of birth 19 May 1974 Location of birth Alicante Authority file : Q28147777 VIAF : 3616170939435815660001 creator QS:P170,Q28147777",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-23T20:45:20+00:00"
+    },
+    "species-c52a7b7eb0": {
+      "name": "コブシメ",
+      "local": "images/fish/species-c52a7b7eb0.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/189223083",
+      "artist_html": "(c) Pauline Walsh Jacobson, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Ascarosepion latimanus, taxon 1500640, photo 331415696",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:56:51+00:00"
+    },
+    "species-2099da888c": {
+      "name": "アオチビキ",
+      "local": "images/fish/species-2099da888c.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Aprion_virescens_JNC2568.JPG",
+      "artist_html": "Jean-Lou Justine",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        273
+      ],
+      "checked": "2026-10-23T20:45:32+00:00"
+    },
+    "species-24f7372df1": {
+      "name": "シロダイ",
+      "local": "images/fish/species-24f7372df1.jpg",
+      "ok": true,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gymnocranius_euanus_JNC2682.JPG",
+      "artist_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Jeanloujustine\" title=\"User:Jeanloujustine\">Jean-Lou Justine</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        528,
+        400
+      ],
+      "checked": "2026-10-23T20:56:57+00:00"
+    },
+    "species-5ddf62fbf8": {
+      "name": "ヒトスジタマガシラ",
+      "local": "images/fish/species-5ddf62fbf8.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/239174769",
+      "artist_html": "(c) 呂一起(Lyu yi-chi), some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Scolopsis monogramma, taxon 201025, photo 425925673",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:56:59+00:00"
+    },
+    "species-049d6add86": {
+      "name": "マルクチヒメジ",
+      "local": "images/fish/species-049d6add86.jpg",
+      "ok": true,
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Parupeneus_cyclostomos.jpg",
+      "artist_html": "Mr. Mohammed Al Momany, Aqaba, Jordan",
+      "credit_html": "",
+      "pixel_size": [
+        330,
+        236
+      ],
+      "checked": "2026-10-23T20:45:51+00:00"
+    },
+    "species-901339c889": {
+      "name": "イシガキハタ",
+      "local": "images/fish/species-901339c889.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/66690242",
+      "artist_html": "(c) 呂一起(Lyu yi-chi), some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Epinephelus hexagonatus, taxon 100106, photo 107565272",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:57:00+00:00"
+    },
+    "species-f90521ba10": {
+      "name": "オグロトラギス",
+      "local": "images/fish/species-f90521ba10.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/380310030",
+      "artist_html": "(c) 林正文, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist Parapercis pacifica, taxon 530639, photo 695739820; grade research",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T20:57:02+00:00"
+    },
+    "species-96fcf52d0a": {
+      "name": "キツネウオ",
+      "local": "images/fish/species-96fcf52d0a.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pentapodus_bifasciatus_Singapore.jpg",
+      "artist_html": "J. E. Randall",
+      "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"https://fishbase.mnhn.fr/photos/PicturesSummary.php?resultPage=4&amp;ID=5865&amp;what=species\">https://fishbase.mnhn.fr/photos/PicturesSummary.php?resultPage=4&amp;ID=5865&amp;what=species</a>",
+      "pixel_size": [
+        580,
+        297
+      ],
+      "checked": "2026-10-23T20:46:08+00:00"
+    },
+    "species-247d40f9f6": {
+      "name": "スギ",
+      "local": "images/fish/species-247d40f9f6.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/9503418",
+      "artist_html": "(c) Ryan Watson, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Rachycentron canadum, taxon 131491, photo 12948625",
+      "noncommercial_only": false,
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T21:02:50+00:00"
+    },
+    "species-af29810e25": {
+      "name": "マクブ",
+      "local": "images/fish/species-af29810e25.jpg",
+      "ok": true,
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:ChoerodonSchoenlenii2RLS.jpg",
+      "artist_html": "Graham Edgar / Reef Life Survey",
+      "credit_html": "",
+      "pixel_size": [
+        580,
+        387
+      ],
+      "checked": "2026-10-23T20:46:18+00:00"
+    },
+    "species-78c5850e34": {
+      "name": "ギス",
+      "local": "images/fish/species-78c5850e34.jpg",
+      "ok": true,
+      "license": "CC BY 4.0",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6057991/#Fig2",
+      "artist_html": "Jacopo Aguzzi et al. (2018)",
+      "credit_html": "Scientific Reports 8, 11163, Figure 2K; cropped from original, Pterothrissus gissu. CC BY 4.0.",
+      "pixel_size": [
+        227,
+        196
+      ],
+      "checked": "2026-10-23T20:58:37+00:00"
     }
   }
 }

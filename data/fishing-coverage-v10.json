@@ -1,0 +1,2352 @@
+{
+  "release": 10,
+  "researchWindow": [
+    "2024-10-24",
+    "2026-10-24"
+  ],
+  "checkedAt": "2026-10-24",
+  "marinas": [
+    {
+      "marinaId": "J08-0040",
+      "name": "大洗マリーナ",
+      "before": {
+        "reports": 0,
+        "species": 3,
+        "grounds": 1
+      },
+      "after": {
+        "reports": 0,
+        "events": 0,
+        "rentalEvents": 0,
+        "species": 22,
+        "grounds": 1,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {},
+      "coverage": [
+        null,
+        null
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J08-0040",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://yumenoshima-marina.com/archives/5719",
+          "name": "yumenoshima-marina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing",
+          "name": "oarai-marina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://oarai-marina.com/",
+          "name": "oarai-marina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://ameblo.jp/oaraimarina/",
+          "name": "ameblo.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://ameblo.jp/oaraimarina/entry-12932270743.html",
+          "name": "ameblo.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.instagram.com/oarai_marina/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://twitter.com/Oaraimarina",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/1419",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/1416",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/1270",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/1176",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/1062",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/965",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/952",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/947",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/941",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/939",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/921",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/916",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/911",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/907",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/893",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/895",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/861",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/857",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/843",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/835",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/797",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/801",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/794",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        },
+        {
+          "url": "https://oarai-marina.com/fishing/789",
+          "name": "マリーナ公式・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。",
+        "釣行年月日まで照合できた新規釣果はありません。案内・日付不明の実釣資料を区別して掲載。"
+      ],
+      "queries": [
+        "大洗マリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "大洗 鹿島灘 船釣り 釣果 釣具 2025 2026",
+        "\"大洗マリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J12-0045",
+      "name": "浦安マリーナ(富士ボーティング)",
+      "before": {
+        "reports": 0,
+        "species": 1,
+        "grounds": 1
+      },
+      "after": {
+        "reports": 134,
+        "events": 134,
+        "rentalEvents": 0,
+        "species": 6,
+        "grounds": 1,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "nearby-report": 134
+      },
+      "coverage": [
+        "2024-10-27",
+        "2026-10-17"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J12-0045",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://suharaya.com/",
+          "name": "suharaya.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://iwataya-funayado.jp/tsuribune_blog/",
+          "name": "浦安・岩田屋公式遊漁船",
+          "category": "釣果アーカイブ",
+          "status": "33ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-10-05〜2026-10-17"
+        },
+        {
+          "url": "https://www.instagram.com/iwataya_urayasu/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "浦安マリーナ(富士ボーティング) 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "浦安 旧江戸川 東京湾 船釣り 釣果 釣具 2025 2026",
+        "\"浦安マリーナ(富士ボーティング)\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J12-0060",
+      "name": "セントラル",
+      "before": {
+        "reports": 0,
+        "species": 7,
+        "grounds": 1
+      },
+      "after": {
+        "reports": 85,
+        "events": 38,
+        "rentalEvents": 25,
+        "species": 37,
+        "grounds": 1,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 1
+      },
+      "kinds": {
+        "rental-report": 52,
+        "owner-report": 33
+      },
+      "coverage": [
+        "2024-11-01",
+        "2026-09-25"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J12-0060",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://central-boat.co.jp/rentalboat-fishing",
+          "name": "central-boat.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://central-boat.co.jp/archives/category/tyouka",
+          "name": "セントラル公式・木更津",
+          "category": "釣果アーカイブ",
+          "status": "5ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-06-26〜2026-09-25"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。",
+        "同名施設・港の混同を修正し、出港地の住所を照合した再検索を実施。"
+      ],
+      "queries": [
+        "セントラル 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "船橋 三番瀬 東京湾 船釣り 釣果 釣具 2025 2026",
+        "\"セントラル\" 釣果 Instagram Facebook YouTube X",
+        "木更津 セントラル レンタル 釣果 東京湾 富津 2025 2026"
+      ]
+    },
+    {
+      "marinaId": "J13-0010",
+      "name": "ニューポート江戸川",
+      "before": {
+        "reports": 0,
+        "species": 1,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 769,
+        "events": 474,
+        "rentalEvents": 0,
+        "species": 35,
+        "grounds": 0,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "marina-report": 635,
+        "nearby-report": 134
+      },
+      "coverage": [
+        "2024-10-25",
+        "2026-10-18"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J13-0010",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://suharaya.com/",
+          "name": "suharaya.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.newportmarine.co.jp/shop/edogawa/",
+          "name": "www.newportmarine.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.newportmarine.co.jp/archives/7682",
+          "name": "www.newportmarine.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.kazi-online.com/articles/sts_edogawa/",
+          "name": "www.kazi-online.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.newportmarine.co.jp/marineclub/fishing/page/71",
+          "name": "www.newportmarine.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.newportmarine.co.jp/marineclub/fishing/page/60",
+          "name": "www.newportmarine.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.newportmarine.co.jp/marineclub/fishing/",
+          "name": "ニューポート公式釣果（利用区分未確定）",
+          "category": "釣果アーカイブ",
+          "status": "19ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2021-12-08〜2026-10-18"
+        },
+        {
+          "url": "https://iwataya-funayado.jp/tsuribune_blog/",
+          "name": "浦安・岩田屋公式遊漁船",
+          "category": "釣果アーカイブ",
+          "status": "33ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-10-05〜2026-10-17"
+        },
+        {
+          "url": "https://www.facebook.com/newportmarineclub",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/newportmarineclub/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "ニューポート江戸川 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "江戸川 東京湾 船釣り 釣果 釣具 2025 2026",
+        "\"ニューポート江戸川\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J13-0020",
+      "name": "勝どきマリーナ",
+      "before": {
+        "reports": 0,
+        "species": 0,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 134,
+        "events": 134,
+        "rentalEvents": 0,
+        "species": 6,
+        "grounds": 0,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "nearby-report": 134
+      },
+      "coverage": [
+        "2024-10-27",
+        "2026-10-17"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J13-0020",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://kachidoki-marina.com/fishing-results-202608/",
+          "name": "kachidoki-marina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文取得不可・未確認"
+        },
+        {
+          "url": "https://kachidoki-marina.com/choinori-fishing/",
+          "name": "kachidoki-marina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文取得不可・未確認"
+        },
+        {
+          "url": "https://kachidoki-marina.com/fishing-results-202607/",
+          "name": "kachidoki-marina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文取得不可・未確認"
+        },
+        {
+          "url": "https://iwataya-funayado.jp/tsuribune_blog/",
+          "name": "浦安・岩田屋公式遊漁船",
+          "category": "釣果アーカイブ",
+          "status": "33ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-10-05〜2026-10-17"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "勝どきマリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "勝どき 東京湾 船釣り 釣果 釣具 2025 2026",
+        "\"勝どきマリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J13-0030",
+      "name": "東京夢の島マリーナ",
+      "before": {
+        "reports": 0,
+        "species": 0,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 134,
+        "events": 134,
+        "rentalEvents": 0,
+        "species": 6,
+        "grounds": 0,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "nearby-report": 134
+      },
+      "coverage": [
+        "2024-10-27",
+        "2026-10-17"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J13-0030",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://yumenoshima-marina.com/archives/5719",
+          "name": "yumenoshima-marina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://yumenoshima-marina.com/archives/6530",
+          "name": "yumenoshima-marina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://yumenoshima-marina.com/",
+          "name": "yumenoshima-marina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://yumenoshima-marina.com/archives/7413",
+          "name": "yumenoshima-marina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://iwataya-funayado.jp/tsuribune_blog/",
+          "name": "浦安・岩田屋公式遊漁船",
+          "category": "釣果アーカイブ",
+          "status": "33ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-10-05〜2026-10-17"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "東京夢の島マリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "夢の島 東京湾 船釣り 釣果 釣具 2025 2026",
+        "\"東京夢の島マリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0010",
+      "name": "MARINA BLEU 横浜",
+      "before": {
+        "reports": 0,
+        "species": 0,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 2004,
+        "events": 489,
+        "rentalEvents": 0,
+        "species": 38,
+        "grounds": 0,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "other-marina-report": 1299,
+        "other-rental-report": 705
+      },
+      "coverage": [
+        "2024-10-26",
+        "2026-10-23"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0010",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://kmcy.com/rental/",
+          "name": "kmcy.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://bleulane.jp/category/%e9%87%a3%e6%9e%9c/",
+          "name": "bleulane.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://bleulane.jp/2026/03/23/1000%ef%bd%9e%e3%80%8c%e3%82%b5%e3%83%af%e3%83%a9%e4%be%bf%e3%80%8d/",
+          "name": "bleulane.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://bleulane.jp/%e6%97%ac%e3%81%ae%e9%87%a3%e3%82%8a%e7%89%a9/",
+          "name": "bleulane.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.inkyoya.com/fishing.html",
+          "name": "www.inkyoya.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://darumamarine.naturum.ne.jp/",
+          "name": "D-marina公式レンタル会員ブログ",
+          "category": "釣果アーカイブ",
+          "status": "30ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-09-12〜2026-10-23"
+        },
+        {
+          "url": "https://www.instagram.com/bleulanecap.sato/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.youtube.com/@dennoupanda",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.youtube.com/watch",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "MARINA BLEU 横浜 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "横浜 鶴見 東京湾 船釣り 釣果 釣具 2025 2026",
+        "\"MARINA BLEU 横浜\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0020",
+      "name": "D-marina",
+      "before": {
+        "reports": 0,
+        "species": 6,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 2004,
+        "events": 489,
+        "rentalEvents": 189,
+        "species": 38,
+        "grounds": 0,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "marina-report": 1165,
+        "staff-report": 119,
+        "rental-report": 705,
+        "owner-report": 15
+      },
+      "coverage": [
+        "2024-10-26",
+        "2026-10-23"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0020",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://darumamarine.naturum.ne.jp/",
+          "name": "D-marina公式レンタル会員ブログ",
+          "category": "釣果アーカイブ",
+          "status": "30ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-09-12〜2026-10-23"
+        },
+        {
+          "url": "https://darumamarine.naturum.ne.jp/e3674223.html",
+          "name": "darumamarine.naturum.ne.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://twitter.com/Dmarina2",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/darumamarine/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCMNsXODRFtVSA54BFMnA0Jg",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "D-marina 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "横浜 東神奈川 東京湾 船釣り 釣果 釣具 2025 2026",
+        "\"D-marina\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0040",
+      "name": "横浜ベイサイドマリーナ",
+      "before": {
+        "reports": 0,
+        "species": 4,
+        "grounds": 1
+      },
+      "after": {
+        "reports": 2004,
+        "events": 489,
+        "rentalEvents": 0,
+        "species": 38,
+        "grounds": 1,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "other-marina-report": 1299,
+        "other-rental-report": 705
+      },
+      "coverage": [
+        "2024-10-26",
+        "2026-10-23"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0040",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://arakawaya.jp/",
+          "name": "arakawaya.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文取得不可・未確認"
+        },
+        {
+          "url": "https://www.koshibamaru.yokohama/",
+          "name": "www.koshibamaru.yokohama",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.ybmarina.com/play/",
+          "name": "www.ybmarina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文取得不可・未確認"
+        },
+        {
+          "url": "https://www.ybmarina.com/",
+          "name": "www.ybmarina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文取得不可・未確認"
+        },
+        {
+          "url": "https://www.ybmarina.com/owner/taikoubou/2026/011275.html",
+          "name": "www.ybmarina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文取得不可・未確認"
+        },
+        {
+          "url": "https://darumamarine.naturum.ne.jp/",
+          "name": "D-marina公式レンタル会員ブログ",
+          "category": "釣果アーカイブ",
+          "status": "30ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-09-12〜2026-10-23"
+        },
+        {
+          "url": "https://www.instagram.com/koshibamaru/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://x.com/koshfish",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/koshibamaru",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/koshibamaru",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "横浜ベイサイドマリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "横浜 本牧 八景 船釣り 釣果 釣具 2025 2026",
+        "\"横浜ベイサイドマリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0130",
+      "name": "湘南サニーサイドマリーナ浦賀",
+      "before": {
+        "reports": 0,
+        "species": 7,
+        "grounds": 1
+      },
+      "after": {
+        "reports": 4138,
+        "events": 1883,
+        "rentalEvents": 965,
+        "species": 102,
+        "grounds": 1,
+        "depthRecords": 3782,
+        "tackleRecords": 3312,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "nearby-report": 755,
+        "rental-report": 3043,
+        "marina-report": 340
+      },
+      "coverage": [
+        "2024-10-24",
+        "2026-10-23"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0130",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://www.ssm-uraga.jp/fishing",
+          "name": "浦賀・公式釣果",
+          "category": "釣果アーカイブ",
+          "status": "116ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024.10.14〜2026.10.23"
+        },
+        {
+          "url": "https://www.ssm-uraga.jp/",
+          "name": "www.ssm-uraga.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.ssm-uraga.jp/blog",
+          "name": "www.ssm-uraga.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.ssm-uraga.jp/blog/tai-rubber_slj-training",
+          "name": "www.ssm-uraga.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.minosukemaru.com/search/ChokaDetail/369745/",
+          "name": "www.minosukemaru.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.minosukemaru.com/search/ChokaDetail/356087/",
+          "name": "www.minosukemaru.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.minosukemaru.com/",
+          "name": "久里浜・みのすけ丸公式",
+          "category": "釣果アーカイブ",
+          "status": "77ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2025-05-13〜2026-10-23"
+        },
+        {
+          "url": "https://www.instagram.com/sunnysidemarina_uraga_official/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/sunnysidemarina.uraga/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://twitter.com/sunnnysideuraga",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/sunnysidemarina_official/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/湘南サニーサイドマリーナ-176793559013901/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://twitter.com/SSM7810",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCxmo6RuWtljvb5J_zTI22gQ",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/profile.php",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "湘南サニーサイドマリーナ浦賀 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "浦賀 久里浜 観音崎 船釣り 釣果 釣具 2025 2026",
+        "\"湘南サニーサイドマリーナ浦賀\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0140",
+      "name": "湘南サニーサイドマリーナ",
+      "before": {
+        "reports": 0,
+        "species": 6,
+        "grounds": 1
+      },
+      "after": {
+        "reports": 470,
+        "events": 181,
+        "rentalEvents": 132,
+        "species": 70,
+        "grounds": 2,
+        "depthRecords": 371,
+        "tackleRecords": 470,
+        "seasonGuides": 3
+      },
+      "kinds": {
+        "rental-report": 368,
+        "marina-report": 102
+      },
+      "coverage": [
+        "2026-04-25",
+        "2026-10-22"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0140",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/fishing/",
+          "name": "芦名サニーサイド・公式釣果",
+          "category": "釣果アーカイブ",
+          "status": "21ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2026.05.01〜2026.10.23"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/2026/02/2997/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://sas-sagamiya.com/catch/51614/",
+          "name": "sas-sagamiya.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/2025/06/7963/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/category/rental/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/2025/03/2949/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/sea-plan/beginner-fishing2024/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.instagram.com/sunnysidemarina_official/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/湘南サニーサイドマリーナ-176793559013901/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://twitter.com/SSM7810",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCxmo6RuWtljvb5J_zTI22gQ",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/sunnysidemarina_uraga_official/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/sunnysidemarina.uraga/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://twitter.com/sunnnysideuraga",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/profile.php",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/SAS.Sagamiya/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/fishing_sagamiya",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "湘南サニーサイドマリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "芦名 佐島 亀城根 船釣り 釣果 釣具 2025 2026",
+        "\"湘南サニーサイドマリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0170",
+      "name": "リビエラシーボニアマリーナ",
+      "before": {
+        "reports": 125,
+        "species": 30,
+        "grounds": 10
+      },
+      "after": {
+        "reports": 125,
+        "events": 125,
+        "rentalEvents": 0,
+        "species": 30,
+        "grounds": 10,
+        "depthRecords": 12,
+        "tackleRecords": 125,
+        "seasonGuides": 79
+      },
+      "kinds": {
+        "legacy-context": 125
+      },
+      "coverage": [
+        "2024-11-01",
+        "2026-10-23"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0170",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://www.mitsuzimaru.com/catch/index_172.html",
+          "name": "www.mitsuzimaru.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.marujyumaru.jp/",
+          "name": "www.marujyumaru.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。",
+        "釣行年月日まで照合できた新規釣果はありません。案内・日付不明の実釣資料を区別して掲載。"
+      ],
+      "queries": [
+        "リビエラシーボニアマリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "小網代 諸磯 三浦 船釣り 釣果 釣具 2025 2026",
+        "\"リビエラシーボニアマリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0200",
+      "name": "三崎港「うらり」",
+      "before": {
+        "reports": 0,
+        "species": 4,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 29,
+        "events": 29,
+        "rentalEvents": 0,
+        "species": 18,
+        "grounds": 0,
+        "depthRecords": 0,
+        "tackleRecords": 29,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "nearby-report": 29
+      },
+      "coverage": [
+        "2026-10-07",
+        "2026-10-23"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0200",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://www.mitsuzimaru.com/catch/index_144.html",
+          "name": "www.mitsuzimaru.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://eian.jp/",
+          "name": "eian.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://misaki-marinecenter.subaru-kougyou.jp/archives/category/fishing",
+          "name": "misaki-marinecenter.subaru-kougyou.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.facebook.com/profile.php",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DZjrKVHD2YG/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://x.com/yokkatu_eian",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.youtube.com/@yokkatu1",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "三崎港「うらり」 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "三崎 城ヶ島 船釣り 釣果 釣具 2025 2026",
+        "\"三崎港「うらり」\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0100",
+      "name": "小坪マリーナ",
+      "before": {
+        "reports": 0,
+        "species": 11,
+        "grounds": 1
+      },
+      "after": {
+        "reports": 457,
+        "events": 311,
+        "rentalEvents": 0,
+        "species": 23,
+        "grounds": 1,
+        "depthRecords": 299,
+        "tackleRecords": 0,
+        "seasonGuides": 14
+      },
+      "kinds": {
+        "nearby-report": 457
+      },
+      "coverage": [
+        "2024-10-25",
+        "2026-10-23"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0100",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://kotubomarina.co.jp/?distinations=facebook-%E9%87%A3%E6%9E%9C%E6%83%85%E5%A0%B1",
+          "name": "kotubomarina.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://kotubomarina.co.jp/?distinations=rental-boat",
+          "name": "kotubomarina.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.kotsubo-taromaru.net/",
+          "name": "www.kotsubo-taromaru.net",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.tsubakimaru.net/",
+          "name": "www.tsubakimaru.net",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.kotsubo-taromaru.net/category/Choka/",
+          "name": "小坪・太郎丸公式",
+          "category": "釣果アーカイブ",
+          "status": "34ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-10-01〜2026-10-23"
+        },
+        {
+          "url": "https://www.instagram.com/kotubomarina/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DeBjci4H7bq/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DeBiiPhn4Mq/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DbuPdM2EnQZ/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DbsNS1tSXsT/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/kotubomarina/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/kenichi.satou1",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/ken1103/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "小坪マリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "小坪 逗子 相模湾 船釣り 釣果 釣具 2025 2026",
+        "\"小坪マリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0110",
+      "name": "葉山港",
+      "before": {
+        "reports": 0,
+        "species": 1,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 1437,
+        "events": 969,
+        "rentalEvents": 0,
+        "species": 22,
+        "grounds": 0,
+        "depthRecords": 844,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "nearby-report": 1437
+      },
+      "coverage": [
+        "2024-10-24",
+        "2026-10-23"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0110",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://www.hidekichimaru.com/",
+          "name": "www.hidekichimaru.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.hayama-port.jp/",
+          "name": "www.hayama-port.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.hidekichimaru.com/category/Choka/",
+          "name": "葉山鐙摺・秀吉丸公式",
+          "category": "釣果アーカイブ",
+          "status": "103ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-10-19〜2026-10-23"
+        },
+        {
+          "url": "https://www.facebook.com/profile.php",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "葉山港 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "葉山 森戸 相模湾 船釣り 釣果 釣具 2025 2026",
+        "\"葉山港\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0120",
+      "name": "葉山マリーナ",
+      "before": {
+        "reports": 0,
+        "species": 1,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 1437,
+        "events": 969,
+        "rentalEvents": 0,
+        "species": 23,
+        "grounds": 0,
+        "depthRecords": 844,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "nearby-report": 1437
+      },
+      "coverage": [
+        "2024-10-24",
+        "2026-10-23"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0120",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://www.hidekichimaru.com/",
+          "name": "www.hidekichimaru.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.hayama-port.jp/",
+          "name": "www.hayama-port.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://hayamamarina.com/",
+          "name": "hayamamarina.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.hidekichimaru.com/category/Choka/",
+          "name": "葉山鐙摺・秀吉丸公式",
+          "category": "釣果アーカイブ",
+          "status": "103ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-10-19〜2026-10-23"
+        },
+        {
+          "url": "https://www.facebook.com/profile.php",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/hayamamarina_official/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UC71Fi6iGafU028Xwdwo60jQ",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://facebook.com/HAYAMAMARINA.1964",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DUm_nxbEmKH/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DUh3pp8Ei0I/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DUhlU24kod0/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DUhKDysknvi/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DUebfZhkpVO/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/p/DUeayeyEjF1/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "葉山マリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "葉山 森戸 相模湾 船釣り 釣果 釣具 2025 2026",
+        "\"葉山マリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0080",
+      "name": "湘南ライセンス　江の島会場",
+      "before": {
+        "reports": 0,
+        "species": 3,
+        "grounds": 1
+      },
+      "after": {
+        "reports": 479,
+        "events": 479,
+        "rentalEvents": 0,
+        "species": 5,
+        "grounds": 1,
+        "depthRecords": 473,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "nearby-report": 479
+      },
+      "coverage": [
+        "2024-10-24",
+        "2026-10-22"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0080",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://www.koutaroumaru.com/",
+          "name": "www.koutaroumaru.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/2025/03/2949/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/category/rental/page/7/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.koutaroumaru.com/category/Choka/",
+          "name": "腰越・孝太郎丸公式",
+          "category": "釣果アーカイブ",
+          "status": "62ページ・公開本文を確認、釣行日のない記事は釣果にしない",
+          "coverage": "2024-10-14〜2026-10-22"
+        },
+        {
+          "url": "https://www.instagram.com/sunnysidemarina_official/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/湘南サニーサイドマリーナ-176793559013901/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://twitter.com/SSM7810",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCxmo6RuWtljvb5J_zTI22gQ",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/sunnysidemarina_uraga_official/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/sunnysidemarina.uraga/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://twitter.com/sunnnysideuraga",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/profile.php",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "湘南ライセンス　江の島会場 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "江ノ島 腰越 相模湾 船釣り 釣果 釣具 2025 2026",
+        "\"湘南ライセンス　江の島会場\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0050",
+      "name": "湘南マリーナ",
+      "before": {
+        "reports": 0,
+        "species": 7,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 71,
+        "events": 28,
+        "rentalEvents": 0,
+        "species": 26,
+        "grounds": 0,
+        "depthRecords": 53,
+        "tackleRecords": 71,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "other-rental-report": 40,
+        "other-marina-report": 31
+      },
+      "coverage": [
+        "2025-04-29",
+        "2026-10-11"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0050",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/fishing/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/2026/02/2997/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/2025/02/2947/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.sunnyside.co.jp/tag/%E9%87%A3%E3%82%8A/",
+          "name": "www.sunnyside.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://katakuraboat.net/index1.htm",
+          "name": "片倉ボート・Sea-Style釣果",
+          "category": "釣果アーカイブ",
+          "status": "公開年別テーブルの本文を確認・解析",
+          "coverage": "2025-04-29〜2026-10-11（採用釣行日）"
+        },
+        {
+          "url": "https://www.instagram.com/sunnysidemarina_official/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/湘南サニーサイドマリーナ-176793559013901/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://twitter.com/SSM7810",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCxmo6RuWtljvb5J_zTI22gQ",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/sunnysidemarina_uraga_official/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/sunnysidemarina.uraga/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://twitter.com/sunnnysideuraga",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/profile.php",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.shonanmarina.jp/",
+          "name": "公式サイトのSNS掲載本文",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "湘南マリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "平塚 大磯 相模湾 船釣り 釣果 釣具 2025 2026",
+        "\"湘南マリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0045",
+      "name": "コグレマリンサービス",
+      "before": {
+        "reports": 0,
+        "species": 1,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 71,
+        "events": 28,
+        "rentalEvents": 0,
+        "species": 22,
+        "grounds": 1,
+        "depthRecords": 53,
+        "tackleRecords": 71,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "other-rental-report": 40,
+        "other-marina-report": 31
+      },
+      "coverage": [
+        "2025-04-29",
+        "2026-10-11"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0045",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://kogurems.com/service/rental/rental2/",
+          "name": "kogurems.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://tsurinews.jp/330919/",
+          "name": "tsurinews.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://kogurems.com/",
+          "name": "kogurems.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://kogurems.com/2025/01/",
+          "name": "kogurems.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://kogurems.com/tsurinews%e3%81%95%e3%82%93%e3%81%ab%e5%8f%96%e6%9d%90%e3%81%97%e3%81%a6%e3%81%84%e3%81%9f%e3%81%a0%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/",
+          "name": "kogurems.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://katakuraboat.net/index1.htm",
+          "name": "片倉ボート・Sea-Style釣果",
+          "category": "釣果アーカイブ",
+          "status": "公開年別テーブルの本文を確認・解析",
+          "coverage": "2025-04-29〜2026-10-11（採用釣行日）"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCAlP8xi8OGExcSZcMv-InXQ",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/tsurinewsjp/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/tsurinewsjp/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://twitter.com/tsurinewsjp",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.instagram.com/koguremarin/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.facebook.com/people/%E3%82%B3%E3%82%B0%E3%83%AC-%E3%83%9E%E3%83%AA%E3%83%B3/100033054421974/",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://tsurinews.jp/330919/2/",
+          "name": "レンタル取材・釣行日不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+      ],
+      "queries": [
+        "コグレマリンサービス 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "平塚 大磯 相模湾 船釣り 釣果 釣具 2025 2026",
+        "\"コグレマリンサービス\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J14-0060",
+      "name": "片倉ボートマリーナ",
+      "before": {
+        "reports": 0,
+        "species": 9,
+        "grounds": 2
+      },
+      "after": {
+        "reports": 71,
+        "events": 28,
+        "rentalEvents": 13,
+        "species": 22,
+        "grounds": 2,
+        "depthRecords": 53,
+        "tackleRecords": 71,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "rental-report": 40,
+        "marina-report": 31
+      },
+      "coverage": [
+        "2025-04-29",
+        "2026-10-11"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0060",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://katakuraboat.net/",
+          "name": "katakuraboat.net",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://katakuraboat.net/index1.htm",
+          "name": "片倉ボート・Sea-Style釣果",
+          "category": "釣果アーカイブ",
+          "status": "公開年別テーブルの本文を確認・解析",
+          "coverage": "2025-04-29〜2026-10-11（採用釣行日）"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。",
+        "同名施設・港の混同を修正し、出港地の住所を照合した再検索を実施。"
+      ],
+      "queries": [
+        "片倉ボートマリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "片瀬 江の島 相模湾 船釣り 釣果 釣具 2025 2026",
+        "\"片倉ボートマリーナ\" 釣果 Instagram Facebook YouTube X",
+        "平塚 片倉ボート 相模川河口 大磯 釣果 2025 2026"
+      ]
+    },
+    {
+      "marinaId": "J14-0190",
+      "name": "真鶴ベイマリーナ",
+      "before": {
+        "reports": 0,
+        "species": 5,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 0,
+        "events": 0,
+        "rentalEvents": 0,
+        "species": 7,
+        "grounds": 1,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {},
+      "coverage": [
+        null,
+        null
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0190",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://turidoco.com/home/blog/380",
+          "name": "turidoco.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.fishing-v.jp/premium/318.html",
+          "name": "www.fishing-v.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://masahiromaru.com/",
+          "name": "masahiromaru.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。",
+        "釣行年月日まで照合できた新規釣果はありません。案内・日付不明の実釣資料を区別して掲載。"
+      ],
+      "queries": [
+        "真鶴ベイマリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "真鶴 福浦 岩 相模湾 船釣り 釣果 釣具 2025 2026",
+        "\"真鶴ベイマリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J47-0010",
+      "name": "マリンランド「北谷フィッシャリーナ店」",
+      "before": {
+        "reports": 0,
+        "species": 6,
+        "grounds": 1
+      },
+      "after": {
+        "reports": 0,
+        "events": 0,
+        "rentalEvents": 0,
+        "species": 16,
+        "grounds": 1,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 7
+      },
+      "kinds": {},
+      "coverage": [
+        null,
+        null
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J47-0010",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://www.kazi-online.com/articles/sts_okinawa/",
+          "name": "www.kazi-online.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://rental.marineland-okinawa.com/booking/",
+          "name": "rental.marineland-okinawa.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://chatantourism.com/spot/marineland/",
+          "name": "chatantourism.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "http://yomitan.info/joho.html",
+          "name": "yomitan.info",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://chatan-fishing.com/",
+          "name": "chatan-fishing.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://yomitan.info/",
+          "name": "yomitan.info",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.fishing-step.com/",
+          "name": "www.fishing-step.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文取得不可・未確認"
+        },
+        {
+          "url": "https://yomitan.info/joho.html",
+          "name": "近隣遊漁船・日付不明",
+          "category": "実釣・季節参考",
+          "status": "本文確認済み。日付・利用区分は各根拠に表示。"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。",
+        "釣行年月日まで照合できた新規釣果はありません。案内・日付不明の実釣資料を区別して掲載。",
+        "北谷の詳細なレンタル取材は2022年資料。直近24か月の魚種別レンタル実績は不足。"
+      ],
+      "queries": [
+        "マリンランド「北谷フィッシャリーナ店」 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "北谷 宜野湾 読谷 沖縄 船釣り 釣果 釣具 2025 2026",
+        "\"マリンランド「北谷フィッシャリーナ店」\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J47-0020",
+      "name": "沖縄マリーナ",
+      "before": {
+        "reports": 0,
+        "species": 3,
+        "grounds": 1
+      },
+      "after": {
+        "reports": 4,
+        "events": 4,
+        "rentalEvents": 0,
+        "species": 4,
+        "grounds": 1,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "community-report": 4
+      },
+      "coverage": [
+        "2025-06-15",
+        "2026-07-07"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J47-0020",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "http://www.okinawamarina.co.jp/fishing.htm",
+          "name": "www.okinawamarina.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://tsuripo.com/archives/33835",
+          "name": "tsuripo.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文確認済み"
+        },
+        {
+          "url": "https://www.fishing-step.com/",
+          "name": "www.fishing-step.com",
+          "category": "地域事業者・公開記事",
+          "status": "本文取得不可・未確認"
+        },
+        {
+          "url": "https://www.okinawamarina.co.jp/fishing.htm",
+          "name": "www.okinawamarina.co.jp",
+          "category": "地域事業者・公開記事",
+          "status": "本文取得不可・未確認"
+        },
+        {
+          "url": "https://youtu.be/DnAiZKd_K40",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://www.youtube.com/@tsuripo",
+          "name": "事業者の公開SNSリンク",
+          "category": "SNS",
+          "status": "リンク確認。投稿全文・24か月の全履歴は未確認。サイト内に掲載された本文のみ別途採用。"
+        },
+        {
+          "url": "https://sannory2.com/category/%e4%b8%ad%e5%9f%8e/",
+          "name": "サンノリー2・中城",
+          "category": "地域釣具店",
+          "status": "本文・釣行日確認済み。岸船区分は未掲載。",
+          "coverage": "2025-06-15〜2026-07-07"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。",
+        "旧フィッシングガイドページに2013年から休止の記載があるため、現在のサービス案内には採用していません。"
+      ],
+      "queries": [
+        "沖縄マリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "泡瀬 中城湾 沖縄 船釣り 釣果 釣具 2025 2026",
+        "\"沖縄マリーナ\" 釣果 Instagram Facebook YouTube X"
+      ]
+    },
+    {
+      "marinaId": "J47-0030",
+      "name": "エックスパワー",
+      "before": {
+        "reports": 0,
+        "species": 0,
+        "grounds": 0
+      },
+      "after": {
+        "reports": 4,
+        "events": 4,
+        "rentalEvents": 0,
+        "species": 1,
+        "grounds": 0,
+        "depthRecords": 0,
+        "tackleRecords": 0,
+        "seasonGuides": 0
+      },
+      "kinds": {
+        "community-report": 4
+      },
+      "coverage": [
+        "2025-06-15",
+        "2026-07-07"
+      ],
+      "sources": [
+        {
+          "url": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J47-0030",
+          "name": "Yamaha公式の艇・利用条件",
+          "category": "公式ディレクトリ",
+          "status": "本日の再確認はサービス案内画面のため未完了。保存済み確認日は2026-10-23。"
+        },
+        {
+          "url": "https://sannory2.com/category/%e4%b8%ad%e5%9f%8e/",
+          "name": "サンノリー2・中城",
+          "category": "地域釣具店",
+          "status": "本文・釣行日確認済み。岸船区分は未掲載。",
+          "coverage": "2025-06-15〜2026-07-07"
+        }
+      ],
+      "gaps": [
+        "公開されない釣果GPS・艇別の当日航行許可は不明。",
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。",
+        "艇の釣り利用・釣法の許可は未確認。中城の地域投稿はレンタル実績ではありません。",
+        "同名施設・港の混同を修正し、出港地の住所を照合した再検索を実施。"
+      ],
+      "queries": [
+        "エックスパワー 釣果 レンタル 魚 ポイント 水深 Instagram",
+        "宜野湾 沖縄 船釣り 釣果 釣具 2025 2026",
+        "\"エックスパワー\" 釣果 Instagram Facebook YouTube X",
+        "中城 エックスパワー 沖縄 東海岸 釣果 タマン 2025 2026"
+      ]
+    }
+  ],
+  "uniqueSourceRows": 10039,
+  "catalogueItems": 141,
+  "sourceUrls": 191
+}

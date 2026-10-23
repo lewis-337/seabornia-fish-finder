@@ -83,7 +83,7 @@ const out = process.env.SEABORNIA_QA_DIR || "/tmp/seastyle-v9-content",
         },
       );
       await check(
-        "57 real photos decode, original barracuda mismatch fixed, group examples labelled",
+        "141 real photos decode, original barracuda mismatch fixed, group examples labelled",
         async () => {
           await p.locator(".nav[data-tab=species]:visible").click();
           await p.locator(".photoDiagnostics summary").click();
@@ -93,7 +93,7 @@ const out = process.env.SEABORNIA_QA_DIR || "/tmp/seastyle-v9-content",
           );
           assert.match(
             await p.locator("#photoAuditStatus").innerText(),
-            /57\/57/,
+            /141\/141/,
           );
           await p.locator("#speciesSearch").fill("グルクン");
           assert.match(

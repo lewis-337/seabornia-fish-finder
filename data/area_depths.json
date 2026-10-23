@@ -225,6 +225,26 @@
       "fetched_at": "2026-10-23T11:26:31.960411+00:00",
       "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
       "release": "GEBCO2026"
+    },
+    "sagami-oiso": {
+      "elevation_m": -203.0,
+      "sample_lat": 35.285417,
+      "sample_lng": 139.31875,
+      "requested_lat": 35.285,
+      "requested_lng": 139.32,
+      "fetched_at": "2026-10-23T20:49:51.353174+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "sagami-manazuru": {
+      "elevation_m": -96.0,
+      "sample_lat": 35.135417,
+      "sample_lng": 139.16875,
+      "requested_lat": 35.137,
+      "requested_lng": 139.17,
+      "fetched_at": "2026-10-23T20:49:51.351538+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
     }
   },
   "status": [

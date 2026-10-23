@@ -145,5 +145,363 @@
     "artist_html": "OpenCage",
     "credit_html": "OpenCage; colour compensation by Apple2000 (Wikimedia Commons)",
     "filename": "Trichiurus lepturus by OpenCage.jpg"
+  },
+  "species-cfba75be0d": {
+    "copy_from": "26"
+  },
+  "species-a6ddc45ed5": {
+    "copy_from": "32"
+  },
+  "species-37dac69741": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/AyameKG.jpg/330px-AyameKG.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:AyameKG.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist_html": "Izuzuki",
+    "credit_html": "",
+    "filename": "AyameKG.jpg"
+  },
+  "species-c7ea313b25": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350240544/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/198683650",
+    "license": "CC BY",
+    "artist_html": "(c) りなべる, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Helicolenus hilgendorfii, taxon 461135, photo 350240544",
+    "filename": "iNaturalist 350240544",
+    "taxon": "Helicolenus hilgendorfii",
+    "taxon_id": 461135
+  },
+  "species-33f2b19705": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222983206/medium.jpg",
+    "page_url": "https://www.inaturalist.org/photos/222983206",
+    "license": "CC BY-SA",
+    "artist_html": "(c) anonymous, 일부 권리 보유 (CC BY-SA)",
+    "credit_html": "iNaturalist taxon Hyperoglyphe japonica (609961), photo 222983206",
+    "filename": "iNaturalist 222983206",
+    "taxon": "Hyperoglyphe japonica",
+    "taxon_id": 609961
+  },
+  "species-4fef83314d": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64629669/medium.jpg",
+    "page_url": "https://www.inaturalist.org/photos/64629669",
+    "license": "CC BY-SA",
+    "artist_html": "(c) Izuzuki, some rights reserved (CC BY-SA)",
+    "credit_html": "iNaturalist taxon Parascolopsis inermis (530469), photo 64629669",
+    "filename": "iNaturalist 64629669",
+    "taxon": "Parascolopsis inermis",
+    "taxon_id": 530469
+  },
+  "species-b98df808ec": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350240672/medium.jpg",
+    "page_url": "https://www.inaturalist.org/photos/350240672",
+    "license": "CC BY",
+    "artist_html": "(c) りなべる, some rights reserved (CC BY), uploaded by りなべる",
+    "credit_html": "iNaturalist taxon Polymixia japonica (619571), photo 350240672",
+    "filename": "iNaturalist 350240672",
+    "taxon": "Polymixia japonica",
+    "taxon_id": 619571
+  },
+  "species-997ab06bc7": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15619077/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/11068443",
+    "license": "CC0",
+    "artist_html": "no rights reserved",
+    "credit_html": "iNaturalist research-grade Lagocephalus spadiceus, taxon 446147, photo 15619077",
+    "filename": "iNaturalist 15619077",
+    "taxon": "Lagocephalus spadiceus",
+    "taxon_id": 446147
+  },
+  "species-1e66a26d6a": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211082627/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/124528364",
+    "license": "CC0",
+    "artist_html": "no rights reserved",
+    "credit_html": "iNaturalist research-grade Paracaesio xanthurus, taxon 208070, photo 211082627",
+    "filename": "iNaturalist 211082627",
+    "taxon": "Paracaesio xanthurus",
+    "taxon_id": 208070
+  },
+  "species-d8a5cce9b3": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112123144/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/69139646",
+    "license": "CC BY",
+    "artist_html": "(c) りなべる, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Decapterus maruadsi, taxon 473385, photo 112123144",
+    "filename": "iNaturalist 112123144",
+    "taxon": "Decapterus maruadsi",
+    "taxon_id": 473385
+  },
+  "species-3f46f17ef0": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/430753342/medium.png",
+    "page_url": "https://www.inaturalist.org/photos/430753342",
+    "license": "CC BY",
+    "artist_html": "(c) https://doi.org/10.3897/zookeys.843.32410, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist taxon Atrobucca nibe (530763), photo 430753342",
+    "filename": "iNaturalist 430753342",
+    "taxon": "Atrobucca nibe",
+    "taxon_id": 530763
+  },
+  "species-610301974f": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/572789995/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/317007707",
+    "license": "CC BY",
+    "artist_html": "(c) Nicola Crockford, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Girella leonina, taxon 615590, photo 572789995",
+    "filename": "iNaturalist 572789995",
+    "taxon": "Girella leonina",
+    "taxon_id": 615590
+  },
+  "species-692b573850": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/574119115/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/317705950",
+    "license": "CC BY",
+    "artist_html": "(c) Jay Paroline, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Diagramma pictum, taxon 132396, photo 574119115",
+    "filename": "iNaturalist 574119115",
+    "taxon": "Diagramma pictum",
+    "taxon_id": 132396
+  },
+  "species-4d6be4e555": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600478470/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/331059073",
+    "license": "CC BY",
+    "artist_html": "(c) Graham Cleaver, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Lethrinus genivittatus, taxon 104515, photo 600478470",
+    "filename": "iNaturalist 600478470",
+    "taxon": "Lethrinus genivittatus",
+    "taxon_id": 104515
+  },
+  "species-3f9a275340": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/478910945/medium.jpeg",
+    "page_url": "https://www.inaturalist.org/observations/266536458",
+    "license": "CC BY",
+    "artist_html": "(c) Dominik Maximilián Ramík, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Etelis coruscans, taxon 410999, photo 478910945",
+    "filename": "iNaturalist 478910945",
+    "taxon": "Etelis coruscans",
+    "taxon_id": 410999
+  },
+  "species-932590449b": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191386025/medium.jpg",
+    "page_url": "https://www.inaturalist.org/photos/191386025",
+    "license": "CC BY-SA",
+    "artist_html": "(c) Totti, some rights reserved (CC BY-SA)",
+    "credit_html": "iNaturalist taxon Pentaceros japonicus (109033), photo 191386025",
+    "filename": "iNaturalist 191386025",
+    "taxon": "Pentaceros japonicus",
+    "taxon_id": 109033
+  },
+  "species-c52a7b7eb0": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331415696/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/189223083",
+    "license": "CC BY",
+    "artist_html": "(c) Pauline Walsh Jacobson, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Ascarosepion latimanus, taxon 1500640, photo 331415696",
+    "filename": "iNaturalist 331415696",
+    "taxon": "Ascarosepion latimanus",
+    "taxon_id": 1500640
+  },
+  "species-5ddf62fbf8": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/425925673/medium.jpeg",
+    "page_url": "https://www.inaturalist.org/observations/239174769",
+    "license": "CC BY",
+    "artist_html": "(c) 呂一起(Lyu yi-chi), some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Scolopsis monogramma, taxon 201025, photo 425925673",
+    "filename": "iNaturalist 425925673",
+    "taxon": "Scolopsis monogramma",
+    "taxon_id": 201025
+  },
+  "species-901339c889": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107565272/medium.jpeg",
+    "page_url": "https://www.inaturalist.org/observations/66690242",
+    "license": "CC BY",
+    "artist_html": "(c) 呂一起(Lyu yi-chi), some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Epinephelus hexagonatus, taxon 100106, photo 107565272",
+    "filename": "iNaturalist 107565272",
+    "taxon": "Epinephelus hexagonatus",
+    "taxon_id": 100106
+  },
+  "species-9a3ae21028": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Niphon_spinosus_Oga_Aquarium_2.jpg/960px-Niphon_spinosus_Oga_Aquarium_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Niphon_spinosus_Oga_Aquarium_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist_html": "Totti",
+    "credit_html": "",
+    "filename": "Niphon_spinosus_Oga_Aquarium_2.jpg"
+  },
+  "species-e08f8e1cb2": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/M%C3%A9rou_com%C3%A8te_%28Epinephelus_morrhua%29_%28Ifremer_00764-87557%29.jpg/960px-M%C3%A9rou_com%C3%A8te_%28Epinephelus_morrhua%29_%28Ifremer_00764-87557%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:M%C3%A9rou_com%C3%A8te_%28Epinephelus_morrhua%29_%28Ifremer_00764-87557%29.jpg",
+    "license": "CC BY 4.0",
+    "artist_html": "Jerome Huet (IFREMER, Délégation océan Indien (DOI), Département Ressources Biologiques et Environnement (RBE), F-97420 Le Port, France)",
+    "credit_html": "",
+    "filename": "Mérou comète (Epinephelus morrhua) (Ifremer 00764-87557).jpg"
+  },
+  "species-cbf00744c3": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/628334604/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/344832722",
+    "license": "CC0",
+    "artist_html": "no rights reserved",
+    "credit_html": "iNaturalist Uranoscopus japonicus, taxon 114779, photo 628334604; grade needs_id",
+    "filename": "iNaturalist 628334604"
+  },
+  "species-78c5850e34": {
+    "bundled_file": "images/fish/species-78c5850e34.jpg",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d72d/6057991/17d18b400ee5/41598_2018_29431_Fig2_HTML.jpg",
+    "page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6057991/#Fig2",
+    "license": "CC BY 4.0",
+    "artist_html": "Jacopo Aguzzi et al. (2018)",
+    "credit_html": "Scientific Reports 8, 11163, Figure 2K; cropped from original, Pterothrissus gissu. CC BY 4.0.",
+    "filename": "Figure 2K: Pterothrissus gissu"
+  },
+  "species-fe569ce9fb": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Specimen_of_Evynnis_cardinalis.JPG/500px-Specimen_of_Evynnis_cardinalis.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Specimen_of_Evynnis_cardinalis.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist_html": "SSR2000",
+    "credit_html": "",
+    "filename": "Specimen of Evynnis cardinalis.JPG"
+  },
+  "species-c32c007b94": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112122976/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/69139575",
+    "license": "CC BY",
+    "artist_html": "(c) りなべる, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist Cociella crocodilus, taxon 51472, photo 112122976; grade needs_id",
+    "filename": "iNaturalist 112122976",
+    "quality_grade": "needs_id"
+  },
+  "species-f90521ba10": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/695739820/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/380310030",
+    "license": "CC BY",
+    "artist_html": "(c) 林正文, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist Parapercis pacifica, taxon 530639, photo 695739820; grade research",
+    "filename": "iNaturalist 695739820",
+    "quality_grade": "research"
+  },
+  "species-ed7d27230f": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350240505/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/198683631",
+    "license": "CC BY",
+    "artist_html": "(c) りなべる, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Malakichthys griseus, taxon 451887, photo 350240505",
+    "filename": "iNaturalist 350240505",
+    "taxon": "Malakichthys griseus",
+    "taxon_id": 451887
+  },
+  "species-9c083045b8": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239610884/medium.jpeg",
+    "page_url": "https://www.inaturalist.org/observations/140021416",
+    "license": "CC BY",
+    "artist_html": "(c) Antonio Vukusich y Alejandra Cabellos, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Alectis ciliaris, taxon 93641, photo 239610884",
+    "filename": "iNaturalist 239610884",
+    "taxon": "Alectis ciliaris",
+    "taxon_id": 93641
+  },
+  "species-aba43d6bbf": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350240558/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/198683655",
+    "license": "CC BY",
+    "artist_html": "(c) りなべる, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Zenopsis nebulosa, taxon 416158, photo 350240558",
+    "filename": "iNaturalist 350240558",
+    "taxon": "Zenopsis nebulosa",
+    "taxon_id": 416158
+  },
+  "species-30ee1d1c2d": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224981883/medium.jpeg",
+    "page_url": "https://www.inaturalist.org/observations/132139166",
+    "license": "CC BY",
+    "artist_html": "(c) Dmitry Ivanov, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Strongylura anastomella, taxon 609283, photo 224981883",
+    "filename": "iNaturalist 224981883",
+    "taxon": "Strongylura anastomella",
+    "taxon_id": 609283
+  },
+  "species-ef218f0e53": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369345752/medium.jpeg",
+    "page_url": "https://www.inaturalist.org/observations/208736088",
+    "license": "CC BY",
+    "artist_html": "(c) Navaneeth Sini George, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Auxis thazard, taxon 177104, photo 369345752",
+    "filename": "iNaturalist 369345752",
+    "taxon": "Auxis thazard",
+    "taxon_id": 177104
+  },
+  "species-ea418d43e6": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10162425/medium.jpeg",
+    "page_url": "https://www.inaturalist.org/observations/7742555",
+    "license": "CC BY",
+    "artist_html": "(c) Chris Teague, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Synodus ulae, taxon 123123, photo 10162425",
+    "filename": "iNaturalist 10162425",
+    "taxon": "Synodus ulae",
+    "taxon_id": 123123
+  },
+  "species-c0e99f138a": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251475451/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/146290428",
+    "license": "CC BY",
+    "artist_html": "(c) Leroy Parker, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Sarda orientalis, taxon 177154, photo 251475451",
+    "filename": "iNaturalist 251475451",
+    "taxon": "Sarda orientalis",
+    "taxon_id": 177154
+  },
+  "species-e24578dd75": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160876754/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/96805470",
+    "license": "CC BY",
+    "artist_html": "(c) Paul Asman and Jill Lenoble, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Caranx papuensis, taxon 338255, photo 160876754",
+    "filename": "iNaturalist 160876754",
+    "taxon": "Caranx papuensis",
+    "taxon_id": 338255
+  },
+  "species-247d40f9f6": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12948625/medium.jpeg",
+    "page_url": "https://www.inaturalist.org/observations/9503418",
+    "license": "CC BY",
+    "artist_html": "(c) Ryan Watson, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Rachycentron canadum, taxon 131491, photo 12948625",
+    "filename": "iNaturalist 12948625",
+    "taxon": "Rachycentron canadum",
+    "taxon_id": 131491
+  },
+  "species-69afd310ea": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Lophius_litulon_0.jpg/960px-Lophius_litulon_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Lophius_litulon_0.jpg",
+    "license": "CC BY 4.0",
+    "artist_html": "Geekgecko",
+    "credit_html": "",
+    "filename": "Lophius litulon 0.jpg"
+  },
+  "species-031f8c4016": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341091528/medium.jpeg",
+    "page_url": "https://www.inaturalist.org/observations/194100813",
+    "license": "CC BY-NC 4.0",
+    "noncommercial_only": true,
+    "artist_html": "(c) hakkahamushi, some rights reserved (CC BY-NC)",
+    "credit_html": "iNaturalist Sebastes matsubarae, taxon 1315874, photo 341091528; grade research. 個人・非商用アプリ限定。",
+    "filename": "iNaturalist 341091528"
+  },
+  "species-a742296d61": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184466962/medium.jpeg",
+    "page_url": "https://www.inaturalist.org/observations/109447646",
+    "license": "CC BY-NC 4.0",
+    "noncommercial_only": true,
+    "artist_html": "(c) yah_japan, some rights reserved (CC BY-NC)",
+    "credit_html": "iNaturalist Nibea mitsukurii, taxon 620353, photo 184466962; grade research. 個人・非商用アプリ限定。",
+    "filename": "iNaturalist 184466962"
+  },
+  "species-7493bac338": {
+    "url": "https://fishbase.se/tools/display_image.php?fw=n&imgName=1712558220_172.71.219.105.jpg",
+    "page_url": "https://fishbase.se/photos/UploadedBy.php?autoctr=48481&win=uploaded",
+    "license": "CC BY-NC 4.0",
+    "noncommercial_only": true,
+    "artist_html": "D.G.R. Wiadnya",
+    "credit_html": "FishBase, Nemipterus bathybius, user-uploaded identification; photographed 2022-04-28. 個人・非商用アプリ限定。",
+    "filename": "FishBase photo 48481"
   }
 }

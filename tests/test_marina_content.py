@@ -13,10 +13,10 @@ class ContentIntegrity(unittest.TestCase):
    p=m['profile'];self.assertTrue(p['summary'] and p['preparation'] and p['checkedAt'])
    for k in ['address','phone','hours','closedDays','parking']:self.assertTrue(p['basics'][k],(m['id'],k))
    for f in p['fishing']:self.assertTrue(f['source'].startswith('https://'))
- def test_all_57_photos_decode_and_keep_reusable_attribution(self):
+ def test_all_catalogue_photos_decode_and_keep_reusable_attribution(self):
   species=json.loads((ROOT/'data/seed.json').read_text())['species']+json.loads((ROOT/'data/marina-evidence.json').read_text())['species']
   photos=json.loads((ROOT/'data/photo_manifest.json').read_text())['images']
-  self.assertEqual(len(species),57)
+  self.assertGreaterEqual(len(species),141)
   for f in species:
    p=photos[f['id']];self.assertTrue(p['ok']);self.assertRegex(p['license'],r'^(CC0|CC BY|Public domain|PD)');self.assertTrue(p['source'] and p['artist_html'])
    with Image.open(ROOT/p['local']) as img:img.load();self.assertGreaterEqual(img.width,130)

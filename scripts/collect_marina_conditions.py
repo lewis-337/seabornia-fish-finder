@@ -39,8 +39,9 @@ def collect(root=ROOT,getter=fetch,now=None):
    if m['basin']=='tokyo-bay' and a['lat']<35.35:coverage[0]=max(coverage[0],139.69)
    mappings[m['id']].append((a,key,coverage))
    points[key]=a
- # 25 bases + 20 or fewer grounds: < 3,000 location/provider calls per day,
- # including the legacy hourly Seabornia collector. Repeated grid points share results.
+ # Public grid points share results. At the v10 inventory: 45 regional + 11
+ # legacy points, 2 providers, 28 hourly/six-hourly runs = at most 3,136
+ # location/provider calls per day, within the personal free-tier allowance.
  if len(points)>100:raise ValueError('Forecast budget exceeded; audit coverage before expanding')
  old=read(root/'data/marina-forecast-grid.json',{'points':{}});old.update(schema_version=1,checkedAt=stamp,points=old.get('points',{}))
  def one(item):
@@ -72,8 +73,10 @@ def collect(root=ROOT,getter=fetch,now=None):
       for delta in [-1,0,1]:dates.add((datetime.fromisoformat(r['date'])+timedelta(days=delta)).date().isoformat())
   failures=[]
   # Request a 30-day block once per missing period; normalize each returned date.
-  missing=sorted(d for d in dates if d not in tides['days'])
-  while missing:
+  missing=sorted((d for d in dates if d not in tides['days']), key=lambda d:(d < (now.date()-timedelta(days=2)).isoformat(), d))
+  requested=0
+  while missing and requested<3:
+   requested+=1
    first=missing[0];y,m,d=map(int,first.split('-'))
    try:
     raw=getter(TIDE,dict(pc=st['pc'],hc=st['hc'],yr=y,mn=m,dy=d,rg='month'))
@@ -81,9 +84,11 @@ def collect(root=ROOT,getter=fetch,now=None):
      try:tides['days'][date]=normalize_tide(raw,date,stamp,st['pc'],st['hc'])
      except Exception:pass
     if first not in tides['days']:raise ValueError('Station or date mismatch')
-   except Exception as e:failures.append(dict(date=first,error=type(e).__name__))
+   except Exception as e:
+    failures.append(dict(date=first,error=type(e).__name__))
+    break  # Avoid hundreds of per-date retries during a provider outage.
    missing=[x for x in missing[1:] if x not in tides['days']]
-  tides['failures']=failures;tides['status']='partial' if failures else 'ok';write(path,tides)
+  tides['failures']=failures;tides['pendingDates']=len(missing);tides['status']='partial' if failures or missing else 'ok';write(path,tides)
  write(root/'data/marinas.json',registry)
  print('Regional forecast grid:',len(points),'points;',len(stations),'tide stations')
  return registry

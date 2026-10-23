@@ -48,7 +48,7 @@ def wiki_file(lang,title):
 def commons_html_info(filename):
  url='https://commons.wikimedia.org/wiki/File:'+quote(filename.replace(' ','_'))
  page=BeautifulSoup(get(url)[0],'html.parser')
- license_name=next((n.get_text(strip=True) for n in page.select('.licensetpl_short') if re.match(r'^(CC0\b|CC BY(?:-SA)?\b|Public domain\b|PD\b)',n.get_text(strip=True),re.I)),None)
+ license_name=next((n.get_text(strip=True) for n in page.select('.licensetpl_short') if re.match(r'^(?:CC0|CC BY(?:-SA)?|Public domain|PD)(?:$| [0-9])',n.get_text(strip=True),re.I)),None)
  image=page.select_one('#file img')
  if not license_name or not image:return None
  previews=[a.get('href','') for a in page.select('#file a') if '/thumb/' in a.get('href','') and urlparse(a.get('href','')).hostname in ['upload.wikimedia.org','thumb.wikimedia.org']]
@@ -70,7 +70,7 @@ def commons_info(filename):
  ext=info.get('extmetadata',{})
  lic=(ext.get('LicenseShortName') or {}).get('value','')
  # Exclude files that cannot be confidently redistributed; include BY and SA with credits in UI.
- ok=bool(re.match(r'^(CC0\b|CC BY(?:-SA)?\b|Public domain\b|PD\b)',lic,re.I))
+ ok=bool(re.match(r'^(?:CC0|CC BY(?:-SA)?|Public domain|PD)(?:$| [0-9])',lic,re.I))
  if not ok:return None
  return {'url':info.get('thumburl') or info.get('url'),'page_url':info.get('descriptionurl') or 'https://commons.wikimedia.org/wiki/File:'+quote(filename),
          'license':lic,'artist_html':(ext.get('Artist') or {}).get('value','')[:500],
@@ -123,8 +123,15 @@ def main():
    try:
     meta=override if override else commons_info(filename)
     if not meta:continue
-    if not re.match(r'^(CC0\b|CC BY(?:-SA)?\b|Public domain\b|PD\b)',meta.get('license',''),re.I):continue
-    try:body,mime=get(meta['url'],limit=7_000_000)
+    reusable=bool(re.match(r'^(?:CC0|CC BY(?:-SA)?|Public domain|PD)(?:$| [0-9])',meta.get('license',''),re.I))
+    reviewed_nc=bool(override and meta.get('noncommercial_only') and meta.get('license')=='CC BY-NC 4.0')
+    if not (reusable or reviewed_nc):continue
+    try:
+     if meta.get('bundled_file'):
+      asset=(ROOT/meta['bundled_file']).resolve()
+      if not asset.is_relative_to(OUT.resolve()) or asset.suffix!='.jpg':raise ValueError('Invalid curated asset')
+      body,mime=asset.read_bytes(),'image/jpeg'
+     else:body,mime=get(meta['url'],limit=7_000_000)
     except HTTPError as exc:
      if exc.code!=429 or override:raise
      preview=commons_html_info(filename)
@@ -136,7 +143,7 @@ def main():
     im=ImageOps.exif_transpose(im).convert('RGB');im.thumbnail((580,400))
     # reject transparently suspicious image formats that do not decode
     path=OUT/(local_name+'.jpg');im.save(path,format='JPEG',quality=78,optimize=True)
-    entries[fid]={'name':f['name'],'local':'images/fish/'+local_name+'.jpg','ok':True,'license':meta['license'], 'source':meta['page_url'], 'artist_html':meta['artist_html'],'credit_html':meta['credit_html'],'pixel_size':[im.width,im.height], 'checked':datetime.now(timezone.utc).isoformat(timespec='seconds')};ok=True;break
+    entries[fid]={'name':f['name'],'local':'images/fish/'+local_name+'.jpg','ok':True,'license':meta['license'], 'source':meta['page_url'], 'artist_html':meta['artist_html'],'credit_html':meta['credit_html'],'noncommercial_only':bool(meta.get('noncommercial_only')),'pixel_size':[im.width,im.height], 'checked':datetime.now(timezone.utc).isoformat(timespec='seconds')};ok=True;break
    except Exception: continue
   if not ok:entries[fid]={'name':f['name'],'ok':False,'checked':datetime.now(timezone.utc).isoformat(timespec='seconds'),'reason':'Verified freely reusable Commons thumbnail not found or could not decode'}
   checkpoint()

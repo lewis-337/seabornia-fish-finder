@@ -203,7 +203,7 @@ async function run(engine) {
       },
     );
     await check(
-      "all 57 local photographs decode and source detail is retained",
+      "all 141 local photographs decode and source detail is retained",
       async () => {
         await page.locator(".photoDiagnostics summary").click();
         await page.locator("#auditAllPhotos").click();
@@ -213,7 +213,7 @@ async function run(engine) {
         );
         assert.match(
           await page.locator("#photoAuditStatus").innerText(),
-          /57\/57/,
+          /141\/141/,
         );
         await page
           .getByRole("button", { name: "アオリイカの詳細", exact: true })

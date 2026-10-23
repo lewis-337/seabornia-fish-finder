@@ -1,0 +1,2050 @@
+{
+  "checkedAt": "2026-10-24",
+  "policy": "原文は保存。広い魚群・誤字・未同定名を特定魚種の実績やおすすめにしない。",
+  "unresolved": [
+    {
+      "name": "サワラ・サゴシ",
+      "recordIds": [
+        "catch-03232103000842603ca5",
+        "catch-095b3831936efb01129f",
+        "catch-1151426e07b7e3f48bea",
+        "catch-16ebb72a79ffa0413856",
+        "catch-22fa24ccf9965a918c65",
+        "catch-28bd6d9ee02f6de08654",
+        "catch-2bfd39c5f5c3b51f5b11",
+        "catch-30913e1f0b896c5bb8fa",
+        "catch-33ca11a0f4399c42034c",
+        "catch-3c6b4d9bd9e846bf010c",
+        "catch-5c6d48b508ca86a887ab",
+        "catch-5cde82d029202dae403f",
+        "catch-5f59bb6aab50154649af",
+        "catch-6ead3df84f253941bf5e",
+        "catch-7d9f912c786e2ab68f39",
+        "catch-81051d854b0776ff39ac",
+        "catch-827f0fd2aed4634191a0",
+        "catch-84de4f68b462c6f4c11b",
+        "catch-84fe8e847065e53f897b",
+        "catch-89452322d30024bcfc27",
+        "catch-8ffac4d405f03e38ee01",
+        "catch-9040d9966195cee3321a",
+        "catch-96ccbe879a8524f3f418",
+        "catch-b3e18a7a914f86b3967c",
+        "catch-b41aa60c01e11a15e4fb",
+        "catch-bc682ad3f4cf020f72bf",
+        "catch-d38a23b29e97306ce3f5",
+        "catch-d5dcb568d915e3f5aee7",
+        "catch-d9b691ff9da6dea5385d",
+        "catch-deb4d201e89c213a195e",
+        "catch-e0ff1064acd458ca006f",
+        "catch-f0b2144e717249d0657f",
+        "catch-f69f822b2e26199dfb7e",
+        "catch-ff310be253967a77b6b8"
+      ],
+      "sources": [
+        "https://central-boat.co.jp/archives/10628",
+        "https://darumamarine.naturum.ne.jp/e3646138.html",
+        "https://darumamarine.naturum.ne.jp/e3648274.html",
+        "https://darumamarine.naturum.ne.jp/e3648479.html",
+        "https://darumamarine.naturum.ne.jp/e3651764.html",
+        "https://darumamarine.naturum.ne.jp/e3654268.html",
+        "https://darumamarine.naturum.ne.jp/e3674910.html",
+        "https://darumamarine.naturum.ne.jp/e3680729.html",
+        "https://darumamarine.naturum.ne.jp/e3680813.html",
+        "https://darumamarine.naturum.ne.jp/e3680906.html",
+        "https://darumamarine.naturum.ne.jp/e3681319.html",
+        "https://darumamarine.naturum.ne.jp/e3681785.html",
+        "https://darumamarine.naturum.ne.jp/e3683769.html",
+        "https://darumamarine.naturum.ne.jp/e3684947.html",
+        "https://darumamarine.naturum.ne.jp/e3685603.html",
+        "https://darumamarine.naturum.ne.jp/e3686128.html",
+        "https://darumamarine.naturum.ne.jp/e3686757.html",
+        "https://darumamarine.naturum.ne.jp/e3686863.html",
+        "https://darumamarine.naturum.ne.jp/e3686968.html",
+        "https://darumamarine.naturum.ne.jp/e3687137.html",
+        "https://darumamarine.naturum.ne.jp/e3687285.html",
+        "https://darumamarine.naturum.ne.jp/e3687778.html",
+        "https://darumamarine.naturum.ne.jp/e3687854.html",
+        "https://darumamarine.naturum.ne.jp/e3687943.html",
+        "https://darumamarine.naturum.ne.jp/e3688374.html",
+        "https://darumamarine.naturum.ne.jp/e3688438.html",
+        "https://darumamarine.naturum.ne.jp/e3688614.html",
+        "https://darumamarine.naturum.ne.jp/e3688760.html",
+        "https://darumamarine.naturum.ne.jp/e3689208.html",
+        "https://www.ssm-uraga.jp/fishing?pagecount=10#fishing-14389",
+        "https://www.ssm-uraga.jp/fishing?pagecount=10#fishing-14397",
+        "https://www.ssm-uraga.jp/fishing?pagecount=11#fishing-14386",
+        "https://www.ssm-uraga.jp/fishing?pagecount=17#fishing-14153",
+        "https://www.ssm-uraga.jp/fishing?pagecount=8#fishing-14480"
+      ]
+    },
+    {
+      "name": "モンゴウイカ",
+      "recordIds": [
+        "catch-0efa0ab30f9b463df136",
+        "catch-20391c6d41d2976b1fc8",
+        "catch-35647494e209d62e742c",
+        "catch-3611c760d9cf584f1af5",
+        "catch-41bdf0e11cd940b1ccb4",
+        "catch-41d01055d7c8fdb85ea0",
+        "catch-423dfc5379bee282dadd",
+        "catch-44bac1ace26b252e6fef",
+        "catch-4baa237e07711241eafb",
+        "catch-54f6a2cfbb05c2346a68",
+        "catch-5c851bbac51b510e6ece",
+        "catch-60e17aa3a221931e6b51",
+        "catch-68ca3a91b7630f93680a",
+        "catch-986f5e0f02d6ada0f5e1",
+        "catch-a4baea74203931fc55cb",
+        "catch-b6e18763e2937a946513",
+        "catch-b93793ef1f8ecc4560cb",
+        "catch-e98e89cfd6eb25e92388",
+        "catch-f23b5f8b29838c842f9e",
+        "catch-fc59244365e360aa36b6"
+      ],
+      "sources": [
+        "https://central-boat.co.jp/archives/9475",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13388",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13930",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14520",
+        "https://www.ssm-uraga.jp/fishing?pagecount=107#fishing-10436",
+        "https://www.ssm-uraga.jp/fishing?pagecount=108#fishing-10382",
+        "https://www.ssm-uraga.jp/fishing?pagecount=110#fishing-10260",
+        "https://www.ssm-uraga.jp/fishing?pagecount=111#fishing-10225",
+        "https://www.ssm-uraga.jp/fishing?pagecount=112#fishing-10204",
+        "https://www.ssm-uraga.jp/fishing?pagecount=114#fishing-10110",
+        "https://www.ssm-uraga.jp/fishing?pagecount=115#fishing-10036",
+        "https://www.ssm-uraga.jp/fishing?pagecount=115#fishing-10065",
+        "https://www.ssm-uraga.jp/fishing?pagecount=116#fishing-10021",
+        "https://www.ssm-uraga.jp/fishing?pagecount=31#fishing-13589",
+        "https://www.ssm-uraga.jp/fishing?pagecount=45#fishing-13039",
+        "https://www.ssm-uraga.jp/fishing?pagecount=55#fishing-12619",
+        "https://www.ssm-uraga.jp/fishing?pagecount=59#fishing-12476",
+        "https://www.ssm-uraga.jp/fishing?pagecount=62#fishing-12359",
+        "https://www.ssm-uraga.jp/fishing?pagecount=64#fishing-12269",
+        "https://www.sunnyside.co.jp/fishing/?pagecount=18#fishing-20176"
+      ]
+    },
+    {
+      "name": "タイ",
+      "recordIds": [
+        "catch-034df2e83924e26f7e31",
+        "catch-08eefbb0c8587a3883a5",
+        "catch-296adefbd79a7c033e45",
+        "catch-3fbfb95eec74019ce0b1",
+        "catch-47497c781575d22ad4f1",
+        "catch-5ac9990048159197cb61",
+        "catch-638e103c665e7c380a66",
+        "catch-76c5f531d4a056e9f959",
+        "catch-7f26263ea4735c5e96ed",
+        "catch-81deb4acfb7be19ae6c7",
+        "catch-923ed24721286f273a11",
+        "catch-960c74d75bd7b8aead32",
+        "catch-99734a2ce1a514a6950e",
+        "catch-aeca95384d1cbcf824b4",
+        "catch-cfbee5f14df837f6fd6a",
+        "catch-e94570be72a186500d6e",
+        "catch-ff3a5f70af0eab722a03"
+      ],
+      "sources": [
+        "https://central-boat.co.jp/archives/9094",
+        "https://darumamarine.naturum.ne.jp/e3634176.html",
+        "https://darumamarine.naturum.ne.jp/e3637191.html",
+        "https://darumamarine.naturum.ne.jp/e3674713.html",
+        "https://www.newportmarine.co.jp/marineclub/fishing/11597",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12218",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12571",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12970",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13040",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13220",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13283",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14161",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14184",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14235",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14299",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14500",
+        "https://www.sunnyside.co.jp/fishing/?pagecount=12#fishing-20862"
+      ]
+    },
+    {
+      "name": "ワサラ",
+      "recordIds": [
+        "catch-d06479ac710a6f055bb9"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/15255"
+      ]
+    },
+    {
+      "name": "ハタ",
+      "recordIds": [
+        "catch-1b6b5cccaf83d2143b7f",
+        "catch-766488da78d3d60ece74",
+        "catch-7ff13fe597155eb57d5f"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/11669",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14657",
+        "https://www.newportmarine.co.jp/marineclub/fishing/15236"
+      ]
+    },
+    {
+      "name": "サシゴ",
+      "recordIds": [
+        "catch-c6fb2139b09070704264"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/15222"
+      ]
+    },
+    {
+      "name": "サヨリ",
+      "recordIds": [
+        "catch-5b3b4c49471411544c36"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/15196"
+      ]
+    },
+    {
+      "name": "コノシロ",
+      "recordIds": [
+        "catch-9eb099384737e176abfb",
+        "catch-c671ed10026428401e29",
+        "catch-d2ccf505a0a7a88af0de",
+        "catch-f4498a912fb92a14a6e1"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/11765",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14287",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14843",
+        "https://www.newportmarine.co.jp/marineclub/fishing/15179"
+      ]
+    },
+    {
+      "name": "サゴシ~サワラ",
+      "recordIds": [
+        "catch-9eff2b5f57a54af285f4",
+        "catch-cbde78a84b36c3a55e2b"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/14958",
+        "https://www.newportmarine.co.jp/marineclub/fishing/15019"
+      ]
+    },
+    {
+      "name": "トラフグ",
+      "recordIds": [
+        "catch-0939de6d47bb5acf21a2",
+        "catch-094d3953b6f0e8c74077",
+        "catch-0e84201bb1d86f2fd182",
+        "catch-1609660e656e86a1b7a8",
+        "catch-1e49e8e50b0ea274eb9c",
+        "catch-2922edbfdbea790ba78e",
+        "catch-3017be89fc68aa1b76cf",
+        "catch-3e7fe3f93ec874400c03",
+        "catch-40a0479b26b85c722f95",
+        "catch-4724d7e79e1e366014ff",
+        "catch-4942186abf9e8f06cded",
+        "catch-4cba43768c94c5c5b361",
+        "catch-52fbca93ae9b9d112ef0",
+        "catch-5571149b56efbb5c12c1",
+        "catch-557e0b8b2bf339295a6c",
+        "catch-582bbff81c7ff389c564",
+        "catch-63edb3dfa7ab68d9f603",
+        "catch-742f55cb9acf5dc7c897",
+        "catch-75b90b794bfa8ced1014",
+        "catch-803a18378274623ce034",
+        "catch-821a90733646cb0a52d1",
+        "catch-8334b1986eb12854c14a",
+        "catch-91e79137572b17d89696",
+        "catch-93fb569fe036e95f5b32",
+        "catch-9ca88b408fb77599c115",
+        "catch-b06d8cf117fe490f4f0d",
+        "catch-b40be0424c2c6c7446a8",
+        "catch-b8b66abaf9eba5f07675",
+        "catch-d561f54b9b8c88ab58c1",
+        "catch-d652865b342348003b0c",
+        "catch-d9e6a4702ffdb3964c8a",
+        "catch-dc50866b01c395cd00fe",
+        "catch-df423977e7206096fc0a",
+        "catch-e5ce70fb8f7309c24bdd",
+        "catch-e62da795f7dfac1ec4e9",
+        "catch-e6423cc735226b313ebc",
+        "catch-e69a70969b82c3a87cc6",
+        "catch-e92e8ade8bd9b6cc9da8",
+        "catch-eb10560958c0bec66035",
+        "catch-edbbd8bc5da28bdb07db",
+        "catch-eea4ef8d082c14622f30",
+        "catch-f93cfb27505ac266fe14"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm",
+        "https://www.newportmarine.co.jp/marineclub/fishing/11875",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12299",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14954",
+        "https://www.ssm-uraga.jp/fishing?pagecount=101#fishing-10698",
+        "https://www.ssm-uraga.jp/fishing?pagecount=104#fishing-10534",
+        "https://www.ssm-uraga.jp/fishing?pagecount=105#fishing-10482",
+        "https://www.ssm-uraga.jp/fishing?pagecount=105#fishing-10488",
+        "https://www.ssm-uraga.jp/fishing?pagecount=107#fishing-10432",
+        "https://www.ssm-uraga.jp/fishing?pagecount=112#fishing-10166",
+        "https://www.ssm-uraga.jp/fishing?pagecount=113#fishing-10141",
+        "https://www.ssm-uraga.jp/fishing?pagecount=15#fishing-14228",
+        "https://www.ssm-uraga.jp/fishing?pagecount=18#fishing-14119",
+        "https://www.ssm-uraga.jp/fishing?pagecount=19#fishing-14070",
+        "https://www.ssm-uraga.jp/fishing?pagecount=2#fishing-14736",
+        "https://www.ssm-uraga.jp/fishing?pagecount=37#fishing-13372",
+        "https://www.ssm-uraga.jp/fishing?pagecount=37#fishing-13380",
+        "https://www.ssm-uraga.jp/fishing?pagecount=37#fishing-13389",
+        "https://www.ssm-uraga.jp/fishing?pagecount=37#fishing-13404",
+        "https://www.ssm-uraga.jp/fishing?pagecount=38#fishing-13277",
+        "https://www.ssm-uraga.jp/fishing?pagecount=38#fishing-13373",
+        "https://www.ssm-uraga.jp/fishing?pagecount=39#fishing-13269",
+        "https://www.ssm-uraga.jp/fishing?pagecount=39#fishing-13283",
+        "https://www.ssm-uraga.jp/fishing?pagecount=40#fishing-13223",
+        "https://www.ssm-uraga.jp/fishing?pagecount=40#fishing-13233",
+        "https://www.ssm-uraga.jp/fishing?pagecount=40#fishing-13236",
+        "https://www.ssm-uraga.jp/fishing?pagecount=43#fishing-13114",
+        "https://www.ssm-uraga.jp/fishing?pagecount=45#fishing-13044",
+        "https://www.ssm-uraga.jp/fishing?pagecount=48#fishing-12915",
+        "https://www.ssm-uraga.jp/fishing?pagecount=48#fishing-12918",
+        "https://www.ssm-uraga.jp/fishing?pagecount=50#fishing-12813",
+        "https://www.ssm-uraga.jp/fishing?pagecount=51#fishing-12796",
+        "https://www.ssm-uraga.jp/fishing?pagecount=53#fishing-12685",
+        "https://www.ssm-uraga.jp/fishing?pagecount=92#fishing-11118",
+        "https://www.ssm-uraga.jp/fishing?pagecount=92#fishing-11125",
+        "https://www.ssm-uraga.jp/fishing?pagecount=94#fishing-11026",
+        "https://www.ssm-uraga.jp/fishing?pagecount=97#fishing-10926",
+        "https://www.ssm-uraga.jp/fishing?pagecount=97#fishing-10932",
+        "https://www.ssm-uraga.jp/fishing?pagecount=98#fishing-10818",
+        "https://www.ssm-uraga.jp/fishing?pagecount=99#fishing-10777"
+      ]
+    },
+    {
+      "name": "エソ",
+      "recordIds": [
+        "catch-00c5919cfe664c9b43e3",
+        "catch-0598316693dd054c5080",
+        "catch-06af1a9e467bda06f80b",
+        "catch-0966ccb3c4c6336358f8",
+        "catch-0b022244af61b990cc70",
+        "catch-0ccd98c05da90a36ce98",
+        "catch-0f975c267e8a194930d4",
+        "catch-17a9f46a526030bdd497",
+        "catch-220a2211050fcf741a20",
+        "catch-246972daa8c3b73c68c6",
+        "catch-267736936292c83d170d",
+        "catch-2830c41f3499f9da01c3",
+        "catch-2d9e5db58c2a47ad50f5",
+        "catch-316854db373e50bc1d12",
+        "catch-397b2931ac8454d486ac",
+        "catch-4108f739fc8dc443d350",
+        "catch-43a035ee7f94433da298",
+        "catch-451b8376c1fdd338783a",
+        "catch-458115ded0d86ee644ac",
+        "catch-4809498b7a985f238251",
+        "catch-493540918f57a6d4cda2",
+        "catch-4946783e79220809040b",
+        "catch-4efcfba117903cfd7cec",
+        "catch-5170bf0d5f20697ed624",
+        "catch-59b5d0f1ab30fcf6b725",
+        "catch-607571e99a46b719cc71",
+        "catch-626f77710dcd5c2b2853",
+        "catch-62a7ee04ce250c1d4800",
+        "catch-62efb18ae293e4a557bd",
+        "catch-64e9d6926a1c43d8f572",
+        "catch-7655894ab0160ef0c5de",
+        "catch-8339a510f6fe4816acd0",
+        "catch-87464620845368235a52",
+        "catch-8cb137a5e381e199bb02",
+        "catch-91d2a57d53ab6b085a77",
+        "catch-9312f70749229c5781be",
+        "catch-9520ebe43de7a95db893",
+        "catch-97687a0fbffb52b0f175",
+        "catch-97c24e48fb545ce0199e",
+        "catch-99096022a33bb1d97f12",
+        "catch-9d77381d47ceef313f90",
+        "catch-9d80c56d1abb75af529b",
+        "catch-9e7bd6f4cf879d302cd4",
+        "catch-9eeee8401c86e8c95fe2",
+        "catch-9fa7de65afa68801a14a",
+        "catch-a2a0eb66b77a0a9d8a09",
+        "catch-a314bee2cea41aa1b7f4",
+        "catch-a54071d114faf398120a",
+        "catch-a5bb3c6d8d350b0ea53d",
+        "catch-afcde2eb9d555d8e8618",
+        "catch-b2977413b4ff8368140a",
+        "catch-b6ea13736e671afd142f",
+        "catch-b8333cf1645691ec5cea",
+        "catch-b864230f0dddab80b227",
+        "catch-ba2ba82da75841de1115",
+        "catch-bc012d4c1f3f21713e9d",
+        "catch-c1b92429a19161ea2b37",
+        "catch-c45a6129c8b730cb9337",
+        "catch-c69b035593218eed3e24",
+        "catch-d5ec539541d0d2dc05ed",
+        "catch-dd17eb34e12f78f1f751",
+        "catch-e7310dd20e3c0f163d8f",
+        "catch-e9b3fcad03da31aec288",
+        "catch-ea803baa5cf0f42b382b",
+        "catch-f36804e460f793ab28cf",
+        "catch-f5c4af7923893e78a03e",
+        "catch-f7355309faf536a9caa5",
+        "catch-f8cd2c157d91faae5f7b",
+        "catch-f93300aef07d03257548"
+      ],
+      "sources": [
+        "https://darumamarine.naturum.ne.jp/e3673053.html",
+        "https://darumamarine.naturum.ne.jp/e3677700.html",
+        "https://darumamarine.naturum.ne.jp/e3681413.html",
+        "https://www.newportmarine.co.jp/marineclub/fishing/11612",
+        "https://www.newportmarine.co.jp/marineclub/fishing/11825",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12299",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12906",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13872",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14187",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14950",
+        "https://www.ssm-uraga.jp/fishing?pagecount=103#fishing-10587",
+        "https://www.ssm-uraga.jp/fishing?pagecount=104#fishing-10541",
+        "https://www.ssm-uraga.jp/fishing?pagecount=110#fishing-10243",
+        "https://www.ssm-uraga.jp/fishing?pagecount=110#fishing-10260",
+        "https://www.ssm-uraga.jp/fishing?pagecount=114#fishing-10125",
+        "https://www.ssm-uraga.jp/fishing?pagecount=115#fishing-10054",
+        "https://www.ssm-uraga.jp/fishing?pagecount=13#fishing-14307",
+        "https://www.ssm-uraga.jp/fishing?pagecount=14#fishing-14253",
+        "https://www.ssm-uraga.jp/fishing?pagecount=17#fishing-14153",
+        "https://www.ssm-uraga.jp/fishing?pagecount=20#fishing-14033",
+        "https://www.ssm-uraga.jp/fishing?pagecount=22#fishing-13964",
+        "https://www.ssm-uraga.jp/fishing?pagecount=23#fishing-13900",
+        "https://www.ssm-uraga.jp/fishing?pagecount=27#fishing-13753",
+        "https://www.ssm-uraga.jp/fishing?pagecount=27#fishing-13759",
+        "https://www.ssm-uraga.jp/fishing?pagecount=28#fishing-13717",
+        "https://www.ssm-uraga.jp/fishing?pagecount=28#fishing-13722",
+        "https://www.ssm-uraga.jp/fishing?pagecount=29#fishing-13691",
+        "https://www.ssm-uraga.jp/fishing?pagecount=39#fishing-13254",
+        "https://www.ssm-uraga.jp/fishing?pagecount=43#fishing-13109",
+        "https://www.ssm-uraga.jp/fishing?pagecount=49#fishing-12862",
+        "https://www.ssm-uraga.jp/fishing?pagecount=50#fishing-12813",
+        "https://www.ssm-uraga.jp/fishing?pagecount=53#fishing-12722",
+        "https://www.ssm-uraga.jp/fishing?pagecount=55#fishing-12627",
+        "https://www.ssm-uraga.jp/fishing?pagecount=56#fishing-12608",
+        "https://www.ssm-uraga.jp/fishing?pagecount=58#fishing-12502",
+        "https://www.ssm-uraga.jp/fishing?pagecount=59#fishing-12470",
+        "https://www.ssm-uraga.jp/fishing?pagecount=61#fishing-12379",
+        "https://www.ssm-uraga.jp/fishing?pagecount=61#fishing-12382",
+        "https://www.ssm-uraga.jp/fishing?pagecount=61#fishing-12412",
+        "https://www.ssm-uraga.jp/fishing?pagecount=63#fishing-12325",
+        "https://www.ssm-uraga.jp/fishing?pagecount=66#fishing-12175",
+        "https://www.ssm-uraga.jp/fishing?pagecount=66#fishing-12182",
+        "https://www.ssm-uraga.jp/fishing?pagecount=66#fishing-12203",
+        "https://www.ssm-uraga.jp/fishing?pagecount=68#fishing-12115",
+        "https://www.ssm-uraga.jp/fishing?pagecount=69#fishing-12072",
+        "https://www.ssm-uraga.jp/fishing?pagecount=69#fishing-12086",
+        "https://www.ssm-uraga.jp/fishing?pagecount=7#fishing-14522",
+        "https://www.ssm-uraga.jp/fishing?pagecount=70#fishing-12044",
+        "https://www.ssm-uraga.jp/fishing?pagecount=71#fishing-11995",
+        "https://www.ssm-uraga.jp/fishing?pagecount=73#fishing-11941",
+        "https://www.ssm-uraga.jp/fishing?pagecount=75#fishing-11794",
+        "https://www.ssm-uraga.jp/fishing?pagecount=75#fishing-11798",
+        "https://www.ssm-uraga.jp/fishing?pagecount=79#fishing-11678",
+        "https://www.ssm-uraga.jp/fishing?pagecount=8#fishing-14488",
+        "https://www.ssm-uraga.jp/fishing?pagecount=80#fishing-11652",
+        "https://www.ssm-uraga.jp/fishing?pagecount=82#fishing-11533",
+        "https://www.ssm-uraga.jp/fishing?pagecount=83#fishing-11506",
+        "https://www.ssm-uraga.jp/fishing?pagecount=83#fishing-11507",
+        "https://www.ssm-uraga.jp/fishing?pagecount=84#fishing-11450",
+        "https://www.ssm-uraga.jp/fishing?pagecount=88#fishing-11308",
+        "https://www.ssm-uraga.jp/fishing?pagecount=89#fishing-11275",
+        "https://www.ssm-uraga.jp/fishing?pagecount=90#fishing-11198",
+        "https://www.ssm-uraga.jp/fishing?pagecount=91#fishing-11164",
+        "https://www.ssm-uraga.jp/fishing?pagecount=92#fishing-11145",
+        "https://www.ssm-uraga.jp/fishing?pagecount=92#fishing-11152",
+        "https://www.ssm-uraga.jp/fishing?pagecount=97#fishing-10915",
+        "https://www.ssm-uraga.jp/fishing?pagecount=97#fishing-10929",
+        "https://www.ssm-uraga.jp/fishing?pagecount=97#fishing-10932",
+        "https://www.sunnyside.co.jp/fishing/?pagecount=3#fishing-21550"
+      ]
+    },
+    {
+      "name": "タコ",
+      "recordIds": [
+        "catch-00398c52faf18c6a6e61",
+        "catch-049f854135017ddd9e60",
+        "catch-07608ba4232b239528aa",
+        "catch-0f310496b56bee883575",
+        "catch-14632590fa32a73f9a55",
+        "catch-206b57275989002a8480",
+        "catch-29099aad2fa9b76c8f50",
+        "catch-32079a8d795271ef3754",
+        "catch-368ba6247d85d21ae7e1",
+        "catch-3ce2ec1f40b3e136bcfc",
+        "catch-47c2b992a5e750df519f",
+        "catch-4964a9afeb58d6e3f19b",
+        "catch-4a0028dd4ca1b0567a53",
+        "catch-4e8c169f3bac08cf922c",
+        "catch-57b034164ea5dccf6cb2",
+        "catch-5947cb9f4ed01892c19d",
+        "catch-5b5f4dff8dd0c4321958",
+        "catch-5be68f2a8c4f8cdb1a3e",
+        "catch-5d2bc86d7c98424c3225",
+        "catch-5e70d5a4c7992b6a2ed6",
+        "catch-60a16b4abc8d99422c94",
+        "catch-6404575e00ccd7156de3",
+        "catch-662f63667112394e2fba",
+        "catch-6a2eaa7dd2a4ee2badd7",
+        "catch-82c0cb650b418ce5f20b",
+        "catch-875be75bf503cc2418e9",
+        "catch-884106e01d1ba03a61e1",
+        "catch-893c8f68f3c74a14708c",
+        "catch-8c9ed6ba0e82a0b45628",
+        "catch-8cbae1dddd01651e9315",
+        "catch-91d95a734b00477c1007",
+        "catch-9320c028ea6a149b494d",
+        "catch-99e24100bfcc601dc2d9",
+        "catch-9bdc97148bd685f26aca",
+        "catch-9d3d776a4e537e7e5c3a",
+        "catch-ad0bf95ffce3790b8d10",
+        "catch-add0c783ed828336b337",
+        "catch-af88c167cb5f4088ac01",
+        "catch-b4f6ce18f72ee392b41d",
+        "catch-b6b3e67163d5210b3927",
+        "catch-b6dab741dd2c16064f5e",
+        "catch-ba8d9478fc5ce8a7c5a2",
+        "catch-c1f01f2b371024f7abd1",
+        "catch-c4e17c15a7b0c5164445",
+        "catch-c55b83bfcd56d3c54126",
+        "catch-ca6cff5f7236628aee2e",
+        "catch-caf58adc3a04b84e16c2",
+        "catch-d864dd4688c4f1e5dbd2",
+        "catch-ddf3b09180b37a964c31",
+        "catch-e2722e153d3317e9cf93",
+        "catch-e35d77dcf43444c8bd77",
+        "catch-e57362fa4da020f9d67f",
+        "catch-e6c19b8fbc943b3b85cd",
+        "catch-eecd6f878fbfcd35deb6",
+        "catch-f76aa45850785c5fbd00",
+        "catch-ff6de43ac3979c2a2455"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/12571",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12584",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12604",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12688",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12701",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12709",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12718",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12722",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12729",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12740",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12756",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12767",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12769",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12771",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12798",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12802",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12803",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12813",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12818",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12836",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12839",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12844",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12847",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12852",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12856",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12899",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12906",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12918",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12950",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12963",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12967",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12992",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13000",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13027",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13047",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13147",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13534",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13641",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13684",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14280",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14331",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14335",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14398",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14406",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14496",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14526",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14532",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14557",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14564",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14571",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14574",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14645",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14697",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14844",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14848",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14862"
+      ]
+    },
+    {
+      "name": "イワシ",
+      "recordIds": [
+        "catch-3c72fda5b552be5cf31b",
+        "catch-4765c67cdb6837f11818",
+        "catch-786cb44219a2f7b84546",
+        "catch-879ce9f890b4d5ed05c4",
+        "catch-b3aac9dab1241699a102",
+        "catch-b5cf1d3c1d30f77d0cae",
+        "catch-fd2c17e9ab59c7e012c1"
+      ],
+      "sources": [
+        "https://darumamarine.naturum.ne.jp/e3613256.html",
+        "https://darumamarine.naturum.ne.jp/e3668607.html",
+        "https://darumamarine.naturum.ne.jp/e3680517.html",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12567",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14516",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14843",
+        "https://www.ssm-uraga.jp/fishing?pagecount=81#fishing-11598"
+      ]
+    },
+    {
+      "name": "オニオコゼ",
+      "recordIds": [
+        "catch-7681978821f32c32ad6c"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/14671"
+      ]
+    },
+    {
+      "name": "サバフグ",
+      "recordIds": [
+        "catch-01094614ac846b9daecd",
+        "catch-09af9c9356512f3a0415",
+        "catch-14d566a20f4a2ea4cc6d",
+        "catch-2d8e816feeee08b1234e",
+        "catch-3df1217a15fab4d30d7a",
+        "catch-49f88c43c687d32835ff",
+        "catch-4a3d04b6204dbdd2eb3a",
+        "catch-534e763ae50cf768fd21",
+        "catch-8639bfeadc2a6362cc59",
+        "catch-881385319a272af2cabf",
+        "catch-8bfc732e4b459732483d",
+        "catch-ac2c7205e939ca4360b5",
+        "catch-b0e01fcff5ae276a9235",
+        "catch-bc37179253d8ef2df244"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/14287",
+        "https://www.ssm-uraga.jp/fishing?pagecount=106#fishing-10451",
+        "https://www.ssm-uraga.jp/fishing?pagecount=107#fishing-10423",
+        "https://www.ssm-uraga.jp/fishing?pagecount=110#fishing-10260",
+        "https://www.ssm-uraga.jp/fishing?pagecount=39#fishing-13253",
+        "https://www.ssm-uraga.jp/fishing?pagecount=56#fishing-12608",
+        "https://www.ssm-uraga.jp/fishing?pagecount=57#fishing-12550",
+        "https://www.ssm-uraga.jp/fishing?pagecount=65#fishing-12220",
+        "https://www.ssm-uraga.jp/fishing?pagecount=69#fishing-12086",
+        "https://www.ssm-uraga.jp/fishing?pagecount=72#fishing-11983",
+        "https://www.ssm-uraga.jp/fishing?pagecount=80#fishing-11651",
+        "https://www.ssm-uraga.jp/fishing?pagecount=9#fishing-14432",
+        "https://www.ssm-uraga.jp/fishing?pagecount=92#fishing-11145",
+        "https://www.ssm-uraga.jp/fishing?pagecount=94#fishing-11039"
+      ]
+    },
+    {
+      "name": "メゴチ",
+      "recordIds": [
+        "catch-72b6a3ecd35091f0062e",
+        "catch-9441e017cce7f5793d90",
+        "catch-a514f5f9e85b9801129f",
+        "catch-fc53646e998ffff24149"
+      ],
+      "sources": [
+        "https://darumamarine.naturum.ne.jp/e3634991.html",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14255",
+        "https://www.ssm-uraga.jp/fishing?pagecount=26#fishing-13781",
+        "https://www.ssm-uraga.jp/fishing?pagecount=75#fishing-11822"
+      ]
+    },
+    {
+      "name": "コチ",
+      "recordIds": [
+        "catch-a5e46529d684b01ce39b",
+        "catch-d04d3c7d8d420f8e7937",
+        "catch-fb6c52ca16e35c0d3cc1",
+        "catch-fbeb6503f8b07310f2bd"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/12802",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12803",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13228",
+        "https://www.newportmarine.co.jp/marineclub/fishing/14073"
+      ]
+    },
+    {
+      "name": "チヌ",
+      "recordIds": [
+        "catch-261245169621855d013e"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/13811"
+      ]
+    },
+    {
+      "name": "イカ",
+      "recordIds": [
+        "catch-15f4320a60e82f6afcfb",
+        "catch-1649b6479b1d8dc1e711",
+        "catch-187588d8a6544a6f743a",
+        "catch-52a744863ae49a901957",
+        "catch-62f88a0b0e2496dabdc4",
+        "catch-9da977bbac8c88dd6701",
+        "catch-aa9f32de82e06f6b0ad8",
+        "catch-aac76b96b3039b4ebd29",
+        "catch-b1b43e23937b15e8014c",
+        "catch-c0edaecf70435229a482",
+        "catch-cadcd582dd4af2ad7016"
+      ],
+      "sources": [
+        "https://darumamarine.naturum.ne.jp/e3612330.html",
+        "https://darumamarine.naturum.ne.jp/e3613167.html",
+        "https://darumamarine.naturum.ne.jp/e3620562.html",
+        "https://darumamarine.naturum.ne.jp/e3647419.html",
+        "https://darumamarine.naturum.ne.jp/e3647696.html",
+        "https://darumamarine.naturum.ne.jp/e3648003.html",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12169",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13501",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13646",
+        "https://www.newportmarine.co.jp/marineclub/fishing/13702",
+        "https://www.ssm-uraga.jp/fishing?pagecount=73#fishing-11938"
+      ]
+    },
+    {
+      "name": "メッキ",
+      "recordIds": [
+        "catch-b2928008bab2cbfd14a8"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/13630"
+      ]
+    },
+    {
+      "name": "セイゴ",
+      "recordIds": [
+        "catch-990491ba0974ae9d9f41"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/13394"
+      ]
+    },
+    {
+      "name": "フグ",
+      "recordIds": [
+        "catch-02c7a9607bcba8f682de"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/13228"
+      ]
+    },
+    {
+      "name": "ギマ",
+      "recordIds": [
+        "catch-9634f4442fe6b5557ceb",
+        "catch-bad93ee1e048d14f0d70",
+        "catch-c829d66ff7e3a10f7471"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/12899",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12906",
+        "https://www.newportmarine.co.jp/marineclub/fishing/12963"
+      ]
+    },
+    {
+      "name": "ハマグリ",
+      "recordIds": [
+        "catch-7d97e21237be4f0bb30c"
+      ],
+      "sources": [
+        "https://www.newportmarine.co.jp/marineclub/fishing/12420"
+      ]
+    },
+    {
+      "name": "ワラサ・イナダ",
+      "recordIds": [
+        "catch-0c2e0776f13691d715a0",
+        "catch-105452c75b557b67435c",
+        "catch-39b91252e1b3080fb279",
+        "catch-4029d610090690ead964",
+        "catch-591ffb5a9f76ec346c91",
+        "catch-65f447f5ff23b8d9a948",
+        "catch-79b1f41b1f022f4e2e15",
+        "catch-91ec99ccecb515c318f3",
+        "catch-9556a0c48299cb9e13c4",
+        "catch-9d1687278a377e7c87a1",
+        "catch-a16a32f5299061955d45",
+        "catch-a95fde45c5e4022b7aee",
+        "catch-ae782b5ce76d65f5b59a",
+        "catch-be0a9e4ef6470e44e68f",
+        "catch-ce1dfe1c402ccdaec7d8",
+        "catch-d8d436cea58d52ff8ed9"
+      ],
+      "sources": [
+        "https://darumamarine.naturum.ne.jp/e3613944.html",
+        "https://darumamarine.naturum.ne.jp/e3648274.html",
+        "https://darumamarine.naturum.ne.jp/e3675068.html",
+        "https://darumamarine.naturum.ne.jp/e3680283.html",
+        "https://darumamarine.naturum.ne.jp/e3682819.html",
+        "https://darumamarine.naturum.ne.jp/e3686863.html",
+        "https://darumamarine.naturum.ne.jp/e3686968.html",
+        "https://darumamarine.naturum.ne.jp/e3687137.html",
+        "https://darumamarine.naturum.ne.jp/e3687778.html",
+        "https://darumamarine.naturum.ne.jp/e3687943.html",
+        "https://darumamarine.naturum.ne.jp/e3688374.html",
+        "https://darumamarine.naturum.ne.jp/e3688438.html",
+        "https://darumamarine.naturum.ne.jp/e3688502.html",
+        "https://darumamarine.naturum.ne.jp/e3689208.html",
+        "https://www.ssm-uraga.jp/fishing?pagecount=20#fishing-14046",
+        "https://www.ssm-uraga.jp/fishing?pagecount=73#fishing-11917"
+      ]
+    },
+    {
+      "name": "ベラ",
+      "recordIds": [
+        "catch-0b19ad0c199e23cac7ae",
+        "catch-3858e246cedeaebcbb4d",
+        "catch-46881d75cd1b4119097e",
+        "catch-b91646836279289eed78",
+        "catch-e01dcbb7cc284bb3d78c",
+        "catch-f7e619c1393a7f1d99b7"
+      ],
+      "sources": [
+        "https://darumamarine.naturum.ne.jp/e3635508.html",
+        "https://darumamarine.naturum.ne.jp/e3682502.html",
+        "https://darumamarine.naturum.ne.jp/e3684947.html",
+        "https://www.ssm-uraga.jp/fishing?pagecount=28#fishing-13714",
+        "https://www.ssm-uraga.jp/fishing?pagecount=4#fishing-14639",
+        "https://www.ssm-uraga.jp/fishing?pagecount=55#fishing-12622"
+      ]
+    },
+    {
+      "name": "鯛",
+      "recordIds": [
+        "catch-113a70c77e75d4fec723",
+        "catch-158c5d1f32ac09d4e11f",
+        "catch-278fe566dc0dd2b486a1",
+        "catch-306ea08aa6ce08df7494",
+        "catch-344f13b05774c6c3c871",
+        "catch-3f4a4aa4bd8c7edf70cc",
+        "catch-45061a4eeb0f8f1c2153",
+        "catch-54aa3432eac504a7fe82",
+        "catch-6ee2ff1b1a82c0f5cedb",
+        "catch-7c3ea76e35aafe7a8738",
+        "catch-7e45df9338ce8eb6d921",
+        "catch-8b323906ccec46b02461",
+        "catch-8fc75f2b0bc96d4b9a5a",
+        "catch-92979ce4fe778fc98af4",
+        "catch-97612781fbe7e661b2a4",
+        "catch-9aab02bf81a4f654e7cd",
+        "catch-a5fbe94d30cd106ac814",
+        "catch-a814dd73e1491379e1c9",
+        "catch-de7d531469f9992a0a8f",
+        "catch-e50bf692282e18c593ab",
+        "catch-ed408ec97aff400c28e3",
+        "catch-f15af0255641cd16b91a"
+      ],
+      "sources": [
+        "https://darumamarine.naturum.ne.jp/e3610974.html",
+        "https://darumamarine.naturum.ne.jp/e3621583.html",
+        "https://darumamarine.naturum.ne.jp/e3626629.html",
+        "https://darumamarine.naturum.ne.jp/e3626945.html",
+        "https://darumamarine.naturum.ne.jp/e3627589.html",
+        "https://darumamarine.naturum.ne.jp/e3628425.html",
+        "https://darumamarine.naturum.ne.jp/e3629452.html",
+        "https://darumamarine.naturum.ne.jp/e3630308.html",
+        "https://darumamarine.naturum.ne.jp/e3630403.html",
+        "https://darumamarine.naturum.ne.jp/e3636997.html",
+        "https://darumamarine.naturum.ne.jp/e3637191.html",
+        "https://darumamarine.naturum.ne.jp/e3638360.html",
+        "https://darumamarine.naturum.ne.jp/e3658228.html",
+        "https://darumamarine.naturum.ne.jp/e3658533.html",
+        "https://darumamarine.naturum.ne.jp/e3658663.html",
+        "https://darumamarine.naturum.ne.jp/e3662859.html",
+        "https://darumamarine.naturum.ne.jp/e3667676.html",
+        "https://darumamarine.naturum.ne.jp/e3669028.html",
+        "https://darumamarine.naturum.ne.jp/e3669132.html",
+        "https://darumamarine.naturum.ne.jp/e3677700.html",
+        "https://katakuraboat.net/index1.htm"
+      ]
+    },
+    {
+      "name": "ムツ",
+      "recordIds": [
+        "catch-0332ffd3131f60be0e0c",
+        "catch-1103cfdeeb0307265d5b",
+        "catch-468f515da254a9c3ca52",
+        "catch-63fa4e4a061593a4eb5a",
+        "catch-a0dd0b3ab45ac0e2260e"
+      ],
+      "sources": [
+        "https://darumamarine.naturum.ne.jp/e3640960.html",
+        "https://darumamarine.naturum.ne.jp/e3642745.html",
+        "https://darumamarine.naturum.ne.jp/e3654268.html",
+        "https://www.ssm-uraga.jp/fishing?pagecount=39#fishing-13253",
+        "https://www.ssm-uraga.jp/fishing?pagecount=72#fishing-11974"
+      ]
+    },
+    {
+      "name": "トラギス",
+      "recordIds": [
+        "catch-0ceff9da1bc7a828eaf0",
+        "catch-1767d52511a79a51b3c3",
+        "catch-251a6b1116e579688562",
+        "catch-449e50196498b160a121",
+        "catch-5cac9b0553f8dc31e8e7",
+        "catch-62f6e5be10ad9eaf5fed",
+        "catch-8815d373994f6dd2676b",
+        "catch-9d83870927ee91c0baca",
+        "catch-a413932303fa54db9dfc",
+        "catch-c60da2998efb9c64b1d9",
+        "catch-c7415b6d46041f538c69",
+        "catch-d8ad3e70b2b09c1a3f86"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=111#fishing-10211",
+        "https://www.ssm-uraga.jp/fishing?pagecount=111#fishing-10240",
+        "https://www.ssm-uraga.jp/fishing?pagecount=17#fishing-14153",
+        "https://www.ssm-uraga.jp/fishing?pagecount=27#fishing-13753",
+        "https://www.ssm-uraga.jp/fishing?pagecount=4#fishing-14639",
+        "https://www.ssm-uraga.jp/fishing?pagecount=54#fishing-12654",
+        "https://www.ssm-uraga.jp/fishing?pagecount=56#fishing-12602",
+        "https://www.ssm-uraga.jp/fishing?pagecount=56#fishing-12608",
+        "https://www.ssm-uraga.jp/fishing?pagecount=57#fishing-12558",
+        "https://www.ssm-uraga.jp/fishing?pagecount=7#fishing-14513",
+        "https://www.ssm-uraga.jp/fishing?pagecount=71#fishing-11995",
+        "https://www.ssm-uraga.jp/fishing?pagecount=72#fishing-11955"
+      ]
+    },
+    {
+      "name": "ドンコ",
+      "recordIds": [
+        "catch-1e29c3078bb3d584329f",
+        "catch-221074bd73e41f04bb42",
+        "catch-994ab0cacf3172bd1d29",
+        "catch-a4cd9d70da109e0e96de",
+        "catch-b015d8e318841965accc",
+        "catch-dc02a83bc661997c6ed6",
+        "catch-fbbda35bc95bd137e532"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=47#fishing-12940",
+        "https://www.ssm-uraga.jp/fishing?pagecount=50#fishing-12836",
+        "https://www.ssm-uraga.jp/fishing?pagecount=77#fishing-11746",
+        "https://www.ssm-uraga.jp/fishing?pagecount=89#fishing-11272",
+        "https://www.ssm-uraga.jp/fishing?pagecount=9#fishing-14466",
+        "https://www.ssm-uraga.jp/fishing?pagecount=91#fishing-11184",
+        "https://www.ssm-uraga.jp/fishing?pagecount=92#fishing-11125"
+      ]
+    },
+    {
+      "name": "イナワラ",
+      "recordIds": [
+        "catch-1af40972ad1c77371f55",
+        "catch-1d8ed76141d60f4ff753",
+        "catch-38c9fbc2147b4dcc4a61",
+        "catch-8dae53ef3bd859936f8e",
+        "catch-e39311bbff7325e6fc5e"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm",
+        "https://www.ssm-uraga.jp/fishing?pagecount=10#fishing-14417",
+        "https://www.ssm-uraga.jp/fishing?pagecount=22#fishing-13950",
+        "https://www.ssm-uraga.jp/fishing?pagecount=26#fishing-13795",
+        "https://www.ssm-uraga.jp/fishing?pagecount=27#fishing-13756"
+      ]
+    },
+    {
+      "name": "シタビラメ",
+      "recordIds": [
+        "catch-c0dd60ae188abf960bcf"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=13#fishing-14295"
+      ]
+    },
+    {
+      "name": "フエフキダイ",
+      "recordIds": [
+        "catch-543c869fae23562d9c17",
+        "catch-56ae9cc510303a4f312e",
+        "catch-669b2aed378b7cfe4c32",
+        "catch-bf4d417454c119251a93"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=16#fishing-14194",
+        "https://www.ssm-uraga.jp/fishing?pagecount=71#fishing-12011",
+        "https://www.sunnyside.co.jp/fishing/?pagecount=7#fishing-21218",
+        "https://www.sunnyside.co.jp/fishing/?pagecount=8#fishing-21119"
+      ]
+    },
+    {
+      "name": "ブリ・ワラサ",
+      "recordIds": [
+        "catch-b123de7bae0428a1d475"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=18#fishing-14114"
+      ]
+    },
+    {
+      "name": "アナゴ",
+      "recordIds": [
+        "catch-544fa1551e9ddeccaa4d"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=50#fishing-12836"
+      ]
+    },
+    {
+      "name": "エソ(マエソ・オキエソ)",
+      "recordIds": [
+        "catch-fa2d9dcb1965fdb05247"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=57#fishing-12558"
+      ]
+    },
+    {
+      "name": "ベラ(ホシササノハベラ)",
+      "recordIds": [
+        "catch-2c4551e6c16a3c7937dc"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=57#fishing-12558"
+      ]
+    },
+    {
+      "name": "アカイカ",
+      "recordIds": [
+        "catch-17a65c9862192d031a34",
+        "catch-6f17060081255add1b46"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=71#fishing-11990",
+        "https://www.sunnyside.co.jp/fishing/?pagecount=19#fishing-20016"
+      ]
+    },
+    {
+      "name": "マダ",
+      "recordIds": [
+        "catch-acdd60c8471457264077"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=84#fishing-11457"
+      ]
+    },
+    {
+      "name": "ドンコ(チゴダラ)",
+      "recordIds": [
+        "catch-2d9824345ea9539d02ec"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=92#fishing-11142"
+      ]
+    },
+    {
+      "name": "ヤリイカ・スルメイカ",
+      "recordIds": [
+        "catch-a18a4896480280f2001f"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing?pagecount=104#fishing-10525"
+      ]
+    },
+    {
+      "name": "ヤガラ",
+      "recordIds": [
+        "catch-85bdd02e6b22ace1ffba"
+      ],
+      "sources": [
+        "https://www.sunnyside.co.jp/fishing/#fishing-21821"
+      ]
+    },
+    {
+      "name": "ヒラソウダラ",
+      "recordIds": [
+        "catch-eade41f47fccd4b1923d"
+      ],
+      "sources": [
+        "https://www.sunnyside.co.jp/fishing/?pagecount=15#fishing-20554"
+      ]
+    },
+    {
+      "name": "カゴカマス",
+      "recordIds": [
+        "catch-58935dab47a0c922eff1"
+      ],
+      "sources": [
+        "https://www.sunnyside.co.jp/fishing/?pagecount=18#fishing-20200"
+      ]
+    },
+    {
+      "name": "ベニアコウ",
+      "recordIds": [
+        "catch-fd80142d6e22ac646f9d"
+      ],
+      "sources": [
+        "https://www.sunnyside.co.jp/fishing/?pagecount=19#fishing-20164"
+      ]
+    },
+    {
+      "name": "タマガンゾウビラメ",
+      "recordIds": [
+        "catch-5efee16224c1eded3cd6"
+      ],
+      "sources": [
+        "https://www.sunnyside.co.jp/fishing/?pagecount=20#fishing-19977"
+      ]
+    },
+    {
+      "name": "五目",
+      "recordIds": [
+        "catch-013cbcf654ecb790fb80",
+        "catch-02d85596eef48e4ad00e",
+        "catch-030c6d8c5cc1b07760c8",
+        "catch-0d65a399b6bb71987669",
+        "catch-101ca9ec50d15b2e18ae",
+        "catch-127f895bfd618f1d1673",
+        "catch-14d0492205f2ef85305e",
+        "catch-17fcf94559f407599d81",
+        "catch-191d5781d77ea87edf71",
+        "catch-1a90ad81ee4bc7fba651",
+        "catch-2f7615d14ccb06d737eb",
+        "catch-31a70ac9c94327f661e6",
+        "catch-325cd75559e2631dd5a8",
+        "catch-37622037f215e6eaaadd",
+        "catch-3917efe6170afa7f97b9",
+        "catch-3a2bede85a1c6bcdbe0c",
+        "catch-3c05e77471c2144afc9e",
+        "catch-3c0f574c2ce80767cb85",
+        "catch-3cf6da98b33d5ba781ec",
+        "catch-3e591ea0c15f63287de3",
+        "catch-3eba365fc85fe8a49c2c",
+        "catch-3f33e0c6071fd69b26c8",
+        "catch-4004881f97b7bf4dadc5",
+        "catch-44a92c8ddafafe50614c",
+        "catch-47b24b1736bd777d75c6",
+        "catch-47dd1a9ce1e065b0330e",
+        "catch-49164678cabd5df56ba8",
+        "catch-4cb64e2cf2a9ca597870",
+        "catch-56424639cf063fd10321",
+        "catch-566e191cba917ed58c0d",
+        "catch-58a09bb1c8fb869e2cfa",
+        "catch-684022d42678367e90be",
+        "catch-6a92cb8cb5122f414635",
+        "catch-6d099116bc89c6ac04c7",
+        "catch-6e36fb6f6573a9ebf44c",
+        "catch-72bea99380e232ddd4f8",
+        "catch-744cd7e2e3d8e7aa1b21",
+        "catch-7942c7fb48c147b54970",
+        "catch-7f206b5f9d5a46dfcc6d",
+        "catch-870e2c3a11ec2154fe54",
+        "catch-8e0967b2f4ef9daeed2d",
+        "catch-8ee77d132d3cf0648031",
+        "catch-92232b28766656a69f77",
+        "catch-9a829f96eb8bd3189b9d",
+        "catch-a98903480cd45dd756eb",
+        "catch-b1ea533c8af91cf353e0",
+        "catch-b2bcf47d36feba95e8a1",
+        "catch-b7ff097d199549530005",
+        "catch-be0661b69343c218770c",
+        "catch-c264b5361c75cf88fbb5",
+        "catch-d15139e67d1afdfdba7f",
+        "catch-d28d3dcc47d6631b84fc",
+        "catch-d60e90a56a51c3c2f121",
+        "catch-d797e36dd7be66eafc64",
+        "catch-da255a1f7ac52372b70a",
+        "catch-e1732fde341dad4ee850",
+        "catch-ed08328f2afff21d2b68",
+        "catch-edcd3f4da0f3182df96d",
+        "catch-efa8f74a8b8b8746b8d0",
+        "catch-f01df019598e8e549187",
+        "catch-f3edce8b96632bc51f17",
+        "catch-fded7af2c2d00afac361"
+      ],
+      "sources": [
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/334379/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/335685/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/341599/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/341929/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/342195/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/342560/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/343541/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/343815/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/343898/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/344043/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/344250/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/344817/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/344954/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/345257/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/345315/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/345474/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/345793/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/345874/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/346248/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/346454/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/346824/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/347013/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/347195/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/347446/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/347871/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/347943/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/348062/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/348179/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/348754/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/348979/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/349038/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/349100/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/349187/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/349556/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/349650/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/349957/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/356347/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/357506/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/357942/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/366867/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/366959/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/368635/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/369140/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/369252/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/369366/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/369862/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/370505/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/371165/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/371460/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/371568/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/372108/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/372217/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/372527/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/373338/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/373895/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/374241/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/374284/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/374403/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/374624/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/374938/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/375047/",
+        "https://www.kotsubo-taromaru.net/search/ChokaDetail/375253/"
+      ]
+    },
+    {
+      "name": "マダイ・クロダイ",
+      "recordIds": [
+        "catch-128b42bb8a996df33744",
+        "catch-4da58bee16b56a885bed",
+        "catch-5832c0ff6280429b45c1",
+        "catch-920564b5fd1cc5cac97b",
+        "catch-e3036722772479264138",
+        "catch-efb6124006949baece80"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/337560/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355860/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/358552/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/361598/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/363840/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/380571/"
+      ]
+    },
+    {
+      "name": "マダイ・ハナダイ",
+      "recordIds": [
+        "catch-0160cfee581c01aeb2ea",
+        "catch-02caf9cf2e1df65466d9",
+        "catch-03f4ecc450e76ec3958c",
+        "catch-0c3e74cfbc8b8a95ec11",
+        "catch-0dabd8cb00f3233454b2",
+        "catch-10f360f2942c0dd4a6e0",
+        "catch-163925c2e63eb4ec813e",
+        "catch-16bf277e2dd7affb393b",
+        "catch-171db87d011ab0c22cd8",
+        "catch-1ef9f6cf695212307ac6",
+        "catch-206246a73ea32fe4bda6",
+        "catch-209b83c8069017efaa3c",
+        "catch-210e701d384b0a968a75",
+        "catch-21e347fb8e1ed2bd34e2",
+        "catch-2abba513cb6df3233512",
+        "catch-2e39674bb157914ee025",
+        "catch-30d191f9a584923ddaab",
+        "catch-30d7108cc918223e7bee",
+        "catch-33dc08088218a6c7ea5e",
+        "catch-3890c21d8f7a728c3940",
+        "catch-39a5824d205b2f6d9a45",
+        "catch-41ad2ecb7e83489bba6b",
+        "catch-47718d6c374e5dcdca0f",
+        "catch-4eb1e72afa90470e6a37",
+        "catch-5169307105092893e251",
+        "catch-55a4604493560702c82b",
+        "catch-5dddf2623d1cb79b85b6",
+        "catch-5e31abdf9af18ef7e4ab",
+        "catch-728f510c792d7ea6dd1a",
+        "catch-74f5fd35025ed42e1477",
+        "catch-75df9dcc2856948c6fd4",
+        "catch-7a7c3ccf05df6e1c8904",
+        "catch-7c1484548dab919f8f49",
+        "catch-7da08603d74c367dd0d3",
+        "catch-82e5bef8b020cc278722",
+        "catch-86137a86b6d53e2090cb",
+        "catch-8bbf7fba85ac7cb253aa",
+        "catch-8c71ef1ce33231ece4d6",
+        "catch-91539e46e111779431b6",
+        "catch-943349fb20449aeb629f",
+        "catch-986a1c07c459f22ee921",
+        "catch-a0c0220c3e72bcb2c312",
+        "catch-a19be45be7da6274ae36",
+        "catch-a6df00a8fc5b86defac0",
+        "catch-a746375b622997e08be3",
+        "catch-aa1a82c5c81c14b16549",
+        "catch-ae6b50c644bbdceefe84",
+        "catch-ae8d231ef2b39fd48680",
+        "catch-afd5b6ff677acffc0a74",
+        "catch-b8cb6e2edd1f2e27ec89",
+        "catch-bba3bc3208665d4cabd4",
+        "catch-bc40f8ddefd1ee708ad9",
+        "catch-c45b665d86cedf9329af",
+        "catch-c82682fe68e263693ae5",
+        "catch-cacad49db66cdf55eae3",
+        "catch-cba97f9ab072c0d4e47d",
+        "catch-d365e6d27055309091f9",
+        "catch-da9a19831ab8ecba00ee",
+        "catch-e19d4bd5d3502c19429e",
+        "catch-ed17563cee220fff60b7",
+        "catch-ef03d52769a5cc31aa44",
+        "catch-ef2dd3553ed9bb197677",
+        "catch-f107e642fe248f3fea2e",
+        "catch-f5c17cd1fe28bfdcc8b7",
+        "catch-f7ec23d52331e3764dd0",
+        "catch-fcc47c8d2ada38657390",
+        "catch-ffc765071b5ffe7744a6"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/331106/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/331200/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/331311/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/331384/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/331469/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/331604/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/331744/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/331950/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/332016/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/332402/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/332450/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/332526/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/332673/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/333052/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/333199/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/333413/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/333492/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/333570/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/333811/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/333915/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/333985/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/334271/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/334317/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/334443/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/334571/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/334659/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/334839/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/335083/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/335161/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/335278/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/335447/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/335527/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/335609/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/335791/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/335971/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/336236/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/336347/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/336447/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/336566/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/336732/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/336939/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/337092/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/337958/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/338171/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/338767/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/338865/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/339022/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/339363/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/339548/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355612/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/356084/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/356242/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/361171/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/361496/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/364786/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/364870/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/376822/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/377564/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/377987/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/378097/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/378306/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/378380/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/378979/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/379058/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/379238/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/379407/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/379887/"
+      ]
+    },
+    {
+      "name": "キメジ",
+      "recordIds": [
+        "catch-0e7eb22a8032123031ca",
+        "catch-149e30e4a17cd994fa44",
+        "catch-198f0d07c8e5e1f32f00",
+        "catch-1e8e6f2d99389a22f9d0",
+        "catch-23a51ca24fc190bff559",
+        "catch-33144a863769c778e7d4",
+        "catch-489b6613ff546ec4fedb",
+        "catch-4bf077183f09e00cbfde",
+        "catch-50e7a8b5a56ebc32553a",
+        "catch-552c4029ada6f938f8f6",
+        "catch-56a838f03f6a7228212f",
+        "catch-5e6e098f99cf48b14229",
+        "catch-5fdf545c9975c2da2da5",
+        "catch-7001cde28c6fe04e4e46",
+        "catch-80b4f8982191b10f6e6c",
+        "catch-823895d47c814be0349c",
+        "catch-89d221792ed1bf5080a0",
+        "catch-91f815ef98dd69ee3797",
+        "catch-97359fe7eca0c414b586",
+        "catch-982f46c57ea4b61c6d4a",
+        "catch-9bc9f9374be958ab50d4",
+        "catch-a37276889ec1e7312fd6",
+        "catch-a558fc933ee6345d4982",
+        "catch-aaec0a932746ffa2a841",
+        "catch-b02d82fac849a252196f",
+        "catch-b5af71b670a5f8f7e22a",
+        "catch-bbaa135fd2e1938c6d29",
+        "catch-c5ab96b32ff37e007219",
+        "catch-d757e299d840c5f49f87",
+        "catch-d7e27ef4d6912c8fbb8f",
+        "catch-db133b2b1975938a6c00",
+        "catch-e5e6618177bb74c86545",
+        "catch-fb9a231fd248b0f30d91"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/331051/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/331477/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/333904/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/349663/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/349755/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/349886/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/350011/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/350145/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/350475/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/354538/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/357726/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/357981/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/358228/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/359167/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/373966/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/375482/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/375940/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/376300/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/376393/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/376479/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/376835/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/377152/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/377262/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/377356/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/377518/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/378095/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/378537/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/378625/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/378723/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/379151/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/379322/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/379416/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/379706/"
+      ]
+    },
+    {
+      "name": "マダイ ハナダイ クロダイ",
+      "recordIds": [
+        "catch-155c385b3e4152f7af77",
+        "catch-215fc85d5f0f28678c8b",
+        "catch-2cd09af7844242320c1e",
+        "catch-46eadef42c1f204e6430",
+        "catch-496959d18308d72e6ee6",
+        "catch-55a149e015890a94e071",
+        "catch-588bd37fb202060a7446",
+        "catch-73ca0c038c7c102464f7",
+        "catch-7deb4c28612df1f4523d",
+        "catch-8e818436cbbc37a5c0b3",
+        "catch-94bb94acd47ac1ddaaca",
+        "catch-9644210054da16fda7eb",
+        "catch-a80269f8085a99876987",
+        "catch-b1be67e6fab61fa7368a",
+        "catch-b337acfc9c909f809d65",
+        "catch-cf25c50dc88a99ef416e",
+        "catch-d5c7d9fb6ead90fc8fc9",
+        "catch-efbd3734c6d986c2ad5a",
+        "catch-f43edb18be7002fd6292"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/331032/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/332597/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/332915/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/336090/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/336630/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/337035/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/337336/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/338374/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/338539/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/339464/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/340080/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/340192/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355747/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/356009/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/361261/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/364279/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/376255/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/377271/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/377720/"
+      ]
+    },
+    {
+      "name": "マダイ メダイ",
+      "recordIds": [
+        "catch-c9bbfcaff12389ea03de"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/374709/"
+      ]
+    },
+    {
+      "name": "カツオ・キメジ",
+      "recordIds": [
+        "catch-008c43605e94c039c016",
+        "catch-042c97882a81c5953832",
+        "catch-37d74f34a732da4f408a",
+        "catch-53fcb7dfc02631c843a6",
+        "catch-691ba543087d3301b186",
+        "catch-79c5dfbe18b12914101c",
+        "catch-c1deaf837172b54cbc44"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/347442/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/347542/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/349270/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/349451/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/350079/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/350861/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/374492/"
+      ]
+    },
+    {
+      "name": "マルイカ・ムギイカ",
+      "recordIds": [
+        "catch-09b5a90663eccf50b337",
+        "catch-09e844640b130c81b28e",
+        "catch-2d02d1f17d649cebfa56",
+        "catch-382b5eca2587b80bdd9e",
+        "catch-3b0789fedd1eaea1f31c",
+        "catch-487b196dbc9039417b31",
+        "catch-4e8c6436fdfd3e0afdfe",
+        "catch-605b8cd933d0aac9e4f0",
+        "catch-680d6079592ebcf9b5f6",
+        "catch-7cd233fa443e2622c80e",
+        "catch-816f16f0a2483b0408d3",
+        "catch-88d2f9c739be22f456b7",
+        "catch-9a57a13171437964e6d7",
+        "catch-c967b40ce2494166d9bd",
+        "catch-da96250346a83a7a7fa0",
+        "catch-e22535f47566f14c13e4"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/344309/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344508/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344733/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/366922/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/367063/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/367559/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/369840/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/371042/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/371211/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/371272/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/371331/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/371427/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/371869/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/371977/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/372655/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/372702/"
+      ]
+    },
+    {
+      "name": "マダイ、イシダイ",
+      "recordIds": [
+        "catch-36ea275c90e7cae60352",
+        "catch-c41c891adf28b0de082a",
+        "catch-eda786d1d421f1bb27da"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/342161/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/366624/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/371560/"
+      ]
+    },
+    {
+      "name": "マダイ、クロダイ、ハナダイ",
+      "recordIds": [
+        "catch-007154dae9e60aa8b6a9",
+        "catch-066ed2e9672239a989f3",
+        "catch-160939c36dc1d16261f4",
+        "catch-2788904c2ed5837f2377",
+        "catch-3e8efbc7a71b95ad068f",
+        "catch-41f22471a93516743bf1",
+        "catch-49253e780be7694d65a7",
+        "catch-6d82e5fc5f65825266f3",
+        "catch-7130a810f320791073eb",
+        "catch-9463805ec14bbb1df8a4",
+        "catch-a09141e471e43b9fc4e3",
+        "catch-b51bc0940b03d1927595",
+        "catch-e53ae6a6a711b8143de1",
+        "catch-f36eaf65177affd3fdc1"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/339322/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/340407/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/340642/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341460/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/342255/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/343100/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/343212/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344680/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/352078/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355499/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355579/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/359299/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/365188/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/371269/"
+      ]
+    },
+    {
+      "name": "クロダイ、ハナダイ",
+      "recordIds": [
+        "catch-334c07ad6420fc61bdd6"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/371144/"
+      ]
+    },
+    {
+      "name": "コマセ五目",
+      "recordIds": [
+        "catch-0efb3210a787bb0951c5",
+        "catch-1155ac4222fa21909419",
+        "catch-5a56794223a6ff3cf6f5",
+        "catch-65f4efbebafab44ad767",
+        "catch-672cba946d10f97ae692",
+        "catch-6e8ead4f9964ce32f77d",
+        "catch-77ca2c654a0d7879635e",
+        "catch-82df5570e7363d90fc8f",
+        "catch-85632f48d7759f5ad186",
+        "catch-8f8cd53b509a25f7c642",
+        "catch-ad0da8d5ba3537f14c18",
+        "catch-ae9367215397d06ff213",
+        "catch-c0bbebfb0b24fe9b5760",
+        "catch-cb599a2025ab13b3e97a",
+        "catch-fae74fa0b93931c7bfed",
+        "catch-fb0b49f8b03bb268c305",
+        "catch-ff1036cd3d306eda0e63"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/341444/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341460/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341771/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/342078/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/343198/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/343793/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344247/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/350646/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/351281/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/352025/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/352379/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/352536/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/352766/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/365923/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/368046/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/368308/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/368590/"
+      ]
+    },
+    {
+      "name": "キントキダイ",
+      "recordIds": [
+        "catch-56304ffb6c6d26841418",
+        "catch-c261cc51297b90c5fc6d",
+        "catch-c329474310d3217ce5b5",
+        "catch-feb282b37beb7f3c2f87"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/349766/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/349892/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/350235/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/367370/"
+      ]
+    },
+    {
+      "name": "マダイ、ハナダイ",
+      "recordIds": [
+        "catch-117e79b4fdc5392b25d9",
+        "catch-320b32925b979ddc8c91",
+        "catch-325d6051f130ce8df350",
+        "catch-5e738185ccc8e62840f5",
+        "catch-651d1932ab273223d3ca",
+        "catch-66e5ea1ac87e1f942779",
+        "catch-755c21f57d100d402107",
+        "catch-7b52398d826be1f09e95",
+        "catch-8316446749f0a35f239c",
+        "catch-a24f79390e2c58ad2bc6",
+        "catch-a31cdbcf04e892370fd8",
+        "catch-ca289d47636dd5875e31",
+        "catch-d6b4f4d26a47a344e4ab",
+        "catch-df4157726698563df618",
+        "catch-e68ae33a96de234ec5ca",
+        "catch-eddc234a506062e39dee",
+        "catch-fbead69439ebd605f3a1",
+        "catch-ffa99d4a471e9cb089f3"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/335684/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/339226/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/340324/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/340501/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341993/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/353797/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/353986/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/354229/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/354296/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/354631/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/354850/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/354926/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355034/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355115/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355220/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355280/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355392/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/366582/"
+      ]
+    },
+    {
+      "name": "カツオ&キメジ",
+      "recordIds": [
+        "catch-04a6bd2ab27b337c3808",
+        "catch-3a0906448090b2a69ab5",
+        "catch-59a8927eebc1c8e120cc",
+        "catch-7ce897331b6422d6dc8d",
+        "catch-7fd657a7833d2b03f0fc",
+        "catch-a0f4a3d2f90193325544",
+        "catch-a5d5543429be70868f31",
+        "catch-b16b834bdf66b7f8ce22",
+        "catch-e156f61225c58c881620"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/331835/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/332154/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/334055/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/334718/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/358365/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/358689/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/359053/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/359290/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/359328/"
+      ]
+    },
+    {
+      "name": "キメジ&キハダマグロ",
+      "recordIds": [
+        "catch-08989d8adf84fd809fd9",
+        "catch-4a4b0adb76aa09c994a5",
+        "catch-560f5a442c2d07d46755",
+        "catch-9436ec6d30255ddc604e",
+        "catch-b7cbf1e241b3f6688bfa",
+        "catch-b990aeaa60815be77db2",
+        "catch-efa7083b3bb59296d83c"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/354671/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355035/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355218/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355383/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/355488/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/356023/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/358460/"
+      ]
+    },
+    {
+      "name": "キメジ&マグロ",
+      "recordIds": [
+        "catch-449ce54182821219b843"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/354633/"
+      ]
+    },
+    {
+      "name": "キメジ、キハダマグロ",
+      "recordIds": [
+        "catch-a1f49ca3c18764d07ab7"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/354505/"
+      ]
+    },
+    {
+      "name": "タイ遠征五目",
+      "recordIds": [
+        "catch-a9cad5bb8cd6dbc43fab"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/352215/"
+      ]
+    },
+    {
+      "name": "マダイ、クロダイ",
+      "recordIds": [
+        "catch-03c2d4ab524f9660bbaf",
+        "catch-12502e16035650afc2f5",
+        "catch-143700f5a45e1b30b393",
+        "catch-175e026b60bee3a28afb",
+        "catch-1e098a5fa192a44d98e8",
+        "catch-2219fb7ab01793bced13",
+        "catch-27e92f3a64d2c0ba6c84",
+        "catch-2ecf9c97c3d7246501e6",
+        "catch-2ed9bb40945a11e05178",
+        "catch-50befb5faf3d8b0aec1b",
+        "catch-586f2662468730a03a90",
+        "catch-5a0012bdb3bc795098d3",
+        "catch-657860a63499986c90ec",
+        "catch-6ce2301fe2be66adeee2",
+        "catch-757e8a3e8a7cc4a4df3c",
+        "catch-85cadb1aefff212feee7",
+        "catch-87613346970447b7b68f",
+        "catch-88cc3e97cad6cde2b4dc",
+        "catch-971d30f7af2af838ec35",
+        "catch-a49d23d1397b3b7b09f0",
+        "catch-abcd52a983a1402f2f76",
+        "catch-cb8e20be60c1adae674a",
+        "catch-e0aa5718a1aeb98ee400",
+        "catch-eed53180e01ee3d21ca9",
+        "catch-f5b3e736e27952532e40"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/340914/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341018/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341118/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341194/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341346/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341792/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341861/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/342102/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/342288/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/342358/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/342552/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/342606/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/342923/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/343287/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344025/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344238/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344324/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344446/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344948/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/345140/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/345236/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/345569/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/345689/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/346392/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/347764/"
+      ]
+    },
+    {
+      "name": "ムギイカ",
+      "recordIds": [
+        "catch-5030ad821571d1df355c",
+        "catch-59aa07007167c4c4227a",
+        "catch-717edca507608232fc3c",
+        "catch-84234dd6be53036d3c4c",
+        "catch-88380121c453911f20b2",
+        "catch-89edc3a21e0d4ee76bd9",
+        "catch-b895da36ce22087b1232",
+        "catch-ccc219ac0a0c77d301b4",
+        "catch-f301ed0d40868d6d3e26"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/344031/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344597/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344677/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/344943/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/345001/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/345147/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/345217/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/345296/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/345442/"
+      ]
+    },
+    {
+      "name": "ヤリ・スルメイカ",
+      "recordIds": [
+        "catch-3f18b966e3e82efabe8d",
+        "catch-709b9f567407373d57a6",
+        "catch-73c11a09cac2f816c74c",
+        "catch-7a99e81844e65a2b55f8"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/342519/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/343273/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/343706/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/343810/"
+      ]
+    },
+    {
+      "name": "マダイ、イシダイ、クロダイ",
+      "recordIds": [
+        "catch-791f9c60b4a409f15561"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/341678/"
+      ]
+    },
+    {
+      "name": "マダイ、クロダイ、メダイ",
+      "recordIds": [
+        "catch-58fdb03f59f9e2dbfb1c",
+        "catch-a05ced73534f21eac8d8"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/341110/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/341329/"
+      ]
+    },
+    {
+      "name": "マダイ、イシダイ、ハナダイ",
+      "recordIds": [
+        "catch-2023542d7df0fe28fdfc"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/340768/"
+      ]
+    },
+    {
+      "name": "マダイ、イシダイ、クロダイ、ハナダイ",
+      "recordIds": [
+        "catch-6fb7c97a63610f941c60",
+        "catch-c51f2903c58437d22f46"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/339993/",
+        "https://www.hidekichimaru.com/search/ChokaDetail/340582/"
+      ]
+    },
+    {
+      "name": "マダイハナダイクロダイイシダイ",
+      "recordIds": [
+        "catch-14e384f2b40ca333c27c"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/339910/"
+      ]
+    },
+    {
+      "name": "マダイ、メダイ",
+      "recordIds": [
+        "catch-19c6e1790923b474cf02"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/339642/"
+      ]
+    },
+    {
+      "name": "イシダイ クロダイ",
+      "recordIds": [
+        "catch-1be105decf83bdbb59ed"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/338266/"
+      ]
+    },
+    {
+      "name": "マダイ イシダイ クロダイ",
+      "recordIds": [
+        "catch-131ca18b3341073d1fb5"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/337870/"
+      ]
+    },
+    {
+      "name": "マダイ・イシダイ",
+      "recordIds": [
+        "catch-954ee79b3f4e5274f84d"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/337774/"
+      ]
+    },
+    {
+      "name": "マダイ・ハナダイ・イシダイ",
+      "recordIds": [
+        "catch-3c43a3229677abd1f5a1"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/334064/"
+      ]
+    },
+    {
+      "name": "ホンガツオ",
+      "recordIds": [
+        "catch-294fa3d140971b617428"
+      ],
+      "sources": [
+        "https://www.hidekichimaru.com/search/ChokaDetail/332517/"
+      ]
+    },
+    {
+      "name": "イナ",
+      "recordIds": [
+        "catch-43b6265c98a0d627c55a"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ]
+    },
+    {
+      "name": "ワラ",
+      "recordIds": [
+        "catch-492bd50516472483420c"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ]
+    },
+    {
+      "name": "開割",
+      "recordIds": [
+        "catch-38a7c4398c2aeb8d71ff"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ]
+    },
+    {
+      "name": "ブリとカサゴ",
+      "recordIds": [
+        "catch-4af3d7579562fa7c2c15"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ]
+    }
+  ]
+}
