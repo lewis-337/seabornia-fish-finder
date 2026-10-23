@@ -1,13 +1,13 @@
-const VERSION = "seabornia-v8.3";
+const VERSION = "seabornia-v9";
 const PREFIX = "seabornia-";
 const SHELL = [
   "./",
   "./index.html",
-  "./styles-v8.2.css",
-  "./app-v8.1.js",
+  "./styles-v9.css",
+  "./app-v9.js",
   "./map-gestures.js",
-  "./marina-core-v8.3.js",
-  "./marina-discovery-v8.3.js",
+  "./marina-core-v9.js",
+  "./marina-discovery-v9.js",
   "./data/marinas.json",
   "./data/marina-evidence.json",
   "./data/coast-regions.json",
@@ -40,14 +40,18 @@ self.addEventListener("install", (event) => {
           new URL("./data/photo_manifest.json", self.registration.scope).href,
         );
         const data = await manifest.json();
-        const photos = Object.values(data.images || {})
-          .filter(
-            (row) =>
-              row.ok &&
-              row.license &&
-              /^images\/fish\/[\w-]+\.jpg$/.test(row.local),
-          )
-          .map((row) => "./" + row.local);
+        const photos = [
+          ...new Set(
+            Object.values(data.images || {})
+              .filter(
+                (row) =>
+                  row.ok &&
+                  row.license &&
+                  /^images\/fish\/[\w-]+\.jpg$/.test(row.local),
+              )
+              .map((row) => "./" + row.local),
+          ),
+        ];
         await cache.addAll(photos);
       })
       .then(() => self.skipWaiting()),

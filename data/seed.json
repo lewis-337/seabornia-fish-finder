@@ -1066,7 +1066,8 @@
       ],
       "note": "回遊次第で釣果が大きく変わる。",
       "wiki": "Seriola quinqueradiata",
-      "file": ""
+      "file": "",
+      "photoLabel": "同種のブリ（成魚の参考写真）"
     },
     {
       "id": "9",
@@ -1085,7 +1086,8 @@
       ],
       "note": "青物の幼魚。周辺のベイト反応を確認。",
       "wiki": "Seriola quinqueradiata",
-      "file": ""
+      "file": "",
+      "photoLabel": "同種のブリ（成魚の参考写真）"
     },
     {
       "id": "10",
@@ -1124,7 +1126,8 @@
       ],
       "note": "カンパチの若魚。",
       "wiki": "Seriola dumerili",
-      "file": ""
+      "file": "",
+      "photoLabel": "同種のカンパチ（成魚の参考写真）"
     },
     {
       "id": "12",
@@ -1908,7 +1911,8 @@
       "note": "海域の季節候補。",
       "wiki": "Sphyraena pinguis",
       "file": "",
-      "status": "regional"
+      "status": "regional",
+      "photoLabel": "代表例：アカカマス"
     },
     {
       "id": "46",

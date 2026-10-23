@@ -75,9 +75,13 @@ def main():
   if grounds:
    if m['id']!='J14-0170':
     pts=grounds+[m];m['bounds']=[min(p['lng'] for p in pts)-.07,min(p['lat'] for p in pts)-.06,max(p['lng'] for p in pts)+.07,max(p['lat'] for p in pts)+.06]
+    previous=oldbyid.get(m['id'],{}).get('bounds')
+    if previous and all(previous[0]<=p['lng']<=previous[2] and previous[1]<=p['lat']<=previous[3] for p in pts):m['bounds']=previous
   oldpath=ROOT/'data/marinas'/f"{m['id']}.json"
   old=json.loads(oldpath.read_text()) if oldpath.exists() else {}
   write(oldpath,dict(schema_version=1,marinaId=m['id'],areas=grounds,reports=old.get('reports',[]),checkedAt=STAMP,last_success=old.get('last_success'),source_status=old.get('source_status',[])))
  write(ROOT/'data/marinas.json',dict(schema_version=1,checkedAt=STAMP,source='https://sea-style-m.yamaha-motor.co.jp/jp/marina/info/index',marinas=marinas))
+ from apply_marina_enrichment import apply
+ apply(ROOT)
  print('Audited',len(marinas),'bases:',{s:sum(m['status']==s for m in marinas) for s in ['verified','unconfirmed','excluded']})
 if __name__=='__main__':main()

@@ -2,7 +2,7 @@
 
 Checked: 2026-10-23T08:29:39.520463+00:00. All 30 Kanto and 4 Okinawa directory entries audited.
 
-19 fishing-use sources verified; 6 coastal candidates require confirmation; 9 excluded. A verification means published fishing-use evidence, not current booking availability or permission for every boat/ground.
+Latest content review:20 fishing-use sources,4 coastal candidates requiring confirmation,10 excluded. Original baseline:19/6/9. See MARINA-CONTENT-AUDIT.md for the2026-10-23 enrichment and availability updates. A verification means published fishing-use evidence, not current booking availability or permission for every boat/ground.
 
 Official source: https://sea-style-m.yamaha-motor.co.jp/jp/marina/info/index
 
@@ -27,11 +27,11 @@ Official source: https://sea-style-m.yamaha-motor.co.jp/jp/marina/info/index
 | [JET SHOP ROYAKOH](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0160) | kanto | excluded | 確認時のクラブ艇はJetのみ [source](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0160) |
 | [湘南サニーサイドマリーナ](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0140) | kanto | verified | アマダイ等のレンタル釣りプラン [source](https://sea-style.yamaha-motor.co.jp/plan/kanto/0349/) |
 | [リビエラシーボニアマリーナ](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0170) | kanto | verified | 既存のSea-Style釣り案内と公開海域 [source](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0170) |
-| [油壺京急マリーナ](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0180) | kanto | unconfirmed | 現在のクラブ艇掲載なし。利用再開・釣り可否を要確認 [source](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0180) |
+| [油壺京急マリーナ](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0180) | kanto | excluded | 現在の公式ページにSea-Styleクラブ艇掲載なし。再配備確認まで行き先には掲載しません。営業終了とは断定していません。 [source](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0180) |
 | [三崎港「うらり」](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0200) | kanto | verified | レンタル艇のエサ・コマセ・イカ墨の洗船規則に釣り利用を記載 [source](https://sea-style-m.yamaha-motor.co.jp/jp/marina/rule/index/marinacd/J14-0200) |
 | [小坪マリーナ](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0100) | kanto | verified | クラブ艇でのアマダイ釣行紹介 [source](https://sea-style.yamaha-motor.co.jp/knowledge/) |
 | [葉山港](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0110) | kanto | verified | レンタル艇の釣り支援案内 [source](https://www.hayama-port.jp/rentalboat/) |
-| [葉山マリーナ](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0120) | kanto | unconfirmed | 海釣り利用・現在の艇または航行条件を要確認 [source](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0120) |
+| [葉山マリーナ](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0120) | kanto | verified | 現行クラブ艇掲載とSea-Style会員のシロギス釣獲記載を確認。 [source](https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0120) |
 | [湘南ライセンス　江の島会場](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0080) | kanto | verified | 江の島会場の釣りプラン掲載 [source](https://sea-style.yamaha-motor.co.jp/plan/kanto/) |
 | [湘南マリーナ](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0050) | kanto | verified | 釣り向けi-Pilot講習掲載 [source](https://sea-style.yamaha-motor.co.jp/plan/kanto/) |
 | [コグレマリンサービス](https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0045) | kanto | verified | Sea-Styleレンタルでの釣り案内 [source](https://kogurems.com/service/rental/) |
@@ -46,7 +46,7 @@ Official source: https://sea-style-m.yamaha-motor.co.jp/jp/marina/info/index
 ## Evidence rules
 
 - No marina coordinate is converted into catch GPS. New ground coordinates are explicitly broad editorial representative locations of named source areas.
-- Keep rental reports, official guides, nearby records and exploration candidates distinct. Missing dates/methods/seasons remain unknown. Generic サバ is never mapped to マサバ/ゴマサバ; regional fish groups do not receive exact-species photos.
+- Keep rental reports, official guides, nearby records and exploration candidates distinct. Missing dates/methods/seasons remain unknown. Generic サバ is never mapped to マサバ/ゴマサバ; regional fish groups receive explicitly labelled representative photos, with reusable metadata in PHOTO-AUDIT-v9.md.
 - Bait/lure restrictions are vessel-specific. Method filtering uses explicitly supported evidence; unknown methods remain available under すべて.
 - Cruising maps remain official links. Display bounds are not navigation permissions. GEBCO2026 cells are approximate uncorrected model elevations, not clearance depths.
 - A re-audit is deliberate: run build_marina_data.py, review rules/boats, refresh_home_evidence.cjs, collect_marina_conditions.py, cache_marina_maps.py and build_offline_packs.py. Map footprint checks block mismatched backgrounds.

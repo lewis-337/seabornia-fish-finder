@@ -112,7 +112,7 @@
       "sample_lng": 139.91458,
       "requested_lat": 35.447,
       "requested_lng": 139.913,
-      "fetched_at": "2026-10-23T08:37:33.727878+00:00",
+      "fetched_at": "2026-10-23T11:26:27.729874+00:00",
       "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
       "release": "GEBCO2026"
     },
@@ -122,7 +122,7 @@
       "sample_lng": 139.88542,
       "requested_lat": 35.386,
       "requested_lng": 139.884,
-      "fetched_at": "2026-10-23T08:37:33.724892+00:00",
+      "fetched_at": "2026-10-23T11:26:27.732367+00:00",
       "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
       "release": "GEBCO2026"
     },
@@ -132,7 +132,7 @@
       "sample_lng": 139.76458,
       "requested_lat": 35.272,
       "requested_lng": 139.766,
-      "fetched_at": "2026-10-23T08:37:33.740684+00:00",
+      "fetched_at": "2026-10-23T11:26:27.734986+00:00",
       "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
       "release": "GEBCO2026"
     },
@@ -142,7 +142,7 @@
       "sample_lng": 139.57708,
       "requested_lat": 35.237,
       "requested_lng": 139.575,
-      "fetched_at": "2026-10-23T08:37:34.772094+00:00",
+      "fetched_at": "2026-10-23T11:26:28.801645+00:00",
       "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
       "release": "GEBCO2026"
     },
@@ -152,7 +152,7 @@
       "sample_lng": 139.35625,
       "requested_lat": 35.292,
       "requested_lng": 139.355,
-      "fetched_at": "2026-10-23T08:37:34.781837+00:00",
+      "fetched_at": "2026-10-23T11:26:28.782379+00:00",
       "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
       "release": "GEBCO2026"
     },
@@ -162,7 +162,7 @@
       "sample_lng": 139.40625,
       "requested_lat": 35.276,
       "requested_lng": 139.408,
-      "fetched_at": "2026-10-23T08:37:34.777759+00:00",
+      "fetched_at": "2026-10-23T11:26:28.771492+00:00",
       "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
       "release": "GEBCO2026"
     },
@@ -172,7 +172,7 @@
       "sample_lng": 127.71042,
       "requested_lat": 26.315,
       "requested_lng": 127.71,
-      "fetched_at": "2026-10-23T08:37:35.816045+00:00",
+      "fetched_at": "2026-10-23T11:26:29.825303+00:00",
       "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
       "release": "GEBCO2026"
     },
@@ -182,7 +182,47 @@
       "sample_lng": 127.85208,
       "requested_lat": 26.25,
       "requested_lng": 127.85,
-      "fetched_at": "2026-10-23T08:37:35.813907+00:00",
+      "fetched_at": "2026-10-23T11:26:29.821820+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "pacific-oarai": {
+      "elevation_m": -23.0,
+      "sample_lat": 36.30625,
+      "sample_lng": 140.61875,
+      "requested_lat": 36.305,
+      "requested_lng": 140.62,
+      "fetched_at": "2026-10-23T11:26:29.842159+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "tokyo-ybm": {
+      "elevation_m": -14.0,
+      "sample_lat": 35.364583,
+      "sample_lng": 139.66458,
+      "requested_lat": 35.364,
+      "requested_lng": 139.664,
+      "fetched_at": "2026-10-23T11:26:30.955290+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "sagami-inamura": {
+      "elevation_m": -24.0,
+      "sample_lat": 35.277083,
+      "sample_lng": 139.51042,
+      "requested_lat": 35.278,
+      "requested_lng": 139.511,
+      "fetched_at": "2026-10-23T11:26:31.958819+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "sagami-enoshima": {
+      "elevation_m": -55.0,
+      "sample_lat": 35.277083,
+      "sample_lng": 139.47708,
+      "requested_lat": 35.277,
+      "requested_lng": 139.478,
+      "fetched_at": "2026-10-23T11:26:31.960411+00:00",
       "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
       "release": "GEBCO2026"
     }

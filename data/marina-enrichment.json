@@ -1,0 +1,1674 @@
+{
+  "schema_version": 1,
+  "checkedAt": "2026-10-23T20:22:12+09:00",
+  "profiles": {
+    "J08-0040": {
+      "summary": "鹿島灘に面した外海のフィッシング拠点。FAST26系を配備。",
+      "preparation": "フェリー入出港の前後30分はマリーナ入出港不可。那珂川への進入や砂浜への乗上げは禁止。ロッドキーパー・タモは有料貸出の案内。",
+      "basics": {
+        "address": "茨城県東茨城郡大洗町港中央12番地5号",
+        "phone": "029-267-5993",
+        "hours": "9:00～17:00",
+        "closedDays": "火曜日（祝日の場合は営業）",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J08-0040",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "マダイ・カサゴ",
+          "where": "大洗沖",
+          "tackle": "仕掛け・水深は記事に記載なし",
+          "context": "2024年10月27日公開のSea-Style FAST26利用例。釣行日は未記載。",
+          "source": "https://oarai-marina.com/fishing/789"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J12-0045": {
+      "summary": "東京湾奥・千鳥から出港。袖ケ浦方面のシロギス案内がある。",
+      "preparation": "FAST23とYFR24の釣り条件・航行範囲を艇ごとに確認。夏季以外は水曜定休が基本。",
+      "basics": {
+        "address": "千葉県浦安市千鳥1番地",
+        "phone": "047-351-6960",
+        "hours": "9:00～18:00",
+        "closedDays": "水曜日(祝祭日の場合は翌日)、7･8月は定休日なし、年末年始",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J12-0045",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "シロギス",
+          "where": "袖ケ浦・アクアライン付近",
+          "tackle": "エサ釣り。水深の明記なし",
+          "context": "公式プランの対象魚。現行プラン・航行範囲は利用前に確認。",
+          "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0342/"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J12-0060": {
+      "summary": "木更津発。湾内のシーバスやシロギスなど、魚種を替えて計画できる。",
+      "preparation": "駐車は原則1組2台まで。船・航行区域を選んでから、その日のポイントを受付で確認。",
+      "basics": {
+        "address": "千葉県木更津市 富士見3-1-22",
+        "phone": "0438-23-2091",
+        "hours": "9：00～18：00",
+        "closedDays": "月曜日（祝祭日の場合は営業）",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J12-0060",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "スズキ・シロギス・カサゴ・イシモチ・サバ",
+          "where": "木更津沖",
+          "tackle": "公式プラン。魚種ごとに釣り方を確認",
+          "context": "スズキの案内は5〜11月。ほかの魚の季節は未記載。",
+          "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0014/"
+        },
+        {
+          "fish": "タチウオ・サワラ（サゴシ）",
+          "where": "海ほたる方面との会員記載",
+          "tackle": "釣り方・水深は未記載",
+          "context": "2026年10月7日投稿の会員口コミ。釣行日・GPSは不明。",
+          "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J12-0060"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J13-0010": {
+      "summary": "旧江戸川沿いの出港地。東京湾の釣りと河川クルーズを艇別に選ぶ。",
+      "preparation": "S-QUALOなど一部艇はエサ・コマセ禁止。三枚洲などの浅場は公式航行図で確認し、河川の制限を他艇に流用しない。",
+      "basics": {
+        "address": "東京都江戸川区 東葛西3-17-16",
+        "phone": "03-5674-7166",
+        "hours": "8:00～17:00 当日予約可",
+        "closedDays": "火曜日",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J13-0010",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "スズキ",
+          "where": "東京湾。現在の許可区域は艇別に確認",
+          "tackle": "具体的仕掛け・釣果水深の記載なし",
+          "context": "2024年10月12日の公式釣り講座紹介。釣獲日の記録や通年の好釣果保証ではない。",
+          "source": "https://sea-style.yamaha-motor.co.jp/event/report/2024/1012/"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J13-0020": {
+      "summary": "都心の勝どきから出港。レンタルと船長付きフィッシングは別サービス。",
+      "preparation": "初回安全レクチャー後に予約。駐車場なし。公開釣り案内は船長付き便なので、自操レンタル艇の釣り可否は未確認。",
+      "basics": {
+        "address": "東京都中央区 勝どき3-15-3",
+        "phone": "03-3531-7833",
+        "hours": "9：30～18：00 当日予約可 (※安レク受講済の方)",
+        "closedDays": "火曜日",
+        "parking": "なし"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J13-0020",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "スズキ・クロダイ・サワラ",
+          "where": "東京湾の港湾部（船長付き便の案内）",
+          "tackle": "シーバス用ルアー・ボトムチニング等",
+          "context": "自操Sea-Styleの実績ではない。10月の案内で、年・個別釣行日は未確認。",
+          "source": "https://kachidoki-marina.com/fishing/"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J13-0030": {
+      "summary": "新砂水門を経由する東京湾奥のマリーナ。レンタル艇とオーナー艇を区別して確認。",
+      "preparation": "新砂水門側から入出港し、夢の島大橋方面は禁止。三枚洲は航行できない危険水域。水門閉鎖予定も出発前に確認。",
+      "basics": {
+        "address": "東京都江東区夢の島3-2-1",
+        "phone": "03-5569-2710",
+        "hours": "9：00-18：00",
+        "closedDays": "火曜日(7月・8月は無休・）年末年始",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J13-0030",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0010": {
+      "summary": "大黒運河沿いの都市型マリーナ。横浜港方面のアクセスが特徴。",
+      "preparation": "現在の公式営業案内は確認できるが、当拠点Sea-Style艇での釣り方・釣り場の根拠は不足。釣り前提の予約は可否を確認。",
+      "basics": {
+        "address": "神奈川県横浜市鶴見区 大黒町2-19",
+        "phone": "045-504-1094",
+        "hours": "9：00～18：00（4月～9月）、9：00～17：00（10月～3月）",
+        "closedDays": "火、水曜日（祝日の場合は営業）",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0010",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0020": {
+      "summary": "東神奈川発。近場のエサ釣りと東京湾のルアー釣りの資料がある。",
+      "preparation": "貸出竿・エサ等は内容と在庫を確認。公開の航行範囲は神奈川側。河川には進入しない。",
+      "basics": {
+        "address": "神奈川県横浜市神奈川区 東神奈川2-49-11",
+        "phone": "045-461-1062",
+        "hours": "9：00～17：00",
+        "closedDays": "毎週火曜日（正月休み有り）",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0020",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "アジ・カサゴ・シロギス・イシモチ",
+          "where": "神奈川側の許可範囲内。具体的位置は受付で確認",
+          "tackle": "エサ釣り。公表水深なし",
+          "context": "公式レンタルプラン。季節の明記なし。",
+          "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0297/"
+        },
+        {
+          "fish": "スズキ",
+          "where": "具体的な釣果位置は未記載",
+          "tackle": "ルアー",
+          "context": "2025年10月16日投稿の会員口コミ。釣行日は不明。",
+          "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0020"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0040": {
+      "summary": "横浜・白帆発。公式に初心者向けアジ・キス・イシモチの仕掛けを案内。",
+      "preparation": "エサ釣りは対応艇を選択。S-QUALO・SR330等の指定艇ではエサ・コマセ禁止。艇別表示を優先。",
+      "basics": {
+        "address": "神奈川県横浜市金沢区 白帆1",
+        "phone": "045-775-4153",
+        "hours": "9:00～17:00",
+        "closedDays": "火曜日（祝日の場合は翌日)・水曜日（11月～2月のみ)・年末年始",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0040",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "アジ",
+          "where": "YBM沖。詳細点は未公開",
+          "tackle": "アジビシ30〜40号・PE2〜3号の公式例",
+          "context": "底取り後、底から約1mでコマセを出す入門手順。魚探や当日の潮で調整。",
+          "source": "https://www.ybmarina.com/rental/seastyle/"
+        },
+        {
+          "fish": "シロギス・イシモチ",
+          "where": "YBM沖",
+          "tackle": "船用キス仕掛け／イシモチ胴付",
+          "context": "対応艇のエサ釣り向け。季節・個別釣行日は不明。",
+          "source": "https://www.ybmarina.com/rental/seastyle/"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0130": {
+      "summary": "浦賀水道に近い拠点。走水のアジ、久里浜のマダイ、タチウオなどの公式案内が充実。",
+      "preparation": "航路上では釣りをしない。無料レンタルも在庫と対象艇を確認。公開釣果は水深・仕掛けを併記し、当日の許可範囲で参考にする。",
+      "basics": {
+        "address": "神奈川県横須賀市 東浦賀2-22-2",
+        "phone": "046-843-4123",
+        "hours": "8：30～17：30 （土・日曜日・祝日および7月～8月の毎日：8：00～18：00）",
+        "closedDays": "原則として火曜日（冬季は火・水曜日） ※7月第3週～8月末日は無休。祭日やその前後はイレギュラーになりますので「クラブ艇空き情報」か当マリーナのホームページのカレンダーでご確認ください。",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0130",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "アジ・マダイ",
+          "where": "観音崎〜走水沖／久里浜沖",
+          "tackle": "エサ釣り。魚種別プランを参照",
+          "context": "公式の対象魚・海域。具体的な釣行日とは別の案内。",
+          "source": "https://sea-style.yamaha-motor.co.jp/plan/list/J14-0130.php"
+        },
+        {
+          "fish": "タチウオ・ワラサ・ブリ・カワハギ",
+          "where": "東京湾・剣崎沖など、艇別航行範囲内",
+          "tackle": "魚種別の公式プラン",
+          "context": "冬のワラサ・ブリ案内あり。すべての魚を通年の好期とは扱わない。",
+          "source": "https://sea-style.yamaha-motor.co.jp/plan/list/J14-0130.php"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0140": {
+      "summary": "芦名から相模湾へ。アマダイ、タイラバ、アオリイカなどのレンタル釣り資料がある。",
+      "preparation": "マリーナ沖の定置網に接近しない。過去記事の水深はその釣行の参考で、海域全体や現在の釣果を保証しない。",
+      "basics": {
+        "address": "神奈川県横須賀市 芦名1-17-8",
+        "phone": "046-857-2700",
+        "hours": "8：30～17：30",
+        "closedDays": "火曜日（7～8月頃は無休、9～6月は弊社カレンダーに準ずる。マリーナHPカレンダーをご参照下さい。）",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0140",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "シロアマダイ・イトヨリダイ",
+          "where": "マリーナ沖",
+          "tackle": "40m・オキアミのエサ釣り",
+          "context": "公式レンタル艇の2026年10月16日釣行、10月18日公開例。",
+          "source": "https://www.sunnyside.co.jp/fishing/"
+        },
+        {
+          "fish": "マダイ・アオハタ・ホウボウ",
+          "where": "亀城根沖（南東）",
+          "tackle": "40m・タイラバ",
+          "context": "同じく2026年10月16日レンタル艇の釣行例。",
+          "source": "https://www.sunnyside.co.jp/fishing/"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0170": {
+      "summary": "小網代湾から三浦半島・相模湾の海域へ。既存の釣果・地形・魚種対応を継続。",
+      "preparation": "公開釣果と探索候補を区別。近隣の遊漁船釣果はレンタル実績ではなく、艇の許可範囲は受付の航行図を確認。",
+      "basics": {
+        "address": "神奈川県三浦市 三崎町小網代1286",
+        "phone": "046-882-1214",
+        "hours": "9：00～18：00",
+        "closedDays": "8月は無定休。４月～7月、9月は火曜定休。10月～3月は火水定休。その他、祝日は営業日あり。詳しくは弊社HPをご確認ください。",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0170",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "マダイ・アオリイカ・カワハギ",
+          "where": "小網代・城ヶ島周辺など既存の公開海域",
+          "tackle": "対象魚ごとの釣果・海域カードを参照",
+          "context": "季節と根拠は各魚種・釣果ページで確認。",
+          "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0170"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0180": {
+      "summary": "諸磯湾のマリーナ。事業所自体の閉鎖とは判定していない。",
+      "preparation": "現在のYamahaページにクラブ艇が掲載されていないため、釣りの行き先一覧から除外。昔の口コミを利用再開の根拠にしない。",
+      "basics": {
+        "address": "神奈川県三浦市 三崎町諸磯1574",
+        "phone": "046-882-2720",
+        "hours": "9:00～17:00 シーズンによって変動有",
+        "closedDays": "火曜日（火曜日が祭日の場合は水曜日定休、８月中無休）シーズンによって変動有",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0180",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0200": {
+      "summary": "三崎港うらりから出港。アオリイカや底物の会員釣行例がある。",
+      "preparation": "港内の漁船・往来船を優先。エサ・コマセ・イカ墨を使った場合の洗船ルールを確認。",
+      "basics": {
+        "address": "神奈川県三浦市三崎５－１６７－２",
+        "phone": "046-881-0533",
+        "hours": "9:00～18:00",
+        "closedDays": "なし",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0200",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "アオリイカ",
+          "where": "具体的位置は会員口コミに未記載",
+          "tackle": "釣り方・水深不明",
+          "context": "2026年10月8日投稿の釣獲記載。釣行日は不明。",
+          "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0200"
+        },
+        {
+          "fish": "ホウボウ・カサゴ",
+          "where": "具体的位置は未記載",
+          "tackle": "タイラバ",
+          "context": "2026年7月4日投稿の会員口コミ。期待した魚と実際の釣獲を分けて採用。",
+          "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0200"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0100": {
+      "summary": "小坪から稲村ヶ崎沖などへ。歴史ある公式レンタル五目釣りレポートを参照できる。",
+      "preparation": "港口周辺の暗礁、定置網、小さなブイに注意。古い針路説明ではなく、現在の安全講習・航行図を優先。",
+      "basics": {
+        "address": "神奈川県逗子市 小坪4-27-12",
+        "phone": "0467-23-1516",
+        "hours": "9：00～17：00",
+        "closedDays": "火曜日（火曜日祭日の場合は翌日） 夏季は無休で営業",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0100",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "アジ・マダイ・サバ・カサゴ",
+          "where": "稲村ヶ崎沖の根周り",
+          "tackle": "30〜50m・ライトタックルのコマセ五目",
+          "context": "2006年6月号掲載の歴史資料。現在の釣況・航行許可ではない。",
+          "source": "https://sea-style.yamaha-motor.co.jp/fishing-report/vol12/"
+        },
+        {
+          "fish": "シロギス・カワハギ",
+          "where": "砂地／根際。具体点は現地確認",
+          "tackle": "エサ釣り",
+          "context": "同じ公式資料の魚種別案内。年を明示して参考扱い。",
+          "source": "https://sea-style.yamaha-motor.co.jp/fishing-report/vol12/"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0110": {
+      "summary": "県営の葉山港。釣り仕様のSR-X・FAST23・AX220等を選べる。",
+      "preparation": "初めての予約は電話案内。艇種ごとの航行範囲が異なる。単独利用の追加講習・連絡条件も公式ルールを確認。",
+      "basics": {
+        "address": "神奈川県三浦郡 葉山町堀内50番地",
+        "phone": "046-875-1504",
+        "hours": "午前8時～午後5時 ※7月・8月の土・日・休日（午前7時30分～午後6時)",
+        "closedDays": "火曜日（火曜日が休日の場合は水曜日）7月・8月は休業日はありません。年末年始（12月29日～1月3日)",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0110",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "アマダイ",
+          "where": "釣果位置は会員口コミに未記載",
+          "tackle": "釣り方・水深不明",
+          "context": "2026年10月5日投稿に釣獲記載。釣行日不明。",
+          "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0110"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0120": {
+      "summary": "葉山港とは別の葉山マリーナ。現行Sea-Style艇とシロギスの会員利用例を確認。",
+      "preparation": "2026年の営業案内あり。周遊クルーズの一部運休や休館日を、マリーナ全体の営業終了と混同しない。",
+      "basics": {
+        "address": "神奈川県三浦郡 葉山町堀内50-2",
+        "phone": "046-875-0002",
+        "hours": "9：00～17：00 （土・日・祭日は8：15～・ TEL予約9：00～）",
+        "closedDays": "火曜日（季節により変動あり）",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0120",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "シロギス",
+          "where": "近場との記載のみ。詳細位置なし",
+          "tackle": "仕掛け・水深不明",
+          "context": "2026年7月28日投稿の会員釣行例。釣行日は不明。",
+          "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0120"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0080": {
+      "summary": "片瀬江ノ島駅近くで受付、境川河口付近から出港。アマダイのレンタル取材記事がある。",
+      "preparation": "河口の岸釣り仕掛けに注意して徐行。平塚新港〜葉山の陸から5海里という公開案内も、対象艇と現行範囲を再確認。",
+      "basics": {
+        "address": "神奈川県藤沢市 片瀬海岸1-12-17",
+        "phone": "0466-27-5005",
+        "hours": "8:30～17:30",
+        "closedDays": "無休",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0080",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "アマダイ・イトヨリダイ",
+          "where": "江の島沖の相模湾。GPSなし",
+          "tackle": "水深65mの例・オキアミ天秤／エビの一つテンヤ",
+          "context": "2023年12月取材、2024年7月17日公開のレンタル釣行。",
+          "source": "https://www.kazi-online.com/articles/sts_syounan/"
+        },
+        {
+          "fish": "ホウボウ",
+          "where": "同取材の浅めのポイント",
+          "tackle": "水深約40m・タイラバ",
+          "context": "同じ歴史的なレンタル取材。通年の推奨ではない。",
+          "source": "https://www.kazi-online.com/articles/sts_syounan/"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0050": {
+      "summary": "相模川から出港する平塚の拠点。早朝出港とi-Pilot講習の公式案内がある。",
+      "preparation": "早朝出港は季節・講習条件を確認。航行範囲の拡大は初回には適用されない旨の案内。",
+      "basics": {
+        "address": "神奈川県平塚市 榎木町11 グランドビクトリア1F",
+        "phone": "0463-23-8882",
+        "hours": "9：00～17：00 早朝出港OK（5～10月/6時30分より、11～4月/7時より）",
+        "closedDays": "火曜日（その他年間予定表に定める臨時休業あり）",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0050",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "マダイ・オオモンハタ・カンパチ",
+          "where": "具体的な釣果位置は未記載",
+          "tackle": "釣り方・水深不明",
+          "context": "2026年9月26日投稿の会員口コミ。釣行日は不明。",
+          "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0050"
+        },
+        {
+          "fish": "シロギス",
+          "where": "当日のポイントをスタッフが案内との会員記載",
+          "tackle": "仕掛け・水深不明",
+          "context": "2026年8月2日投稿。投稿日を釣行月の証拠には使わない。",
+          "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0050"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0045": {
+      "summary": "ハーバー湘南内、相模川のレンタル拠点。Sea-Styleの釣り利用案内あり。",
+      "preparation": "釣り道具・エサ・氷、河口の通過条件を予約時に確認。2025年公開のレンタル取材には大磯沖の水深・仕掛けがあるが、現在の釣況や当日の許可範囲は別。",
+      "basics": {
+        "address": "神奈川県平塚市馬入２１７６ ハーバー湘南内",
+        "phone": "080-3570-2848",
+        "hours": "9:00~17:00",
+        "closedDays": "火曜日",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0045",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "アマダイ",
+          "where": "大磯沖。記事のGPSは未掲載",
+          "tackle": "水深約98m・オキアミのエサ釣り",
+          "context": "2025年1月10日公開の取材・PR記事。YFR-27HMEXレンタル釣行、正確な釣行日は未記載。",
+          "source": "https://tsurinews.jp/330919/"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0060": {
+      "summary": "平塚発。砂地のエサ釣りと沖のルアー釣りを選べる。",
+      "preparation": "船の仕様、定置網・河口の通過、出港可能時刻を確認。釣果情報にはSea-Style専用ページもある。",
+      "basics": {
+        "address": "神奈川県平塚市 札場町43-21",
+        "phone": "0463-22-5738",
+        "hours": "平日8：00～17：00 土日祝7:00～17:00",
+        "closedDays": "火曜日・第３水曜日",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0060",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "シロギス・マゴチ・ホウボウ",
+          "where": "平塚沖",
+          "tackle": "エサ釣り・砂地の案内",
+          "context": "公式の釣りプラン。個別の釣行日ではない。",
+          "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0040/"
+        },
+        {
+          "fish": "シイラ・サバ",
+          "where": "エボシ岩沖など艇の許可範囲内",
+          "tackle": "ルアー",
+          "context": "公式プランの案内。出会える時期・鳥山は当日の情報を確認。",
+          "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0039/"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J14-0190": {
+      "summary": "真鶴発。会員レビューではアマダイ等の多魚種釣行例が確認できる。",
+      "preparation": "同じ真鶴地区でも別会社のレンタルクラブとは異なる。ヤマハ掲載の艇と当マリーナの航行図を確認。",
+      "basics": {
+        "address": "神奈川県足柄下郡 真鶴町真鶴1117番地",
+        "phone": "0465-68-1201",
+        "hours": "平日8:30～17:00 土日祝8：00～17：00",
+        "closedDays": "水曜日",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0190",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "アマダイ・イトヨリダイ・マサバ・マダイ・クロムツ",
+          "where": "口コミでは具体的位置は未記載",
+          "tackle": "仕掛け・水深不明",
+          "context": "2026年9月27日投稿の会員口コミ。釣行日は不明。",
+          "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0190"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J47-0010": {
+      "summary": "沖縄本島西側・北谷発。グルクンのサビキと五目釣りの公式プランあり。",
+      "preparation": "リーフ・漁業施設の位置と対象艇の航行範囲を確認。YFR27HMEX Mariner NumberⅤの拡大条件を他艇に適用しない。",
+      "basics": {
+        "address": "沖縄県中頭郡 北谷町美浜54番地うみんちゅワーフ内",
+        "phone": "098-989-0647",
+        "hours": "9：00～18：00",
+        "closedDays": "水曜日定休",
+        "parking": "あり（有料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J47-0010",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "グルクン",
+          "where": "北谷周辺。具体点は当日の案内",
+          "tackle": "サビキのエサ釣り",
+          "context": "公式は通年プラン。関東の回遊・産卵カレンダーを当てはめない。",
+          "source": "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0094/"
+        },
+        {
+          "fish": "タマン・ミーバイ・アカジン・ガーラ・オジサン",
+          "where": "北谷周辺の五目釣り案内",
+          "tackle": "魚種・地形に合わせて選択。水深の明記なし",
+          "context": "地域名には複数種を含む。写真は種名または代表例を明示。",
+          "source": "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0093/"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J47-0020": {
+      "summary": "沖縄本島東側・泡瀬発、中城湾の拠点。西海岸とは別の海況・潮汐参考点を使う。",
+      "preparation": "勝連半島・津堅島・久高島・知念半島を結ぶ公開範囲。潮の低い時間のリーフや進入路は現地説明を確認。",
+      "basics": {
+        "address": "沖縄県沖縄市 泡瀬1-41-12",
+        "phone": "098-938-3397",
+        "hours": "9:00～18:00",
+        "closedDays": "元旦～3日迄、旧盆8月15日",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J47-0020",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [
+        {
+          "fish": "ミーバイ・ガーラ・フエフキ類",
+          "where": "中城湾の広域紹介",
+          "tackle": "タイラバ・ジギング等の地域紹介。船・魚種別条件を確認",
+          "context": "地域の公式動画で、自操レンタルの確定釣果GPSではない。",
+          "source": "https://sea-style.yamaha-motor.co.jp/plan/movie/okinawa/004641.html"
+        }
+      ],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    },
+    "J47-0030": {
+      "summary": "中城村久場のスポーツボート・Jet拠点。島めぐりなどの公式案内が中心。",
+      "preparation": "スポーツボートのレクチャーとJM-Safetyの準備を確認。釣り用装備・釣り方の許可は未確認なので釣り予約の前に問い合わせ。",
+      "basics": {
+        "address": "沖縄県中頭郡 中城村字久場1927-1",
+        "phone": "098-942-3467",
+        "hours": "9:00～18:00",
+        "closedDays": "無(臨時休業あり)",
+        "parking": "あり（無料）"
+      },
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J47-0030",
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "fishing": [],
+      "coverage": "魚種・釣行日・ポイントは出典が確認できた範囲のみ。会員口コミの投稿日から季節や釣行日を推定しません。"
+    }
+  },
+  "evidence": [
+    {
+      "marinaId": "J08-0040",
+      "fish": "マダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-08-18",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J08-0040",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-08-18、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-bb358249430600f8f1",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J08-0040",
+      "fish": "ブリ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-04-11",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J08-0040",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-04-11、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-f420eaa7679eed9dd0",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J12-0060",
+      "fish": "タチウオ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-07",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J12-0060",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-07、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-b0a1b0259093f337b4",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J12-0060",
+      "fish": "サワラ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-07",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J12-0060",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-07、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-5de87ea3f9fc9814e6",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0020",
+      "fish": "アジ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-13",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0020",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-13、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-3433fbaf3e6ec091de",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0020",
+      "fish": "カマス",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-13",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0020",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-13、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-2bb866a20e8461d6ab",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0020",
+      "fish": "スズキ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2025-10-16",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0020",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2025-10-16、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-1d91accbb5d500eee2",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0040",
+      "fish": "タチウオ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-12",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0040",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-12、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-299e9a904038c9d689",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0130",
+      "fish": "マダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-17",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0130",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-17、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-50a66e2b3069d2f3a7",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0130",
+      "fish": "ワラサ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-10",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0130",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-10、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-364e6c1e8d03c8fc03",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0140",
+      "fish": "オオモンハタ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-09",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0140",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-09、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-49e2a2691294b19b35",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0140",
+      "fish": "ホウボウ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-09",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0140",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-09、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-d391d759a727adcb93",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0140",
+      "fish": "カンパチ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-04",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0140",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-04、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-e8cc5b0e4872e1db29",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0200",
+      "fish": "アオリイカ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-08",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0200",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-08、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-8303584ef90c8969d4",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0200",
+      "fish": "ヒラメ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-08-27",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0200",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-08-27、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-6c3b5631374539dd23",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0200",
+      "fish": "ホウボウ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-07-04",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0200",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-07-04、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-7044001dfb9b46927e",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0200",
+      "fish": "カサゴ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-07-04",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0200",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-07-04、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-12ae72b1d6a91e75a7",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "サバ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-07-17",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0100",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-07-17、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-0687efa37eec25b443",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "カワハギ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-07-17",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0100",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-07-17、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-0090d3c0b57799ca3a",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "カサゴ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-07-17",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0100",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-07-17、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-faf10be37bc011ed25",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "メバル",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-07-17",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0100",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-07-17、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-53085a78781037d454",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "ヒラメ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-05-29",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0100",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-05-29、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-83d8dc9883f24432f8",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "ウマヅラハギ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-05-24",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0100",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-05-24、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-4e0b7446e5971fce86",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "イナダ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-05-17",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0100",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-05-17、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-41f7c5bd34d5b437d7",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "アマダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-02-20",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0100",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-02-20、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-726645a35a328bec85",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0110",
+      "fish": "アマダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-10-05",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0110",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-10-05、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-e8f4d54adefacd9e8d",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0120",
+      "fish": "シロギス",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-07-28",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0120",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-07-28、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-04b3c3b106373e431d",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0050",
+      "fish": "マダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-09-26",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0050",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-09-26、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-1f7dd05a5070792197",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0050",
+      "fish": "オオモンハタ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-09-26",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0050",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-09-26、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-d52ad79b03c7391a94",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0050",
+      "fish": "カンパチ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-09-26",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0050",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-09-26、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-234d65de7fb900a262",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0050",
+      "fish": "シロギス",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-08-02",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0050",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-08-02、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-aac75da6b013363df0",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0050",
+      "fish": "ハナダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-05-23",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0050",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-05-23、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-a247f831fa949e2274",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0050",
+      "fish": "シロアマダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-05-23",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0050",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-05-23、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-e9e92c5cc4a70e617b",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0050",
+      "fish": "ホウボウ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-05-23",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0050",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-05-23、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-7441bf47bdb0b34be8",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "アジ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-09-01",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0060",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-09-01、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-355ceaeb5d5aaa3f0f",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "イナダ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-09-01",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0060",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-09-01、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-4d93b9832f299dd080",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "サワラ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-08-22",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0060",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-08-22、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-583be1279a94663701",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "マダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-08-22",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0060",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-08-22、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-91e55290a04eedff30",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "ホウボウ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-08-22",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0060",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-08-22、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-4d8dbc076cb9c0797e",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "サバ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-08-22",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0060",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-08-22、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-84196177f6cb2aeeb9",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0190",
+      "fish": "アマダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-09-27",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0190",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-09-27、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-ae785f9a6c6a9d7f61",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0190",
+      "fish": "イトヨリダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-09-27",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0190",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-09-27、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-1f8d53c7ae95c99c4d",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0190",
+      "fish": "マサバ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-09-27",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0190",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-09-27、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-e8c9992e8554b0dafc",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0190",
+      "fish": "マダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-09-27",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0190",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-09-27、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-b8006acafcd37c7d97",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J14-0190",
+      "fish": "クロムツ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "publishedAt": "2026-09-27",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0190",
+      "note": "Sea-Style会員口コミの釣獲記載。投稿日 2026-09-27、釣行日・釣れた時刻・GPSは不明。",
+      "curated_id": "v9-709745e298394d8aed",
+      "sourceType": "member-review"
+    },
+    {
+      "marinaId": "J08-0040",
+      "fish": "マダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "source": "https://oarai-marina.com/fishing/789",
+      "note": "2024年10月27日公開のレンタル艇紹介。釣行日は未記載。",
+      "curated_id": "v9-f102f6466688c7f56d",
+      "groundId": "pacific-oarai"
+    },
+    {
+      "marinaId": "J08-0040",
+      "fish": "カサゴ",
+      "kind": "reference",
+      "months": [],
+      "method": "unknown",
+      "source": "https://oarai-marina.com/fishing/789",
+      "note": "2024年10月27日公開のレンタル艇紹介。釣行日は未記載。",
+      "curated_id": "v9-94b5b59b973907eb53",
+      "groundId": "pacific-oarai"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "アジ",
+      "kind": "reference",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/fishing-report/vol12/",
+      "note": "2006年6月号掲載の歴史的なレンタル実釣・魚種案内。現在の釣況ではない。",
+      "curated_id": "v9-f15e19aa54c2b75877",
+      "groundId": "sagami-inamura"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "マダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/fishing-report/vol12/",
+      "note": "2006年6月号掲載の歴史的なレンタル実釣・魚種案内。現在の釣況ではない。",
+      "curated_id": "v9-51170d286c045a58b1",
+      "groundId": "sagami-inamura"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "サバ",
+      "kind": "reference",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/fishing-report/vol12/",
+      "note": "2006年6月号掲載の歴史的なレンタル実釣・魚種案内。現在の釣況ではない。",
+      "curated_id": "v9-6c8fdeb6bf573b3dc4",
+      "groundId": "sagami-inamura"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "カサゴ",
+      "kind": "reference",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/fishing-report/vol12/",
+      "note": "2006年6月号掲載の歴史的なレンタル実釣・魚種案内。現在の釣況ではない。",
+      "curated_id": "v9-a9dd8fe54748f627fe",
+      "groundId": "sagami-inamura"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "シロギス",
+      "kind": "reference",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/fishing-report/vol12/",
+      "note": "2006年6月号掲載の歴史的なレンタル実釣・魚種案内。現在の釣況ではない。",
+      "curated_id": "v9-696824c7e6516882da"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "カワハギ",
+      "kind": "reference",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/fishing-report/vol12/",
+      "note": "2006年6月号掲載の歴史的なレンタル実釣・魚種案内。現在の釣況ではない。",
+      "curated_id": "v9-4a1dc1d4d9828dea47"
+    },
+    {
+      "marinaId": "J14-0100",
+      "fish": "ヒラメ",
+      "kind": "reference",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/fishing-report/vol12/",
+      "note": "2006年6月号掲載の歴史的なレンタル実釣・魚種案内。現在の釣況ではない。",
+      "curated_id": "v9-e45a0c9006c5558f8a"
+    },
+    {
+      "marinaId": "J14-0080",
+      "fish": "アマダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "bait",
+      "source": "https://www.kazi-online.com/articles/sts_syounan/",
+      "note": "2023年12月取材、2024年7月17日公開。65mのエサ釣り例。正確な釣行日不明。",
+      "curated_id": "v9-8151341306b996f340",
+      "groundId": "sagami-enoshima"
+    },
+    {
+      "marinaId": "J14-0080",
+      "fish": "イトヨリダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "bait",
+      "source": "https://www.kazi-online.com/articles/sts_syounan/",
+      "note": "2023年12月取材、2024年7月17日公開。65mのエサ釣り例。正確な釣行日不明。",
+      "curated_id": "v9-17d1aa016717c9a01f",
+      "groundId": "sagami-enoshima"
+    },
+    {
+      "marinaId": "J14-0080",
+      "fish": "ホウボウ",
+      "kind": "reference",
+      "months": [],
+      "method": "lure",
+      "source": "https://www.kazi-online.com/articles/sts_syounan/",
+      "note": "同取材の水深約40m・タイラバの釣獲記載。",
+      "curated_id": "v9-897d815c5c42618547",
+      "groundId": "sagami-enoshima"
+    },
+    {
+      "marinaId": "J14-0130",
+      "fish": "タチウオ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/list/J14-0130.php",
+      "note": "公式の魚種別プラン。対象艇と現在の内容を確認。",
+      "curated_id": "v9-77935406dc6f655680"
+    },
+    {
+      "marinaId": "J14-0130",
+      "fish": "ワラサ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/list/J14-0130.php",
+      "note": "公式の魚種別プラン。対象艇と現在の内容を確認。",
+      "curated_id": "v9-0d7ab59a947e355028"
+    },
+    {
+      "marinaId": "J14-0130",
+      "fish": "ブリ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/list/J14-0130.php",
+      "note": "公式の魚種別プラン。対象艇と現在の内容を確認。",
+      "curated_id": "v9-56c1887ad1b588ea97"
+    },
+    {
+      "marinaId": "J14-0130",
+      "fish": "カワハギ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/list/J14-0130.php",
+      "note": "公式の魚種別プラン。対象艇と現在の内容を確認。",
+      "curated_id": "v9-dfcdee9d4c1db3b347"
+    },
+    {
+      "marinaId": "J13-0010",
+      "fish": "スズキ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/event/report/2024/1012/",
+      "note": "2024年10月12日の公式釣り講座紹介。釣獲日の記録や通年の好釣果保証ではない。",
+      "curated_id": "v9-06370d10bfceba92e9"
+    },
+    {
+      "marinaId": "J14-0045",
+      "fish": "アマダイ",
+      "kind": "reference",
+      "months": [],
+      "method": "bait",
+      "source": "https://tsurinews.jp/330919/",
+      "note": "2025年1月10日公開の取材・PR記事。YFR-27HMEXレンタル釣行、正確な釣行日は未記載。",
+      "curated_id": "v9-b88588f5c707ff4f79"
+    }
+  ],
+  "availability": {
+    "J14-0180": {
+      "state": "no-fleet",
+      "status": "excluded",
+      "reason": "現在の公式ページにSea-Styleクラブ艇掲載なし。再配備確認まで行き先には掲載しません。営業終了とは断定していません。",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0180",
+      "checkedAt": "2026-10-23T20:22:12+09:00"
+    },
+    "J08-0020": {
+      "state": "rental-suspended",
+      "status": "excluded",
+      "reason": "公式にシースタイル休止中",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J08-0020",
+      "checkedAt": "2026-10-23T20:22:12+09:00"
+    },
+    "J12-0040": {
+      "state": "rental-suspended",
+      "status": "excluded",
+      "reason": "公式にシースタイル休止中",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J12-0040",
+      "checkedAt": "2026-10-23T20:22:12+09:00"
+    },
+    "J14-0120": {
+      "state": "listed",
+      "status": "verified",
+      "reason": "現行クラブ艇掲載とSea-Style会員のシロギス釣獲記載を確認。",
+      "source": "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0120",
+      "checkedAt": "2026-10-23T20:22:12+09:00"
+    }
+  },
+  "sourceChecks": {
+    "https://kachidoki-marina.com/choinori-fishing/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": null
+    },
+    "https://oarai-marina.com/fishing/789": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J08-0040": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J12-0045": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J12-0060": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J13-0010": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J13-0020": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J13-0030": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0010": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0020": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0040": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0045": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0050": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0060": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0080": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0100": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0110": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0120": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0130": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0140": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0170": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0180": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0190": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J14-0200": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J47-0010": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J47-0020": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/detail/marinacd/J47-0030": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J08-0040": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J12-0060": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0020": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0040": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0050": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0060": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0100": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0110": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0120": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0130": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0140": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0190": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style-m.yamaha-motor.co.jp/jp/marina/review/index/marinacd/J14-0200": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style.yamaha-motor.co.jp/fishing-report/vol12/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://sea-style.yamaha-motor.co.jp/plan/kanto/0014/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://sea-style.yamaha-motor.co.jp/plan/kanto/0039/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://sea-style.yamaha-motor.co.jp/plan/kanto/0040/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://sea-style.yamaha-motor.co.jp/plan/kanto/0297/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://sea-style.yamaha-motor.co.jp/plan/kanto/0342/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0093/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0094/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://sea-style.yamaha-motor.co.jp/plan/list/J14-0130.php": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://sea-style.yamaha-motor.co.jp/plan/movie/okinawa/004641.html": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://www.kazi-online.com/articles/sts_syounan/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://www.sunnyside.co.jp/fishing/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://ybmarina.com/rental/seastyle/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": null
+    },
+    "https://www.ybmarina.com/rental/seastyle/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": false,
+      "status": null
+    },
+    "https://kachidoki-marina.com/fishing/": {
+      "checkedAt": "2026-10-23T20:31:27+09:00",
+      "available": true,
+      "status": 200
+    },
+    "https://sea-style.yamaha-motor.co.jp/event/report/2024/1012/": {
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "available": false,
+      "status": 503
+    },
+    "https://tsurinews.jp/330919/": {
+      "checkedAt": "2026-10-23T20:22:12+09:00",
+      "available": true,
+      "status": 200
+    }
+  }
+}

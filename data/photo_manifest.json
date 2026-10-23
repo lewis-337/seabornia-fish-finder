@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T09:58:34+00:00",
+  "generated_at": "2026-10-23T11:27:27+00:00",
   "counts": {
-    "verified": 47,
-    "all": 47
+    "verified": 57,
+    "all": 57
   },
   "images": {
     "0": {
@@ -501,7 +501,7 @@
       "ok": true,
       "license": "CC BY-SA 2.5",
       "source": "https://commons.wikimedia.org/wiki/File:Trichiurus_lepturus_by_OpenCage.jpg",
-      "artist_html": "",
+      "artist_html": "OpenCage",
       "credit_html": "",
       "pixel_size": [
         400,
@@ -637,17 +637,17 @@
     },
     "45": {
       "name": "カマス",
-      "local": "images/fish/45.jpg",
+      "local": "images/fish/45-v9.jpg",
       "ok": true,
-      "license": "CC BY-SA 2.5",
-      "source": "https://commons.wikimedia.org/wiki/File:Great_Barracuda_off_the_Netherland_Antilles.jpg",
-      "artist_html": "The original uploader was Aquaimages at English Wikipedia .",
-      "credit_html": "",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sphyraena_pinguis_Uminomori.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
       "pixel_size": [
-        533,
-        400
+        580,
+        190
       ],
-      "checked": "2026-10-21T20:10:57+00:00"
+      "checked": "2026-10-23T11:27:27+00:00"
     },
     "46": {
       "name": "ケンサキイカ",
@@ -662,6 +662,149 @@
         400
       ],
       "checked": "2026-10-21T20:14:18+00:00"
+    },
+    "regional-shirogisu": {
+      "name": "シロギス",
+      "local": "images/fish/regional-shirogisu.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/399795741",
+      "artist_html": "(c) 大澤風季 ohsawa_Fuki, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Sillago japonica, taxon 112576, photo 733544413",
+      "pixel_size": [
+        495,
+        400
+      ],
+      "checked": "2026-10-23T11:20:13+00:00"
+    },
+    "regional-ishimochi": {
+      "name": "イシモチ",
+      "local": "images/fish/regional-ishimochi.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pennahia_argentata_Kasai.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        326
+      ],
+      "checked": "2026-10-23T11:20:14+00:00"
+    },
+    "regional-gurukun": {
+      "name": "グルクン",
+      "local": "images/fish/regional-gurukun.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/376909174",
+      "artist_html": "(c) Roger Rittmaster, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Pterocaesio digramma, taxon 347375, photo 689141997",
+      "pixel_size": [
+        500,
+        333
+      ],
+      "checked": "2026-10-23T11:20:16+00:00"
+    },
+    "regional-taman": {
+      "name": "タマン",
+      "local": "images/fish/regional-taman.jpg",
+      "ok": true,
+      "license": "CC BY-SA",
+      "source": "https://www.inaturalist.org/observations/393697512",
+      "artist_html": "(c) Georgina Jones, some rights reserved (CC BY-SA)",
+      "credit_html": "iNaturalist research-grade Lethrinus nebulosus, taxon 132389, photo 721652719",
+      "pixel_size": [
+        500,
+        334
+      ],
+      "checked": "2026-10-23T11:20:18+00:00"
+    },
+    "regional-miibai": {
+      "name": "ミーバイ",
+      "local": "images/fish/14.jpg",
+      "ok": true,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Epinephelus_fasciatus_Umitamago.jpg",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "pixel_size": [
+        580,
+        305
+      ],
+      "checked": "2026-10-21T20:11:19+00:00",
+      "representative_label": "代表例：アカハタ"
+    },
+    "regional-akajin": {
+      "name": "アカジン",
+      "local": "images/fish/regional-akajin.jpg",
+      "ok": true,
+      "license": "CC BY-SA",
+      "source": "https://www.inaturalist.org/observations/406006228",
+      "artist_html": "(c) Greg Tasney, some rights reserved (CC BY-SA)",
+      "credit_html": "iNaturalist research-grade Plectropomus leopardus, taxon 109743, photo 745853208",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T11:20:19+00:00"
+    },
+    "regional-gara": {
+      "name": "ガーラ",
+      "local": "images/fish/regional-gara.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/403788581",
+      "artist_html": "(c) 大澤風季 ohsawa_Fuki, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Caranx ignobilis, taxon 153280, photo 741435486",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-23T11:20:21+00:00"
+    },
+    "regional-ojisan": {
+      "name": "オジサン",
+      "local": "images/fish/regional-ojisan.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/408019717",
+      "artist_html": "(c) Debra Baker, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist research-grade Parupeneus multifasciatus, taxon 131234, photo 749923037",
+      "pixel_size": [
+        500,
+        397
+      ],
+      "checked": "2026-10-23T11:20:23+00:00"
+    },
+    "regional-fuefuki": {
+      "name": "フエフキ類",
+      "local": "images/fish/regional-taman.jpg",
+      "ok": true,
+      "license": "CC BY-SA",
+      "source": "https://www.inaturalist.org/observations/393697512",
+      "artist_html": "(c) Georgina Jones, some rights reserved (CC BY-SA)",
+      "credit_html": "iNaturalist research-grade Lethrinus nebulosus, taxon 132389, photo 721652719",
+      "pixel_size": [
+        500,
+        334
+      ],
+      "checked": "2026-10-23T11:20:18+00:00",
+      "representative_label": "代表例：ハマフエフキ"
+    },
+    "regional-saba": {
+      "name": "サバ",
+      "local": "images/fish/24.jpg",
+      "ok": true,
+      "license": "CC BY",
+      "source": "https://www.inaturalist.org/observations/409588763",
+      "artist_html": "(c) Cricket Raspet, some rights reserved (CC BY)",
+      "credit_html": "iNaturalist taxon Scomber japonicus, photo 753132035",
+      "pixel_size": [
+        500,
+        375
+      ],
+      "checked": "2026-10-21T20:15:44+00:00",
+      "representative_label": "代表例：マサバ"
     }
   }
 }

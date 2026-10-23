@@ -24,6 +24,11 @@ function worker({ offline = false, foreign = new Map() } = {}) {
                       license: "CC BY",
                       local: "images/fish/0.jpg",
                     },
+                    shared: {
+                      ok: true,
+                      license: "CC BY",
+                      local: "images/fish/0.jpg",
+                    },
                     unknown: { ok: true, local: "images/fish/1.jpg" },
                   },
                 })
@@ -121,15 +126,20 @@ test("install caches the new modules, data and licensed catalogue images", async
   let done;
   app.handlers.install({ waitUntil: (value) => (done = value) });
   await done;
+  assert.equal(
+    app.added.filter((x) => x === "./images/fish/0.jpg").length,
+    1,
+    "shared representative photos must not break cache.addAll with duplicate keys",
+  );
   for (const asset of [
-    "./app-v8.1.js",
-    "./styles-v8.2.css",
+    "./app-v9.js",
+    "./styles-v9.css",
     "./map-gestures.js",
     "./trip-conditions-v8.js",
     "./trip-ui-v8.js",
     "./fish-areas.js",
-    "./marina-core-v8.3.js",
-    "./marina-discovery-v8.3.js",
+    "./marina-core-v9.js",
+    "./marina-discovery-v9.js",
     "./data/marinas.json",
     "./data/area_depths.json",
     "./data/fish_areas.json",

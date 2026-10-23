@@ -46,5 +46,104 @@
     "artist_html": "no rights reserved",
     "credit_html": "iNaturalist taxon Katsuwonus pelamis, photo 733217861",
     "filename": "iNaturalist 733217861"
+  },
+  "regional-shirogisu": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733544413/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/399795741",
+    "license": "CC BY",
+    "artist_html": "(c) 大澤風季 ohsawa_Fuki, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Sillago japonica, taxon 112576, photo 733544413",
+    "filename": "iNaturalist 733544413"
+  },
+  "regional-gurukun": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/689141997/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/376909174",
+    "license": "CC BY",
+    "artist_html": "(c) Roger Rittmaster, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Pterocaesio digramma, taxon 347375, photo 689141997",
+    "filename": "iNaturalist 689141997"
+  },
+  "regional-taman": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/721652719/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/393697512",
+    "license": "CC BY-SA",
+    "artist_html": "(c) Georgina Jones, some rights reserved (CC BY-SA)",
+    "credit_html": "iNaturalist research-grade Lethrinus nebulosus, taxon 132389, photo 721652719",
+    "filename": "iNaturalist 721652719"
+  },
+  "regional-akajin": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/745853208/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/406006228",
+    "license": "CC BY-SA",
+    "artist_html": "(c) Greg Tasney, some rights reserved (CC BY-SA)",
+    "credit_html": "iNaturalist research-grade Plectropomus leopardus, taxon 109743, photo 745853208",
+    "filename": "iNaturalist 745853208"
+  },
+  "regional-gara": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/741435486/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/403788581",
+    "license": "CC BY",
+    "artist_html": "(c) 大澤風季 ohsawa_Fuki, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Caranx ignobilis, taxon 153280, photo 741435486",
+    "filename": "iNaturalist 741435486"
+  },
+  "regional-ojisan": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/749923037/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/408019717",
+    "license": "CC BY",
+    "artist_html": "(c) Debra Baker, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist research-grade Parupeneus multifasciatus, taxon 131234, photo 749923037",
+    "filename": "iNaturalist 749923037"
+  },
+  "regional-ishimochi": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Pennahia_argentata_Kasai.jpg/960px-Pennahia_argentata_Kasai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Pennahia_argentata_Kasai.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+    "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "filename": "Pennahia argentata Kasai.jpg"
+  },
+  "regional-miibai": {
+    "url": "",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Epinephelus_fasciatus_Umitamago.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+    "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "copy_from": "14"
+  },
+  "regional-saba": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/753132035/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/409588763",
+    "license": "CC BY",
+    "artist_html": "(c) Cricket Raspet, some rights reserved (CC BY)",
+    "credit_html": "iNaturalist taxon Scomber japonicus, photo 753132035",
+    "filename": "iNaturalist 753132035",
+    "copy_from": "24"
+  },
+  "regional-fuefuki": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/721652719/medium.jpg",
+    "page_url": "https://www.inaturalist.org/observations/393697512",
+    "license": "CC BY-SA",
+    "artist_html": "(c) Georgina Jones, some rights reserved (CC BY-SA)",
+    "credit_html": "iNaturalist research-grade Lethrinus nebulosus, taxon 132389, photo 721652719",
+    "filename": "iNaturalist 721652719",
+    "copy_from": "regional-taman"
+  },
+  "45": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Sphyraena_pinguis_Uminomori.jpg/960px-Sphyraena_pinguis_Uminomori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Sphyraena_pinguis_Uminomori.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Totti\" title=\"User:Totti\">Totti</a>",
+    "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "filename": "Sphyraena_pinguis_Uminomori.jpg",
+    "local_name": "45-v9"
+  },
+  "35": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Trichiurus_lepturus_by_OpenCage.jpg/960px-Trichiurus_lepturus_by_OpenCage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Trichiurus_lepturus_by_OpenCage.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist_html": "OpenCage",
+    "credit_html": "OpenCage; colour compensation by Apple2000 (Wikimedia Commons)",
+    "filename": "Trichiurus lepturus by OpenCage.jpg"
   }
 }

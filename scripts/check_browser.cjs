@@ -188,22 +188,22 @@ async function run(engine) {
         await page.locator("#speciesSearch").fill("");
         await page
           .locator("#speciesView")
-          .evaluate((el) => (el.scrollTop = 500));
+          .evaluate((el) => document.body.classList.contains("readingPage") ? window.scrollTo(0,500) : (el.scrollTop = 500));
         const scroll = await page
           .locator("#speciesView")
-          .evaluate((el) => el.scrollTop);
+          .evaluate((el) => document.body.classList.contains("readingPage") ? window.scrollY : el.scrollTop);
         await nav("◉ 記録");
         await nav("◎ 魚種");
         assert.equal(
-          await page.locator("#speciesView").evaluate((el) => el.scrollTop),
+          await page.locator("#speciesView").evaluate((el) => document.body.classList.contains("readingPage") ? window.scrollY : el.scrollTop),
           scroll,
         );
-        await page.locator("#speciesView").evaluate((el) => (el.scrollTop = 0));
+        await page.locator("#speciesView").evaluate((el) => document.body.classList.contains("readingPage") ? window.scrollTo(0,0) : (el.scrollTop = 0));
         await shot("catalogue");
       },
     );
     await check(
-      "all 47 local photographs decode and source detail is retained",
+      "all 57 local photographs decode and source detail is retained",
       async () => {
         await page.locator(".photoDiagnostics summary").click();
         await page.locator("#auditAllPhotos").click();
@@ -213,7 +213,7 @@ async function run(engine) {
         );
         assert.match(
           await page.locator("#photoAuditStatus").innerText(),
-          /47\/47/,
+          /57\/57/,
         );
         await page
           .getByRole("button", { name: "アオリイカの詳細", exact: true })

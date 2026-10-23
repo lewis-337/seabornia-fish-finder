@@ -1,6 +1,6 @@
 const { test } = require("node:test"),
   assert = require("node:assert/strict"),
-  M = require("../marina-core-v8.3.js"),
+  M = require("../marina-core-v9.js"),
   T = require("../trip-conditions-v8.js");
 test("untagged legacy records stay Seabornia; editing another base preserves them", () => {
   const old = [{ id: "legacy" }, { id: "b", marinaId: "J47-0010" }];
@@ -246,4 +246,27 @@ test("official rental guides rank ahead of newer nearby reference catches", () =
     sorted.map((r) => r.id),
     ["rental", "guide", "nearby"],
   );
+});
+
+test("officially closed, suspended or fleetless bases never become destinations", () => {
+  for (const state of ["closed", "rental-suspended", "no-fleet"]) {
+    const m = {
+      id: "a",
+      name: "a",
+      region: "kanto",
+      status: "verified",
+      availability: { state },
+      evidence: [],
+    };
+    assert.equal(M.available(m), false);
+    assert.deepEqual(
+      M.destinations([m], {
+        region: "all",
+        month: 10,
+        method: "all",
+        uncertain: true,
+      }),
+      [],
+    );
+  }
 });

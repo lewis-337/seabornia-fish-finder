@@ -340,6 +340,15 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
       else if (!current && rel === "/sw.js") data = oldSW;
       else if (
         !current &&
+        rel === "/data/photo_manifest.json" &&
+        legacyRef !== "58cd2ec"
+      )
+        data = execFileSync("git", [
+          "show",
+          legacyRef + ":data/photo_manifest.json",
+        ]);
+      else if (
+        !current &&
         [
           "/app.js",
           "/styles.css",
@@ -390,16 +399,18 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
           ? "v4"
           : legacyRef === "296bdef"
             ? "v5"
-            : legacyRef === "0cca6c8"
-              ? "v8.2"
-              : legacyRef === "b0ecf44"
-                ? "v8.1"
-                : legacyRef === "d569767"
-                  ? "v8"
-                  : legacyRef === "c20b09c8"
-                    ? "v7"
-                    : "v6") +
-        " worker upgrades to v8.3 without losing saved data",
+            : legacyRef === "20f4ba6"
+              ? "v8.3"
+              : legacyRef === "0cca6c8"
+                ? "v8.2"
+                : legacyRef === "b0ecf44"
+                  ? "v8.1"
+                  : legacyRef === "d569767"
+                    ? "v8"
+                    : legacyRef === "c20b09c8"
+                      ? "v7"
+                      : "v6") +
+        " worker upgrades to v9 without losing saved data",
       async () => {
         await p.goto(origin);
         await p.evaluate(() => navigator.serviceWorker.register("./sw.js"));
@@ -450,7 +461,8 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
         await p.waitForFunction(async () => {
           const keys = await caches.keys();
           return (
-            keys.includes("seabornia-v8.3") &&
+            keys.includes("seabornia-v9") &&
+            !keys.includes("seabornia-v8.3") &&
             !keys.includes("seabornia-v8.2") &&
             !keys.includes("seabornia-v8.0") &&
             !keys.includes("seabornia-v8.1") &&
@@ -565,6 +577,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
       await upgrade(engine, "d569767");
       await upgrade(engine, "b0ecf44");
       await upgrade(engine, "0cca6c8");
+      await upgrade(engine, "20f4ba6");
     }
   } catch (error) {
     console.error(error);

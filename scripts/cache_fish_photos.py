@@ -16,6 +16,7 @@ from PIL import Image, ImageOps
 from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[1]
 SPECIES=json.loads((ROOT/'data'/'seed.json').read_text(encoding='utf-8'))['species']
+SPECIES += json.loads((ROOT/'data'/'marina-evidence.json').read_text(encoding='utf-8'))['species']
 OUT=ROOT/'images'/'fish'; OUT.mkdir(parents=True,exist_ok=True)
 MANIFEST=ROOT/'data'/'photo_manifest.json'
 HEAD={'User-Agent':'SeaborniaFishFinder/4.0 (Wikimedia attribution + identification; personal demo)','Accept':'application/json,image/jpeg,image/png,image/webp,*/*'}
@@ -87,8 +88,17 @@ def main():
   result={'generated_at':datetime.now(timezone.utc).isoformat(timespec='seconds'),'counts':{'verified':sum(bool(v.get('ok')) for v in entries.values()),'all':len(SPECIES)},'images':entries}
   MANIFEST.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
  for i,f in enumerate(SPECIES,1):
-  fid=f['id']; existing=OUT/(fid+'.jpg')
+  fid=f['id']
   override=overrides.get(fid)
+  local_name=(override or {}).get('local_name',fid)
+  if not re.fullmatch(r'[\w-]+',local_name):raise ValueError('Invalid local photo name')
+  existing=OUT/(local_name+'.jpg')
+  if override and override.get('copy_from'):
+   original=entries.get(override['copy_from'])
+   if original and original.get('ok') and (ROOT/original['local']).is_file():
+    entries[fid]={**original,'name':f['name'],'representative_label':f.get('photoLabel',f['name'])}
+    status.append((f['name'],'shared verified photo'));checkpoint();continue
+   raise ValueError('Missing reviewed shared photo: '+fid)
   preferred=f.get('file','').replace('_',' ')
   source_file=unquote(urlparse(entries.get(fid,{}).get('source','')).path).split('File:')[-1].replace('_',' ')
   matches_source=(not override or entries.get(fid,{}).get('source')==override['page_url']) and (not preferred or source_file==preferred)
@@ -125,8 +135,8 @@ def main():
     if im.width<130 or im.height<75: continue
     im=ImageOps.exif_transpose(im).convert('RGB');im.thumbnail((580,400))
     # reject transparently suspicious image formats that do not decode
-    path=OUT/(fid+'.jpg');im.save(path,format='JPEG',quality=78,optimize=True)
-    entries[fid]={'name':f['name'],'local':'images/fish/'+fid+'.jpg','ok':True,'license':meta['license'], 'source':meta['page_url'], 'artist_html':meta['artist_html'],'credit_html':meta['credit_html'],'pixel_size':[im.width,im.height], 'checked':datetime.now(timezone.utc).isoformat(timespec='seconds')};ok=True;break
+    path=OUT/(local_name+'.jpg');im.save(path,format='JPEG',quality=78,optimize=True)
+    entries[fid]={'name':f['name'],'local':'images/fish/'+local_name+'.jpg','ok':True,'license':meta['license'], 'source':meta['page_url'], 'artist_html':meta['artist_html'],'credit_html':meta['credit_html'],'pixel_size':[im.width,im.height], 'checked':datetime.now(timezone.utc).isoformat(timespec='seconds')};ok=True;break
    except Exception: continue
   if not ok:entries[fid]={'name':f['name'],'ok':False,'checked':datetime.now(timezone.utc).isoformat(timespec='seconds'),'reason':'Verified freely reusable Commons thumbnail not found or could not decode'}
   checkpoint()

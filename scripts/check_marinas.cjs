@@ -129,7 +129,7 @@ async function run(engine) {
     );
     await check("regional inventory, clusters and fish filters", async () => {
       await picker();
-      assert.equal(await p.locator(".destinationCard").count(), 25);
+      assert.equal(await p.locator(".destinationCard").count(), 24);
       for (const id of [
         "destinationFish",
         "destinationMonth",
