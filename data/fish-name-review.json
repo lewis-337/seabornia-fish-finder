@@ -133,6 +133,7 @@
         "catch-3fbfb95eec74019ce0b1",
         "catch-47497c781575d22ad4f1",
         "catch-5ac9990048159197cb61",
+        "catch-5cc1bbe588479ef76706",
         "catch-638e103c665e7c380a66",
         "catch-76c5f531d4a056e9f959",
         "catch-7f26263ea4735c5e96ed",
@@ -140,7 +141,9 @@
         "catch-923ed24721286f273a11",
         "catch-960c74d75bd7b8aead32",
         "catch-99734a2ce1a514a6950e",
+        "catch-a84f3c17592d615da306",
         "catch-aeca95384d1cbcf824b4",
+        "catch-b00810200d3dd69a1d1c",
         "catch-cfbee5f14df837f6fd6a",
         "catch-e94570be72a186500d6e",
         "catch-ff3a5f70af0eab722a03"
@@ -150,6 +153,7 @@
         "https://darumamarine.naturum.ne.jp/e3634176.html",
         "https://darumamarine.naturum.ne.jp/e3637191.html",
         "https://darumamarine.naturum.ne.jp/e3674713.html",
+        "https://katakuraboat.net/index1.htm",
         "https://www.newportmarine.co.jp/marineclub/fishing/11597",
         "https://www.newportmarine.co.jp/marineclub/fishing/12218",
         "https://www.newportmarine.co.jp/marineclub/fishing/12571",
@@ -178,10 +182,14 @@
       "name": "ハタ",
       "recordIds": [
         "catch-1b6b5cccaf83d2143b7f",
+        "catch-1e6f6ee81e3c10efa18e",
         "catch-766488da78d3d60ece74",
-        "catch-7ff13fe597155eb57d5f"
+        "catch-7ff13fe597155eb57d5f",
+        "catch-a527edb88f1a1a102919",
+        "catch-cb6a490ba28013e45c0b"
       ],
       "sources": [
+        "https://katakuraboat.net/index1.htm",
         "https://www.newportmarine.co.jp/marineclub/fishing/11669",
         "https://www.newportmarine.co.jp/marineclub/fishing/14657",
         "https://www.newportmarine.co.jp/marineclub/fishing/15236"
@@ -238,6 +246,7 @@
         "catch-094d3953b6f0e8c74077",
         "catch-0e84201bb1d86f2fd182",
         "catch-1609660e656e86a1b7a8",
+        "catch-19045c259b29f015aa80",
         "catch-1e49e8e50b0ea274eb9c",
         "catch-2922edbfdbea790ba78e",
         "catch-3017be89fc68aa1b76cf",
@@ -250,6 +259,7 @@
         "catch-5571149b56efbb5c12c1",
         "catch-557e0b8b2bf339295a6c",
         "catch-582bbff81c7ff389c564",
+        "catch-5dee23cd68b56751046e",
         "catch-63edb3dfa7ab68d9f603",
         "catch-742f55cb9acf5dc7c897",
         "catch-75b90b794bfa8ced1014",
@@ -261,6 +271,7 @@
         "catch-9ca88b408fb77599c115",
         "catch-b06d8cf117fe490f4f0d",
         "catch-b40be0424c2c6c7446a8",
+        "catch-b68850a4c4c48ab23802",
         "catch-b8b66abaf9eba5f07675",
         "catch-d561f54b9b8c88ab58c1",
         "catch-d652865b342348003b0c",
@@ -738,9 +749,12 @@
     {
       "name": "フグ",
       "recordIds": [
-        "catch-02c7a9607bcba8f682de"
+        "catch-02c7a9607bcba8f682de",
+        "catch-2fe7b3cba523a0334a19",
+        "catch-3e2cd358eb8be9dc3d59"
       ],
       "sources": [
+        "https://katakuraboat.net/index1.htm",
         "https://www.newportmarine.co.jp/marineclub/fishing/13228"
       ]
     },
@@ -895,6 +909,7 @@
       "name": "トラギス",
       "recordIds": [
         "catch-0ceff9da1bc7a828eaf0",
+        "catch-10004249c7f9f3514a55",
         "catch-1767d52511a79a51b3c3",
         "catch-251a6b1116e579688562",
         "catch-449e50196498b160a121",
@@ -908,6 +923,7 @@
         "catch-d8ad3e70b2b09c1a3f86"
       ],
       "sources": [
+        "https://katakuraboat.net/index1.htm",
         "https://www.ssm-uraga.jp/fishing?pagecount=111#fishing-10211",
         "https://www.ssm-uraga.jp/fishing?pagecount=111#fishing-10240",
         "https://www.ssm-uraga.jp/fishing?pagecount=17#fishing-14153",
@@ -950,7 +966,9 @@
         "catch-1d8ed76141d60f4ff753",
         "catch-38c9fbc2147b4dcc4a61",
         "catch-8dae53ef3bd859936f8e",
-        "catch-e39311bbff7325e6fc5e"
+        "catch-b48e2734d5932b955042",
+        "catch-e39311bbff7325e6fc5e",
+        "catch-f3fc43c4d7b85c03cdfe"
       ],
       "sources": [
         "https://katakuraboat.net/index1.htm",
@@ -2045,6 +2063,118 @@
       "sources": [
         "https://katakuraboat.net/index1.htm"
       ]
+    },
+    {
+      "name": "ソーダガツオ",
+      "recordIds": [
+        "catch-56cfc6088aea7d779658"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
+    },
+    {
+      "name": "見ての通り",
+      "recordIds": [
+        "catch-8b1e2dbdbd2f7a0f32b0"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
+    },
+    {
+      "name": "レンコ鯛",
+      "recordIds": [
+        "catch-91e00f4384fd595f2804"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
+    },
+    {
+      "name": "ウマズラ",
+      "recordIds": [
+        "catch-58b7c257a05ca15313de"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
+    },
+    {
+      "name": "白アマ",
+      "recordIds": [
+        "catch-8bab067ade403ad4603a"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
+    },
+    {
+      "name": "オンカサゴ",
+      "recordIds": [
+        "catch-5d8614c1ce2cbbb46096"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
+    },
+    {
+      "name": "カレイ",
+      "recordIds": [
+        "catch-07ea6da419961eed08c3",
+        "catch-183e916146993cf3b84c",
+        "catch-63bbbd3570b4ca7552e6"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
+    },
+    {
+      "name": "ソーダ",
+      "recordIds": [
+        "catch-a27dabc43fd605c6e128"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
+    },
+    {
+      "name": "ハモ",
+      "recordIds": [
+        "catch-c6fe6e3b4c587b5a7c00"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
+    },
+    {
+      "name": "キンメ",
+      "recordIds": [
+        "catch-db5680c06c963d7de126"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
+    },
+    {
+      "name": "オオニベ",
+      "recordIds": [
+        "catch-3fec7083b2bbefea059f"
+      ],
+      "sources": [
+        "https://katakuraboat.net/index1.htm"
+      ],
+      "firstSeen": "2026-10-23T21:18:21+00:00"
     }
   ]
 }
