@@ -1,6 +1,6 @@
 # Kanto and Okinawa v8 acceptance
 
-Status: local checks complete; production receipt appended after deployment.
+Status: v8.3 published and critical live checks passed, 2026-10-23. Physical-device acceptance remains pending.
 
 | Changed feature | Expected | Local actual |
 |---|---|---|
@@ -18,7 +18,7 @@ Status: local checks complete; production receipt appended after deployment.
 | Gestures | Existing pinch/pan/zoom, no accidental saves | Native Chromium multi-touch, map/photo transitions/cancellation, marker safety and button alternatives pass |
 | Accessibility | Automated names/focus/contrast checks | 10 axe WCAG A/AA states, 0 automated violations; reduced motion and focus checks pass |
 
-Local verification: 17 Python + 45 Node tests; 128 grouped browser checks (27 core, 26 conditions, 18 discovery/layout, 30 resilience/upgrades, 22 marina, 5 native touch). Screenshots and machine-readable results retained in the project's private vault QA folder.
+Initial v8 local baseline: 17 Python + 45 Node tests; 128 grouped browser checks (27 core, 26 conditions, 18 discovery/layout, 30 resilience/upgrades, 22 marina, 5 native touch). Screenshots and machine-readable results retained in the project's private vault QA folder.
 
 Browser simulation is not physical-device acceptance. iPhone 13 Pro Safari/Home Screen native picker, keyboard, pinch, GPS, safe areas and VoiceOver must be checked on the device after v8. Older iOS/model support remains an API/layout target, not a claim of physical verification. WebKit offline uses an unreachable local origin because its browser-offline switch causes an engine internal error.
 
@@ -40,7 +40,7 @@ Regional map clustering now measures CSS pixels after SVG layout:48px hit target
 
 ## Physical-device acceptance (pending)
 
-Primary device reported by Lewis: iPhone13Pro/iOS26.6.1. Record Safari and Home Screen separately; the earlier v6 device baseline does not verify v8.2.
+Primary device reported by Lewis: iPhone13Pro/iOS26.6.1. Record Safari and Home Screen separately; the earlier v6 device baseline does not verify the v8 release family.
 
 | Device check | Expected | Safari actual | Home Screen actual |
 |---|---|---|---|
@@ -60,3 +60,12 @@ Other models and older iOS devices remain separately unverified. API target iOS1
 Destination cards now show provenance, newest evidence date, ground count and vessel cautions. Verified rental reports sort ahead of official guidance, followed by nearby references and unconfirmed candidates. Previewing a marina shows matching named grounds, reference GEBCO depths and distance/ETA before committing a workspace switch. Catch collection requires explicit rental-vessel wording before classifying a report as rental evidence, retains curated references, and compares Japanese catch dates in JST.
 
 Actual local results: 19 Python tests and 46 JavaScript/service-worker tests pass; 22 marina scenarios pass in Chromium/WebKit, including preview grounds and independent records; 10 automated accessibility states report zero violations. Native iPhone checks remain pending. Installed-version upgrade and final live receipts follow.
+
+## Final publication receipt, 2026-10-23
+
+- Source `20f4ba6d29db08d32796a3e0c3957116f5327a76`, generated public data `10d3a00`, [Pages39935507298](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39935507298) completed successfully. Live HTML reports8.3; HTML, worker and current script/style bytes match the reviewed checkout.
+- Current local:19 Python and46 JavaScript/service-worker tests;22 marina browser scenarios;24 installed-version upgrade/offline scenarios (v5 through v8.2 in both engines);5 native Chromium multi-touch scenarios;10 accessibility screens with zero automated violations. Prior v8 baseline additionally covers v4 upgrade, fault handling,27 core,26 conditions and18 discovery/layout scenarios.
+- Final live:11 Chromium marina cases,9 WebKit smoke checks,2 explicit-fish-filter regressions and10 automated accessibility screens pass. WebKit verifies native closed selects/marker hit targets, correct Okinawa tides, date/time draft isolation/restoration and all100 cached offline pack assets. Chromium reopens a never-visited base offline. Live marina preview screenshots confirm named grounds and reference depth.
+- Earlier v8.2 live regression:27 core and26 fixed-date conditions scenarios passed. The latter use a labelled historical fixture; current hosted data was checked separately:40 public forecast points,80 healthy provider parts, verified Okinawa stations都屋47-23/泡瀬47-32,100 offline assets. Forecast history is never claimed from the fixed test fixture.
+- The first ad-hoc final WebKit smoke clicked discovery before its async data was ready; the app's loading guard kept the dialog closed. The harness now waits for loaded regional fish options, as the maintained marina suite already does; rerun passed with no runtime errors.
+- Evidence and reviewed screenshots are retained in the private vault QA folder `2026-10-23-kanto-okinawa`. Upstream catch-article failures and physical iPhone/older-iOS checks remain explicitly unresolved; no invented catches or device results.
