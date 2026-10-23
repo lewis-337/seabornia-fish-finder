@@ -5,6 +5,10 @@ from datetime import datetime,timezone
 import json,math,urllib.request,urllib.parse,concurrent.futures
 from collect_depths import query,parse,SOURCE
 ROOT=Path(__file__).resolve().parents[1]
+def same_bounds(a,b):
+ # libm roundoff differs between macOS/Linux and Python versions. 1e-8 degree
+ # is about a millimetre; genuine footprint shifts still fail validation.
+ return isinstance(a,list) and isinstance(b,list) and len(a)==len(b)==4 and all(isinstance(x,(int,float)) and isinstance(y,(int,float)) and math.isfinite(x) and math.isfinite(y) and abs(x-y)<=1e-8 for x,y in zip(a,b))
 def bbox(b):
  merc=lambda x:math.log(math.tan(math.pi/4+x*math.pi/360))
  x=(b[0]+b[2])/2;y=(merc(b[1])+merc(b[3]))/2
@@ -18,7 +22,7 @@ def cache():
  def image(m):
   path=ROOT/'images/maps'/f"{m['id']}.jpg"
   b=bbox(m['bounds'])
-  if path.exists() and images.get(m['id'],{}).get('bounds')==b:return
+  if path.exists() and same_bounds(images.get(m['id'],{}).get('bounds'),b):return
   merc=lambda v:6378137*math.log(math.tan(math.pi/4+v*math.pi/360))
   coords=[b[0]*math.pi/180*6378137,merc(b[1]),b[2]*math.pi/180*6378137,merc(b[3])]
   url='https://wms.gebco.net/2026/mapserv?'+urllib.parse.urlencode(dict(SERVICE='WMS',REQUEST='GetMap',VERSION='1.3.0',LAYERS='GEBCO_2026_2',STYLES='',FORMAT='image/jpeg',CRS='EPSG:3857',BBOX=','.join(map(str,coords)),WIDTH=1050,HEIGHT=950))

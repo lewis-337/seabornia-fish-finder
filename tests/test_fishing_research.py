@@ -67,3 +67,11 @@ class RegionalBudgetTests(unittest.TestCase):
    row=parse_index(HTML,CONFIG['url'],CONFIG)[0];row['lat']=35.2
    with self.assertRaises(ValueError):import_rows([row],root)
    self.assertFalse((root/'data/marinas.json').exists())
+
+class GeographicFootprintTests(unittest.TestCase):
+ def test_platform_roundoff_is_allowed_but_material_misalignment_is_rejected(self):
+  from cache_marina_maps import same_bounds
+  a=[127.7,26.2,127.9,26.4]
+  self.assertTrue(same_bounds(a,[x+1e-12 for x in a]))
+  self.assertFalse(same_bounds(a,[127.7,26.20001,127.9,26.4]))
+  self.assertFalse(same_bounds(None,a));self.assertFalse(same_bounds(a,[float('nan')]*4))
