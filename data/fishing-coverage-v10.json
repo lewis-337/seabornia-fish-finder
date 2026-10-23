@@ -311,7 +311,7 @@
         "species": 37,
         "grounds": 1,
         "depthRecords": 0,
-        "tackleRecords": 85,
+        "tackleRecords": 0,
         "seasonGuides": 1
       },
       "kinds": {
@@ -618,7 +618,7 @@
         "species": 38,
         "grounds": 0,
         "depthRecords": 0,
-        "tackleRecords": 1996,
+        "tackleRecords": 0,
         "seasonGuides": 0
       },
       "kinds": {
@@ -717,7 +717,7 @@
         "species": 38,
         "grounds": 0,
         "depthRecords": 0,
-        "tackleRecords": 1996,
+        "tackleRecords": 0,
         "seasonGuides": 0
       },
       "kinds": {
@@ -794,7 +794,7 @@
         "species": 38,
         "grounds": 1,
         "depthRecords": 0,
-        "tackleRecords": 1996,
+        "tackleRecords": 0,
         "seasonGuides": 0
       },
       "kinds": {
@@ -1184,7 +1184,7 @@
         "species": 30,
         "grounds": 10,
         "depthRecords": 12,
-        "tackleRecords": 125,
+        "tackleRecords": 124,
         "seasonGuides": 79
       },
       "kinds": {
@@ -1753,21 +1753,21 @@
         "grounds": 0
       },
       "after": {
-        "reports": 272,
-        "events": 100,
+        "reports": 77,
+        "events": 30,
         "rentalEvents": 0,
-        "species": 47,
+        "species": 26,
         "grounds": 0,
-        "depthRecords": 175,
-        "tackleRecords": 272,
+        "depthRecords": 59,
+        "tackleRecords": 77,
         "seasonGuides": 0
       },
       "kinds": {
-        "other-rental-report": 234,
-        "other-marina-report": 38
+        "other-rental-report": 46,
+        "other-marina-report": 31
       },
       "coverage": [
-        "2020-01-05",
+        "2025-04-29",
         "2026-10-11"
       ],
       "sources": [
@@ -1882,21 +1882,21 @@
         "grounds": 0
       },
       "after": {
-        "reports": 272,
-        "events": 100,
+        "reports": 77,
+        "events": 30,
         "rentalEvents": 0,
-        "species": 47,
+        "species": 22,
         "grounds": 1,
-        "depthRecords": 175,
-        "tackleRecords": 272,
+        "depthRecords": 59,
+        "tackleRecords": 77,
         "seasonGuides": 0
       },
       "kinds": {
-        "other-rental-report": 234,
-        "other-marina-report": 38
+        "other-rental-report": 46,
+        "other-marina-report": 31
       },
       "coverage": [
-        "2020-01-05",
+        "2025-04-29",
         "2026-10-11"
       ],
       "sources": [
@@ -2005,21 +2005,21 @@
         "grounds": 2
       },
       "after": {
-        "reports": 272,
-        "events": 100,
-        "rentalEvents": 82,
-        "species": 46,
+        "reports": 77,
+        "events": 30,
+        "rentalEvents": 15,
+        "species": 22,
         "grounds": 2,
-        "depthRecords": 175,
-        "tackleRecords": 272,
+        "depthRecords": 59,
+        "tackleRecords": 77,
         "seasonGuides": 0
       },
       "kinds": {
-        "rental-report": 234,
-        "marina-report": 38
+        "rental-report": 46,
+        "marina-report": 31
       },
       "coverage": [
-        "2020-01-05",
+        "2025-04-29",
         "2026-10-11"
       ],
       "sources": [
@@ -2348,7 +2348,7 @@
       ]
     }
   ],
-  "uniqueSourceRows": 10237,
+  "uniqueSourceRows": 10042,
   "catalogueItems": 141,
   "sourceUrls": 191
 }

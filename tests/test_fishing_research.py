@@ -1,9 +1,14 @@
 import json, sys, tempfile, unittest
+from datetime import datetime
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from fishing_reports import trip_date, named_fish, parse_index, parse_yado_feed, fish_name, parse_naturum
-from collect_fishing_sources import reviewed_names, validate_source, retain_review, refresh, shared_kind, aggregate_coverage, deduplicate_aggregates
+from collect_fishing_sources import reviewed_names, validate_source, retain_review, refresh as refresh_source, shared_kind, aggregate_coverage, deduplicate_aggregates, catch_cutoff
+
+def refresh(*args,**kwargs):
+ return refresh_source(*args,now=datetime.fromisoformat('2026-10-24T09:00:00+09:00'),**kwargs)
+
 
 CONFIG = dict(id='test', name='公式', url='https://example.com/fishing', marinaIds=['J14-0130'])
 HTML = '''<div class="fishing_index" id="fishing-123"><h5>2026年10月20日 釣果</h5><div class="date">2026年10月21日</div><div class="user_name">シースタイルのお客様</div><div class="main_text">【水深】30〜50m<br>【仕掛け】タイラバ</div><div class="fishing_result">マダイ2匹</div></div>'''
@@ -49,6 +54,13 @@ class FishingResearchTests(unittest.TestCase):
    path=d/'marinas/J14-0130.json';path.write_text(json.dumps(dict(areas=[],reports=[combined],last_success='original')))
    refresh(root,lambda url:html);out=json.loads(path.read_text());self.assertEqual({r['fish'] for r in out['reports']},{'サワラ・サゴシ','マダイ'})
    refresh(root,lambda url:html);out=json.loads(path.read_text());self.assertEqual(len(out['reports']),2);self.assertFalse(out['changed'])
+ def test_collection_window_excludes_older_archive_rows(self):
+  self.assertEqual(catch_cutoff('2026-10-24'),'2024-10-24');self.assertEqual(catch_cutoff('2028-02-29'),'2026-02-28')
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td);d=root/'data';(d/'marinas').mkdir(parents=True)
+   (d/'seed.json').write_text(json.dumps(dict(species=[dict(name='マダイ')])));(d/'marina-evidence.json').write_text('{"species":[]}');(d/'fishing-sources.json').write_text(json.dumps(dict(sources=[dict(CONFIG,adapter='fishing-index')])));(d/'marinas.json').write_text(json.dumps(dict(marinas=[dict(id='J14-0130',status='active',evidence=[])])));p=d/'marinas/J14-0130.json';p.write_text('{"areas":[],"reports":[]}')
+   refresh(root,lambda url:HTML.replace('2026年','2021年'))
+   out=json.loads(p.read_text());self.assertEqual(out['reports'],[]);self.assertTrue(out['source_status'][0]['ok'])
  def test_maintenance_page_is_failure_not_empty_collection(self):
   with self.assertRaises(ValueError):validate_source('<h1>メンテナンス</h1>','fishing-index')
  def test_refresh_stability_and_failure_keep_reviewed_records(self):

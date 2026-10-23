@@ -2,7 +2,7 @@
 
 Research window: 2024-10-24 through 2026-10-24 JST. Older guidance retains its year. Checked 2026-10-24.
 
-24 selectable bases; 191 distinct source URLs logged; 10,237 distinct source fish-report rows across the packs and existing Seabornia history. Shared rows are counted once globally. Rows are not unique trips or caught-fish totals. The catalogue expands from 57 to 141 photographed entries, including explicitly labelled groups and growth stages.
+24 selectable bases; 191 distinct source URLs logged; 10,042 distinct source fish-report rows across the packs and existing Seabornia history. Shared rows are counted once globally. Rows are not unique trips or caught-fish totals. The catalogue expands from 57 to 141 photographed entries, including explicitly labelled groups and growth stages.
 
 ## Method and limits
 
@@ -19,24 +19,24 @@ Research window: 2024-10-24 through 2026-10-24 JST. Older guidance retains its y
 |---|---:|---:|---:|---:|---:|---:|---:|
 | 大洗マリーナ | 0 → 0 | 0 | 0 | 3 → 22 | 1 → 1 | 0 / 0 | 0 |
 | 浦安マリーナ(富士ボーティング) | 0 → 134 | 134 | 0 | 1 → 6 | 1 → 1 | 0 / 0 | 0 |
-| セントラル | 0 → 85 | 38 | 25 | 7 → 37 | 1 → 1 | 0 / 85 | 1 |
+| セントラル | 0 → 85 | 38 | 25 | 7 → 37 | 1 → 1 | 0 / 0 | 1 |
 | ニューポート江戸川 | 0 → 769 | 474 | 0 | 1 → 35 | 0 → 0 | 0 / 0 | 0 |
 | 勝どきマリーナ | 0 → 134 | 134 | 0 | 0 → 6 | 0 → 0 | 0 / 0 | 0 |
 | 東京夢の島マリーナ | 0 → 134 | 134 | 0 | 0 → 6 | 0 → 0 | 0 / 0 | 0 |
-| MARINA BLEU 横浜 | 0 → 1996 | 489 | 0 | 0 → 38 | 0 → 0 | 0 / 1996 | 0 |
-| D-marina | 0 → 1996 | 489 | 189 | 6 → 38 | 0 → 0 | 0 / 1996 | 0 |
-| 横浜ベイサイドマリーナ | 0 → 1996 | 489 | 0 | 4 → 38 | 1 → 1 | 0 / 1996 | 0 |
+| MARINA BLEU 横浜 | 0 → 1996 | 489 | 0 | 0 → 38 | 0 → 0 | 0 / 0 | 0 |
+| D-marina | 0 → 1996 | 489 | 189 | 6 → 38 | 0 → 0 | 0 / 0 | 0 |
+| 横浜ベイサイドマリーナ | 0 → 1996 | 489 | 0 | 4 → 38 | 1 → 1 | 0 / 0 | 0 |
 | 湘南サニーサイドマリーナ浦賀 | 0 → 4138 | 1883 | 965 | 7 → 102 | 1 → 1 | 3782 / 3312 | 0 |
 | 湘南サニーサイドマリーナ | 0 → 470 | 181 | 132 | 6 → 70 | 1 → 2 | 371 / 470 | 3 |
-| リビエラシーボニアマリーナ | 125 → 125 | 125 | 0 | 30 → 30 | 10 → 10 | 12 / 125 | 79 |
+| リビエラシーボニアマリーナ | 125 → 125 | 125 | 0 | 30 → 30 | 10 → 10 | 12 / 124 | 79 |
 | 三崎港「うらり」 | 0 → 29 | 29 | 0 | 4 → 18 | 0 → 0 | 0 / 29 | 0 |
 | 小坪マリーナ | 0 → 462 | 313 | 0 | 11 → 23 | 1 → 1 | 299 / 0 | 14 |
 | 葉山港 | 0 → 1437 | 969 | 0 | 1 → 22 | 0 → 0 | 844 / 0 | 0 |
 | 葉山マリーナ | 0 → 1437 | 969 | 0 | 1 → 23 | 0 → 0 | 844 / 0 | 0 |
 | 湘南ライセンス　江の島会場 | 0 → 479 | 479 | 0 | 3 → 5 | 1 → 1 | 473 / 0 | 0 |
-| 湘南マリーナ | 0 → 272 | 100 | 0 | 7 → 47 | 0 → 0 | 175 / 272 | 0 |
-| コグレマリンサービス | 0 → 272 | 100 | 0 | 1 → 47 | 0 → 1 | 175 / 272 | 0 |
-| 片倉ボートマリーナ | 0 → 272 | 100 | 82 | 9 → 46 | 2 → 2 | 175 / 272 | 0 |
+| 湘南マリーナ | 0 → 77 | 30 | 0 | 7 → 26 | 0 → 0 | 59 / 77 | 0 |
+| コグレマリンサービス | 0 → 77 | 30 | 0 | 1 → 22 | 0 → 1 | 59 / 77 | 0 |
+| 片倉ボートマリーナ | 0 → 77 | 30 | 15 | 9 → 22 | 2 → 2 | 59 / 77 | 0 |
 | 真鶴ベイマリーナ | 0 → 0 | 0 | 0 | 5 → 7 | 0 → 1 | 0 / 0 | 0 |
 | マリンランド「北谷フィッシャリーナ店」 | 0 → 0 | 0 | 0 | 6 → 16 | 1 → 1 | 0 / 0 | 7 |
 | 沖縄マリーナ | 0 → 4 | 4 | 0 | 3 → 4 | 1 → 1 | 0 / 0 | 0 |
@@ -385,7 +385,7 @@ Remaining gaps: 公開されない釣果GPS・艇別の当日航行許可は不�
 
 ### 湘南マリーナ (J14-0050)
 
-Accepted trip-date coverage: 2020-01-05 to 2026-10-11. Source classes: {"other-rental-report": 234, "other-marina-report": 38}.
+Accepted trip-date coverage: 2025-04-29 to 2026-10-11. Source classes: {"other-rental-report": 46, "other-marina-report": 31}.
 
 Queries: 湘南マリーナ 釣果 レンタル 魚 ポイント 水深 Instagram; 平塚 大磯 相模湾 船釣り 釣果 釣具 2025 2026; "湘南マリーナ" 釣果 Instagram Facebook YouTube X.
 
@@ -409,7 +409,7 @@ Remaining gaps: 公開されない釣果GPS・艇別の当日航行許可は不�
 
 ### コグレマリンサービス (J14-0045)
 
-Accepted trip-date coverage: 2020-01-05 to 2026-10-11. Source classes: {"other-rental-report": 234, "other-marina-report": 38}.
+Accepted trip-date coverage: 2025-04-29 to 2026-10-11. Source classes: {"other-rental-report": 46, "other-marina-report": 31}.
 
 Queries: コグレマリンサービス 釣果 レンタル 魚 ポイント 水深 Instagram; 平塚 大磯 相模湾 船釣り 釣果 釣具 2025 2026; "コグレマリンサービス" 釣果 Instagram Facebook YouTube X.
 
@@ -432,7 +432,7 @@ Remaining gaps: 公開されない釣果GPS・艇別の当日航行許可は不�
 
 ### 片倉ボートマリーナ (J14-0060)
 
-Accepted trip-date coverage: 2020-01-05 to 2026-10-11. Source classes: {"rental-report": 234, "marina-report": 38}.
+Accepted trip-date coverage: 2025-04-29 to 2026-10-11. Source classes: {"rental-report": 46, "marina-report": 31}.
 
 Queries: 片倉ボートマリーナ 釣果 レンタル 魚 ポイント 水深 Instagram; 片瀬 江の島 相模湾 船釣り 釣果 釣具 2025 2026; "片倉ボートマリーナ" 釣果 Instagram Facebook YouTube X; 平塚 片倉ボート 相模川河口 大磯 釣果 2025 2026.
 

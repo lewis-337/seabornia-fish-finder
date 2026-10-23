@@ -7,7 +7,7 @@ declare its parser, marina association and evidence class before collection.
 import concurrent.futures
 import hashlib
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 from urllib.request import Request, urlopen
@@ -17,6 +17,14 @@ from bs4 import BeautifulSoup
 from fishing_reports import PARSERS, fish_name, named_fish
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def catch_cutoff(today):
+    d=date.fromisoformat(today)
+    try:
+        return d.replace(year=d.year-2).isoformat()
+    except ValueError:
+        return d.replace(year=d.year-2,day=28).isoformat()
 
 
 def reviewed_names(species):
@@ -122,7 +130,7 @@ def collected_evidence(reports, names=None):
     return out
 
 
-def refresh(root=ROOT, fetcher=fetch):
+def refresh(root=ROOT, fetcher=fetch, now=None):
     source_file = root / 'data/fishing-sources.json'
     sources = json.loads(source_file.read_text())['sources']
     registry_path = root / 'data/marinas.json'
@@ -130,8 +138,10 @@ def refresh(root=ROOT, fetcher=fetch):
     species = json.loads((root / 'data/seed.json').read_text())['species'] + json.loads((root / 'data/marina-evidence.json').read_text())['species']
     names = reviewed_names(species)
     free_sources = {s['id'] for s in sources if s.get('adapter') in ['naturum','central-list']}
-    stamp = datetime.now(timezone.utc).isoformat(timespec='seconds')
-    today = datetime.now(timezone(timedelta(hours=9))).date().isoformat()
+    clock = now or datetime.now(timezone.utc)
+    stamp = clock.astimezone(timezone.utc).isoformat(timespec='seconds')
+    today = clock.astimezone(timezone(timedelta(hours=9))).date().isoformat()
+    cutoff = catch_cutoff(today)
     review_path = root / 'data/fish-name-review.json'
     review = json.loads(review_path.read_text()) if review_path.exists() else dict(unresolved=[])
     unresolved = {q['name']:q for q in review['unresolved']}
@@ -144,7 +154,7 @@ def refresh(root=ROOT, fetcher=fetch):
                 html = fetcher(url)
                 validate_source(html, config['adapter'])
                 parsed = PARSERS[config['adapter']](html, url, config)
-                parsed = [r for r in parsed if r.get('date') and r['date'] <= today]
+                parsed = [r for r in parsed if r.get('date') and cutoff <= r['date'] <= today]
                 rows += parsed
                 statuses.append(dict(source=url, source_id=source['id'], ok=True, checkedAt=stamp,
                                      records=len(parsed), contentHash=hashlib.sha256(html.encode()).hexdigest()))
