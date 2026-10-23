@@ -612,7 +612,7 @@
         "grounds": 0
       },
       "after": {
-        "reports": 2004,
+        "reports": 1996,
         "events": 489,
         "rentalEvents": 0,
         "species": 38,
@@ -622,8 +622,8 @@
         "seasonGuides": 0
       },
       "kinds": {
-        "other-marina-report": 1299,
-        "other-rental-report": 705
+        "other-marina-report": 1293,
+        "other-rental-report": 703
       },
       "coverage": [
         "2024-10-26",
@@ -711,7 +711,7 @@
         "grounds": 0
       },
       "after": {
-        "reports": 2004,
+        "reports": 1996,
         "events": 489,
         "rentalEvents": 189,
         "species": 38,
@@ -721,9 +721,9 @@
         "seasonGuides": 0
       },
       "kinds": {
-        "marina-report": 1165,
-        "staff-report": 119,
-        "rental-report": 705,
+        "marina-report": 1161,
+        "staff-report": 117,
+        "rental-report": 703,
         "owner-report": 15
       },
       "coverage": [
@@ -788,7 +788,7 @@
         "grounds": 1
       },
       "after": {
-        "reports": 2004,
+        "reports": 1996,
         "events": 489,
         "rentalEvents": 0,
         "species": 38,
@@ -798,8 +798,8 @@
         "seasonGuides": 0
       },
       "kinds": {
-        "other-marina-report": 1299,
-        "other-rental-report": 705
+        "other-marina-report": 1293,
+        "other-rental-report": 703
       },
       "coverage": [
         "2024-10-26",
@@ -1160,7 +1160,8 @@
       ],
       "gaps": [
         "公開されない釣果GPS・艇別の当日航行許可は不明。",
-        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。"
+        "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。",
+        "構造化釣果テーブルは2026-04-25以降。以前の公開記事は日付・本文を確認できた参考資料のみで、2024〜2025年の連続した釣行記録は未取得。"
       ],
       "queries": [
         "湘南サニーサイドマリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
@@ -1318,8 +1319,8 @@
         "grounds": 1
       },
       "after": {
-        "reports": 457,
-        "events": 311,
+        "reports": 462,
+        "events": 313,
         "rentalEvents": 0,
         "species": 23,
         "grounds": 1,
@@ -1328,7 +1329,7 @@
         "seasonGuides": 14
       },
       "kinds": {
-        "nearby-report": 457
+        "nearby-report": 462
       },
       "coverage": [
         "2024-10-25",
@@ -1752,21 +1753,21 @@
         "grounds": 0
       },
       "after": {
-        "reports": 71,
-        "events": 28,
+        "reports": 272,
+        "events": 100,
         "rentalEvents": 0,
-        "species": 26,
+        "species": 47,
         "grounds": 0,
-        "depthRecords": 53,
-        "tackleRecords": 71,
+        "depthRecords": 175,
+        "tackleRecords": 272,
         "seasonGuides": 0
       },
       "kinds": {
-        "other-rental-report": 40,
-        "other-marina-report": 31
+        "other-rental-report": 234,
+        "other-marina-report": 38
       },
       "coverage": [
-        "2025-04-29",
+        "2020-01-05",
         "2026-10-11"
       ],
       "sources": [
@@ -1881,21 +1882,21 @@
         "grounds": 0
       },
       "after": {
-        "reports": 71,
-        "events": 28,
+        "reports": 272,
+        "events": 100,
         "rentalEvents": 0,
-        "species": 22,
+        "species": 47,
         "grounds": 1,
-        "depthRecords": 53,
-        "tackleRecords": 71,
+        "depthRecords": 175,
+        "tackleRecords": 272,
         "seasonGuides": 0
       },
       "kinds": {
-        "other-rental-report": 40,
-        "other-marina-report": 31
+        "other-rental-report": 234,
+        "other-marina-report": 38
       },
       "coverage": [
-        "2025-04-29",
+        "2020-01-05",
         "2026-10-11"
       ],
       "sources": [
@@ -2004,21 +2005,21 @@
         "grounds": 2
       },
       "after": {
-        "reports": 71,
-        "events": 28,
-        "rentalEvents": 13,
-        "species": 22,
+        "reports": 272,
+        "events": 100,
+        "rentalEvents": 82,
+        "species": 46,
         "grounds": 2,
-        "depthRecords": 53,
-        "tackleRecords": 71,
+        "depthRecords": 175,
+        "tackleRecords": 272,
         "seasonGuides": 0
       },
       "kinds": {
-        "rental-report": 40,
-        "marina-report": 31
+        "rental-report": 234,
+        "marina-report": 38
       },
       "coverage": [
-        "2025-04-29",
+        "2020-01-05",
         "2026-10-11"
       ],
       "sources": [
@@ -2045,7 +2046,8 @@
       "gaps": [
         "公開されない釣果GPS・艇別の当日航行許可は不明。",
         "SNSの全投稿は取得できず、ログイン制限・未確認の履歴があります。",
-        "同名施設・港の混同を修正し、出港地の住所を照合した再検索を実施。"
+        "同名施設・港の混同を修正し、出港地の住所を照合した再検索を実施。",
+        "公開表で採用できた釣行日は2025-04-29以降。古い年度リンクは2019年以前が中心で、2024-10〜2025年初頭の連続した記録は確認できず。"
       ],
       "queries": [
         "片倉ボートマリーナ 釣果 レンタル 魚 ポイント 水深 Instagram",
@@ -2346,7 +2348,7 @@
       ]
     }
   ],
-  "uniqueSourceRows": 10039,
+  "uniqueSourceRows": 10237,
   "catalogueItems": 141,
   "sourceUrls": 191
 }

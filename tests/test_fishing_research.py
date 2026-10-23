@@ -2,8 +2,8 @@ import json, sys, tempfile, unittest
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from fishing_reports import trip_date, named_fish, parse_index, parse_yado_feed, fish_name
-from collect_fishing_sources import reviewed_names, validate_source, retain_review, refresh, shared_kind
+from fishing_reports import trip_date, named_fish, parse_index, parse_yado_feed, fish_name, parse_naturum
+from collect_fishing_sources import reviewed_names, validate_source, retain_review, refresh, shared_kind, aggregate_coverage, deduplicate_aggregates
 
 CONFIG = dict(id='test', name='公式', url='https://example.com/fishing', marinaIds=['J14-0130'])
 HTML = '''<div class="fishing_index" id="fishing-123"><h5>2026年10月20日 釣果</h5><div class="date">2026年10月21日</div><div class="user_name">シースタイルのお客様</div><div class="main_text">【水深】30〜50m<br>【仕掛け】タイラバ</div><div class="fishing_result">マダイ2匹</div></div>'''
@@ -31,6 +31,24 @@ class FishingResearchTests(unittest.TestCase):
   self.assertEqual(shared_kind(source,dict(evidence_kind='rental-report')),'other-rental-report')
   self.assertEqual(shared_kind(source,dict(evidence_kind='owner-report')),'other-marina-report')
   self.assertEqual(parse_index(HTML.replace('シースタイルのお客様','お客様'),CONFIG['url'],CONFIG)[0]['evidence_kind'],'marina-report')
+ def test_combined_free_text_rows_do_not_duplicate_new_per_species_rows(self):
+  rows=[dict(id='combined',source_id='free',event_id='outing',fish='サワラ・サゴシ',amount='数量未掲載'),dict(id='single',source_id='free',event_id='outing',fish='サワラ',amount='数量未掲載'),dict(id='measured',source_id='free',event_id='outing',fish='サワラ',amount='2匹'),dict(id='another',source_id='free',event_id='another',fish='サワラ',amount='数量未掲載')]
+  names=['サワラ','サゴシ'];kept=deduplicate_aggregates(rows,names,{'free'})
+  self.assertEqual([r['id'] for r in kept],['combined','measured','another'])
+  self.assertEqual(aggregate_coverage(kept,names,{'free'})[('free','outing')],{'サワラ','サゴシ'})
+  self.assertEqual(deduplicate_aggregates(rows,names,{'structured'}),rows)
+  self.assertEqual(fish_name('ハマフエフキ'),'タマン');self.assertEqual(fish_name('キダイ'),'レンコダイ')
+ def test_scheduled_refresh_does_not_reinsert_split_duplicates(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td);d=root/'data';(d/'marinas').mkdir(parents=True);cfg=dict(CONFIG,adapter='naturum')
+   species=[dict(name=n) for n in ['サワラ','サゴシ','マダイ']]
+   (d/'seed.json').write_text(json.dumps(dict(species=species)));(d/'marina-evidence.json').write_text('{"species":[]}');(d/'fishing-sources.json').write_text(json.dumps(dict(sources=[cfg])));(d/'marinas.json').write_text(json.dumps(dict(marinas=[dict(id='J14-0130',status='active',evidence=[])])))
+   html='<div class="blogbody"><h3 class="title"><a href="/catch-1.html">2026年10月20日 釣果情報</a></h3><div class="main">レンタルの釣果 サワラ・サゴシ・マダイをキャッチ</div></div>'
+   parsed=parse_naturum(html,cfg['url'],dict(cfg,fishNames=['サワラ','サゴシ','マダイ']))
+   combined=dict(parsed[0],id='combined',fish='サワラ・サゴシ')
+   path=d/'marinas/J14-0130.json';path.write_text(json.dumps(dict(areas=[],reports=[combined],last_success='original')))
+   refresh(root,lambda url:html);out=json.loads(path.read_text());self.assertEqual({r['fish'] for r in out['reports']},{'サワラ・サゴシ','マダイ'})
+   refresh(root,lambda url:html);out=json.loads(path.read_text());self.assertEqual(len(out['reports']),2);self.assertFalse(out['changed'])
  def test_maintenance_page_is_failure_not_empty_collection(self):
   with self.assertRaises(ValueError):validate_source('<h1>メンテナンス</h1>','fishing-index')
  def test_refresh_stability_and_failure_keep_reviewed_records(self):

@@ -50,6 +50,28 @@ def shared_kind(source, row):
     return source.get('sharedKind', 'nearby-report')
 
 
+def aggregate_coverage(reports, names, free_sources):
+    """Keep the original combined field instead of duplicating its components.
+
+    Applies only to free-text adapters with no fish-specific quantity. Structured
+    tables can legitimately contain distinct quantified rows in one outing.
+    """
+    covers = {}
+    for r in reports:
+        if r.get('source_id') not in free_sources or r.get('amount') != '数量未掲載':
+            continue
+        fish = named_fish(r['fish'], names)
+        if len(fish) > 1:
+            covers.setdefault((r['source_id'],r.get('event_id')),set()).update(fish)
+    return covers
+
+
+def deduplicate_aggregates(reports, names, free_sources):
+    covers = aggregate_coverage(reports,names,free_sources)
+    return [r for r in reports if not (r.get('amount')=='数量未掲載' and
+        fish_name(r['fish']) in covers.get((r.get('source_id'),r.get('event_id')),set()))]
+
+
 def fetch(url):
     with urlopen(Request(url, headers={'User-Agent': 'SeaborniaFishFinder/10 (public fishing facts; personal app)'}), timeout=25) as r:
         raw = r.read(3_000_001)
@@ -107,6 +129,7 @@ def refresh(root=ROOT, fetcher=fetch):
     registry = json.loads(registry_path.read_text())
     species = json.loads((root / 'data/seed.json').read_text())['species'] + json.loads((root / 'data/marina-evidence.json').read_text())['species']
     names = reviewed_names(species)
+    free_sources = {s['id'] for s in sources if s.get('adapter') in ['naturum','central-list']}
     stamp = datetime.now(timezone.utc).isoformat(timespec='seconds')
     today = datetime.now(timezone(timedelta(hours=9))).date().isoformat()
     review_path = root / 'data/fish-name-review.json'
@@ -136,15 +159,19 @@ def refresh(root=ROOT, fetcher=fetch):
             continue
         path = root / 'data/marinas' / (m['id'] + '.json')
         pack = json.loads(path.read_text())
-        old = {r['id']: r for r in pack.get('reports', [])}
+        original = {r['id']: r for r in pack.get('reports', [])}
+        before = json.dumps(original, sort_keys=True, ensure_ascii=False)
+        old = {r['id']:r for r in deduplicate_aggregates(list(original.values()),names,free_sources)}
+        covers = aggregate_coverage(list(old.values()),names,free_sources)
         by_event = {(r.get('source_id'),r.get('event_id'),fish_name(r['fish'])):r for r in old.values() if r.get('event_id')}
-        before = json.dumps(old, sort_keys=True, ensure_ascii=False)
         statuses = []
         for source, rows, checks in results:
             if m['id'] not in source['marinaIds']:
                 continue
             statuses += checks
             for row in rows:
+                if row.get('amount')=='数量未掲載' and fish_name(row['fish']) in covers.get((row.get('source_id'),row.get('event_id')),set()):
+                    continue
                 r = dict(row, marinaId=m['id'])
                 # A shared nearby source never becomes another base's rental catch.
                 if m['id'] != source['marinaIds'][0]:
