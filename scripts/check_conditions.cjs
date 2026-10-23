@@ -68,6 +68,10 @@ async function run(engine) {
         sunset: shifted(d.sunset),
       }));
     }
+  // Offline packs have their own real-network suite; a fake clock must not abort that downloader.
+  await p.route("**/data/offline-packs.json", (r) =>
+    r.fulfill({ json: { schema_version: 1, assets: [], marinaCount: 25 } }),
+  );
   await p.route("**/data/conditions.json?*", (r) =>
     r.fulfill({ json: publicForecastFixture }),
   );
@@ -479,6 +483,12 @@ async function run(engine) {
         await p.locator("#tripDate").fill("2026-10-22");
         await p.locator("#tripDate").dispatchEvent("change");
         const before = await p.locator("#forecastContent").innerText();
+        // Offline packs have their own real-network suite; a fake clock must not abort that downloader.
+        await p.route("**/data/offline-packs.json", (r) =>
+          r.fulfill({
+            json: { schema_version: 1, assets: [], marinaCount: 25 },
+          }),
+        );
         await p.route("**/data/conditions.json?*", (r) => r.abort());
         await p.route("**/data/tides.json?*", (r) => r.abort());
         await p.locator("#conditionsRefresh").click();
@@ -493,6 +503,12 @@ async function run(engine) {
           a.weather.fetchedAt = "2026-10-20T00:00:00+09:00";
           a.marine.fetchedAt = "2026-10-20T00:00:00+09:00";
         }
+        // Offline packs have their own real-network suite; a fake clock must not abort that downloader.
+        await p.route("**/data/offline-packs.json", (r) =>
+          r.fulfill({
+            json: { schema_version: 1, assets: [], marinaCount: 25 },
+          }),
+        );
         await p.route("**/data/conditions.json?*", (r) =>
           r.fulfill({ json: fixture }),
         );

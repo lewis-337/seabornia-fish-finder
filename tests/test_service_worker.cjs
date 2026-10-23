@@ -123,13 +123,13 @@ test("install caches the new modules, data and licensed catalogue images", async
   await done;
   for (const asset of [
     "./app-v8.1.js",
-    "./styles-v8.css",
+    "./styles-v8.2.css",
     "./map-gestures.js",
     "./trip-conditions-v8.js",
     "./trip-ui-v8.js",
     "./fish-areas.js",
     "./marina-core-v8.js",
-    "./marina-discovery-v8.js",
+    "./marina-discovery-v8.2.js",
     "./data/marinas.json",
     "./data/area_depths.json",
     "./data/fish_areas.json",

@@ -130,10 +130,29 @@ async function run(engine) {
     await check("regional inventory, clusters and fish filters", async () => {
       await picker();
       assert.equal(await p.locator(".destinationCard").count(), 25);
+      for (const id of [
+        "destinationFish",
+        "destinationMonth",
+        "destinationMethod",
+      ])
+        assert.ok(
+          (await p.locator("#" + id).boundingBox()).height >= 44,
+          id + " touch target",
+        );
       assert.equal(
         (await p.locator("[data-marina-cluster]").count()) > 0,
         true,
       );
+      for (const b of await p.locator(".regionalPins [role=button]").all()) {
+        const r = await b.boundingBox();
+        assert.ok(
+          r.width >= 44 && r.height >= 44,
+          "regional marker touch target",
+        );
+      }
+      const cluster = p.locator("[data-marina-cluster]").first();
+      await cluster.click();
+      await p.locator("[data-reset-region=kanto]").click();
       await p.locator("[data-region=okinawa]").click();
       assert.equal(await p.locator(".destinationCard").count(), 3);
       await p.locator("#destinationFish").selectOption("グルクン");

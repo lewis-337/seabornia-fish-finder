@@ -31,3 +31,9 @@ Run `python -m unittest discover -s tests -v`, `node --test tests/*.cjs`, and `p
 ## v8.1 review correction
 
 Choosing a fish explicitly now clears conflicting saved fish-group, squid, seasonal and area filters in the chosen workspace. This preserves normal per-marina filter restoration while ensuring an explicit target remains visible. The regression passed in Chromium and WebKit. App asset gets its own app-v8.1.js filename and worker v8.1 to avoid installed-cache mixing. Weather browser checks now use a clearly labelled fixed-date fixture so hourly collection cannot invalidate their historical test clock; real deployed data is checked separately.
+
+## v8.2 native-select correction
+
+Live WebKit inspection found native closed selects were 23px high despite author min-height; `appearance:none` restores the intended48px box. Semantics and the native option picker are retained, with an original chevron and responsive field columns. A new stylesheet filename and worker v8.2 prevent cached-style mixing. Destination selects now have explicit browser target-size assertions. Fixed-clock conditions tests stub the unrelated background-pack manifest; real offline assets are verified separately in the marina suite.
+
+Regional map clustering now measures CSS pixels after SVG layout:48px hit targets stay separate at every tested width. Cluster taps zoom into their actual bases and a44px 全体 control resets the regional extent; synchronized list selection remains available. The revised discovery module has a distinct v8.2 asset filename.

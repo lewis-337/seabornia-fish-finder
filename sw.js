@@ -1,13 +1,13 @@
-const VERSION = "seabornia-v8.1";
+const VERSION = "seabornia-v8.2";
 const PREFIX = "seabornia-";
 const SHELL = [
   "./",
   "./index.html",
-  "./styles-v8.css",
+  "./styles-v8.2.css",
   "./app-v8.1.js",
   "./map-gestures.js",
   "./marina-core-v8.js",
-  "./marina-discovery-v8.js",
+  "./marina-discovery-v8.2.js",
   "./data/marinas.json",
   "./data/marina-evidence.json",
   "./data/coast-regions.json",
@@ -23,6 +23,7 @@ const SHELL = [
   "./data/latest.json",
   "./data/photo_manifest.json",
   "./icons/compass-v7.svg",
+  "./icons/chevron-v8.svg",
   "./icons/compass-v7-32.png",
   "./icons/compass-v7-180.png",
   "./icons/compass-v7-192.png",
