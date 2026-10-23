@@ -1,6 +1,6 @@
 # v9 content, photos and tap-to-top acceptance
 
-Local acceptance complete. Publication/live receipt follows.
+Published v9; local and critical live acceptance passed, 2026-10-23. Physical-device checks remain pending.
 
 | Changed feature | Expected | Actual locally |
 |---|---|---|
@@ -24,3 +24,11 @@ Photographs were visually reviewed on three contact sheets plus the correctedカ
 Physical-device status: post-v9 iPhone13Pro/iOS26.6.1 Safari/Home Screen native date picker, keyboard, status-bar tap, pinch, safe areas, GPS and VoiceOver remain pending. Browser simulation does not verify those device interactions. Earlier iPhone reports do not establish v9 acceptance.
 
 Native scroll-to-top reference: [Apple scrollsToTop](https://developer.apple.com/documentation/uikit/uiscrollview/scrollstotop). A website cannot register a handler for the system status bar; mobile reading pages now use the document scroller, plus the tested in-app header alternative. Dialog ↑ resets only the dialog, and map top taps do not reset camera or create records.
+
+## Final publication receipt
+
+Source51fafb6cd43d3f556dd6bec8a946291918ebf2e0 and generated dataa4d579a published through successful [Pages39947555927](https://github.com/lewis-337/seabornia-fish-finder/actions/runs/39947555927). The already-running scheduled full build used this exact source; the identical queued push run39947556854 was cancelled to avoid duplicate collection. Current hosted HTML, worker, four release modules/styles and corrected photo bytes match the reviewed checkout.
+
+Final hosted results:27 core scenarios,12 content/root-scroll/profile scenarios,11 Chromium marina/offline scenarios and9 WebKit smoke checks pass (59 grouped checks).10 hosted axe states have0 automated violations. Every selectable marina was opened in both engines, all57 images decoded, all97 public pack assets were cached and a never-visited base reopened offline in Chromium. WebKit smoke separately verifies native select/marker sizes, correct Okinawa tide station, date/time drafts and all97 cached assets. Local WebKit unreachable-origin reopening remains separate from its unreliable browser-offline toggle.
+
+No uncaught script errors were recorded in the final suites. Reading position is isolated by tab and marina; sticky base context prevents navigation from first forcing a scroll reset. Original local keys/records and backupv6/legacy behavior remain intact. Physical iPhone system-status-bar tap, Safari/Home Screen native pickers, keyboard and gestures still require device acceptance; no simulated results were relabelled as physical verification.
