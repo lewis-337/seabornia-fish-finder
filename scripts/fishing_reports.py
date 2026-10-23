@@ -270,7 +270,7 @@ def parse_central(html, url, config):
             depth = re.search(r'水深\s*(\d+(?:[〜~～-]\d+)?\s*[mM])', body)
             r.update(source=link['href'], evidence_kind=kind, date_basis=basis,
                      amount='数量未確認', method='未確認', depth=depth[1] if depth else '未確認',
-                     detail='木更津・セントラル公式のレンタル釣果。' if kind == 'rental-report' else '木更津・セントラルのオーナー艇等の参考記録。')
+                     detail='木更津・セントラル公式のレンタル釣果。' if kind == 'rental-report' else '木更津・セントラル公式の参考記録。利用区分はタグに表示。')
             rows.append(r)
     return rows
 
@@ -300,7 +300,7 @@ def parse_naturum(html, url, config):
             r = record(config, source, name, caught)
             r.update(source=source, evidence_kind=kind, date_basis='釣果見出しの年月日',
                      amount='数量未確認', method='未確認', depth='未確認',
-                     detail={'rental-report': 'D-marina公式のレンタル利用を記した釣果。艇・個別海域・魚種別数量は未掲載。', 'marina-report': 'D-marina公式の釣果まとめ。利用区分は本文に明記されず、レンタル実績とは断定しません。', 'owner-report': 'D-marinaのオーナー艇を含む参考記録。', 'staff-report': 'D-marinaスタッフ調査の参考記録。レンタル実績とは別。'}[kind])
+                     detail={'rental-report': 'D-marina公式のレンタル利用を記した釣果。艇・個別海域・魚種別数量は個別確認。', 'marina-report': 'D-marina公式の釣果まとめ。利用区分は未確認で、レンタル実績とは断定しません。', 'owner-report': 'D-marinaのオーナー艇を含む参考記録。', 'staff-report': 'D-marinaスタッフ調査の参考記録。レンタル実績とは別。'}[kind])
             rows.append(r)
     return rows
 

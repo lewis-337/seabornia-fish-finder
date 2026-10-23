@@ -56,10 +56,12 @@ jobs:
       - name: Check offline cache behavior
         run: node --test tests/*.cjs
       - name: Collect published catch records (best effort)
+        if: github.event_name != 'push'
         # If no sources are available, deploy the last known data with an honest stale-data status.
         continue-on-error: true
         run: python scripts/update_catches.py
       - name: Collect public marina-specific catch letters
+        if: github.event_name != 'push'
         continue-on-error: true
         run: |
           python scripts/update_marina_reports.py
@@ -67,9 +69,11 @@ jobs:
       - name: Apply reviewed marina profiles and availability
         run: python scripts/apply_marina_enrichment.py
       - name: Collect public weather, marine forecasts and tide predictions
+        if: github.event_name != 'push'
         continue-on-error: true
         run: python scripts/update_conditions.py
       - name: Collect Kanto and Okinawa conditions
+        if: github.event_name != 'push'
         continue-on-error: true
         run: |
           python scripts/collect_marina_conditions.py
@@ -81,9 +85,12 @@ jobs:
           python scripts/collect_depths.py
           python scripts/cache_marina_maps.py
       - name: Verify and cache licensed fish photographs
+        if: github.event_name != 'push'
         continue-on-error: true
         timeout-minutes: 8
         run: python scripts/cache_fish_photos.py
+      - name: Validate public offline assets
+        run: python scripts/build_offline_packs.py
       - name: Save refreshed JSON into repository
         run: |
           git config user.name "github-actions[bot]"
