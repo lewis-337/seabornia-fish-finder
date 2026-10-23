@@ -58,7 +58,7 @@ def aggregate_coverage(reports, names, free_sources):
     """
     covers = {}
     for r in reports:
-        if r.get('source_id') not in free_sources or r.get('amount') != '数量未掲載':
+        if r.get('source_id') not in free_sources or r.get('amount') not in ['数量未掲載','数量未確認']:
             continue
         fish = named_fish(r['fish'], names)
         if len(fish) > 1:
@@ -68,7 +68,7 @@ def aggregate_coverage(reports, names, free_sources):
 
 def deduplicate_aggregates(reports, names, free_sources):
     covers = aggregate_coverage(reports,names,free_sources)
-    return [r for r in reports if not (r.get('amount')=='数量未掲載' and
+    return [r for r in reports if not (r.get('amount') in ['数量未掲載','数量未確認'] and
         fish_name(r['fish']) in covers.get((r.get('source_id'),r.get('event_id')),set()))]
 
 
@@ -110,7 +110,7 @@ def collected_evidence(reports, names=None):
         dated = [r for r in rows if r.get('date')]
         recent = sorted(rows, key=lambda r:r.get('date') or '', reverse=True)
         def facts(key):
-            return ' / '.join(list(dict.fromkeys(r.get(key) for r in recent if r.get(key) and r[key] not in ['未掲載','非公開','不明']))[:3])
+            return ' / '.join(list(dict.fromkeys(r.get(key) for r in recent if r.get(key) and r[key] not in ['未掲載','未確認','非公開','不明']))[:3])
         out.append(dict(fish=fish, kind=kind, method=method, date=latest.get('date'),
                         depth=facts('depth'), tackle=facts('method'), ground=facts('ground_text'),
                         months=sorted({int(r['date'][5:7]) for r in dated}),
@@ -170,7 +170,7 @@ def refresh(root=ROOT, fetcher=fetch):
                 continue
             statuses += checks
             for row in rows:
-                if row.get('amount')=='数量未掲載' and fish_name(row['fish']) in covers.get((row.get('source_id'),row.get('event_id')),set()):
+                if row.get('amount') in ['数量未掲載','数量未確認'] and fish_name(row['fish']) in covers.get((row.get('source_id'),row.get('event_id')),set()):
                     continue
                 r = dict(row, marinaId=m['id'])
                 # A shared nearby source never becomes another base's rental catch.
