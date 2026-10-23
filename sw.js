@@ -1,10 +1,10 @@
-const VERSION = "seabornia-v8.0";
+const VERSION = "seabornia-v8.1";
 const PREFIX = "seabornia-";
 const SHELL = [
   "./",
   "./index.html",
   "./styles-v8.css",
-  "./app-v8.js",
+  "./app-v8.1.js",
   "./map-gestures.js",
   "./marina-core-v8.js",
   "./marina-discovery-v8.js",

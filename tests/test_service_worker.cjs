@@ -122,7 +122,7 @@ test("install caches the new modules, data and licensed catalogue images", async
   app.handlers.install({ waitUntil: (value) => (done = value) });
   await done;
   for (const asset of [
-    "./app-v8.js",
+    "./app-v8.1.js",
     "./styles-v8.css",
     "./map-gestures.js",
     "./trip-conditions-v8.js",

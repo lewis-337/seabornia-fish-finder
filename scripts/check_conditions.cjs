@@ -1,4 +1,4 @@
-/* Browser acceptance checks use disposable contexts and synthetic personal records. */
+/* Disposable browser contexts, synthetic personal records and a fixed-date public forecast fixture. */
 const { chromium, webkit } = require(
   process.env.SEABORNIA_PLAYWRIGHT || "playwright",
 );
@@ -44,6 +44,33 @@ async function run(engine) {
       throw e;
     }
   }
+  // Collection rolls forward daily; the fixed Oct22 clock must not depend on live dates.
+  const publicForecastFixture = JSON.parse(
+    await fs.readFile("data/conditions.json", "utf8"),
+  );
+  const first = Object.values(publicForecastFixture.areas)
+    .find((a) => a.weather?.hours?.length)
+    .weather.hours[0].time.slice(0, 10);
+  const shift = Date.parse("2026-10-22") - Date.parse(first);
+  const shifted = (s) =>
+    new Date(Date.parse(s + "Z") + shift).toISOString().slice(0, s.length);
+  publicForecastFixture.checkedAt = "2026-10-22T12:30:00+09:00";
+  for (const a of Object.values(publicForecastFixture.areas))
+    for (const k of ["weather", "marine"]) {
+      const part = a[k];
+      part.fetchedAt = "2026-10-22T12:30:00+09:00";
+      part.status = "ok";
+      part.hours = part.hours.map((h) => ({ ...h, time: shifted(h.time) }));
+      part.days = (part.days || []).map((d) => ({
+        ...d,
+        date: shifted(d.date),
+        sunrise: shifted(d.sunrise),
+        sunset: shifted(d.sunset),
+      }));
+    }
+  await p.route("**/data/conditions.json?*", (r) =>
+    r.fulfill({ json: publicForecastFixture }),
+  );
   try {
     await p.clock.install({ time: new Date("2026-10-22T03:35:00Z") });
     await p.goto(base);
@@ -461,9 +488,7 @@ async function run(engine) {
         assert.equal(await p.locator("#forecastContent").innerText(), before);
         await p.unroute("**/data/conditions.json?*");
         await p.unroute("**/data/tides.json?*");
-        const fixture = JSON.parse(
-          await fs.readFile("data/conditions.json", "utf8"),
-        );
+        const fixture = JSON.parse(JSON.stringify(publicForecastFixture));
         for (const a of Object.values(fixture.areas)) {
           a.weather.fetchedAt = "2026-10-20T00:00:00+09:00";
           a.marine.fetchedAt = "2026-10-20T00:00:00+09:00";

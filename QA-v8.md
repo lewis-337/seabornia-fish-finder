@@ -27,3 +27,7 @@ Public catch availability is incomplete while upstream article links fail. Offic
 ## Reproduce
 
 Run `python -m unittest discover -s tests -v`, `node --test tests/*.cjs`, and `python scripts/build_site.py`. Serve the checkout on port 8765. Set `SEABORNIA_PLAYWRIGHT` to an installed Playwright module, then run the check_browser, check_conditions, check_discovery, check_resilience, check_touch, check_marinas and check_marina_accessibility scripts. All browser checks use isolated contexts and synthetic data.
+
+## v8.1 review correction
+
+Choosing a fish explicitly now clears conflicting saved fish-group, squid, seasonal and area filters in the chosen workspace. This preserves normal per-marina filter restoration while ensuring an explicit target remains visible. The regression passed in Chromium and WebKit. App asset gets its own app-v8.1.js filename and worker v8.1 to avoid installed-cache mixing. Weather browser checks now use a clearly labelled fixed-date fixture so hourly collection cannot invalidate their historical test clock; real deployed data is checked separately.
