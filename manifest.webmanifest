@@ -1,7 +1,7 @@
 {
   "name": "Seabornia Fish Finder",
   "short_name": "Seabornia",
-  "description": "シーボニア発・魚と地形を探す",
+  "description": "関東・沖縄のSea-Style出港地、魚と地形を探す",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f2f6f5",

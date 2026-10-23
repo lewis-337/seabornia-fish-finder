@@ -223,7 +223,7 @@ async function run(engine) {
         const obj = JSON.parse(
           await fs.readFile(path.join(out, engine + "-backup-v5.json"), "utf8"),
         );
-        assert.equal(obj.version, 5);
+        assert.equal(obj.version, 6);
         assert.equal(obj.tripSettings.speed, 15);
         assert.equal(obj.catches[0].time, "12:20");
         await p.reload();

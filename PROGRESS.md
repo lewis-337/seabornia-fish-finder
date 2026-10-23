@@ -79,3 +79,9 @@ Production URL: https://lewis-337.github.io/seabornia-fish-finder/
 - v7 live: sourcec20b09c, successful Pages39766332886.45 unit tests,104 local grouped browser scenarios and76 repeated live scenarios passed;8 automated accessibility states have zero WCAG A/AA violations. Both live workers cache47 photos/new assets/10 depth samples, and Chromium live offline reopening passes. Full expected/actual table: QA-v7.md. Physical post-v7 Safari/Home Screen picker/keyboard/pinch checks have been requested from Lewis; model/iOS/results not supplied yet.
 
 - Compatibility steering: Lewis reports iPhone13Pro/iOS26.6.1 and wants other models/iOS supported. Required browser API audit establishes iOS15.5+ as the target; responsive viewport tests are model-independent. README/QA distinguish this target from unperformed older-iOS/device tests. No runtime change was needed; physical post-v7 pass/fail still awaits Lewis. Documentation Pages39766748876 succeeded; current public data bed85c9.
+
+## 2026-10-23: Kanto and Okinawa v8
+
+Implemented marina discovery and isolated local workspaces. 34 directory entries audited: 19 fishing-use sources, 6 uncertain, 9 excluded. One remembered map per base; last-used startup; automatic all-base offline saving; source-backed fish/month/method discovery; independent ETA/conditions/tides and foreground reminder; backup v6 with v4/v5 compatibility. Original local keys remain Seabornia-only, other records are isolated from old app tabs. See MARINA-AUDIT.md and QA-v8.md for evidence and verification.
+
+Local tests pass. Public catch-detail availability remains incomplete; physical iPhone checks are pending. Publication/live receipt follows.

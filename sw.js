@@ -1,16 +1,22 @@
-const VERSION = "seabornia-v7.0";
+const VERSION = "seabornia-v8.0";
 const PREFIX = "seabornia-";
 const SHELL = [
   "./",
   "./index.html",
-  "./styles-v7.css",
-  "./app-v7.js",
+  "./styles-v8.css",
+  "./app-v8.js",
   "./map-gestures.js",
+  "./marina-core-v8.js",
+  "./marina-discovery-v8.js",
+  "./data/marinas.json",
+  "./data/marina-evidence.json",
+  "./data/coast-regions.json",
+  "./data/offline-packs.json",
   "./fish-areas.js",
   "./data/area_depths.json",
   "./data/fish_areas.json",
-  "./trip-conditions.js",
-  "./trip-ui.js",
+  "./trip-conditions-v8.js",
+  "./trip-ui-v8.js",
   "./data/conditions.json",
   "./data/tides.json",
   "./manifest.webmanifest",
@@ -53,7 +59,12 @@ self.addEventListener("activate", (event) => {
       .then((keys) =>
         Promise.all(
           keys
-            .filter((key) => key.startsWith(PREFIX) && key !== VERSION)
+            .filter(
+              (key) =>
+                key.startsWith(PREFIX) &&
+                key !== VERSION &&
+                key !== "seabornia-marina-packs-v8",
+            )
             .map((key) => caches.delete(key)),
         ),
       )
@@ -77,7 +88,14 @@ self.addEventListener("fetch", (event) => {
     await cache.put(key, response.clone());
     return response;
   };
-  const fromCache = async () => (await caches.open(VERSION)).match(key);
+  const fromCache = async () => {
+    const own = await (await caches.open(VERSION)).match(key);
+    if (own) return own;
+    if (
+      /\/(data\/.*\.json|images\/maps\/J\d{2}-\d{4}\.jpg)$/.test(url.pathname)
+    )
+      return (await caches.open("seabornia-marina-packs-v8")).match(key);
+  };
   if (live) {
     event.respondWith(
       fromNetwork().catch(async () => {

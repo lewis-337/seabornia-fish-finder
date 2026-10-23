@@ -59,8 +59,8 @@ def normalize_forecast(raw, kind, stamp):
     days = [{'date': d, 'sunrise': daily.get('sunrise', [])[i], 'sunset': daily.get('sunset', [])[i]} for i,d in enumerate(daily.get('time', []))]
     return {'fetchedAt': stamp, 'status': 'ok', 'source': 'Open-Meteo', 'grid': {'lat': raw.get('latitude'), 'lng': raw.get('longitude')}, 'hours': hours, 'days': days, 'units': units}
 
-def normalize_tide(raw, date, stamp):
-    if raw.get('status') != 1 or raw.get('tide', {}).get('port', {}).get('harbor_code') != 16:
+def normalize_tide(raw, date, stamp, pc=14, hc=16):
+    if raw.get('status') != 1 or raw.get('tide', {}).get('port', {}).get('harbor_code') != hc or raw.get('tide', {}).get('port', {}).get('prefecture_code',pc) != pc:
         raise ValueError('Wrong tide station or failed request')
     source = raw['tide']['chart'][date]
     def row(item):

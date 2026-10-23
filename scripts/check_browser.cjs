@@ -328,7 +328,7 @@ async function run(engine) {
         const data = JSON.parse(
           await fs.readFile(path.join(out, engine + "-backup.json"), "utf8"),
         );
-        assert.equal(data.version, 5);
+        assert.equal(data.version, 6);
         assert.equal(data.waypoints[0].name, "QA point");
         assert.ok(data.catches[0].photo.startsWith("data:image/jpeg"));
         const csv = page.waitForEvent("download");

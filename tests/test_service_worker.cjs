@@ -122,12 +122,15 @@ test("install caches the new modules, data and licensed catalogue images", async
   app.handlers.install({ waitUntil: (value) => (done = value) });
   await done;
   for (const asset of [
-    "./app-v7.js",
-    "./styles-v7.css",
+    "./app-v8.js",
+    "./styles-v8.css",
     "./map-gestures.js",
-    "./trip-conditions.js",
-    "./trip-ui.js",
+    "./trip-conditions-v8.js",
+    "./trip-ui-v8.js",
     "./fish-areas.js",
+    "./marina-core-v8.js",
+    "./marina-discovery-v8.js",
+    "./data/marinas.json",
     "./data/area_depths.json",
     "./data/fish_areas.json",
     "./icons/compass-v7-maskable-512.png",

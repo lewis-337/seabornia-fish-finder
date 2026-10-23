@@ -249,6 +249,7 @@ async function faults(engine) {
     await test(
       engine + ": GEBCO failure leaves usable vector map and zoom controls",
       async () => {
+        await ctx.route("**/images/maps/*.jpg", (r) => r.abort());
         await ctx.route("https://wms.gebco.net/**", (r) => r.abort());
         await nav("map");
         await p.locator("#layersBtn").click();
@@ -342,6 +343,9 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
         [
           "/app.js",
           "/styles.css",
+          "/app-v7.js",
+          "/styles-v7.css",
+          "/fish-areas.js",
           "/app-v6.js",
           "/styles-v6.css",
           "/map-gestures.js",
@@ -384,8 +388,10 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
           ? "v4"
           : legacyRef === "296bdef"
             ? "v5"
-            : "v6") +
-        " worker upgrades to v7 without losing saved data",
+            : legacyRef === "c20b09c8"
+              ? "v7"
+              : "v6") +
+        " worker upgrades to v8 without losing saved data",
       async () => {
         await p.goto(origin);
         await p.evaluate(() => navigator.serviceWorker.register("./sw.js"));
@@ -436,7 +442,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
         await p.waitForFunction(async () => {
           const keys = await caches.keys();
           return (
-            keys.includes("seabornia-v7.0") &&
+            keys.includes("seabornia-v8.0") &&
             !keys.includes("seabornia-v4.2") &&
             !keys.includes("seabornia-v6.0")
           );
@@ -544,6 +550,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
       }
       await upgrade(engine, "296bdef");
       await upgrade(engine, "961124b");
+      await upgrade(engine, "c20b09c8");
     }
   } catch (error) {
     console.error(error);

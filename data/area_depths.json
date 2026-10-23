@@ -105,6 +105,86 @@
       "fetched_at": "2026-10-22T10:37:38.585983+00:00",
       "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
       "release": "GEBCO2026"
+    },
+    "tokyo-sodegaura": {
+      "elevation_m": -2.0,
+      "sample_lat": 35.447917,
+      "sample_lng": 139.91458,
+      "requested_lat": 35.447,
+      "requested_lng": 139.913,
+      "fetched_at": "2026-10-23T08:37:33.727878+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "tokyo-kisarazu": {
+      "elevation_m": -5.0,
+      "sample_lat": 35.385417,
+      "sample_lng": 139.88542,
+      "requested_lat": 35.386,
+      "requested_lng": 139.884,
+      "fetched_at": "2026-10-23T08:37:33.724892+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "tokyo-hashirimizu": {
+      "elevation_m": -65.0,
+      "sample_lat": 35.272917,
+      "sample_lng": 139.76458,
+      "requested_lat": 35.272,
+      "requested_lng": 139.766,
+      "fetched_at": "2026-10-23T08:37:33.740684+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "sagami-chojagasaki": {
+      "elevation_m": -47.0,
+      "sample_lat": 35.235417,
+      "sample_lng": 139.57708,
+      "requested_lat": 35.237,
+      "requested_lng": 139.575,
+      "fetched_at": "2026-10-23T08:37:34.772094+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "sagami-hiratsuka": {
+      "elevation_m": -94.0,
+      "sample_lat": 35.29375,
+      "sample_lng": 139.35625,
+      "requested_lat": 35.292,
+      "requested_lng": 139.355,
+      "fetched_at": "2026-10-23T08:37:34.781837+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "sagami-eboshi": {
+      "elevation_m": -120.0,
+      "sample_lat": 35.277083,
+      "sample_lng": 139.40625,
+      "requested_lat": 35.276,
+      "requested_lng": 139.408,
+      "fetched_at": "2026-10-23T08:37:34.777759+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "okinawa-chatan": {
+      "elevation_m": -71.0,
+      "sample_lat": 26.314583,
+      "sample_lng": 127.71042,
+      "requested_lat": 26.315,
+      "requested_lng": 127.71,
+      "fetched_at": "2026-10-23T08:37:35.816045+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
+    },
+    "okinawa-nakagusuku": {
+      "elevation_m": -19.0,
+      "sample_lat": 26.252083,
+      "sample_lng": 127.85208,
+      "requested_lat": 26.25,
+      "requested_lng": 127.85,
+      "fetched_at": "2026-10-23T08:37:35.813907+00:00",
+      "source": "https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2026-grid",
+      "release": "GEBCO2026"
     }
   },
   "status": [

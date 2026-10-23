@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "guides": [
+    {
+      "marinaId": "J12-0045",
+      "fish": "シロギス",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0342/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "tokyo-sodegaura"
+    },
+    {
+      "marinaId": "J12-0060",
+      "fish": "スズキ",
+      "kind": "guide",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0014/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "tokyo-kisarazu"
+    },
+    {
+      "marinaId": "J12-0060",
+      "fish": "シロギス",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0014/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "tokyo-kisarazu"
+    },
+    {
+      "marinaId": "J12-0060",
+      "fish": "カサゴ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0014/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "tokyo-kisarazu"
+    },
+    {
+      "marinaId": "J12-0060",
+      "fish": "イシモチ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0014/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "tokyo-kisarazu"
+    },
+    {
+      "marinaId": "J12-0060",
+      "fish": "サバ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0014/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "tokyo-kisarazu"
+    },
+    {
+      "marinaId": "J14-0130",
+      "fish": "アジ",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0280/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "tokyo-hashirimizu"
+    },
+    {
+      "marinaId": "J14-0130",
+      "fish": "マダイ",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0280/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "tokyo-hashirimizu"
+    },
+    {
+      "marinaId": "J14-0130",
+      "fish": "ヒラメ",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0280/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "tokyo-hashirimizu"
+    },
+    {
+      "marinaId": "J14-0130",
+      "fish": "タチウオ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0278/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": null
+    },
+    {
+      "marinaId": "J14-0140",
+      "fish": "アマダイ",
+      "kind": "guide",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0349/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "sagami-chojagasaki"
+    },
+    {
+      "marinaId": "J14-0140",
+      "fish": "シロアマダイ",
+      "kind": "guide",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0349/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "sagami-chojagasaki"
+    },
+    {
+      "marinaId": "J14-0140",
+      "fish": "アオリイカ",
+      "kind": "guide",
+      "months": [],
+      "method": "lure",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0346/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": null
+    },
+    {
+      "marinaId": "J14-0020",
+      "fish": "アジ",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0297/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": null
+    },
+    {
+      "marinaId": "J14-0020",
+      "fish": "カサゴ",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0297/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": null
+    },
+    {
+      "marinaId": "J14-0020",
+      "fish": "シロギス",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0297/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": null
+    },
+    {
+      "marinaId": "J14-0020",
+      "fish": "イシモチ",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0297/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": null
+    },
+    {
+      "marinaId": "J14-0040",
+      "fish": "アジ",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://www.ybmarina.com/rental/seastyle/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": null
+    },
+    {
+      "marinaId": "J14-0040",
+      "fish": "シロギス",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://www.ybmarina.com/rental/seastyle/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": null
+    },
+    {
+      "marinaId": "J14-0040",
+      "fish": "イシモチ",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://www.ybmarina.com/rental/seastyle/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": null
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "シロギス",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0040/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "sagami-hiratsuka"
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "マゴチ",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0040/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "sagami-hiratsuka"
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "ホウボウ",
+      "kind": "guide",
+      "months": [],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0040/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "sagami-hiratsuka"
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "シイラ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0039/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "sagami-eboshi"
+    },
+    {
+      "marinaId": "J14-0060",
+      "fish": "サバ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0039/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "sagami-eboshi"
+    },
+    {
+      "marinaId": "J47-0010",
+      "fish": "グルクン",
+      "kind": "guide",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "method": "bait",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0094/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "okinawa-chatan"
+    },
+    {
+      "marinaId": "J47-0010",
+      "fish": "タマン",
+      "kind": "guide",
+      "months": [],
+      "method": "all",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0093/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "okinawa-chatan"
+    },
+    {
+      "marinaId": "J47-0010",
+      "fish": "ミーバイ",
+      "kind": "guide",
+      "months": [],
+      "method": "all",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0093/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "okinawa-chatan"
+    },
+    {
+      "marinaId": "J47-0010",
+      "fish": "アカジン",
+      "kind": "guide",
+      "months": [],
+      "method": "all",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0093/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "okinawa-chatan"
+    },
+    {
+      "marinaId": "J47-0010",
+      "fish": "ガーラ",
+      "kind": "guide",
+      "months": [],
+      "method": "all",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0093/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "okinawa-chatan"
+    },
+    {
+      "marinaId": "J47-0010",
+      "fish": "オジサン",
+      "kind": "guide",
+      "months": [],
+      "method": "all",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0093/",
+      "note": "公式の釣り案内。釣行日・釣果数量は不明。",
+      "groundId": "okinawa-chatan"
+    },
+    {
+      "marinaId": "J47-0020",
+      "fish": "ミーバイ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/movie/okinawa/004641.html",
+      "note": "中城湾の地域紹介。現在の艇・航行可否を別途確認。",
+      "groundId": "okinawa-nakagusuku"
+    },
+    {
+      "marinaId": "J47-0020",
+      "fish": "ガーラ",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/movie/okinawa/004641.html",
+      "note": "中城湾の地域紹介。現在の艇・航行可否を別途確認。",
+      "groundId": "okinawa-nakagusuku"
+    },
+    {
+      "marinaId": "J47-0020",
+      "fish": "フエフキ類",
+      "kind": "guide",
+      "months": [],
+      "method": "unknown",
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/movie/okinawa/004641.html",
+      "note": "中城湾の地域紹介。現在の艇・航行可否を別途確認。",
+      "groundId": "okinawa-nakagusuku"
+    }
+  ],
+  "grounds": [
+    {
+      "id": "tokyo-sodegaura",
+      "name": "袖ケ浦・アクアライン付近",
+      "lat": 35.447,
+      "lng": 139.913,
+      "marinaIds": [
+        "J12-0045"
+      ],
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0342/",
+      "seabed": "砂地の探索候補",
+      "target_fish": [
+        "シロギス"
+      ],
+      "depth": "代表位置の参考値を確認",
+      "note": "公開案内で示された広い海域の概略代表位置。釣果GPS・航行許可境界ではありません。",
+      "kind": "guide",
+      "months": []
+    },
+    {
+      "id": "tokyo-kisarazu",
+      "name": "木更津沖",
+      "lat": 35.386,
+      "lng": 139.884,
+      "marinaIds": [
+        "J12-0060"
+      ],
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0014/",
+      "seabed": "底質未確認",
+      "target_fish": [
+        "スズキ",
+        "シロギス",
+        "カサゴ",
+        "イシモチ",
+        "サバ"
+      ],
+      "depth": "代表位置の参考値を確認",
+      "note": "公開案内で示された広い海域の概略代表位置。釣果GPS・航行許可境界ではありません。",
+      "kind": "guide",
+      "months": []
+    },
+    {
+      "id": "tokyo-hashirimizu",
+      "name": "観音崎〜走水沖",
+      "lat": 35.272,
+      "lng": 139.766,
+      "marinaIds": [
+        "J14-0130"
+      ],
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0280/",
+      "seabed": "底質未確認",
+      "target_fish": [
+        "アジ",
+        "マダイ",
+        "ヒラメ"
+      ],
+      "depth": "代表位置の参考値を確認",
+      "note": "公開案内で示された広い海域の概略代表位置。釣果GPS・航行許可境界ではありません。",
+      "kind": "guide",
+      "months": []
+    },
+    {
+      "id": "sagami-chojagasaki",
+      "name": "長者ヶ崎〜マリーナ沖",
+      "lat": 35.237,
+      "lng": 139.575,
+      "marinaIds": [
+        "J14-0140"
+      ],
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0349/",
+      "seabed": "砂泥底の探索候補",
+      "target_fish": [
+        "アマダイ",
+        "シロアマダイ"
+      ],
+      "depth": "代表位置の参考値を確認",
+      "note": "公開案内で示された広い海域の概略代表位置。釣果GPS・航行許可境界ではありません。",
+      "kind": "guide",
+      "months": []
+    },
+    {
+      "id": "sagami-hiratsuka",
+      "name": "平塚沖",
+      "lat": 35.292,
+      "lng": 139.355,
+      "marinaIds": [
+        "J14-0060"
+      ],
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0040/",
+      "seabed": "底質未確認",
+      "target_fish": [
+        "シロギス",
+        "マゴチ",
+        "ホウボウ"
+      ],
+      "depth": "代表位置の参考値を確認",
+      "note": "公開案内で示された広い海域の概略代表位置。釣果GPS・航行許可境界ではありません。",
+      "kind": "guide",
+      "months": []
+    },
+    {
+      "id": "sagami-eboshi",
+      "name": "エボシ岩沖",
+      "lat": 35.276,
+      "lng": 139.408,
+      "marinaIds": [
+        "J14-0060"
+      ],
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kanto/0039/",
+      "seabed": "底質未確認",
+      "target_fish": [
+        "シイラ",
+        "サバ"
+      ],
+      "depth": "代表位置の参考値を確認",
+      "note": "公開案内で示された広い海域の概略代表位置。釣果GPS・航行許可境界ではありません。",
+      "kind": "guide",
+      "months": []
+    },
+    {
+      "id": "okinawa-chatan",
+      "name": "北谷周辺海域（位置概略）",
+      "lat": 26.315,
+      "lng": 127.71,
+      "marinaIds": [
+        "J47-0010"
+      ],
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/kyusyu_okinawa/0093/",
+      "seabed": "岩礁・かけ上がりの探索候補",
+      "target_fish": [
+        "グルクン",
+        "タマン",
+        "ミーバイ",
+        "アカジン",
+        "ガーラ",
+        "オジサン"
+      ],
+      "depth": "代表位置の参考値を確認",
+      "note": "公開案内で示された広い海域の概略代表位置。釣果GPS・航行許可境界ではありません。",
+      "kind": "guide",
+      "months": []
+    },
+    {
+      "id": "okinawa-nakagusuku",
+      "name": "中城湾（広域の代表位置）",
+      "lat": 26.25,
+      "lng": 127.85,
+      "marinaIds": [
+        "J47-0020"
+      ],
+      "source": "https://sea-style.yamaha-motor.co.jp/plan/movie/okinawa/004641.html",
+      "seabed": "リーフ周辺の探索候補",
+      "target_fish": [
+        "ミーバイ",
+        "ガーラ",
+        "フエフキ類"
+      ],
+      "depth": "代表位置の参考値を確認",
+      "note": "公開案内で示された広い海域の概略代表位置。釣果GPS・航行許可境界ではありません。",
+      "kind": "guide",
+      "months": []
+    }
+  ],
+  "species": [
+    {
+      "id": "regional-shirogisu",
+      "name": "シロギス",
+      "aliases": "キス",
+      "wiki": "Sillago japonica",
+      "habitat": "砂地",
+      "method": "餌釣り",
+      "depth": "種・場所により異なる",
+      "months": [],
+      "note": "地域名・総称を含みます。個体識別には専門資料を確認してください。",
+      "group": "魚",
+      "icon": "🐟",
+      "noPhoto": true
+    },
+    {
+      "id": "regional-ishimochi",
+      "name": "イシモチ",
+      "aliases": "シログチ",
+      "wiki": "Pennahia argentata",
+      "habitat": "砂泥底",
+      "method": "餌釣り",
+      "depth": "種・場所により異なる",
+      "months": [],
+      "note": "地域名・総称を含みます。個体識別には専門資料を確認してください。",
+      "group": "魚",
+      "icon": "🐟",
+      "noPhoto": true
+    },
+    {
+      "id": "regional-gurukun",
+      "name": "グルクン",
+      "aliases": "タカサゴ類・地域名",
+      "wiki": "タカサゴ",
+      "habitat": "岩礁・かけ上がり",
+      "method": "サビキ",
+      "depth": "種・場所により異なる",
+      "months": [],
+      "note": "地域名・総称を含みます。個体識別には専門資料を確認してください。",
+      "group": "魚",
+      "icon": "🐟",
+      "noPhoto": true
+    },
+    {
+      "id": "regional-taman",
+      "name": "タマン",
+      "aliases": "ハマフエフキ",
+      "wiki": "Lethrinus nebulosus",
+      "habitat": "リーフ周辺",
+      "method": "餌釣り・ルアー",
+      "depth": "種・場所により異なる",
+      "months": [],
+      "note": "地域名・総称を含みます。個体識別には専門資料を確認してください。",
+      "group": "魚",
+      "icon": "🐟",
+      "noPhoto": true
+    },
+    {
+      "id": "regional-miibai",
+      "name": "ミーバイ",
+      "aliases": "ハタ類の地域総称",
+      "wiki": "ハタ科",
+      "habitat": "岩礁",
+      "method": "タイラバ・ジギング・胴付",
+      "depth": "種・場所により異なる",
+      "months": [],
+      "note": "地域名・総称を含みます。個体識別には専門資料を確認してください。",
+      "group": "魚",
+      "icon": "🐟",
+      "noPhoto": true
+    },
+    {
+      "id": "regional-akajin",
+      "name": "アカジン",
+      "aliases": "スジアラ",
+      "wiki": "Plectropomus leopardus",
+      "habitat": "岩礁",
+      "method": "ジギング・胴付",
+      "depth": "種・場所により異なる",
+      "months": [],
+      "note": "地域名・総称を含みます。個体識別には専門資料を確認してください。",
+      "group": "魚",
+      "icon": "🐟",
+      "noPhoto": true
+    },
+    {
+      "id": "regional-gara",
+      "name": "ガーラ",
+      "aliases": "アジ類の地域総称・ロウニンアジ等",
+      "wiki": "ロウニンアジ",
+      "habitat": "リーフ周辺",
+      "method": "キャスティング・ジギング",
+      "depth": "種・場所により異なる",
+      "months": [],
+      "note": "地域名・総称を含みます。個体識別には専門資料を確認してください。",
+      "group": "魚",
+      "icon": "🐟",
+      "noPhoto": true
+    },
+    {
+      "id": "regional-ojisan",
+      "name": "オジサン",
+      "aliases": "ヒメジ類・地域呼称は種と一致しない場合あり",
+      "wiki": "Parupeneus multifasciatus",
+      "habitat": "砂地・岩礁",
+      "method": "胴付・タイラバ",
+      "depth": "種・場所により異なる",
+      "months": [],
+      "note": "地域名・総称を含みます。個体識別には専門資料を確認してください。",
+      "group": "魚",
+      "icon": "🐟",
+      "noPhoto": true
+    },
+    {
+      "id": "regional-fuefuki",
+      "name": "フエフキ類",
+      "aliases": "フエフキダイ科の総称",
+      "wiki": "フエフキダイ科",
+      "habitat": "リーフ周辺",
+      "method": "餌釣り・ルアー",
+      "depth": "種・場所により異なる",
+      "months": [],
+      "note": "地域名・総称を含みます。個体識別には専門資料を確認してください。",
+      "group": "魚",
+      "icon": "🐟",
+      "noPhoto": true
+    },
+    {
+      "id": "regional-saba",
+      "name": "サバ",
+      "aliases": "サバ類・種未特定・マサバやゴマサバへ割り当てない",
+      "wiki": "サバ",
+      "habitat": "回遊・潮目",
+      "method": "元の釣り案内を確認",
+      "depth": "種・場所により異なる",
+      "months": [],
+      "note": "元記事がサバとだけ記載したもの。マサバ・ゴマサバのどちらかは不明です。",
+      "group": "青物",
+      "icon": "🐟",
+      "noPhoto": true
+    }
+  ]
+}
