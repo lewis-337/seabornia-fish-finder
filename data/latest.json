@@ -2424,13 +2424,13 @@
     }
   ],
   "verified_as_of": "2026-10-22",
-  "last_collected": "2026-10-23T09:22:25+00:00",
-  "last_success": "2026-10-23T09:22:25+00:00",
+  "last_collected": "2026-10-23T09:37:01+00:00",
+  "last_success": "2026-10-23T09:37:01+00:00",
   "source_status": [
     {
       "name": "光二丸",
-      "result": "ok",
-      "count": 26
+      "result": "error",
+      "reason": "robots.txt を確認できません: <urlopen error [Errno 110] Connection timed out>"
     },
     {
       "name": "深田家",
