@@ -117,3 +117,8 @@ Approved fuller24-marina research (last24months plus older seasonal references),
 ## v10.1 final filter guard, 2026-10-24
 - Final missing-evidence check: preserve the selected fish in report and destination dropdowns when no matching evidence exists; show empty results and keep clear-filter behavior. Added four cross-engine fixture checks and direct v9/v10 installed-worker upgrade checks. New app/discovery filenames and `seabornia-v10.1` preserve cache correctness. No record-format change.
 - Source-window and split-name regressions resolved. Active public packs contain10,042 distinct source entries at this checkpoint;195 older Katakura entries are retained separately in the archive.36 Python+53 JavaScript tests pass. Reviewed-data push deployment is separated from the unchanged six-hour/hourly collection schedules.
+
+
+## v10.1 publication complete, 2026-10-24
+- Runtime/datadb11313, successful Pages40030089133. Final HTML/modules/worker/data hashes match; new cache filenames and installed-v9/v10→v10.1 upgrades pass.85 initial live functional checks and10zero-violation accessibility states; final map/content/filter/data-integrity repeats pass.36Python+53JS tests.24active packs,10,042distinct active source entries,195archived historical entries,141photo entries,100offline assets and45active regional forecast points.
+- All reviewed implementation/publication work is complete. Physical iPhone acceptance and restricted/unavailable source evidence remain explicit follow-up items; no private records were accessed or transmitted. See QA-v10.md and the vault release-verification.json receipt.
