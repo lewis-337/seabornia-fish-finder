@@ -192,6 +192,7 @@
         "catch-d561f54b9b8c88ab58c1",
         "catch-d652865b342348003b0c",
         "catch-d9e6a4702ffdb3964c8a",
+        "catch-da5ca77ce398047096c9",
         "catch-dc50866b01c395cd00fe",
         "catch-df423977e7206096fc0a",
         "catch-e5ce70fb8f7309c24bdd",
@@ -209,6 +210,7 @@
         "https://www.newportmarine.co.jp/marineclub/fishing/11875",
         "https://www.newportmarine.co.jp/marineclub/fishing/12299",
         "https://www.newportmarine.co.jp/marineclub/fishing/14954",
+        "https://www.ssm-uraga.jp/fishing#fishing-14772",
         "https://www.ssm-uraga.jp/fishing?pagecount=101#fishing-10698",
         "https://www.ssm-uraga.jp/fishing?pagecount=104#fishing-10534",
         "https://www.ssm-uraga.jp/fishing?pagecount=105#fishing-10482",
@@ -667,11 +669,13 @@
       "recordIds": [
         "catch-02c7a9607bcba8f682de",
         "catch-2fe7b3cba523a0334a19",
-        "catch-3e2cd358eb8be9dc3d59"
+        "catch-3e2cd358eb8be9dc3d59",
+        "catch-fc30818f75232e3a75d7"
       ],
       "sources": [
         "https://katakuraboat.net/index1.htm",
-        "https://www.newportmarine.co.jp/marineclub/fishing/13228"
+        "https://www.newportmarine.co.jp/marineclub/fishing/13228",
+        "https://www.newportmarine.co.jp/marineclub/fishing/15267"
       ]
     },
     {
