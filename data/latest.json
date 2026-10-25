@@ -194,6 +194,40 @@
   ],
   "reports": [
     {
+      "id": "auto_f80e5be0166ddc",
+      "date": "2026-10-25",
+      "date_label": "2026/10/25",
+      "fish": "アオリイカ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "ティップラン",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_6e0dc08a621593",
+      "date": "2026-10-25",
+      "date_label": "2026/10/25",
+      "fish": "モンゴウイカ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "ティップラン",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
       "id": "auto_fb1020e5457920",
       "date": "2026-10-24",
       "date_label": "2026/10/24",
@@ -2611,8 +2645,8 @@
     }
   ],
   "verified_as_of": "2026-10-22",
-  "last_collected": "2026-10-25T04:41:30+00:00",
-  "last_success": "2026-10-25T04:41:30+00:00",
+  "last_collected": "2026-10-25T11:28:38+00:00",
+  "last_success": "2026-10-25T11:28:38+00:00",
   "source_status": [
     {
       "name": "光二丸",
