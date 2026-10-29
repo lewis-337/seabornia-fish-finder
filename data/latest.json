@@ -2900,8 +2900,8 @@
     }
   ],
   "verified_as_of": "2026-10-22",
-  "last_collected": "2026-10-28T22:35:15+00:00",
-  "last_success": "2026-10-28T22:35:15+00:00",
+  "last_collected": "2026-10-29T05:48:07+00:00",
+  "last_success": "2026-10-29T05:48:07+00:00",
   "source_status": [
     {
       "name": "光二丸",
@@ -2921,7 +2921,7 @@
     {
       "name": "二宮丸",
       "result": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "name": "金重丸",
