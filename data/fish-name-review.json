@@ -834,10 +834,12 @@
         "catch-994ab0cacf3172bd1d29",
         "catch-a4cd9d70da109e0e96de",
         "catch-b015d8e318841965accc",
+        "catch-b759763e67ed1af0e647",
         "catch-dc02a83bc661997c6ed6",
         "catch-fbbda35bc95bd137e532"
       ],
       "sources": [
+        "https://www.ssm-uraga.jp/fishing#fishing-14873",
         "https://www.ssm-uraga.jp/fishing?pagecount=47#fishing-12940",
         "https://www.ssm-uraga.jp/fishing?pagecount=50#fishing-12836",
         "https://www.ssm-uraga.jp/fishing?pagecount=77#fishing-11746",
@@ -1589,7 +1591,8 @@
         "catch-0175fe7ed8028e842b59"
       ],
       "sources": [
-        "https://www.ssm-uraga.jp/fishing#fishing-14827"
+        "https://www.ssm-uraga.jp/fishing#fishing-14827",
+        "https://www.ssm-uraga.jp/fishing?pagecount=2#fishing-14827"
       ],
       "firstSeen": "2026-11-01T06:04:32+00:00"
     }
