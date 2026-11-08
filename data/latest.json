@@ -347,6 +347,23 @@
       "auto": true
     },
     {
+      "id": "auto_2cc1feed5810ab",
+      "date": "2026-11-07",
+      "date_label": "2026/11/07",
+      "fish": "アオリイカ",
+      "size": "",
+      "amount": "3～6匹",
+      "depth": "非公開",
+      "method": "ティップラン",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/00791/catch/",
+      "source_name": "二宮丸（宮川港 / 三浦半島東側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
       "id": "auto_99facf9e0af25f",
       "date": "2026-11-06",
       "date_label": "2026/11/06",
@@ -3784,8 +3801,8 @@
     }
   ],
   "verified_as_of": "2026-10-22",
-  "last_collected": "2026-11-07T21:50:41+00:00",
-  "last_success": "2026-11-07T21:50:41+00:00",
+  "last_collected": "2026-11-08T06:00:00+00:00",
+  "last_success": "2026-11-08T06:00:00+00:00",
   "source_status": [
     {
       "name": "光二丸",

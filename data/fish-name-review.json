@@ -204,6 +204,7 @@
         "catch-eb10560958c0bec66035",
         "catch-edbbd8bc5da28bdb07db",
         "catch-eea4ef8d082c14622f30",
+        "catch-f399c7e996643e73a863",
         "catch-f93cfb27505ac266fe14"
       ],
       "sources": [
@@ -212,6 +213,7 @@
         "https://www.newportmarine.co.jp/marineclub/fishing/12299",
         "https://www.newportmarine.co.jp/marineclub/fishing/14954",
         "https://www.ssm-uraga.jp/fishing#fishing-14772",
+        "https://www.ssm-uraga.jp/fishing#fishing-14886",
         "https://www.ssm-uraga.jp/fishing?pagecount=101#fishing-10698",
         "https://www.ssm-uraga.jp/fishing?pagecount=104#fishing-10534",
         "https://www.ssm-uraga.jp/fishing?pagecount=105#fishing-10482",
@@ -286,6 +288,7 @@
         "catch-62efb18ae293e4a557bd",
         "catch-64e9d6926a1c43d8f572",
         "catch-7655894ab0160ef0c5de",
+        "catch-7a43ea88197583c74d3b",
         "catch-8339a510f6fe4816acd0",
         "catch-87464620845368235a52",
         "catch-8cb137a5e381e199bb02",
@@ -338,6 +341,7 @@
         "https://www.newportmarine.co.jp/marineclub/fishing/14187",
         "https://www.newportmarine.co.jp/marineclub/fishing/14950",
         "https://www.ssm-uraga.jp/fishing#fishing-14804",
+        "https://www.ssm-uraga.jp/fishing#fishing-14888",
         "https://www.ssm-uraga.jp/fishing?pagecount=103#fishing-10587",
         "https://www.ssm-uraga.jp/fishing?pagecount=104#fishing-10541",
         "https://www.ssm-uraga.jp/fishing?pagecount=110#fishing-10243",
@@ -960,7 +964,8 @@
         "catch-85bdd02e6b22ace1ffba"
       ],
       "sources": [
-        "https://www.sunnyside.co.jp/fishing/#fishing-21821"
+        "https://www.sunnyside.co.jp/fishing/#fishing-21821",
+        "https://www.sunnyside.co.jp/fishing/?pagecount=2#fishing-21821"
       ]
     },
     {
