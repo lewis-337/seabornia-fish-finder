@@ -194,6 +194,57 @@
   ],
   "reports": [
     {
+      "id": "auto_mitsu_80669668e67582",
+      "date": "2026-11-09",
+      "date_label": "2026-11-09",
+      "fish": "アジ",
+      "size": "38~43cm",
+      "amount": "3~10匹",
+      "depth": "非公開",
+      "method": "原文参照",
+      "detail": "諸磯港発の公開釣果。実際に釣れたGPS地点は非公開です。原文の釣果と照合してください。",
+      "source": "https://www.mitsuzimaru.com/catch/",
+      "source_name": "光二丸（諸磯港）公式",
+      "area_id": null,
+      "location_note": "航行場所は非公開",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_mitsu_cc78a52eee3375",
+      "date": "2026-11-09",
+      "date_label": "2026-11-09",
+      "fish": "カイワリ",
+      "size": "25cm",
+      "amount": "4匹",
+      "depth": "非公開",
+      "method": "原文参照",
+      "detail": "諸磯港発の公開釣果。実際に釣れたGPS地点は非公開です。原文の釣果と照合してください。",
+      "source": "https://www.mitsuzimaru.com/catch/",
+      "source_name": "光二丸（諸磯港）公式",
+      "area_id": null,
+      "location_note": "航行場所は非公開",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_mitsu_0e0fe99e84df0b",
+      "date": "2026-11-09",
+      "date_label": "2026-11-09",
+      "fish": "サバ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "原文参照",
+      "detail": "諸磯港発の公開釣果。実際に釣れたGPS地点は非公開です。原文の釣果と照合してください。",
+      "source": "https://www.mitsuzimaru.com/catch/",
+      "source_name": "光二丸（諸磯港）公式",
+      "area_id": null,
+      "location_note": "航行場所は非公開",
+      "kind": "current",
+      "auto": true
+    },
+    {
       "id": "auto_8434627cb857b1",
       "date": "2026-11-08",
       "date_label": "2026/11/08",
@@ -290,6 +341,40 @@
       "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
       "source": "https://www.chowari.jp/ship/01219/catch/",
       "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_mitsu_42835eea3a9042",
+      "date": "2026-11-08",
+      "date_label": "2026-11-08",
+      "fish": "ヤリイカ",
+      "size": "20~30cm",
+      "amount": "3~14杯",
+      "depth": "非公開",
+      "method": "原文参照",
+      "detail": "諸磯港発の公開釣果。実際に釣れたGPS地点は非公開です。原文の釣果と照合してください。",
+      "source": "https://www.mitsuzimaru.com/catch/",
+      "source_name": "光二丸（諸磯港）公式",
+      "area_id": null,
+      "location_note": "航行場所は非公開",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_0e8c6285f6b5f9",
+      "date": "2026-11-08",
+      "date_label": "2026/11/08",
+      "fish": "アオリイカ",
+      "size": "0.30～0.80kg",
+      "amount": "0～2匹",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/00809/catch/",
+      "source_name": "深田家（佐島港 / 相模湾側）",
       "area_id": null,
       "location_note": "非公開。出船港と釣り場は異なります。",
       "kind": "current",
@@ -3903,8 +3988,8 @@
     }
   ],
   "verified_as_of": "2026-10-22",
-  "last_collected": "2026-11-08T22:05:12+00:00",
-  "last_success": "2026-11-08T22:05:12+00:00",
+  "last_collected": "2026-11-09T06:27:49+00:00",
+  "last_success": "2026-11-09T06:27:49+00:00",
   "source_status": [
     {
       "name": "光二丸",
@@ -3914,7 +3999,7 @@
     {
       "name": "深田家",
       "result": "ok",
-      "count": 24
+      "count": 25
     },
     {
       "name": "孝漁丸",
