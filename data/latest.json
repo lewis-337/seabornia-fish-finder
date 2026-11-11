@@ -194,6 +194,91 @@
   ],
   "reports": [
     {
+      "id": "auto_c0ea4d613605cb",
+      "date": "2026-11-11",
+      "date_label": "2026/11/11",
+      "fish": "カワハギ",
+      "size": "22～27cm",
+      "amount": "6～9匹",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/00872/catch/",
+      "source_name": "孝漁丸（長井港 / 相模湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_1a49cfbf3d2f79",
+      "date": "2026-11-11",
+      "date_label": "2026/11/11",
+      "fish": "マダイ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_bf06466b47bf01",
+      "date": "2026-11-11",
+      "date_label": "2026/11/11",
+      "fish": "ホウボウ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_b81e2019abb63e",
+      "date": "2026-11-11",
+      "date_label": "2026/11/11",
+      "fish": "サバ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_0925b53330bb53",
+      "date": "2026-11-11",
+      "date_label": "2026/11/11",
+      "fish": "アオハタ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
       "id": "auto_8cfd02810e4e56",
       "date": "2026-11-10",
       "date_label": "2026/11/10",
@@ -4209,8 +4294,8 @@
     }
   ],
   "verified_as_of": "2026-10-22",
-  "last_collected": "2026-11-10T19:44:08+00:00",
-  "last_success": "2026-11-10T19:44:08+00:00",
+  "last_collected": "2026-11-11T06:19:19+00:00",
+  "last_success": "2026-11-11T06:19:19+00:00",
   "source_status": [
     {
       "name": "光二丸",
@@ -4235,7 +4320,7 @@
     {
       "name": "金重丸",
       "result": "ok",
-      "count": 17
+      "count": 18
     }
   ],
   "schema_version": 2,
