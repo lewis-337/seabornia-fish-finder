@@ -1612,6 +1612,16 @@
         "https://www.ssm-uraga.jp/fishing?pagecount=2#fishing-14827"
       ],
       "firstSeen": "2026-11-01T06:04:32+00:00"
+    },
+    {
+      "name": "ハチビキ",
+      "recordIds": [
+        "catch-cf7d9e4231821e305734"
+      ],
+      "sources": [
+        "https://www.ssm-uraga.jp/fishing#fishing-14962"
+      ],
+      "firstSeen": "2026-11-15T06:32:09+00:00"
     }
   ],
   "resolved_aliases": [

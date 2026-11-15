@@ -194,6 +194,74 @@
   ],
   "reports": [
     {
+      "id": "auto_6b8dfd302faa7d",
+      "date": "2026-11-15",
+      "date_label": "2026/11/15",
+      "fish": "カイワリ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_c2b6f4fc586249",
+      "date": "2026-11-15",
+      "date_label": "2026/11/15",
+      "fish": "ハナダイ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_6242842492e3e7",
+      "date": "2026-11-15",
+      "date_label": "2026/11/15",
+      "fish": "イサキ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_8009dc6d04839b",
+      "date": "2026-11-15",
+      "date_label": "2026/11/15",
+      "fish": "アジ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
       "id": "auto_6b377226eb00e8",
       "date": "2026-11-14",
       "date_label": "2026/11/14",
@@ -4736,8 +4804,8 @@
     }
   ],
   "verified_as_of": "2026-10-22",
-  "last_collected": "2026-11-14T22:23:54+00:00",
-  "last_success": "2026-11-14T22:23:54+00:00",
+  "last_collected": "2026-11-15T06:31:48+00:00",
+  "last_success": "2026-11-15T06:31:48+00:00",
   "source_status": [
     {
       "name": "光二丸",
@@ -4762,7 +4830,7 @@
     {
       "name": "金重丸",
       "result": "ok",
-      "count": 19
+      "count": 18
     }
   ],
   "schema_version": 2,
