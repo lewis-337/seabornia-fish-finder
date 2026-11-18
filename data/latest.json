@@ -194,6 +194,57 @@
   ],
   "reports": [
     {
+      "id": "auto_cb506781b1a3a0",
+      "date": "2026-11-18",
+      "date_label": "2026/11/18",
+      "fish": "アオリイカ",
+      "size": "30～50cm",
+      "amount": "1～2匹",
+      "depth": "非公開",
+      "method": "ティップラン",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/00872/catch/",
+      "source_name": "孝漁丸（長井港 / 相模湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_4deffce9129c77",
+      "date": "2026-11-18",
+      "date_label": "2026/11/18",
+      "fish": "カワハギ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
+      "id": "auto_6934b3d383b145",
+      "date": "2026-11-18",
+      "date_label": "2026/11/18",
+      "fish": "カサゴ",
+      "size": "",
+      "amount": "",
+      "depth": "非公開",
+      "method": "釣法詳細は出典で確認",
+      "detail": "船宿の公開釣果ページから抽出。出船港と実際の釣り場は異なり、GPS地点は未公開です。詳細は出典で確認してください。",
+      "source": "https://www.chowari.jp/ship/01219/catch/",
+      "source_name": "金重丸（金田漁港 / 東京湾側）",
+      "area_id": null,
+      "location_note": "非公開。出船港と釣り場は異なります。",
+      "kind": "current",
+      "auto": true
+    },
+    {
       "id": "auto_0556cdbd802023",
       "date": "2026-11-17",
       "date_label": "2026/11/17",
@@ -5025,8 +5076,8 @@
     }
   ],
   "verified_as_of": "2026-10-22",
-  "last_collected": "2026-11-17T20:55:43+00:00",
-  "last_success": "2026-11-17T20:55:43+00:00",
+  "last_collected": "2026-11-18T07:28:00+00:00",
+  "last_success": "2026-11-18T07:28:00+00:00",
   "source_status": [
     {
       "name": "光二丸",
@@ -5051,7 +5102,7 @@
     {
       "name": "金重丸",
       "result": "ok",
-      "count": 19
+      "count": 18
     }
   ],
   "schema_version": 2,
