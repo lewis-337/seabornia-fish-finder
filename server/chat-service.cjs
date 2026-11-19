@@ -140,12 +140,14 @@ async function bodyJSON(req) {
   catch { throw Object.assign(Error("質問の形式を確認してください。"), { status: 400 }); }
 }
 function createHandler(env = process.env, deps = {}) {
+  // Explicit origins only; keep the original Pages address usable alongside a direct deployment.
+  const allowedOrigins = new Set((env.SFF_ALLOWED_ORIGIN || "").split(",").map(value => value.trim()).filter(Boolean));
   let busy = false, recent = [];
   return async (req, res) => {
     const origin = req.headers.origin || "";
     res.setHeader("Cache-Control", "no-store"); res.setHeader("Content-Type", "application/json; charset=utf-8");
     const send = (status, value) => { res.statusCode = status; res.end(JSON.stringify(value)); };
-    if (!env.SFF_ALLOWED_ORIGIN || origin !== env.SFF_ALLOWED_ORIGIN) return send(403, { error: "接続元を確認できません。" });
+    if (!origin || !allowedOrigins.has(origin)) return send(403, { error: "接続元を確認できません。" });
     res.setHeader("Access-Control-Allow-Origin", origin); res.setHeader("Vary", "Origin");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization"); res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
     if (req.method === "OPTIONS") { res.statusCode = 204; return res.end(); }

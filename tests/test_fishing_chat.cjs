@@ -125,6 +125,30 @@ test("no paid call before activation, matching origin, valid authentication and 
   assert.equal(preflight.headers["Access-Control-Allow-Origin"], enabled.SFF_ALLOWED_ORIGIN);
 });
 
+test("explicit origin list permits both production sites and rejects lookalikes before any paid call", async () => {
+  let calls = 0;
+  const frontend = "https://sff-fishing-app.vercel.app";
+  const handler = Service.createHandler({ ...enabled, SFF_ALLOWED_ORIGIN: ` ${enabled.SFF_ALLOWED_ORIGIN}, ${frontend}, ` }, {
+    loader: async () => ctx,
+    fetcher: async () => { calls++; return new Response(JSON.stringify(fixture("answer"))); },
+  });
+  const body = { question: "大潮", marinaId: "J14-0170" };
+  for (const origin of [enabled.SFF_ALLOWED_ORIGIN, frontend]) {
+    const preflight = await invoke(handler, {}, { origin }, "OPTIONS");
+    assert.equal(preflight.statusCode, 204);
+    assert.equal(preflight.headers["Access-Control-Allow-Origin"], origin);
+    assert.equal(preflight.headers.Vary, "Origin");
+    assert.equal((await invoke(handler, body, { origin })).statusCode, 200);
+  }
+  assert.equal(calls, 2);
+  for (const origin of ["", "null", "*", frontend + ".evil.example", frontend + "/", "http://sff-fishing-app.vercel.app", "https://preview-sff-fishing-app.vercel.app"]) {
+    const rejected = await invoke(handler, body, { origin });
+    assert.equal(rejected.statusCode, 403);
+    assert.equal(rejected.headers["Access-Control-Allow-Origin"], undefined);
+  }
+  assert.equal(calls, 2);
+});
+
 test("provider failures hide provider details and remain failures", async () => {
   const handler = Service.createHandler(enabled, { loader: async () => ctx, fetcher: async () => new Response("sensitive diagnostics", { status: 500 }) });
   const response = await invoke(handler, { question: "大潮", marinaId: "J14-0170" });

@@ -1,7 +1,6 @@
 # v11 fishing chat candidate, 2026-11-20
 
-Status: protected backend deployed and tested with real model/web calls.
-Frontend release verification follows below. Physical phone acceptance is separate.
+Status: frontend published at https://sff-fishing-app.vercel.app/ with the protected backend connected. Physical phone acceptance is separate. Latest online-search acceptance is recorded below.
 
 ## Behavior
 
@@ -75,3 +74,14 @@ accessibility checks. Browser simulation is not physical-device proof. Earlier
 v10.1 device/source gaps remain separate.
 
 - Release hardening: worker network requests now time out after eight seconds so cached public JSON can load when a connection stalls. A stalled-network cache fallback regression test passes.
+
+
+## Direct Vercel release, 2026-11-20
+
+- Standard Vercel CLI device authorization completed; `whoami` verifies lewis-337 on the existing team. No plan upgrade or GitHub integration is required for this deployment.
+- Public-only frontend deployed as `sff-fishing-app`, production https://sff-fishing-app.vercel.app/, deployment `dpl_E2rFC8psRT2FZYgCkfancg3e2pgm`. Anonymous index/config requests return200.
+- API redeployed as `dpl_A4gsGcRZHrfxzL45a8mK2ng3KRsh`; exact comma-separated origin allowance retains GitHub Pages alongside the new Vercel address. Both preflights return204, missing owner codes401, lookalike origin403 with no allowance. Unit coverage confirms rejected origins make no paid call.
+- 36 Python and65 Node tests passed. All18 chat browser groups passed against the published site in Chromium/WebKit, using fixture AI responses in isolated contexts; chat WCAG A/AA scans found no violations.
+- Separate owner-browser requests used the actual production API: 大潮 answer200 with JMA links, plus fishing-tip answers200. Search calls completed, but three browser answers explicitly reported no usable online results. This does not establish fresh online-source retrieval; prior successful web acceptance remains historical evidence.
+- Owner code filled privately in the Mac browser, device-storage checkbox left unchecked. No provider key in the public package. Personal browser records remain under their original origin; backup/import is required to transfer them.
+- GitHub account restriction/support review remains independent. Direct hosting does not resume blocked Actions collectors; public timestamps remain authoritative.

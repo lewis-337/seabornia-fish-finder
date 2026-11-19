@@ -90,7 +90,7 @@ References:
    | `OPENAI_API_KEY` | User-approved project API key, server only |
    | `OPENAI_MODEL` | `gpt-6-luna`, or an explicitly reviewed supported model |
    | `SFF_CHAT_TOKEN` | Separate random owner access token, at least 32 characters |
-   | `SFF_ALLOWED_ORIGIN` | `https://lewis-337.github.io` |
+   | `SFF_ALLOWED_ORIGIN` | Exact permitted origins, comma-separated when using multiple production sites; e.g. `https://lewis-337.github.io,https://sff-fishing-app.vercel.app`. No wildcard or trailing slash. |
    | `SFF_CHAT_ENABLED` | `true` for this activated service |
 
 4. Confirm the production route rejects missing/wrong tokens and origins without
@@ -142,3 +142,8 @@ contexts; it never calls a paid model. See `QA-v11.md` for the completed scope.
 - A temporary deployment token exposed in diagnostic output was immediately
   revoked before use. Its replacement is short-lived and revoked after deployment.
 - Physical iPhone acceptance remains a device follow-up, separate from browser QA.
+
+
+## Direct frontend origin, 2026-11-20
+
+The frontend is published at https://sff-fishing-app.vercel.app/. Backend deployment `dpl_A4gsGcRZHrfxzL45a8mK2ng3KRsh` permits that origin and `https://lewis-337.github.io` through the explicit comma-separated `SFF_ALLOWED_ORIGIN` configuration. Missing tokens remain401; lookalike origins remain403. Normal Vercel CLI account authorization is now working; the temporary deployment tokens described in the initial activation receipt remain revoked. Latest browser AI calls succeed, but search-result availability is separate and recorded in QA-v11.md.

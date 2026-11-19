@@ -146,3 +146,10 @@ Approved fuller24-marina research (last24months plus older seasonal references),
 - Public release/source and installed-worker verification receipt follows. Physical iPhone/Safari/Home Screen acceptance and existing unavailable-source gaps remain separate.
 
 - Release hardening: worker network requests now time out after eight seconds so cached public JSON can load when a connection stalls. A stalled-network cache fallback regression test passes.
+
+
+## Direct Vercel publication, 2026-11-20
+
+- Vercel CLI login authorized and verified as lewis-337. Published the existing reviewed public frontend separately at https://sff-fishing-app.vercel.app/ (`dpl_E2rFC8psRT2FZYgCkfancg3e2pgm`), retaining the protected API project. Backend `dpl_A4gsGcRZHrfxzL45a8mK2ng3KRsh` allows both exact production origins. No hosting plan change.
+- 36 Python/65 Node tests and18 published-site chat browser groups pass. Real owner-browser AI answers return200; 大潮 includes JMA links. Latest browser online searches complete but yield no usable results, explicitly disclosed in answers; fresh web-source retrieval is not confirmed by these calls. See QA-v11.md.
+- New-origin records require existing JSON backup/import; no user records transferred or removed. Owner code is privately filled in the Mac tab, not stored without the owner's checkbox selection. GitHub case5031002 remains Open; Actions collectors remain blocked. Physical phone acceptance is separate.

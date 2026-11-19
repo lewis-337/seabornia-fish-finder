@@ -1,6 +1,8 @@
 # Seabornia Fish Finder | iPhone / Mac
 
-[アプリを開く](https://lewis-337.github.io/seabornia-fish-finder/)
+[アプリを開く](https://sff-fishing-app.vercel.app/)
+
+2026-11-20現在はVercelから直接公開しています。旧GitHub Pagesアドレスの保存ポイント・釣果は端末内に残ります。新アドレスへ移す場合は旧アプリの「マイ航海・記録」でJSONバックアップを保存し、新アプリで読み込んでください。
 
 関東・沖縄のSea-Style出港地を探せる釣行向けPWAです。日本語の魚種図鑑、公開釣果、海底ガイド、端末内のポイント・釣果記録をまとめています。iPhoneではSafariで開き、共有メニューから「ホーム画面に追加」を選べます。
 
@@ -43,7 +45,7 @@ GEBCO画像は広域の海底地形モデルです。**砂地・岩礁の実測�
 
 ## 更新・開発
 
-GitHub PagesとActionsで公開しています。公開釣果の収集予定は6時間ごと、日本時間03:17・09:17・15:17・21:17です。GitHubの待ち行列で開始が遅れる場合があります。失敗時は過去の成功データを保持します。海況は毎時7分に11公開地点（10海域＋マリーナ）の予報を収集します。潮汐は近日分と公開釣果の日付・隣接日をキャッシュします。私有ポイントの座標や釣果は外部APIに送信しません。範囲内の私有点には近隣の公開予報を端末内で選び、対象範囲外は取得なしと表示します。個人・非商用利用を前提としています。
+GitHub Actionsには公開釣果の6時間ごとの収集予定（日本時間03:17・09:17・15:17・21:17）があります。2026-11-20現在はGitHubアカウント制限でActionsが停止しているため、Vercelでの直接公開だけでは自動収集は再開しません。データの最終取得日時を確認してください。GitHubの待ち行列で開始が遅れる場合があります。失敗時は過去の成功データを保持します。海況は毎時7分に11公開地点（10海域＋マリーナ）の予報を収集します。潮汐は近日分と公開釣果の日付・隣接日をキャッシュします。私有ポイントの座標や釣果は外部APIに送信しません。範囲内の私有点には近隣の公開予報を端末内で選び、対象範囲外は取得なしと表示します。個人・非商用利用を前提としています。
 
 ```sh
 .venv/bin/python -m unittest discover -s tests -v
@@ -88,3 +90,17 @@ Physical acceptance is tracked separately: Lewis's reported test device is iPhon
 関東・沖縄の24表示拠点について、2024-10-24〜2026-10-24の公式・地域事業者・公開SNSを調査し、取得できた本文と未確認の範囲を記録しました。全SNS履歴を閲覧できたわけではありません。レンタル艇・オーナー艇・スタッフ調査・近隣遊漁船・利用区分未確定の釣果は区別します。釣行日不明の記事・古い取材資料は年付き参考情報です。魚の詳細から地域の水深・仕掛け・釣果へ、釣果から魚と海域へ移動できます。多い釣果は40項目ずつ表示し、魚種・情報区分で絞れます。
 
 [全マリーナの調査・差分](FISHING-RESEARCH-v10.md)、[写真とライセンス](PHOTO-AUDIT-v10.md)、[検証結果](QA-v10.md)。本アプリは個人・非商用向けです。3点の写真は非商用限定のCC BY-NC4.0を明示して利用しています。商用転用には差し替え等が必要です。実機iPhone13ProのSafari/Home Screen、他モデル・旧iOSの確認はブラウザ模擬検証と別に扱います。
+
+
+## Direct Vercel publishing
+
+The production frontend is a separate Vercel project, `sff-fishing-app`, on the existing `lewis-337s-projects` team. The API remains `sff-fishing-chat-api`. Publishing from local files works without the GitHub integration or Actions.
+
+For the prepared November 20 public-only package:
+
+```sh
+vercel login
+vercel deploy /Users/lewislee/Projects/sff-manual-site-2026-11-20 --project sff-fishing-app --scope lewis-337s-projects --prod --yes
+```
+
+For future source/data changes, first regenerate `dist/` with `python3 scripts/build_site.py`, then deploy that public-only folder to the same frontend project. Never deploy the repository root or vault. Keep the API origin allowlist aligned with the exact production address. A new origin has separate browser storage; use the existing JSON backup/import controls to move personal records. Direct publishing does not run the data collectors.
