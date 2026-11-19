@@ -1,10 +1,16 @@
-const VERSION = "seabornia-v10.1";
+const VERSION = "seabornia-v11";
 const PREFIX = "seabornia-";
 const SHELL = [
   "./",
   "./index.html",
   "./styles-v10.css",
-  "./app-v10.1.js",
+  "./chat-v11.css",
+  "./fishing-chat-core-v11.js",
+  "./fishing-chat-ui-v11.js",
+  "./data/fishing-knowledge-v11.json",
+  "./data/chat-config-v11.json",
+  "./data/fishing-research.json",
+  "./app-v11.js",
   "./map-gestures.js",
   "./basemap-v10.js",
   "./vendor/leaflet-1.9.4/leaflet.js",

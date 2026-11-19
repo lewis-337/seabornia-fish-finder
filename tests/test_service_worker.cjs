@@ -132,8 +132,13 @@ test("install caches the new modules, data and licensed catalogue images", async
     "shared representative photos must not break cache.addAll with duplicate keys",
   );
   for (const asset of [
-    "./app-v10.1.js",
+    "./app-v11.js",
     "./styles-v10.css",
+    "./chat-v11.css",
+    "./fishing-chat-core-v11.js",
+    "./fishing-chat-ui-v11.js",
+    "./data/fishing-knowledge-v11.json",
+    "./data/fishing-research.json",
     "./map-gestures.js",
     "./basemap-v10.js",
     "./vendor/leaflet-1.9.4/leaflet.js",

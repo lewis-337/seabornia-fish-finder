@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "checkedAt": "2026-11-20",
+  "entries": [
+    {
+      "id": "spring-neap",
+      "title": "大潮・小潮とは？ / Spring and neap tides",
+      "keywords": [
+        "大潮",
+        "小潮",
+        "おおしお",
+        "こしお",
+        "spring tide",
+        "neap tide",
+        "潮回り"
+      ],
+      "answer": "大潮（おおしお）は、満潮と干潮の潮位差が大きい時期です。新月・満月の頃に、月と太陽による潮を起こす力が重なって生じます。小潮（こしお）は潮位差が小さい時期で、上弦・下弦の月の頃に現れます。大潮と小潮は、新月から次の新月までにそれぞれほぼ2回あります。\n釣りでは当日の満干潮時刻を調べる手がかりになります。ただし『大潮なら必ず釣れる』『どこでも潮流が速い』とは言えません。アプリには釣行回数を含む成功率のデータがなく、釣果だけから最良の潮を順位付けできません。",
+      "sources": [
+        {
+          "title": "気象庁：潮汐の仕組み",
+          "url": "https://www.data.jma.go.jp/kaiyou/db/tide/knowledge/tide/choseki.html"
+        }
+      ],
+      "answer_en": "A spring tide is a period with a larger difference between high and low water around a new or full moon. A neap tide has a smaller range around the quarter moons. Spring refers to the tide, not the season. Neither label guarantees a catch or measures the current at your fishing spot."
+    },
+    {
+      "id": "high-low",
+      "title": "満潮・干潮・潮位表の読み方 / High and low water",
+      "keywords": [
+        "満潮",
+        "干潮",
+        "上げ潮",
+        "下げ潮",
+        "潮位",
+        "潮汐",
+        "tide",
+        "high water",
+        "low water"
+      ],
+      "answer": "満潮は海面の高さが極大、干潮は極小となる状態です。多くの場所では1日にそれぞれ2回ありますが、場所や時期によって回数が異なります。上げ潮・下げ潮は水位が上がる・下がる段階を示します。潮位表は過去の観測を基に計算した天文潮位の予測です。気圧や風などで実際の水位は変わります。アプリの『海況』では出港地に応じた参考港・日付・出典と取得時刻を確認してください。",
+      "sources": [
+        {
+          "title": "気象庁：潮位表の解説",
+          "url": "https://www.data.jma.go.jp/kaiyou/db/tide/suisan/explanation.html"
+        }
+      ],
+      "answer_en": "High and low water are the predicted peaks and troughs in water level. Most coasts have two of each daily, with exceptions. A tide table predicts astronomical water levels; wind and pressure can change the actual level."
+    },
+    {
+      "id": "tide-not-current",
+      "title": "潮位と潮流は別の情報 / Water level and current",
+      "keywords": [
+        "潮流",
+        "潮止まり",
+        "current",
+        "slack",
+        "流れ",
+        "二枚潮"
+      ],
+      "answer": "潮位は海面の高さで、潮流は海水の流れです。このアプリの潮汐曲線は参考港の推算潮位であり、釣り場の実測流速・流向ではありません。満干潮の時刻だけから、現場の潮止まりや仕掛けの重さを断定できません。船長・マリーナの案内と現場の流れを確認してください。",
+      "sources": [
+        {
+          "title": "気象庁：潮汐の仕組み（潮位の説明）",
+          "url": "https://www.data.jma.go.jp/kaiyou/db/tide/knowledge/tide/choseki.html"
+        }
+      ],
+      "note": "アプリが持たない流速データと、潮位データの範囲を明示した説明。",
+      "answer_en": "Water level and water current are different quantities. SFF's tide curve does not measure the speed or direction of current at your spot. A high- or low-water time alone cannot establish local slack water or the correct tackle weight."
+    }
+  ]
+}

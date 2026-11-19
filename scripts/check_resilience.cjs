@@ -395,7 +395,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
     await test(
       engine +
         ": existing " +
-        (legacyRef === "71b6039" ? "v10" : legacyRef === "51fafb6" ? "v9" : legacyRef === "58cd2ec"
+        (legacyRef === "6e36101" ? "v10.1" : legacyRef === "71b6039" ? "v10" : legacyRef === "51fafb6" ? "v9" : legacyRef === "58cd2ec"
           ? "v4"
           : legacyRef === "296bdef"
             ? "v5"
@@ -410,7 +410,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
                     : legacyRef === "c20b09c8"
                       ? "v7"
                       : "v6") +
-        " worker upgrades to v10.1 without losing saved data",
+        " worker upgrades to v11 without losing saved data",
       async () => {
         await p.goto(origin);
         await p.evaluate(() => navigator.serviceWorker.register("./sw.js"));
@@ -461,7 +461,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
         await p.waitForFunction(async () => {
           const keys = await caches.keys();
           return (
-            keys.includes("seabornia-v10.1") && !keys.includes("seabornia-v10") && !keys.includes("seabornia-v9") &&
+            keys.includes("seabornia-v11") && !keys.includes("seabornia-v10.1") && !keys.includes("seabornia-v10") && !keys.includes("seabornia-v9") &&
             !keys.includes("seabornia-v8.3") &&
             !keys.includes("seabornia-v8.2") &&
             !keys.includes("seabornia-v8.0") &&
@@ -527,6 +527,11 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
         });
         assert.ok(response.ok && response.count > 10);
         await p.locator(".mobileNav [data-tab=plan]").click();
+        // Use an actual date in the saved fixture; today's tide may correctly be unavailable.
+        const savedConditions = JSON.parse(await fs.readFile("data/conditions.json", "utf8"));
+        const savedDay = Object.values(savedConditions.areas)[0].weather.hours[0].time.slice(0, 10);
+        await p.locator("#tripDate").fill(savedDay);
+        await p.locator("#tripDate").dispatchEvent("change");
         await p.waitForFunction(() =>
           document
             .querySelector("#conditionsDataStatus")
@@ -552,6 +557,11 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
           );
         await p.locator(".mobileNav [data-tab=log]").click();
         assert.equal(await p.locator("#personalCatchCount").innerText(), "1件");
+        await p.locator(".mobileNav [data-tab=chat]").click();
+        await p.waitForFunction(() => !document.querySelector("#chatSend").disabled);
+        await p.locator("#chatQuestion").fill("大潮とは？");
+        await p.locator("#chatSend").click();
+        await p.waitForFunction(() => document.querySelector(".chatAssistant")?.textContent.includes("満潮と干潮"));
       },
     );
   } finally {
