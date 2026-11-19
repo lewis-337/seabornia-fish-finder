@@ -1,9 +1,7 @@
 # v11 fishing chat candidate, 2026-11-20
 
-Status: implemented locally, not published. AI/backend activation awaits Lewis's
-backend and spending choice. The public app remains the last deployed release.
-No real API inference, API billing change, server deployment or phone acceptance
-has been performed.
+Status: protected backend deployed and tested with real model/web calls.
+Frontend release verification follows below. Physical phone acceptance is separate.
 
 ## Behavior
 
@@ -16,7 +14,7 @@ has been performed.
 - Prepared optional private AI backend: short follow-up conversation, optional
   hosted web search, inline citations, selected-marina public evidence and dated
   source information. Provider key stays server-side. Owner token stays in page
-  memory; private points/catches/photos are never automatically read or submitted.
+  memory unless the owner explicitly chooses this-device storage; private points/catches/photos are never automatically read or submitted.
 - Public data can refresh only from fixed allowlisted SFF Pages paths. Fallback
   keeps original data timestamps. Backend request/output/search limits are not a
   global or monthly spending cap. See `server/README.md`.
@@ -26,18 +24,19 @@ has been performed.
 ## Verified locally
 
 - 36 existing Python tests passed.
-- 63 Node tests passed, including 10 new chat/backend cases: tide retrieval,
+- 64 Node tests passed, including 10 new chat/backend cases: tide retrieval,
   marina isolation, specific fish names, missing catch dates, request validation,
   actual public data for all 24 selectable bases, allowlisted remote-data failure,
   bounded provider request and actual-search evidence, Unicode inline citations,
   activation/origin/auth/body gates and sanitized provider failures.
 - Existing 28 Chromium/WebKit app checks passed: map/gestures, all 141 photos,
   record save/import/export, GPS simulations, responsive layouts and runtime errors.
-- 16 grouped new chat scenarios passed across Chromium and WebKit: 大潮/English
+- 18 grouped new chat scenarios passed across Chromium and WebKit: 大潮/English
   answers and sources; no-match/text injection; A–B–A marina drafts/history;
   320/390/844/1280px and enlarged text; automated WCAG A/AA checks; loaded offline
   references; synthetic AI follow-ups with private sentinel exclusion; errors,
-  cancellation and reload clearing token/history. Automated accessibility scans
+  cancellation, reload clearing history and unsaved codes, optional code storage/removal,
+  and safe bold/link rendering without HTML injection. Automated accessibility scans
   found no violations within the chat screen.
 - 8 actual installed-worker checks passed: v10.1 and v9 to v11 in both engines,
   retaining saved points/catches/favourites and unrelated caches, plus offline
@@ -51,14 +50,28 @@ has been performed.
 Browser receipts/screenshots are in the private vault QA directory linked from
 the SFF project note. `scripts/check_chat.cjs` uses synthetic AI fixtures only.
 
-## Still required
+## Real activation and hosting checks, 2026-11-20
 
-1. Lewis's backend/API-spending decision and approved account setup.
-2. Actual deployed backend, authentication/CORS, account/model availability and
-   bounded real AI + web-search acceptance, with factual/source review.
-3. Approved endpoint in `data/chat-config-v11.json`, app publication and hosted
-   upgrade verification. It currently contains `enabled:false` and no endpoint.
-4. Physical iPhone Safari/Home Screen keyboard, scrolling, source links and voice
-   accessibility checks. Browser simulation is not physical-device proof.
+- Linked Lewis’s Pro credit grant: $57 available until December 7; next grant
+  offered $100 on December 7. Auto-reload remains OFF, no new credit purchase.
+- Dedicated API project with $5 monthly hard spend limit; provider enforcement
+  may lag. Existing purchased credit can be used after grants are exhausted.
+- Actual Japanese tide answer, English conversational follow-up and web search
+  passed through the standard Responses API with `gpt-6-luna`.
+- Public-only Node 22 backend deployed at
+  `https://sff-fishing-chat-api.vercel.app/api/chat`, Vercel deployment
+  `dpl_ALMhDXGtL7gNS5txJQPKWdNQEcpi` on Lewis’s existing active Pro team.
+- Hosted preflight 204, missing/wrong token 401, wrong origin 403, GET 405.
+  Real 大潮 answer and real web-search tip-run answer both returned 200;
+  cited JMA and Shimano sources inspected. No private device data submitted.
+- Playwright fixtures now wait for public offline-pack downloads before reloads:
+  rapid reloads during cache writes cause WebKit access-control cancellation errors.
+  This avoids conflating intentionally interrupted background downloads with chat failures.
 
-Earlier v10.1 device/source gaps remain outstanding, not replaced by these tests.
+## Remaining device follow-up
+
+Physical iPhone Safari/Home Screen keyboard, scrolling, source links and voice
+accessibility checks. Browser simulation is not physical-device proof. Earlier
+v10.1 device/source gaps remain separate.
+
+- Release hardening: worker network requests now time out after eight seconds so cached public JSON can load when a connection stalls. A stalled-network cache fallback regression test passes.

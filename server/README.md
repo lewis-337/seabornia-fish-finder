@@ -1,6 +1,7 @@
 # SFF fishing assistant backend
 
-Prepared 2026-11-20. Not deployed or activated. No real AI request has been made.
+Activated 2026-11-20. Production API: https://sff-fishing-chat-api.vercel.app/api/chat.
+The protected backend passed real inference, web-search, origin and authentication checks.
 
 The public GitHub Pages app has a new 相談 screen. Its free 資料検索 mode searches the
 saved fish catalogue, selected marina's public catch reports, source-linked guides
@@ -35,8 +36,8 @@ have not been submitted; the benefit is not claimed or connected to SFF.
 There is an existing API balance in this organization. Regular API billing can
 fall back to purchased credits after the free grant is exhausted. Therefore
 auto-reload OFF alone is not a guarantee of subscription-only usage. Do not
-activate unattended SFF requests or claim a zero-extra-spend cap until a suitable
-guard/billing configuration and real account evidence have been verified.
+claim a subscription-only exhaustion guarantee. The dedicated project limit
+bounds normal monthly usage, with provider enforcement delay still possible.
 
 References:
 - [Subscription API credits](https://developers.openai.com/api/docs/guides/chatgpt-api-credits)
@@ -64,14 +65,16 @@ References:
   one concurrent request and six requests/minute **per running instance**. These
   are not a durable global quota or a hard spending cap. Serverless cold starts
   and multiple instances reset/multiply the instance limits. Do not describe them
-  as a monthly budget. Provider/hosting billing controls must be agreed before activation.
-- The owner access token is separate from the AI key and held only in page memory.
+  as a monthly budget. The separate $5 project hard spend limit is the billing guard.
+- The owner access token is separate from the AI key. It stays in page memory
+  unless the owner explicitly chooses to remember it in this device’s localStorage.
+  The connection panel can copy it for another device; unchecking remember removes it.
   The token must be at least 32 random characters; it is not committed or placed in
   public configuration. The AI key lives only in the backend's secret environment.
 - Cancellation stops the browser's wait. The server's bounded upstream request may
   still finish and incur a charge; cancellation is not promised as a billing stop.
 
-## Activation steps after Lewis's backend/spending decision
+## Deployment and maintenance
 
 1. Build a clean bundle into a new folder:
    `python3 scripts/build_chat_backend.py /tmp/sff-chat-backend-RELEASE`.
@@ -88,7 +91,7 @@ References:
    | `OPENAI_MODEL` | `gpt-6-luna`, or an explicitly reviewed supported model |
    | `SFF_CHAT_TOKEN` | Separate random owner access token, at least 32 characters |
    | `SFF_ALLOWED_ORIGIN` | `https://lewis-337.github.io` |
-   | `SFF_CHAT_ENABLED` | `true` only after activation approval |
+   | `SFF_CHAT_ENABLED` | `true` for this activated service |
 
 4. Confirm the production route rejects missing/wrong tokens and origins without
    making provider requests. Run a bounded real 大潮 question and a follow-up,
@@ -109,8 +112,9 @@ search-content token charges. An illustrative 100 short answers, each with one
 lookup, roughly 6,000 prompt tokens and 1,000 output tokens, would be around
 US$1–$2 in API usage, depending on retrieved search context and reasoning. Hosting,
 taxes, exchange rates and any plan changes are additional. This is not a quote or
-an authorized budget. No subscription purchase, billing activation or spending
-has been performed.
+an authorized budget. No subscription purchase or new credit purchase was made. Bounded real API
+acceptance calls have used the linked grant. Hosting uses Lewis’s existing active
+Vercel Pro team without a plan change.
 
 Sources:
 - [OpenAI quickstart](https://developers.openai.com/api/docs/quickstart)
@@ -125,3 +129,16 @@ Sources:
 Unicode citations, no-paid-call activation/auth gates and provider-error cases.
 `scripts/check_chat.cjs` uses synthetic AI responses in isolated Chromium/WebKit
 contexts; it never calls a paid model. See `QA-v11.md` for the completed scope.
+
+## Activation receipt, 2026-11-20
+
+- Dedicated service-account key and owner code are stored in protected production
+  environment variables. Neither is in the app bundle or repository.
+- Vercel deployment `dpl_ALMhDXGtL7gNS5txJQPKWdNQEcpi`, Node 22, public-only
+  deployment bundle; 45-second provider timeout within 60-second function duration.
+- Hosted checks: preflight 204; missing/wrong code 401; wrong origin 403; GET 405;
+  real sourced 大潮 answer 200; real web-search answer 200 with Shimano citations.
+- Local real Japanese, English follow-up and Yamashita web-search checks passed too.
+- A temporary deployment token exposed in diagnostic output was immediately
+  revoked before use. Its replacement is short-lived and revoked after deployment.
+- Physical iPhone acceptance remains a device follow-up, separate from browser QA.

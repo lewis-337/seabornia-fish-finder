@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
 const vm = require("node:vm");
 const fs = require("node:fs");
 
-function worker({ offline = false, foreign = new Map() } = {}) {
+function worker({ offline = false, stalled = false, foreign = new Map() } = {}) {
   const handlers = {},
     saved = new Map(),
     deleted = [],
@@ -43,6 +43,9 @@ function worker({ offline = false, foreign = new Map() } = {}) {
   const context = {
     URL,
     Response,
+    AbortController,
+    setTimeout: stalled ? (callback) => { queueMicrotask(callback); return 0; } : setTimeout,
+    clearTimeout: stalled ? () => {} : clearTimeout,
     self: {
       location: { origin: "https://example.com" },
       registration: { scope: "https://example.com/fishing/" },
@@ -63,8 +66,11 @@ function worker({ offline = false, foreign = new Map() } = {}) {
       ],
       delete: async (key) => deleted.push(key),
     },
-    fetch: async () => {
+    fetch: async (_request, options) => {
       if (offline) throw Error("offline");
+      if (stalled) return new Promise((_resolve, reject) => {
+        options.signal.addEventListener("abort", () => reject(Error("network timeout")), { once: true });
+      });
       return new Response("fresh");
     },
   };
@@ -96,6 +102,14 @@ test("offline refresh finds JSON cached under a different timestamp", async () =
     await (await offline.request("data/latest.json?ts=2")).text(),
     "fresh",
   );
+});
+
+test("a stalled network falls back to cached public JSON", async () => {
+  const app = worker({ stalled: true });
+  app.saved.set("https://example.com/fishing/data/fishing-research.json", new Response('{"saved":true}'));
+  const response = await app.request("data/fishing-research.json");
+  assert.equal(response.headers.get("X-Seabornia-Cache"), "offline");
+  assert.deepEqual(await response.json(), { saved: true });
 });
 
 test("activation preserves other apps caches on the same origin", async () => {

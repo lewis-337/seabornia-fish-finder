@@ -4,6 +4,8 @@
   function mount({ getContext }) {
     const $ = id => document.getElementById(id), conversations = new Map();
     let corpus, config = { enabled: false, endpoint: "" }, token = "", controller = null, activeId = "", initialized = false;
+    const tokenKey = "sff-chat-access-v1";
+    try { token = localStorage.getItem(tokenKey) || ""; } catch { /* Storage can be unavailable. */ }
     const turn = id => {
       if (!conversations.has(id)) conversations.set(id, { messages: [], draft: "", busy: false });
       return conversations.get(id);
@@ -14,6 +16,19 @@
       const url = C.safeURL(source.url);
       if (!url) return make("span", label || source.title || "出典未確認");
       const a = make("a", label || source.title || url); a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer"; a.title = source.title || url; return a;
+    }
+    function formatted(text) {
+      const fragment = document.createDocumentFragment();
+      // Only a small inline subset is supported; HTML always remains ordinary text.
+      const pattern = /\*\*([^*\n]+)\*\*|\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g;
+      let offset = 0;
+      for (const match of text.matchAll(pattern)) {
+        fragment.append(document.createTextNode(text.slice(offset, match.index)));
+        fragment.append(match[1] ? make("strong", match[1]) : link({ url: match[3] }, match[2]));
+        offset = match.index + match[0].length;
+      }
+      fragment.append(document.createTextNode(text.slice(offset)));
+      return fragment;
     }
     function render() {
       const id = current(), data = turn(id), ctx = getContext();
@@ -29,7 +44,7 @@
         const article = make("article", "", "chatMessage " + (row.role === "user" ? "chatUser" : "chatAssistant"));
         article.append(make("strong", row.role === "user" ? "あなた" : row.kind || "SFF"));
         const body = make("div", "", "chatText");
-        if (row.segments) for (const part of row.segments) body.append(part.url ? link(part, part.text) : document.createTextNode(part.text));
+        if (row.segments) for (const part of row.segments) body.append(part.url ? link(part, part.text) : formatted(part.text));
         else body.textContent = row.text;
         article.append(body);
         if (row.role !== "user") {
@@ -53,7 +68,7 @@
       const enabled = config.enabled && !!C.safeURL(config.endpoint);
       $("chatModeAI").disabled = !enabled;
       $("chatConnection").hidden = !enabled;
-      $("chatAvailability").textContent = enabled ? "AI相談では、質問・この出港地の公開資料・直近の会話をAIサービスへ送ります。アクセスコードはこの画面を閉じるまでだけ保持します。" : "資料検索は無料で使えます。AI相談・ライブ検索は接続準備中です。";
+      $("chatAvailability").textContent = enabled ? "AI相談では、質問・この出港地の公開資料・直近の会話をAIサービスへ送ります。アクセスコードは、ご希望の場合だけこの端末に保存できます。" : "資料検索は無料で使えます。AI相談・ライブ検索は接続準備中です。";
       $("chatWeb").disabled = $("chatMode").value !== "ai" || !enabled;
     }
     async function load() {
@@ -89,7 +104,7 @@
           const r = await fetch(config.endpoint, { method: "POST", cache: "no-store", credentials: "omit", signal: controller.signal,
             headers: { "Content-Type": "application/json", Authorization: "Bearer " + token },
             body: JSON.stringify({ question, marinaId: id, web: $("chatWeb").checked, history }) });
-          const body = await r.json(); if (!r.ok) throw Error(body.error || "AIに接続できません。資料検索をご利用ください。");
+          const body = await r.json().catch(() => { throw Error("AIに接続できません。しばらくして再試行するか、資料検索をご利用ください。"); }); if (!r.ok) throw Error(body.error || "AIに接続できません。資料検索をご利用ください。");
           if (!Array.isArray(body.segments) || body.segments.some(s => typeof s.text !== "string") || typeof body.text !== "string") throw Error("回答の形式を確認できません。再試行してください。");
           result = { ...body, sources: Array.isArray(body.sources) ? body.sources : [] };
         } else {
@@ -112,7 +127,20 @@
     $("chatClear").addEventListener("click", () => { if (controller) return; conversations.delete(current()); $("chatQuestion").value = ""; render(); });
     $("chatCancel").addEventListener("click", () => controller?.abort());
     $("chatMode").addEventListener("change", render);
-    $("chatToken").addEventListener("input", e => { token = e.currentTarget.value; });
+    $("chatToken").value = token;
+    $("chatRemember").checked = !!token;
+    function rememberToken() {
+      try {
+        if ($("chatRemember").checked && token) localStorage.setItem(tokenKey, token);
+        else localStorage.removeItem(tokenKey);
+      } catch { $("chatError").textContent = "この端末にコードを保存できません。画面を開いている間は利用できます。"; }
+    }
+    $("chatToken").addEventListener("input", e => { token = e.currentTarget.value; rememberToken(); });
+    $("chatRemember").addEventListener("change", rememberToken);
+    $("chatCopyCode").addEventListener("click", async () => {
+      try { if (!token) throw Error(); await navigator.clipboard.writeText(token); $("chatError").textContent = "相談用コードをコピーしました。他の端末の接続欄に貼り付けてください。"; }
+      catch { $("chatError").textContent = "コードをコピーできません。アクセスコードの入力を確認してください。"; }
+    });
     $("chatReload").addEventListener("click", load);
     document.addEventListener("sff-context-change", () => {
       if (!$("chatView").classList.contains("active")) return;

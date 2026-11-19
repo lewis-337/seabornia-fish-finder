@@ -13,7 +13,7 @@ This repository contains Lewis's iPhone-friendly fishing PWA recovered from the 
 
 See `PROGRESS.md` for setup status and continuing work.
 
-- v11 adds `fishing-chat-core-v11.js`, `fishing-chat-ui-v11.js` and `chat-v11.css`. Reference search and real AI are different modes; never describe a fixture or local lookup as live AI/web verification. Backend is under `server/` with `api/chat.js`, excluded from the Pages bundle. `data/chat-config-v11.json` stays disabled until the backend/spending decision and real acceptance. Never put keys/access tokens into public config or transmit personal phone records. See `server/README.md` and `QA-v11.md`.
+- v11 adds `fishing-chat-core-v11.js`, `fishing-chat-ui-v11.js` and `chat-v11.css`. Reference search and real AI are different modes; never describe a fixture or local lookup as live AI/web verification. Backend is under `server/` with `api/chat.js`, excluded from the Pages bundle. `data/chat-config-v11.json` now enables the verified protected endpoint. Keep backend funding/authentication acceptance current when changing it. The optional `sff-chat-access-v1` localStorage key stores only the separate owner code when explicitly selected; never store the provider key in the browser. Never put keys/access tokens into public config or transmit personal phone records. See `server/README.md` and `QA-v11.md`.
 
 - Installed workers normalize asset query strings. Give changed cache-first assets distinct release filenames, update the HTML/SHELL/build allowlist together, and test upgrades from the installed release. Queued data jobs check out current main after acquiring the shared deployment lock.
 

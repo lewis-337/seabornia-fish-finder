@@ -9,9 +9,14 @@ async function run(engine) {
   const browser = await { chromium, webkit }[engine].launch({ headless: true, ...(engine === "chromium" ? { channel: "chrome" } : {}) });
   const context = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, serviceWorkers: "block", locale: "ja-JP" });
   const page = await context.newPage(), errors = [], requests = [];
-  page.on("pageerror", e => errors.push(e.message));
+  let stage = "startup";
+  page.on("pageerror", e => errors.push({ stage, message: e.message }));
+  const reload = async () => {
+    await page.waitForFunction(() => /全マリーナ|未完了/.test(document.querySelector("#offlinePackStatus").textContent));
+    await page.reload();
+  };
   const nav = tab => page.locator('.nav[data-tab="' + tab + '"]:visible').click();
-  async function check(label, fn) { await fn(); results.push({ engine, label, status: "pass" }); console.log("PASS", engine, label); }
+  async function check(label, fn) { stage = label; await fn(); results.push({ engine, label, status: "pass" }); console.log("PASS", engine, label); }
   async function ask(q) { const count = await page.locator(".chatAssistant").count(); await page.locator("#chatQuestion").fill(q); await page.locator("#chatSend").click(); await page.waitForFunction(n => document.querySelectorAll(".chatAssistant").length > n, count); }
   async function switchMarina(id) {
     await page.locator("#destinationBtn").click(); await page.locator('[data-region="all"]').click();
@@ -21,6 +26,7 @@ async function run(engine) {
     await page.locator("#destinations").waitFor({ state: "hidden" }); await nav("chat");
   }
   try {
+    await context.route("**/data/chat-config-v11.json", route => route.fulfill({ json: { enabled: false, endpoint: "" } }));
     await page.goto(base); await page.locator("#oceanSVG [data-area]").first().waitFor();
     await check("six navigation targets, honest unconnected state and sourced 大潮 answer", async () => {
       assert.equal(await page.locator(".mobileNav [data-tab]").count(), 6); await nav("chat");
@@ -61,6 +67,8 @@ async function run(engine) {
       assert.deepEqual(scan.violations.map(v => v.id), []);
     });
     await check("reference answers remain available offline after loading", async () => {
+      // Initial marina-pack downloads must finish before deliberately cutting the network.
+      await page.waitForFunction(() => /全マリーナ|未完了/.test(document.querySelector("#offlinePackStatus").textContent));
       await context.setOffline(true); await page.locator("#chatClear").click(); await ask("小潮とは？");
       assert.match(await page.locator(".chatAssistant").innerText(), /小潮/); await context.setOffline(false);
     });
@@ -69,9 +77,9 @@ async function run(engine) {
       await context.route("https://sff-chat.test/api/chat", async route => {
         if (route.request().method() === "OPTIONS") return route.fulfill({ status: 204, headers: { "access-control-allow-origin": "*", "access-control-allow-headers": "authorization,content-type" } });
         requests.push(route.request().postDataJSON());
-        await route.fulfill({ headers: { "access-control-allow-origin": "*" }, json: { text: "大潮の説明 [1]", kind: "AI相談", searched: true, requestedWeb: true, checkedAt: "2026-11-20T00:00:00Z", segments: [{ text: "大潮の説明 " }, { text: "[1]", url: "https://www.data.jma.go.jp/", title: "気象庁" }], sources: [{ url: "https://www.data.jma.go.jp/", title: "気象庁" }] } });
+        await route.fulfill({ headers: { "access-control-allow-origin": "*" }, json: { text: "大潮の説明 [1]", kind: "AI相談", searched: true, requestedWeb: true, checkedAt: "2026-11-20T00:00:00Z", segments: [{ text: "**大潮**の説明 <img src=x onerror=alert(1)> [気象庁](https://www.data.jma.go.jp/) " }, { text: "[1]", url: "https://www.data.jma.go.jp/", title: "気象庁" }], sources: [{ url: "https://www.data.jma.go.jp/", title: "気象庁" }] } });
       });
-      await page.reload(); await nav("chat"); await page.waitForFunction(() => !document.querySelector("#chatModeAI").disabled);
+      await reload(); await nav("chat"); await page.waitForFunction(() => !document.querySelector("#chatModeAI").disabled);
       await page.evaluate(() => localStorage.setItem("seabornia-v4-points", JSON.stringify([{ id: "private-test", name: "PRIVATE_SENTINEL_DO_NOT_TRANSMIT", lat: 35.16, lng: 139.6 }])));
       await page.locator("#chatMode").selectOption("ai"); await page.locator("#chatConnection summary").click(); await page.locator("#chatToken").fill("synthetic-access-code-for-browser-test");
       await ask("大潮とは？"); await ask("小潮との違いも教えて");
@@ -79,6 +87,8 @@ async function run(engine) {
       assert.equal(requests[0].marinaId, "J14-0170"); assert.equal(requests[1].history.length, 2);
       assert.ok(!JSON.stringify(requests).includes("PRIVATE_SENTINEL"));
       assert.equal(await page.locator(".chatAssistant .chatText a").first().getAttribute("href"), "https://www.data.jma.go.jp/");
+      assert.equal(await page.locator(".chatAssistant .chatText strong").first().innerText(), "大潮");
+      assert.equal(await page.locator("#chatTranscript img").count(), 0);
       assert.match(await page.locator(".chatMeta").last().innerText(), /ウェブ検索を実行/);
       assert.ok(!await page.evaluate(() => Object.values(localStorage).some(v => v.includes("synthetic-access-code"))));
       await page.screenshot({ path: path.join(out, engine + "-ai-fixture.png"), fullPage: true });
@@ -91,8 +101,20 @@ async function run(engine) {
       await context.route("https://sff-chat.test/api/chat", () => {});
       await page.locator("#chatQuestion").fill("中止する質問"); await page.locator("#chatSend").click(); await page.locator("#chatCancel").click();
       await page.waitForFunction(() => !document.querySelector("#chatSend").disabled); assert.match(await page.locator(".chatAssistant").last().innerText(), /中止/);
-      await page.reload(); await nav("chat"); assert.equal(await page.locator(".chatMessage").count(), 0); assert.equal(await page.locator("#chatToken").inputValue(), "");
+      await reload(); await nav("chat"); assert.equal(await page.locator(".chatMessage").count(), 0); assert.equal(await page.locator("#chatToken").inputValue(), "");
     });
+    await check("owner code persists only when selected and can be removed", async () => {
+      await page.locator("#chatConnection summary").click();
+      await page.locator("#chatToken").fill("synthetic-remembered-access-code");
+      await page.locator("#chatRemember").check();
+      await reload(); await nav("chat");
+      assert.equal(await page.locator("#chatToken").inputValue(), "synthetic-remembered-access-code");
+      assert.equal(await page.locator(".chatMessage").count(), 0);
+      await page.locator("#chatConnection summary").click(); await page.locator("#chatRemember").uncheck();
+      await reload(); await nav("chat");
+      assert.equal(await page.locator("#chatToken").inputValue(), "");
+    });
+    await fs.writeFile(path.join(out, engine + "-runtime-errors.json"), JSON.stringify(errors, null, 2));
     assert.deepEqual(errors, []);
   } finally { await context.close(); await browser.close(); }
 }

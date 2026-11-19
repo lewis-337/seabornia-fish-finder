@@ -558,7 +558,11 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
         await p.locator(".mobileNav [data-tab=log]").click();
         assert.equal(await p.locator("#personalCatchCount").innerText(), "1件");
         await p.locator(".mobileNav [data-tab=chat]").click();
-        await p.waitForFunction(() => !document.querySelector("#chatSend").disabled);
+        await p.waitForFunction(() => !document.querySelector("#chatSend").disabled, null, { timeout: 30000 }).catch(async error => {
+          console.error("Offline chat diagnostics", await p.locator("#chatView").innerText());
+          throw error;
+        });
+        await p.locator("#chatMode").selectOption("local");
         await p.locator("#chatQuestion").fill("大潮とは？");
         await p.locator("#chatSend").click();
         await p.waitForFunction(() => document.querySelector(".chatAssistant")?.textContent.includes("満潮と干潮"));

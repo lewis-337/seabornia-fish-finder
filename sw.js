@@ -96,7 +96,14 @@ self.addEventListener("fetch", (event) => {
       url.pathname,
     );
   const fromNetwork = async () => {
-    const response = await fetch(event.request);
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 8000);
+    let response;
+    try {
+      response = await fetch(event.request, { signal: controller.signal });
+    } finally {
+      clearTimeout(timer);
+    }
     if (!response.ok) throw new Error("HTTP " + response.status);
     const cache = await caches.open(VERSION);
     await cache.put(key, response.clone());

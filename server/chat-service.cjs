@@ -115,7 +115,7 @@ async function answer(input, env, fetcher = fetch, loader = input => contextFor(
     ],
     ...(input.web ? { tools: [{ type: "web_search", search_context_size: "low" }], tool_choice: "required", max_tool_calls: 1 } : {}),
   };
-  const controller = new AbortController(), timer = setTimeout(() => controller.abort(), 55000);
+  const controller = new AbortController(), timer = setTimeout(() => controller.abort(), 45000);
   try {
     const result = await fetcher("https://api.openai.com/v1/responses", {
       method: "POST", headers: { Authorization: "Bearer " + env.OPENAI_API_KEY, "Content-Type": "application/json" },
