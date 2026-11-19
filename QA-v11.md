@@ -85,3 +85,16 @@ v10.1 device/source gaps remain separate.
 - Separate owner-browser requests used the actual production API: 大潮 answer200 with JMA links, plus fishing-tip answers200. Search calls completed, but three browser answers explicitly reported no usable online results. This does not establish fresh online-source retrieval; prior successful web acceptance remains historical evidence.
 - Owner code filled privately in the Mac browser, device-storage checkbox left unchecked. No provider key in the public package. Personal browser records remain under their original origin; backup/import is required to transfer them.
 - GitHub account restriction/support review remains independent. Direct hosting does not resume blocked Actions collectors; public timestamps remain authoritative.
+
+
+## v11.1 owner sign-in acceptance, 2026-11-20
+
+- At Lewis's request to finish setup for a simple iPhone URL, enabled included Vercel Authentication for **All Deployments** on the owner frontend project. No Password Protection add-on or plan purchase. Signed-out requests to both root and gateway return401 at the edge.
+- Added a same-origin owner gateway: only the fixed protected project ID/exact origin is accepted; owner service token stays server-side; provider key remains exclusively in the dedicated backend. Browser uses the Vercel session without bearer headers or access-code entry. Publish helper checks production protection before upload.
+- New `fishing-chat-ui-v11.2.js` and worker `seabornia-v11.2` update HTML/SHELL/build together. Code UI is hidden on the owner session; legacy static bearer mode is retained. Manifest loading includes credentials for the protected app.
+- 36 Python/68 Node tests pass, including wrong-project/activation/origin/body gates, server credential forwarding and sanitized upstream errors. All20 chat browser groups pass in Chromium/WebKit, including code-free session-mode fixtures and zero chat accessibility violations. These fixtures do not simulate Vercel account login.
+- Four actual installed v11 (source8c29b7e) to v11.1 upgrade/offline groups pass in Chromium/WebKit with legacy records and unrelated caches retained.
+- Actual signed-in Chrome owner session returned200 for 大潮 with a JMA source and completed web search, without a browser bearer or any code entry/storage. Earlier failed queries are retained as history; a bounded two-call search diagnostic also retrieved Shimano sources. Prompt avoids guessed manufacturer domains. No guarantee that every future search returns results.
+- Initial owner deployment `dpl_Ct76fX3Gz876wtdnuzL4uDWwGHxe`; final manifest-credential adjustment and backend release IDs are recorded in the private release receipt. Physical iPhone Safari/Home Screen login, keyboard and installation remain device follow-up. Saved records under the original GitHub origin were not moved or removed.
+
+- Final asset/worker release is v11.2. The iPhone entry URL is the stable project alias https://sff-fishing-app-lewis-337s-projects.vercel.app/, which avoids the earlier code-based worker on the shorter address. Session endpoints resolve on the current origin; the gateway permits only the two exact owner aliases and forwards with the fixed protected API origin. Existing cached records on other origins remain intact.

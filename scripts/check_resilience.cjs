@@ -354,6 +354,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
           "/styles.css",
           "/app-v8.js",
           "/styles-v8.css",
+          "/fishing-chat-ui-v11.js",
           "/app-v7.js",
           "/styles-v7.css",
           "/fish-areas.js",
@@ -461,7 +462,7 @@ async function upgrade(engine, legacyRef = "58cd2ec") {
         await p.waitForFunction(async () => {
           const keys = await caches.keys();
           return (
-            keys.includes("seabornia-v11") && !keys.includes("seabornia-v10.1") && !keys.includes("seabornia-v10") && !keys.includes("seabornia-v9") &&
+            keys.includes("seabornia-v11.2") && !keys.includes("seabornia-v11") && !keys.includes("seabornia-v10.1") && !keys.includes("seabornia-v10") && !keys.includes("seabornia-v9") &&
             !keys.includes("seabornia-v8.3") &&
             !keys.includes("seabornia-v8.2") &&
             !keys.includes("seabornia-v8.0") &&

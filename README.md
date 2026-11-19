@@ -1,12 +1,12 @@
 # Seabornia Fish Finder | iPhone / Mac
 
-[アプリを開く](https://sff-fishing-app.vercel.app/)
+[アプリを開く](https://sff-fishing-app-lewis-337s-projects.vercel.app/)
 
 2026-11-20現在はVercelから直接公開しています。旧GitHub Pagesアドレスの保存ポイント・釣果は端末内に残ります。新アドレスへ移す場合は旧アプリの「マイ航海・記録」でJSONバックアップを保存し、新アプリで読み込んでください。
 
 関東・沖縄のSea-Style出港地を探せる釣行向けPWAです。日本語の魚種図鑑、公開釣果、海底ガイド、端末内のポイント・釣果記録をまとめています。iPhoneではSafariで開き、共有メニューから「ホーム画面に追加」を選べます。
 
-v11の「相談」では、大潮などの用語と出港地ごとの資料検索に加え、専用アクセスコードでAI会話・ウェブ検索を使えます。回答には出典リンクが付き、保存ポイント・写真・個人の釣果記録は自動送信しません。実装・検証と接続手順は[QA-v11.md](QA-v11.md)、[backend guide](server/README.md)を参照してください。
+v11.1の「相談」では、大潮などの用語と出港地ごとの資料検索に加え、AI会話・ウェブ検索を使えます。公開先ではVercelにログインするとそのまま利用でき、専用アクセスコードのコピーは不要です。回答には出典リンクが付き、保存ポイント・写真・個人の釣果記録は自動送信しません。実装・検証と接続手順は[QA-v11.md](QA-v11.md)、[backend guide](server/README.md)を参照してください。
 
 「行き先」で地域・魚種・月・釣り方を選び、24拠点の釣り情報、営業時間、駐車場、船ごとの条件を確認できます。閉鎖・休止・クラブ艇掲載なし等の拠点は一覧に表示しません。地図・記録・下書き・船速はマリーナごとに記憶します。上部のロゴ／↑で先頭へ戻ります。iPhone本体のステータスバー・タップは実機確認項目です。
 
@@ -92,15 +92,19 @@ Physical acceptance is tracked separately: Lewis's reported test device is iPhon
 [全マリーナの調査・差分](FISHING-RESEARCH-v10.md)、[写真とライセンス](PHOTO-AUDIT-v10.md)、[検証結果](QA-v10.md)。本アプリは個人・非商用向けです。3点の写真は非商用限定のCC BY-NC4.0を明示して利用しています。商用転用には差し替え等が必要です。実機iPhone13ProのSafari/Home Screen、他モデル・旧iOSの確認はブラウザ模擬検証と別に扱います。
 
 
-## Direct Vercel publishing
+## Owner sign-in and Vercel publishing
 
-The production frontend is a separate Vercel project, `sff-fishing-app`, on the existing `lewis-337s-projects` team. The API remains `sff-fishing-chat-api`. Publishing from local files works without the GitHub integration or Actions.
+Open https://sff-fishing-app-lewis-337s-projects.vercel.app/ on iPhone Safari. This stable project alias starts fresh, avoiding the earlier code-based cache on the shorter address. Vercel Authentication protects the whole owner app; sign in to the existing owner account if prompted, then open 釣り相談. The owner does not copy an SFF access code. This is included in the existing plan, with no Password Protection add-on.
 
-For the prepared November 20 public-only package:
+`api/owner-chat.js` forwards same-origin requests to the existing protected API. Only the owner access token is stored in the frontend project's secret environment; the provider key remains in the dedicated API project. Browser JavaScript never receives either secret. Vercel Authentication must remain set to **All Deployments**, including the production domain and function routes. Do not disable it or grant public share/bypass links.
+
+For future source/data changes:
 
 ```sh
 vercel login
-vercel deploy /Users/lewislee/Projects/sff-manual-site-2026-11-20 --project sff-fishing-app --scope lewis-337s-projects --prod --yes
+python3 scripts/deploy_owner_site.py
 ```
 
-For future source/data changes, first regenerate `dist/` with `python3 scripts/build_site.py`, then deploy that public-only folder to the same frontend project. Never deploy the repository root or vault. Keep the API origin allowlist aligned with the exact production address. A new origin has separate browser storage; use the existing JSON backup/import controls to move personal records. Direct publishing does not run the data collectors.
+The deploy helper checks All Deployments protection and Vercel system variables before building/uploading a clean owner bundle to `sff-fishing-app` in `lewis-337s-projects`. It never publishes the repository root or vault. `build_site.py` remains the public static-only GitHub Pages builder; it excludes both APIs. `build_owner_site.py` adds only the owner gateway and secret-free session configuration. The earlier manual static package predates owner sign-in and must not replace this owner release.
+
+The API remains `sff-fishing-chat-api`. Publishing from local files works without GitHub Actions, but does not resume blocked data collectors. Existing browser records remain under their original origin; use JSON backup/import if transferring records. Physical iPhone Safari/Home Screen acceptance is separate from automated browser checks.

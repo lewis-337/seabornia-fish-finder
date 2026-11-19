@@ -57,8 +57,8 @@ References:
   conversation messages. Questions themselves are user-entered and may contain
   personal information if the user types it.
 - OpenAI Responses, `store:false`, configurable model (default `gpt-6-luna`), low
-  reasoning, 2,200 output-token ceiling. Web-enabled answers request one hosted
-  `web_search` call maximum. Live-search labels require an actual completed search
+  reasoning, 2,200 output-token ceiling. Web-enabled answers allow up to two hosted
+  `web_search` calls so a failed initial query can be refined. Live-search labels require an actual completed search
   output, never just a checkbox. Output is plain text with clickable inline
   provider citations and source IDs mapped to the retrieved documents.
 - Origin check, constant-time owner-token check, bounded body/history, timeout,
@@ -147,3 +147,14 @@ contexts; it never calls a paid model. See `QA-v11.md` for the completed scope.
 ## Direct frontend origin, 2026-11-20
 
 The frontend is published at https://sff-fishing-app.vercel.app/. Backend deployment `dpl_A4gsGcRZHrfxzL45a8mK2ng3KRsh` permits that origin and `https://lewis-337.github.io` through the explicit comma-separated `SFF_ALLOWED_ORIGIN` configuration. Missing tokens remain401; lookalike origins remain403. Normal Vercel CLI account authorization is now working; the temporary deployment tokens described in the initial activation receipt remain revoked. Latest browser AI calls succeed, but search-result availability is separate and recorded in QA-v11.md.
+
+
+## Owner browser sessions, v11.1
+
+The production owner frontend uses Vercel Authentication for **All Deployments**, including `/api/owner-chat`. That gateway is restricted to the known frontend project ID and exact frontend origin; it injects the separate service access token from the protected server environment and never forwards visitor cookies or bearer headers to the API. The provider key stays solely in the original API project. The browser sends its ordinary same-origin Vercel session, so no code copy/paste or local token storage is needed on the owner URL. The old bearer mode remains for the separate static Pages package.
+
+Never expose this gateway on an unprotected deployment. Use `python3 scripts/deploy_owner_site.py`, which checks the live project protection before publishing. Unauthenticated root and gateway requests must fail at Vercel's edge. Current plan includes this authentication without a paid add-on. The app manifest uses credentialed loading so installed-app metadata can load behind authentication.
+
+Web calls now have a bounded two-call budget and instructions to avoid guessed manufacturer domains. An actual owner-session 大潮 answer and a direct Shimano search returned real cited sources after the earlier no-result attempts. Search can still fail and must say so; this is not a guarantee for every query. The $5 project hard spend setting remains unchanged; two-search answers can cost more than the single-search illustration above.
+
+- The stable iPhone entry is https://sff-fishing-app-lewis-337s-projects.vercel.app/. Both exact owner aliases use a same-origin relative gateway endpoint. Incoming visitor origins are checked against those two fixed addresses; upstream API requests retain the original fixed frontend origin and server service token.

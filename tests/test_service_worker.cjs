@@ -150,7 +150,7 @@ test("install caches the new modules, data and licensed catalogue images", async
     "./styles-v10.css",
     "./chat-v11.css",
     "./fishing-chat-core-v11.js",
-    "./fishing-chat-ui-v11.js",
+    "./fishing-chat-ui-v11.2.js",
     "./data/fishing-knowledge-v11.json",
     "./data/fishing-research.json",
     "./map-gestures.js",

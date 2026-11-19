@@ -153,3 +153,10 @@ Approved fuller24-marina research (last24months plus older seasonal references),
 - Vercel CLI login authorized and verified as lewis-337. Published the existing reviewed public frontend separately at https://sff-fishing-app.vercel.app/ (`dpl_E2rFC8psRT2FZYgCkfancg3e2pgm`), retaining the protected API project. Backend `dpl_A4gsGcRZHrfxzL45a8mK2ng3KRsh` allows both exact production origins. No hosting plan change.
 - 36 Python/65 Node tests and18 published-site chat browser groups pass. Real owner-browser AI answers return200; 大潮 includes JMA links. Latest browser online searches complete but yield no usable results, explicitly disclosed in answers; fresh web-source retrieval is not confirmed by these calls. See QA-v11.md.
 - New-origin records require existing JSON backup/import; no user records transferred or removed. Owner code is privately filled in the Mac tab, not stored without the owner's checkbox selection. GitHub case5031002 remains Open; Actions collectors remain blocked. Physical phone acceptance is separate.
+
+
+## v11.1 simple iPhone owner access, 2026-11-20
+
+- Lewis requested finishing setup and providing one iPhone URL. https://sff-fishing-app.vercel.app/ now uses existing-account Vercel sign-in and a protected same-origin gateway; no SFF code copying is needed. Whole project including functions is protected for All Deployments; no paid add-on. Browser never receives the provider key/service token.
+- Added guarded owner-build/deploy helpers, release-versioned chat UI/worker, credentialed app manifest and meaningful gateway tests. 36 Python/68 Node/20 chat-browser/4 installed-v11 upgrade-offline groups pass. Real owner-session 大潮 answer200 with JMA source/web search, no browser bearer/code.
+- Search now permits two bounded calls and avoids guessed domains; direct diagnostic found Shimano primary sources after earlier empty results. $5 provider project spend setting unchanged. Physical phone acceptance, old-origin backup/import if needed and GitHub5031002/blocked Actions collection remain separate. See QA-v11.md and protected publishing instructions.

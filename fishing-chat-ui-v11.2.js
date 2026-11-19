@@ -11,6 +11,8 @@
       return conversations.get(id);
     };
     const current = () => getContext().marinaId;
+    // The owner gateway is same-origin and sits behind Vercel Authentication on all deployments.
+    const sessionAuth = () => config.auth === "session" && C.safeURL(config.endpoint) && new URL(config.endpoint).origin === location.origin;
     const make = (tag, text, cls) => { const el = document.createElement(tag); if (text) el.textContent = text; if (cls) el.className = cls; return el; };
     function link(source, label) {
       const url = C.safeURL(source.url);
@@ -67,8 +69,8 @@
       $("chatTranscript").setAttribute("aria-busy", String(data.busy));
       const enabled = config.enabled && !!C.safeURL(config.endpoint);
       $("chatModeAI").disabled = !enabled;
-      $("chatConnection").hidden = !enabled;
-      $("chatAvailability").textContent = enabled ? "AI相談では、質問・この出港地の公開資料・直近の会話をAIサービスへ送ります。アクセスコードは、ご希望の場合だけこの端末に保存できます。" : "資料検索は無料で使えます。AI相談・ライブ検索は接続準備中です。";
+      $("chatConnection").hidden = !enabled || sessionAuth();
+      $("chatAvailability").textContent = enabled ? sessionAuth() ? "ログイン済みのアカウントでAI相談を使えます。質問・この出港地の公開資料・直近の会話をAIサービスへ送ります。" : "AI相談では、質問・この出港地の公開資料・直近の会話をAIサービスへ送ります。アクセスコードは、ご希望の場合だけこの端末に保存できます。" : "資料検索は無料で使えます。AI相談・ライブ検索は接続準備中です。";
       $("chatWeb").disabled = $("chatMode").value !== "ai" || !enabled;
     }
     async function load() {
@@ -77,6 +79,10 @@
         const [knowledge, directory, research] = await Promise.all([json("fishing-knowledge-v11"), json("marinas"), json("fishing-research")]);
         corpus = { knowledge, directory, research };
         try { config = await json("chat-config-v11"); } catch { /* Offline reference lookup remains available. */ }
+        if (config.auth === "session") {
+          try { const endpoint = new URL(config.endpoint, location.href); config.endpoint = endpoint.origin === location.origin ? endpoint.href : ""; }
+          catch { config.endpoint = ""; }
+        }
         if (config.enabled && C.safeURL(config.endpoint)) $("chatMode").value = "ai";
         $("chatError").textContent = ""; $("chatReload").hidden = true;
       } catch (e) { $("chatError").textContent = e.message; $("chatReload").hidden = false; }
@@ -91,7 +97,7 @@
       question = String(question || "").trim(); if (!question) return;
       if (question.length > 1000) { $("chatError").textContent = "質問は1000文字以内で入力してください。"; return; }
       const ai = $("chatMode").value === "ai";
-      if (ai && (!config.enabled || !C.safeURL(config.endpoint) || !token)) { $("chatError").textContent = "AI相談には接続済みサービスとアクセスコードが必要です。"; return; }
+      if (ai && (!config.enabled || !C.safeURL(config.endpoint) || (!sessionAuth() && !token) || (config.auth === "session" && !sessionAuth()))) { $("chatError").textContent = "AI相談の接続を確認してください。"; return; }
       $("chatError").textContent = "";
       const history = data.messages.filter(m => m.role === "user" || m.kind === "AI相談").slice(-8).map(m => ({ role: m.role, content: m.text.slice(0, 4000) }));
       data.messages.push({ role: "user", text: question }); data.draft = ""; $("chatQuestion").value = ""; data.busy = true; render();
@@ -101,8 +107,8 @@
         if (ai) {
           controller = new AbortController(); render();
           timeout = setTimeout(() => controller.abort(), 65000);
-          const r = await fetch(config.endpoint, { method: "POST", cache: "no-store", credentials: "omit", signal: controller.signal,
-            headers: { "Content-Type": "application/json", Authorization: "Bearer " + token },
+          const r = await fetch(config.endpoint, { method: "POST", cache: "no-store", credentials: sessionAuth() ? "same-origin" : "omit", signal: controller.signal,
+            headers: { "Content-Type": "application/json", ...(!sessionAuth() ? { Authorization: "Bearer " + token } : {}) },
             body: JSON.stringify({ question, marinaId: id, web: $("chatWeb").checked, history }) });
           const body = await r.json().catch(() => { throw Error("AIに接続できません。しばらくして再試行するか、資料検索をご利用ください。"); }); if (!r.ok) throw Error(body.error || "AIに接続できません。資料検索をご利用ください。");
           if (!Array.isArray(body.segments) || body.segments.some(s => typeof s.text !== "string") || typeof body.text !== "string") throw Error("回答の形式を確認できません。再試行してください。");

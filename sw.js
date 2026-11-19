@@ -1,4 +1,4 @@
-const VERSION = "seabornia-v11";
+const VERSION = "seabornia-v11.2";
 const PREFIX = "seabornia-";
 const SHELL = [
   "./",
@@ -6,7 +6,7 @@ const SHELL = [
   "./styles-v10.css",
   "./chat-v11.css",
   "./fishing-chat-core-v11.js",
-  "./fishing-chat-ui-v11.js",
+  "./fishing-chat-ui-v11.2.js",
   "./data/fishing-knowledge-v11.json",
   "./data/chat-config-v11.json",
   "./data/fishing-research.json",

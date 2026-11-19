@@ -114,6 +114,27 @@ async function run(engine) {
       await reload(); await nav("chat");
       assert.equal(await page.locator("#chatToken").inputValue(), "");
     });
+    await check("same-origin owner session works without copying a code and never sends a bearer from the browser", async () => {
+      const ownerOrigin = "https://sff-owner.test", endpoint = ownerOrigin + "/api/owner-chat";
+      let called = 0;
+      await context.route(ownerOrigin + "/**", async route => {
+        const url = new URL(route.request().url());
+        if (url.pathname === "/data/chat-config-v11.json") return route.fulfill({ json: { enabled: true, auth: "session", endpoint: "/api/owner-chat" } });
+        if (route.request().url() !== endpoint) return route.fulfill({ response: await route.fetch({ url: new URL(url.pathname + url.search, base).href }) });
+        called++;
+        assert.equal(route.request().headers().authorization, undefined);
+        assert.equal(route.request().postDataJSON().question, "大潮とは？");
+        await route.fulfill({ json: { text: "ログイン済みの回答", kind: "AI相談", segments: [{ text: "ログイン済みの回答" }], sources: [] } });
+      });
+      await page.goto(ownerOrigin + "/");
+      await nav("chat");
+      await page.waitForFunction(() => !document.querySelector("#chatModeAI").disabled);
+      assert.equal(await page.locator("#chatConnection").isHidden(), true);
+      assert.equal(await page.locator("#chatToken").inputValue(), "");
+      await ask("大潮とは？"); assert.equal(called, 1);
+      assert.match(await page.locator(".chatAssistant").innerText(), /ログイン済み/);
+      assert.equal(await page.evaluate(() => localStorage.getItem("sff-chat-access-v1")), null);
+    });
     await fs.writeFile(path.join(out, engine + "-runtime-errors.json"), JSON.stringify(errors, null, 2));
     assert.deepEqual(errors, []);
   } finally { await context.close(); await browser.close(); }

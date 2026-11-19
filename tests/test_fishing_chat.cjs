@@ -78,7 +78,7 @@ test("AI request bounds cost, sends no private context and requires web search o
     assert.equal(payload.store, false); assert.equal(payload.max_output_tokens, 2200);
     assert.equal(payload.tools?.[0].type, web ? "web_search" : undefined);
     assert.equal(payload.tool_choice, web ? "required" : undefined);
-    assert.equal(payload.max_tool_calls, web ? 1 : undefined);
+    assert.equal(payload.max_tool_calls, web ? 2 : undefined);
     assert.ok(!JSON.stringify(payload).includes("test-key")); assert.ok(!JSON.stringify(payload).includes("localStorage"));
     assert.equal(result.searched, false, "requesting search alone is never search evidence");
     assert.equal(result.sources.length, 1); assert.equal(result.segments.find(s => s.url)?.url, "https://www.data.jma.go.jp/");
