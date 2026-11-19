@@ -6,7 +6,42 @@ The public GitHub Pages app has a new 相談 screen. Its free 資料検索 mode 
 saved fish catalogue, selected marina's public catch reports, source-linked guides
 and a short JMA-based tide glossary. It is explicitly labelled as reference search.
 AI相談 adds follow-up conversation, multilingual answers and optional live web search.
-The real AI mode needs a separately hosted backend and user-approved API spending.
+The real AI mode needs a separately hosted backend and an authorized API account.
+Eligible subscription API credits can cover that usage; separate paid credit
+purchases are not required while those credits are available.
+
+## Subscription route checked 2026-11-20
+
+Lewis reports ChatGPT Pro. Official documentation supports two distinct routes:
+
+- Eligible Pro/Business subscriptions can claim API-credit benefits against an
+  owned API organization. These cover Responses and hosted web search, so they
+  fit this hosted iPhone PWA without replacing its inference integration.
+- Sign in with ChatGPT can authorize plan usage in supported open-source/local
+  tools. This requires a separate OAuth integration and is not a generic token
+  export from the Codex app. Its preview requires streaming and rejects fields
+  such as `max_output_tokens` and `max_tool_calls`; do not simply replace the
+  prepared API key with a subscription login token. Remotely hosted offerings
+  have separate access requirements; personally hosted VMs have specific guidance.
+
+The live Personal Organization billing page offered $57 prorated Pro credit now
+and $100 on December 7, 2026. Auto-reload was OFF. At the final claim step, OpenAI
+warned that claiming disables Codex through **all API keys in that organization**,
+including usage paid with purchased credits. Subscription-signed-in Codex and
+regular API usage remain available. Lewis was asked to approve this material
+account-wide side effect. At this entry the final acknowledgment and Link & claim
+have not been submitted; the benefit is not claimed or connected to SFF.
+
+There is an existing API balance in this organization. Regular API billing can
+fall back to purchased credits after the free grant is exhausted. Therefore
+auto-reload OFF alone is not a guarantee of subscription-only usage. Do not
+activate unattended SFF requests or claim a zero-extra-spend cap until a suitable
+guard/billing configuration and real account evidence have been verified.
+
+References:
+- [Subscription API credits](https://developers.openai.com/api/docs/guides/chatgpt-api-credits)
+- [Sign in with ChatGPT plan usage](https://developers.openai.com/siwc/token-sharing-open-source)
+- [Preview requirements](https://developers.openai.com/siwc/token-sharing-open-source/preview-limitations)
 
 ## Prepared integration
 
